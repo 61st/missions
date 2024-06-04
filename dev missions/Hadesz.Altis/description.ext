@@ -1,0 +1,83 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                    */
+/*                                                Nothing to Edit Here                                                */
+/*                                                                                                                    */
+/*                                You should only edit the files in the Configs folder                                */
+/*                                                                                                                    */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+class Header {};
+
+class CfgSettings {
+    class CBA {
+        class Caching {
+            compile = 0;
+            xeh = 0;
+            functions = 0;
+        };
+    };
+};
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                            So again nothing to edit here                                           */
+/* ------------------------------------------------------------------------------------------------------------------ */
+// cba_settings_hasSettingsFile = 1;
+
+forceRotorLibSimulation  = 1;
+respawn=3;
+skipLobby = 1;
+
+/* SERVER STUFF ----------------------------------------------------------------------------------------------------- */
+
+enableDebugConsole[] = {DEBUG_ADMINS};
+cba_settings_whitelist[] = {CBA_ADMINS};
+
+enableTargetDebug = 1;
+
+
+ /* ------------------------------------------------------------------------------------------------------------------ */
+ /*                                                D O   N O T   E D I T  !                                            */
+ /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* RULES ------------------------------------------------------------------------------------------------------------ */
+
+disabledAI               = true;
+disableChannels[]        = {{0,false,true},{1,false,true},{2,true,true},{6,true,true}};
+
+/* gui ------------------------------------------------------------------------------------------------------- */
+#include "scripts\CfgGUI.hpp"
+
+
+/* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
+class Extended_PreInit_EventHandlers {
+    Sixone_preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
+    class Rev_settings {init = "call compile preprocessFileLineNumbers 'scripts\Rev_teleport\Rev_tp_settings.sqf'";};
+    class tinter_furniture_pre_init {
+        init = "call compile preprocessFileLineNumbers 'scripts\furniture\XEH_preInit.sqf'";
+    };
+};
+class Extended_PostInit_EventHandlers {
+    Sixone_postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";
+};
+
+class CfgFunctions {
+    #include "scripts\CfgFunctions.hpp"
+	#include "adminpanel\CfgFunctions.hpp"
+};
+#include "scripts\CfgRemoteExec.hpp"	
+
+#include "scripts\CfgSounds.hpp"
+
+#include "config\config_groups.hpp"
+
+// https://github.com/acemod/ACEX/tree/master/addons/killtracker
+class CfgDebriefingSections {
+    class acex_killTracker {
+        title = "Acex Killed Events";
+        variable = "acex_killTracker_outputText";
+    };
+};
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                          WHAT DID I TELL YOU ABOUT EDITING                                         */
+/* ------------------------------------------------------------------------------------------------------------------ */
