@@ -1,7 +1,7 @@
 LXIF_arsenalBoxes = [arsenal_1,arsenal_2];
 
 class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the group to be shown"}
-	faction_name = "ixones";
+	faction_name = "61st";
 	group_setup[] = {
 		{"Outlaw HQ",{"officerpl","ncoplsgt","jfire","engineer","medic"},"true"},
 		{"Outlaw 1-1",{"squadlead11","jfire11","teamlead11r","medic11r","dismount11r","dismount11r","dismount11r","teamlead11b","medic11b","dismount11b","dismount11b","dismount11b","commander11","driver11","gunner11"},"true"},

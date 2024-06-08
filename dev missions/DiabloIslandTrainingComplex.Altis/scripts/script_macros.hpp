@@ -12,7 +12,7 @@
 #define YMFMGVAR(var1,var2) TRIPLES(LIXM,var1,var2)
 #define QYMFMGVAR(var1,var2) QUOTE(YMFMGVAR(var1,var2))
 
-#define GETCFGVALUE(VAR) [missionConfigFile >> "PYMF_CfgSimulator" >> VAR] call BIS_fnc_getCfgData
+#define GETCFGVALUE(VAR) [missionConfigFile >> "PDT_CfgSimulator" >> VAR] call BIS_fnc_getCfgData
 
 #define ARR_1(ARG1) ARG1
 #define ARR_2(ARG1,ARG2) ARG1, ARG2
