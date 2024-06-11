@@ -33,8 +33,16 @@ EGVAR(DATABASE,DONE) = false;
 GVAR(DATABASE) = call EFUNC(init,logistics);
 EGVAR(DATABASE,DONE) = true;
 
-call EFUNC(init,chatCommands);
+EGVAR(PYLONS,DONE) = false;
+GVAR(PYLONS) = call EFUNC(init,pylons);
+EGVAR(PYLONS,DONE) = true;
 
+if (EGVAR(Settings,setAiSystemDifficulty) >= 1 ) then {
+    call EFUNC(init,skillAdjustment);
+};
+
+call EFUNC(init,chatCommands);
+call EFUNC(init,zenModuels);
 call EFUNC(init,eventHandlers);
 
 INFO("preInit", "Initialization completed.");

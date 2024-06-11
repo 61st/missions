@@ -1,3 +1,4 @@
+//REQUIRED
 ["crate_medicalInfantry", [
     ["Attachable_Helistretcher",1],
     ["ACE_surgicalKit",2],
@@ -15,6 +16,7 @@
     ["ACE_bodyBag",10]
 ]],
 
+//REQUIRED
 ["crate_medical", [
     ["Attachable_Helistretcher",1],
     ["ACE_surgicalKit",2],
@@ -48,6 +50,7 @@
     ["ACE_SpraypaintRed",1]
 ]],
 
+//REQUIRED
 ["crate_resupply_general", [
     ["SPS_HKG3PMAG_30Rnd_300BLK_230_S", 0],
     ["SPS_HKG3PMAG_30Rnd_300BLK_110_T", 0],

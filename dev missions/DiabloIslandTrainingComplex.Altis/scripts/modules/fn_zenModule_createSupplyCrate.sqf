@@ -17,18 +17,14 @@ params ["_modulePos", "_objectPos"];
 // The crate type that will be passed to the supply crate spawner.
 private _crateTypeList = [
     'crate_resupply_general',
-    'crate_medicalAtlas', 
     'crate_medicalInfantry',
-    'crate_stinger'
+    'crate_medical'
 ];
 
 // Display text for the crate list selection. This is what the zeus sees.
 private _displayTextList = 
 [
-    ['Infantry Resupply', "Contains weapons, ammo, and supplies for one infantry platoon"],
-    ['Atlas Team', "Contains enough supplies to sustain two Atlas teams as well supplementing one infantry platoon."],
-    ['Infantry Medical', "Contains enough medical supplies for one infantry platoon."],
-    ['Stinger MANPAD', "Contains 1 launcher and 2 missiles."]
+    ['Infantry Resupply', "Contains weapons, ammo, and supplies for one infantry platoon"]
 ];
 [
     "61st Mechanized Infantry Battalion Supply Crates", 
