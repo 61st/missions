@@ -15,5 +15,19 @@
 
 params ["_modulePos", "_objectPos"];
 
+[
+    "61st Mechanized Infantry Battalion Staging Zone", 
+    [
+        ["SLIDER:RADIUS", ["Zone size", "well you see its the size that maters"], [0, 1, 1], false]
+    ], 
+    {
+        params ["_arg", "_pos"];
+        _arg params ["_size"];
+        _pos params ["_modulePos"];
 
-[_modulePos, 12] call YMF_fnc_addStagingZone;
+        [_modulePos, _size] call YMF_fnc_addStagingZone;
+
+    },
+    {},
+    [_modulePos]
+] call zen_dialog_fnc_create;
