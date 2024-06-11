@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: CPL.Brostrom.A -- Tinkered with by YonV tinkered with by YonV
- * This function return players that haev connected to the server.
+ * This function return players that have connected to the server.
  * It will print it to your RPT log.
  *
  * Arguments:
@@ -26,6 +26,15 @@ private _playerLog = missionNamespace getVariable [QEGVAR(log,players), []];
 } forEach _playerLog;
 
 ["=================================================== END", "Attendence"] call FUNC(info);
+
+["=================================================== START", "Attendance"] call LXIM_adminmenu_fnc_log;
+[format ["Attendance (Entries: %1)", count _playerLog], "Attendance"] call LXIM_adminmenu_fnc_log;
+{
+    _x params ["_name"];
+    [_name, "Attendance",  false, false] call LXIM_adminmenu_fnc_log;
+} forEach _playerLog;
+
+["=================================================== END", "Attendence"] call LXIM_adminmenu_fnc_log;
 
 // Hint
 [

@@ -60,7 +60,7 @@ INFO("init", "Initializing custom Zen Modules.");
     "\a3\modules_f\data\portraitmodule_ca.paa"
 ] call zen_custom_modules_fnc_register;
 
-["61st Mission", "Take attendence",
+["61st Mission", "Take attendance",
     {
         private _playerLog = missionNamespace getVariable [QEGVAR(log,players), []];
         ["All attended players have been saved to your RPT log"] call zen_common_fnc_showMessage;
