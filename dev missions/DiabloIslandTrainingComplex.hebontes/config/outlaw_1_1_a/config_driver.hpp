@@ -6,7 +6,7 @@ class driver1 {
 	};
 	customVariables[] = {
 		{"ace_isEngineer",1,true},
-        {"TFAR_freq_sr",{"30","110","110.1","110.2","110.3","110.5","110.9","69"},true},
+        {"TFAR_freq_sr",{"30","110","110.1","110.2","110.3","110.4","110.9","69"},true},
         {"YMF_teamcolor", "MAIN", true}
 	};
     icon = "z\LXIM\addons\media\images\Icons\driver.paa";
@@ -15,7 +15,7 @@ class driver1 {
             {"SPS_hk337_t_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_HKG3PMAG_30Rnd_300BLK_110_B",30},{},""}, 
             {}, 
             {"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""}, 
-            {"U_tweed_acu_summer_ocp_blench",{{"LXIM_medbags_FirstAid",1},{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
+            {"U_tweed_acu_summer_ocp_blench",{{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
             {"V_tweed_msv_mk2_e_1",{{"SPS_HKG3PMAG_30Rnd_300BLK_110_B",2,30}}}, 
             {},"H_HelmetCrew_B","G_tweed_ESS_Green",
             {"Binocular","","","",{},{},""}, 

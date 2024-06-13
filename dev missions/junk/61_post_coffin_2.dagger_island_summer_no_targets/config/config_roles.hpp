@@ -593,7 +593,7 @@ class Common_Arsenal {
         "ACE_Kestrel4500",
         "ACE_fieldDressing",
         "ACE_IR_Strobe_Item",
-        "LXIM_medbags_FirstAid",
+        "kat_IFAK",
         "ACE_HuntIR_monitor",
         "ACE_Flashlight_MX991",
         "ACE_Fortify",
@@ -919,7 +919,7 @@ class Common_Arsenal {
         "muzzle_snds_One_Sand_H",
         "muzzle_snds_One_FDE_H",
         "sps_atlas_bipod_m_blk",
-        "LXIM_medbags_FirstAid"
+        "kat_IFAK"
 	};
 	arsenalMagazines[] = {};
 	arsenalItems[] = {};

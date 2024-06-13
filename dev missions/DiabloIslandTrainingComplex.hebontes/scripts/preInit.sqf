@@ -33,7 +33,16 @@ EGVAR(DATABASE,DONE) = false;
 GVAR(DATABASE) = call EFUNC(init,logistics);
 EGVAR(DATABASE,DONE) = true;
 
+EGVAR(PYLONS,DONE) = false;
+GVAR(PYLONS) = call EFUNC(init,pylons);
+EGVAR(PYLONS,DONE) = true;
+
 call EFUNC(init,chatCommands);
+call EFUNC(init,zenModuels);
+
+if (EGVAR(Settings,setAiSystemDifficulty) >= 1 ) then {
+    call EFUNC(init,skillAdjustment);
+};
 
 call EFUNC(init,eventHandlers);
 

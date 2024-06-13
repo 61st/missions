@@ -20,21 +20,26 @@
                 ["2Rnd_GAT_missiles",[0],4]
             ]]
         ]],
-        ["antiair", [
-            ["SmokeLauncherMag",[0,0],6],
-            ["200Rnd_762x51_Belt_Red",[0],300],
-            ["200Rnd_762x51_Belt_Red",[0],300],
-            ["200Rnd_762x51_Belt_Red",[0],300],
-            ["200Rnd_762x51_Belt_Red",[0],300],
-            ["200Rnd_762x51_Belt_Red",[0],300],
-            ["200Rnd_762x51_Belt_Red",[0],300],
-            ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
-            ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
-            ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
-            ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
-            ["4Rnd_Titan_long_missiles",[0],4]
+        ["AntiAir",[
+            ["displayName", "Anti-Air"],
+            ["icon", ""],
+            ["loadout",[
+                ["SmokeLauncherMag",[0,0],6],
+                ["200Rnd_762x51_Belt_Red",[0],300],
+                ["200Rnd_762x51_Belt_Red",[0],300],
+                ["200Rnd_762x51_Belt_Red",[0],300],
+                ["200Rnd_762x51_Belt_Red",[0],300],
+                ["200Rnd_762x51_Belt_Red",[0],300],
+                ["200Rnd_762x51_Belt_Red",[0],300],
+                ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
+                ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
+                ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
+                ["lxim_280Rnd_40mm_AA_shells_Tracer_Red",[0],78],
+                ["4Rnd_Titan_long_missiles",[0],4]
+            ]]
         ]],
-        ["default",[
+        
+        ["engineer",[
             ["displayName", "Engineer"],
             ["icon", ""],
             ["loadout",[

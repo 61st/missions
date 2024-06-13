@@ -25,16 +25,16 @@ private _playerLog = missionNamespace getVariable [QEGVAR(log,players), []];
     [_name, "Attendance",  false, false] call FUNC(info);
 } forEach _playerLog;
 
-["=================================================== END", "Attendence"] call FUNC(info);
+["=================================================== END", false, "Attendence"] call FUNC(info);
 
-["=================================================== START", "Attendance"] call LXIM_adminmenu_fnc_log;
-[format ["Attendance (Entries: %1)", count _playerLog], "Attendance"] call LXIM_adminmenu_fnc_log;
+["=================================================== START", false, "Attendance"] call LXIM_adminmenu_fnc_log;
+[format ["Attendance (Entries: %1)", count _playerLog], false,"Attendance"] call LXIM_adminmenu_fnc_log;
 {
     _x params ["_name"];
     [_name, "Attendance",  false, false] call LXIM_adminmenu_fnc_log;
 } forEach _playerLog;
 
-["=================================================== END", "Attendence"] call LXIM_adminmenu_fnc_log;
+["=================================================== END", false, "Attendence"] call LXIM_adminmenu_fnc_log;
 
 // Hint
 [

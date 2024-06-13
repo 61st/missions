@@ -16,11 +16,10 @@
  */
 
 if !(EGVAR(patches,usesZen)) exitWith {};
-if !(EGVAR(Settings,enableYMFZeusModules)) exitWith {};
 
 INFO("init", "Initializing custom Zen Modules.");
 
-["YMF AI", "Enable Unit Simulation",
+["61st AI", "Enable Unit Simulation",
     {
         params ["_modulePos", "_objectPos"];
         [_modulePos, _objectPos] call EFUNC(zenModule,EnableUnitSimulation);    
@@ -29,34 +28,23 @@ INFO("init", "Initializing custom Zen Modules.");
 ] call zen_custom_modules_fnc_register;
 
 
-["YMF Logistics", "Spawn Starter Crate",
+["61st Logistics", "Staging Zone",
     {
         params ["_modulePos", "_objectPos"];
-        [_modulePos, _objectPos] call EFUNC(zenModule,CreateStarterCrate);    
+        [_modulePos, _objectPos]  call EFUNC(zenModule,createStaging);    
     },
     "\A3\ui_f\data\map\vehicleicons\iconCrate_ca.paa"
 ] call zen_custom_modules_fnc_register;
 
-// ["YMF Logistics", "Rekit Vehicle",
-//     {
-//         params ["_modulePos", "_objectPos"];
-//         [_modulePos, _objectPos] call EFUNC(zenModule,RekitVehicle);    
-//     },
-//     "\A3\ui_f\data\map\vehicleicons\iconCrate_ca.paa"
-// ] call zen_custom_modules_fnc_register;
+["61st Logistics", "Add Staging",
+    {
+        params ["_modulePos", "_objectPos"];
+        [_modulePos, _objectPos]  call EFUNC(zenModule,addStaging);    
+    },
+    "\A3\ui_f\data\map\vehicleicons\iconCrate_ca.paa"
+] call zen_custom_modules_fnc_register;
 
-// Check if increase training on location is true then add option.
-// if (ace_medical_treatment_locationsBoostTraining) then {
-//     ["YMF Logistics", "Field Hospital",
-//         {
-//             params ["_modulePos", "_objectPos"];
-//             [_modulePos, _objectPos] call EFUNC(zenModule,CreateFieldHospital);
-//         },
-//         "\z\ACE\addons\medical_gui\ui\cross.paa"
-//     ] call zen_custom_modules_fnc_register;
-// };
-
-["YMF Logistics", "Spawn Re-supply Crate",
+["61st Logistics", "Spawn Re-supply Crate",
     {
         params ["_modulePos", "_objectPos"];
         [_modulePos, _objectPos] call EFUNC(zenModule,CreateSupplyCrate);
@@ -64,7 +52,7 @@ INFO("init", "Initializing custom Zen Modules.");
     "\A3\ui_f\data\map\vehicleicons\iconCrate_ca.paa"
 ] call zen_custom_modules_fnc_register;
 
-["YMF Mission", "Call Endex",
+["61st Mission", "Call Endex",
     {
         params ["_modulePos", "_objectPos"];
         [_modulePos, _objectPos] call EFUNC(zenModule,CallEndex);
@@ -72,7 +60,7 @@ INFO("init", "Initializing custom Zen Modules.");
     "\a3\modules_f\data\portraitmodule_ca.paa"
 ] call zen_custom_modules_fnc_register;
 
-["YMF Mission", "Take attendence",
+["61st Mission", "Take attendance",
     {
         private _playerLog = missionNamespace getVariable [QEGVAR(log,players), []];
         ["All attended players have been saved to your RPT log"] call zen_common_fnc_showMessage;
@@ -80,7 +68,7 @@ INFO("init", "Initializing custom Zen Modules.");
     "\a3\modules_f\data\portraitmodule_ca.paa"
 ] call zen_custom_modules_fnc_register;
 
-["YMF Mission", "Staging Zones",
+["61st Mission", "Staging Zones",
     {
         params ["_modulePos", "_objectPos"];
         [_modulePos, _objectPos] call EFUNC(zenModule,stagingZones);

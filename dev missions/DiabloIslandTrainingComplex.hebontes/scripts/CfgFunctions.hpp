@@ -13,16 +13,16 @@ class YMF {
 	};
     class init {
         file = "scripts\init";
-        class init_message {};
+        class init_aceItemReplace {};
         class init_chatCommands {};
         class init_eventHandlers {};
-        class init_vehicle {};
         class init_logistics {};
-        class init_aceItemReplace {};
-        class init_staging {};
-        class init_zenModuels {};
+        class init_message {};
         class init_pylons {};
         class init_skillAdjustment {};
+        class init_staging {};
+        class init_vehicle {};
+        class init_zenModuels {};
     };
     class systems {
         file = "scripts\systems";
@@ -139,13 +139,12 @@ class YMF {
     class modules {
         file = "scripts\modules";
         class zenModule_EnableUnitSimulation {};
-
         class zenModule_CreateStarterCrate {};
         class zenModule_CreateSupplyCrate {};
-
         class zenModule_stagingZones {};
-
         class zenModule_CallEndex {};
+        class zenModule_createStaging  {};
+        class zenModule_addStaging  {};
     };
     class civ {
         file = "scripts\civ";

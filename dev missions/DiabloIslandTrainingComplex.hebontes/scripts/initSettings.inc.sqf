@@ -22,16 +22,16 @@ private _YMFsettings = "YMF Mission Settings";
     {},
     true
 ] call CBA_fnc_addSetting;
-[ // Ai setting
-    QEGVAR(Settings,AllowAILoadouts),
-    "CHECKBOX",
-    ["AI Loadouts (Experimental)", "Allow gear system to apply loadouts to AI units as well as player."],
-    [_YMFsettings, "Mission"],
-    false,
-    true,
-    {},
-    true
-] call CBA_fnc_addSetting;
+// [ // Ai setting
+//     QEGVAR(Settings,AllowAILoadouts),
+//     "CHECKBOX",
+//     ["AI Loadouts (Experimental)", "Allow gear system to apply loadouts to AI units as well as player."],
+//     [_YMFsettings, "Mission"],
+//     false,
+//     true,
+//     {},
+//     true
+// ] call CBA_fnc_addSetting;
 
 // 3; Player
 [ // Documents
@@ -108,16 +108,6 @@ private _YMFsettings = "YMF Mission Settings";
         params ["_value"];
         { EGVAR(Staging,showAllLoadouts) = _value; } remoteExecCall ["call"];
     },
-    false
-] call CBA_fnc_addSetting;
-[ // Use Filtered Arsenal
-    QEGVAR(Settings,useFilteredArsenal),
-    "CHECKBOX",
-    ["Use Filtered Arsenal","Use a filtered or show all items in the staging arsenal."],
-    [_YMFsettings, "Staging"],
-    true,
-    true,
-    {},
     false
 ] call CBA_fnc_addSetting;
 
@@ -264,18 +254,6 @@ private _YMFsettings = "YMF Mission Settings";
     "CHECKBOX",
     ["Include Non-combat Headgear","Include Non-combat Headgear in the simulation. This refere to hats bandanas and baretes."],
     [_YMFsettings, "Combat Jump Simulation"],
-    true,
-    true,
-    {},
-    true
-] call CBA_fnc_addSetting;
-
-// 8; Zeus
-[ // Enable Custom Zeus Moduels
-    QEGVAR(Settings,enableYMFZeusModules),
-    "CHECKBOX",
-    ["Enable Custom Zeus Moduels","Allow mission to add YMF moduels using the Achilles or ZEN framework."],
-    [_YMFsettings, "Zeus"],
     true,
     true,
     {},

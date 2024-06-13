@@ -1,7 +1,7 @@
 ["crate_medicalInfantry", [
     ["Attachable_Helistretcher",1],
     ["ACE_surgicalKit",2],
-    ["LXIM_medbags_FirstAid",12],
+    ["kat_IFAK",12],
     ["ACE_salineIV_500",3],
     ["ACE_salineIV_250",4],
     ["ACE_salineIV",1],
@@ -18,7 +18,7 @@
 ["crate_medical", [
     ["Attachable_Helistretcher",1],
     ["ACE_surgicalKit",2],
-    ["LXIM_medbags_FirstAid",12],
+    ["kat_IFAK",12],
     ["ACE_salineIV_500",3],
     ["ACE_salineIV_250",4],
     ["ACE_salineIV",1],
@@ -157,7 +157,7 @@
     ["ace_marker_flags_blue", 0],
     ["ace_marker_flags_black", 0],
     ["ACE_fieldDressing", 0],
-    ["LXIM_medbags_FirstAid", 0],
+    ["kat_IFAK", 0],
     ["ACE_CableTie", 0],
     ["ACE_IR_Strobe_Item", 0]
 
@@ -171,7 +171,7 @@
     ["ACE_rope36", 2],
 
     // Medical
-    ["LXIM_medbags_FirstAid", 8],
+    ["kat_IFAK", 8],
     ["B_simc_US_Molle_sturm_OCP_RTO", 1],
 
     ["SPS_20Rnd_762x51mm_M80A1_EPR", 32],
@@ -184,7 +184,7 @@
     ["ACE_rope36", 2],
 
     // Medical
-    ["LXIM_medbags_FirstAid", 8],
+    ["kat_IFAK", 8],
 
 
     ["SPS_20Rnd_762x51mm_M80A1_EPR", 32],
@@ -205,7 +205,7 @@
 
     ["Attachable_Helistretcher",1],
     ["ACE_surgicalKit",2],
-    ["LXIM_medbags_FirstAid",12],
+    ["kat_IFAK",12],
 
     ["ACE_salineIV_500",3],
     ["ACE_salineIV_250",4],
@@ -259,7 +259,7 @@
 
     ["ACE_surgicalKit",2],
 
-    ["LXIM_medbags_FirstAid",12],
+    ["kat_IFAK",12],
 
     ["ACE_salineIV_500",3],
     ["ACE_salineIV_250",4],
@@ -310,7 +310,7 @@
 
     ["Attachable_Helistretcher",1],
     ["ACE_surgicalKit",2],
-    ["LXIM_medbags_FirstAid",12],
+    ["kat_IFAK",12],
 
     ["ACE_salineIV_500",3],
     ["ACE_salineIV_250",4],
@@ -350,7 +350,7 @@
 ]],
 
 ["droneair_medical", [
-    ["LXIM_medbags_FirstAid",4],
+    ["kat_IFAK",4],
     ["LXIM_medbags_Fluid", 1],
     ["LXIM_medbags_DrugKit", 1]
 ]],
@@ -395,7 +395,7 @@
     ["ACE_Chemlight_IR",4],
 
     // Medical
-    ["LXIM_medbags_FirstAid", 8]
+    ["kat_IFAK", 8]
 ]],
 
 ["vehicle_Tracked", [
@@ -428,7 +428,7 @@
     ["ACE_Chemlight_IR",4],
 
     // Medical
-    ["LXIM_medbags_FirstAid", 8]
+    ["kat_IFAK", 8]
 ]],
 
 ["vehicle_boat", [
@@ -461,12 +461,12 @@
     ["ACE_Chemlight_IR",4],
 
     // Medical
-    ["LXIM_medbags_FirstAid", 8]
+    ["kat_IFAK", 8]
 ]],
 
 ["vehicle_resupply", [
     // Medical
-    ["LXIM_medbags_FirstAid", 0],
+    ["kat_IFAK", 0],
     ["16Rnd_9x21_green_Mag", 0],
     ["16Rnd_9x21_green_Mag_v2", 0],
     ["16Rnd_9x21_Mag", 0],

@@ -17,7 +17,7 @@ class squadleadr {
             {"SPS_hk417_13_vfg_fde_f","","sps_M300C_MAWL_IR_tan","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},
             {},
             {"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""},
-            {"U_tweed_acu_summer_ocp_blench",{{"LXIM_medbags_FirstAid",1},{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
+            {"U_tweed_acu_summer_ocp_blench",{{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
             {"V_tweed_msv_mk2_cell_45_1",{{"ItemAndroidMisc",1},{"SPS_20Rnd_762x51mm_M80A1_EPR",8,20},{"HandGrenade",2,1},{"ACE_M84",2,1},{"ACE_M14",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",2,1}}},
 			{"B_simc_US_Molle_sturm_OCP_RTO",{{"ACE_DefusalKit",1}, {"ACE_EntrenchingTool",1}, {"ACE_Flashlight_MX991",1}, {"ACE_Clacker",1}, {"ACE_wirecutter",1}, {"B_IR_Grenade",1,1}, {"ACE_M14",1,1}, {"SmokeShellBlue",1,1}, {"SmokeShellPurple",1,1}, {"SmokeShellRed",1,1}, {"SmokeShell",2,1}, {"ClaymoreDirectionalMine_Remote_Mag",1,1}, {"DemoCharge_Remote_Mag",2,1}, {"tsp_popperCharge_mag",3,1}, {"tsp_stickCharge_mag",1,1}}},
             "H_tweed_ihps_tasc_rail","",
