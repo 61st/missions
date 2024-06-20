@@ -1,20 +1,16 @@
-class jtac12 {
-	name = "jtac";
-	description = "Big bada boom";
-	traits[] = {
-		{"UAVHacker",true}
-	};
-	customVariables[] = {
+class xo {
+    name = "XO";
+    description = "1/2 Head mofo";
+    traits[] = {};
+    customVariables[] = {
+		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
+        {"YMF_teamcolor", "MAIN", true},
 		{"YMF_iscom", true, true},
 		{"draWhitelisted",TRUE,TRUE},
-		{"TFAR_freq_sr",{"500","201","202","203","204","205","69","70"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconmanexplosive_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
 	};
-    
-	icon = "a3\ui_f\data\map\vehicleicons\iconmanexplosive_ca.paa";
+    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
-	defaultLoadout[] = {
+    defaultLoadout[] = {
             {"SPS_hk417_13_vfg_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"20Rnd_762x51_Mag",20},{},""}, 
 			{}, 
 			{"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""}, 

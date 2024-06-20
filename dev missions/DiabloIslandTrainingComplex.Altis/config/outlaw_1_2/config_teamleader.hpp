@@ -1,12 +1,12 @@
-class squadlead11 {
-	name = "Squad Leader";
-	description = "the one who looks for who to blame";
+class teamlead12 {
+	name = "Team Leader";
+	description = "the one who is to blame";
 	traits[] = {};
     customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true}
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
+        {"YMF_teamcolor", "RED", true}
 	};
-    icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
+    icon = "z\LXIM\addons\media\images\Icons\iconmanleader_red.paa";
 
     defaultLoadout[] = {
             {"SPS_hk417_13_vfg_fde_f","","sps_M300C_MAWL_IR_tan","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},

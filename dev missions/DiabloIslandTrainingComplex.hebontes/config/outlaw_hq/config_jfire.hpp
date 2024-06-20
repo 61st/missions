@@ -1,5 +1,5 @@
-class jfire {
-	name = "JFIRE";
+class jtac {
+	name = "jtac";
 	description = "Big bada boom";
 	traits[] = {
 		{"UAVHacker",true}

@@ -1,28 +1,24 @@
-class medicp {
-	name = "Flight Medic";
-	description = "MEDIC!";
-	traits[] = {
-		{"Medic",true}
-	};
+class driver2 {
+	name = "Crew Driver";
+    description = "vroom vroom";
+    traits[] = {};
 	customVariables[] = {
-		{"ace_medical_medicClass",2,true},
-		{"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa", true},
+        {"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
         {"YMF_teamcolor", "MAIN", true}
 	};
-	icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
+    icon = "z\LXIM\addons\media\images\Icons\driver.paa";
 
-	defaultLoadout[] = {
-            {"SPS_hk417_13_vfg_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"20Rnd_762x51_Mag",20},{},""},
-			{},
-			{"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""},
-			{"U_tweed_acu_summer_ocp_blench",{{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
-			{"V_tweed_msv_mk2_cell_45_1",{{"kat_IFAK",1},{"ACE_quikclot",11},{"SPS_20Rnd_762x51mm_M80A1_EPR",9,20},{"HandGrenade",2,1}}},{"B_simc_US_Molle_sturm_OCP_RTO",{{"ACE_quikclot",2},{"ACE_fieldDressing",15},{"ACE_morphine",6},{"ACE_epinephrine",6},{"ACE_salineIV_250",6},{"ACE_suture",6},{"ACE_splint",8},{"ACE_elasticBandage",14},{"ACE_packingBandage",14},{"ACE_painkillers",2,10}}},
-			"H_tweed_ihps_tasc_rail","",
-			{"Binocular","","","",{"Laserbatteries",1},{},""},
-			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","psq42_blk_icup"}
+    defaultLoadout[] = {
+            {"SPS_hk337_t_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_HKG3PMAG_30Rnd_300BLK_110_B",30},{},""}, 
+            {}, 
+            {"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""}, 
+            {"U_tweed_acu_summer_ocp_blench",{{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
+            {"V_tweed_msv_mk2_e_1",{{"SPS_HKG3PMAG_30Rnd_300BLK_110_B",2,30}}}, 
+            {},"H_HelmetCrew_B","G_tweed_ESS_Green",
+            {"Binocular","","","",{},{},""}, 
+            {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","psq42_blk_icup"}
     };
-	arsenalWeapons[] = {
+    arsenalWeapons[] = {
         "SPS_hk337_hk_ctr_fde_f",
         "SPS_hk337_t_afg_ral8000_f",
         "SPS_hk337_t_afg_fde_f",
@@ -149,132 +145,12 @@ class medicp {
         "SPS_HKG3PMAG_30Rnd_300BLK_110_B",
         "SPS_HKG3PMAG_30Rnd_300BLK_110_S"
     };
-	arsenalItems[] = {
-		"FIR_Fighter_Pilot_Nomex",
-		"FIR_Fighter_Pilot_Nomex2",
-		"FIR_Fighter_Pilot_Nomex3",
-		"FIR_Fighter_Pilot_Nomex4",
-		"FIR_Fighter_Pilot_Nomex5",
-		"FIR_Fighter_Pilot_Nomex6",
-		"FIR_Fighter_Pilot_Nomex7",
-		"FIR_Fighter_Pilot_Nomex8",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex7",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex6",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex7",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex6",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex5",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex5",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex4",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex3",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex3",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex2",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex4",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex2",
-		"FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex",
-		"FIR_Fighter_Pilot_USAF_Agg_Nomex",
-		"FIR_HGU56P_Skull_Death",
-		"FIR_HGU56P_Skull",
-		"FIR_hgu26p",
-		"FIR_hgu26p_camo",
-		"FIR_HGU33P",
-		"FIR_HGU33P_VF1",
-		"FIR_HGU33P_VF84",
-		"FIR_USHelmetType2",
-		"FIR_USHelmetType2_USMC",
-		"FIR_USHelmetType2_Navy",
-		"FIR_USHelmetType2_VF103",
-		"FIR_USHelmetType2_VF154",
-		"FIR_USHelmetType1",
-		"FIR_USHelmetType1_Navy",
-		"FIR_USHelmetType1_VF31",
-		"FIR_USHelmetType1_Agg",
-		"FIR_HGU55PJ",
-		"FIR_HGU84P",
-		"FIR_HGU84P_Green",
-		"FIR_HGU84P_Marpat_D",
-		"FIR_HGU84P_Marpat_W",
-		"FIR_HGU84P_Custom_Example",
-		"FIR_HGU84P_Black",
-		"FIR_USHelmetType1_USMC",
-		"FIR_USHelmetType2_USAF_80s",
-		"FIR_HGU33P_VF111",
-		"H_PilotHelmetHeli_B",
-		"H_CrewHelmetHeli_B",
-		"FIR_USARMY_Heli_Uniform_Multicam",
-		"FIR_USARMY_Heli_Uniform",
-		"kat_IV_16",
-		"kat_aatKit",
-		"kat_accuvac",
-		"ACE_adenosine",
-		"ACE_epinephrine",
-		"kat_AFAK",
-		"kat_X_AED",
-		"kat_amiodarone",
-		"kat_CarbonateItem",
-		"kat_atropine",
-		"kat_AED",
-		"ACE_elasticBandage",
-		"ACE_packingBandage",
-		"kat_crossPanel",
-		"ACE_bodyBag",
-		"kat_plate",
-		"kat_Bubble_Wrap_Item",
-		"kat_BVM",
-		"kat_CaffeineItem",
-		"kat_chestSeal",
-		"kat_clamp",
-		"ACE_EarPlugs",
-		"kat_vacuum",
-		"kat_EACA",
-		"kat_etomidate",
-		"kat_IO_FAST",
-		"kat_fentanyl",
-		"KAT_Empty_bloodIV_250",
-		"KAT_Empty_bloodIV_500",
-		"kat_flumazenil",
-		"kat_guedel",
-		"ACE_fieldDressing",
-		"kat_IFAK",
-		"kat_ketamine",
-		"kat_larynx",
-		"kat_lidocaine",
-		"kat_lorazepam",
-		"kat_suction",
-		"kat_MFAK",
-		"kat_nalbuphine",
-		"kat_naloxone",
-		"kat_ncdKit",
-		"kat_nitroglycerin",
-		"kat_norepinephrine",
-		"kat_PainkillerItem",
-		"kat_PenthroxItem",
-		"kat_PervitinItem",
-		"kat_phenylephrine",
-		"kat_Pulseoximeter",
-		"kat_oxygenTank_300_Item",
-		"kat_oxygenTank_150_Item",
-		"kat_pocketBVM",
-		"kat_retractor",
-		"ACE_quikclot",
-		"kat_scalpel",
-		"kat_sealant",
-		"ACE_splint",
-		"kat_stethoscope",
-		"ACE_surgicalKit",
-		"ACE_suture",
-		"ACE_tourniquet",
-		"kat_TXA",
-		"ACE_personalAidKit"
-		
-	};
-	arsenalBackpacks[] = {
-		"lxim_backpack_Backpack_Kitbag_Medic_Black",
-		"lxim_backpack_Backpack_Kitbag_Medic_RGR",
-		"lxim_backpack_Backpack_Kitbag_Medic_Tan",
-		"lxim_backpack_Backpack_Kitbag_Medic_White",
-		"lxim_backpack_Backpack_Kitbag_Medic_Coyote",
-		"lxim_backpack_Backpack_Kitbag_Medic_MTP",
-		"lxim_backpack_Backpack_Kitbag_Medic_Sage",
-		"lxim_backpack_Backpack_Kitbag_Medic_Green"
-	};
+    arsenalItems[] = {
+        "ToolKit",
+        "ACE_wirecutter",
+        "CUP_H_CVCH_des",
+        "CUP_H_CVC",
+        "MineDetector"
+    };
+    arsenalBackpacks[] = {};
 };

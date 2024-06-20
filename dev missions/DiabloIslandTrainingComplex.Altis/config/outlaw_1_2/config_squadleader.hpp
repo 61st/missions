@@ -1,9 +1,9 @@
-class squadlead11 {
+class squadlead12 {
 	name = "Squad Leader";
 	description = "the one who looks for who to blame";
 	traits[] = {};
     customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
         {"YMF_teamcolor", "MAIN", true}
 	};
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";

@@ -5,7 +5,7 @@ class mark {
 
 	};
 	customVariables[] = {
-		{"TFAR_freq_sr",{"500","501","502","503","504","505","69","70"},true},
+		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
 		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconman_ca.paa", true},
         {"YMF_teamcolor", "MAIN", true}
 	};
