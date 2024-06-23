@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=12568;
+		nextID=12594;
 	};
 	class MarkerIDProvider
 	{
@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=8554;
+		nextID=8704;
 	};
 	class Camera
 	{
-		pos[]={15193.983,37.562057,17249.553};
-		dir[]={0.98032099,-0.17707393,0.087369911};
-		up[]={0.17637886,0.98419619,0.015719395};
-		aside[]={0.088770635,-9.6086296e-008,-0.99605894};
+		pos[]={23791.762,9.3916988,16068.933};
+		dir[]={-0.11200217,-0.32015085,0.94085145};
+		up[]={-0.037848704,0.94733471,0.31794322};
+		aside[]={0.99312454,-2.5425379e-007,0.11822278};
 	};
 };
 binarizationWanted=0;
-sourceName="DiabloIslandTrainingComplex";
+sourceName="diabloislandtrainingcomplex";
 addons[]=
 {
 	"a3u_mod",
@@ -103,13 +103,16 @@ addons[]=
 	"ace_refuel",
 	"A3_Supplies_F_Heli_CargoNets",
 	"CUP_CAStructures_E_Wall_Wall_L",
-	"A3_Structures_F_Bootcamp_Training"
+	"A3_Structures_F_Bootcamp_Training",
+	"A3_Armor_F_EPC_MBT_01",
+	"ace_vehicle_damage",
+	"ace_viewports"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=52;
+		items=55;
 		class Item0
 		{
 			className="A3U_Mod";
@@ -449,6 +452,27 @@ class AddonsMetaData
 			className="CUP_CAStructures_E_Wall_Wall_L";
 			name="CUP_CAStructures_E_Wall_Wall_L";
 		};
+		class Item52
+		{
+			className="A3_Armor_F_EPC";
+			name="Arma 3 Win Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item53
+		{
+			className="ace_vehicle_damage";
+			name="ACE3 - Vehicle Damage";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item54
+		{
+			className="ace_viewports";
+			name="ACE3 - Viewports";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
 	};
 };
 dlcs[]=
@@ -479,7 +503,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -542,7 +566,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -1250,7 +1274,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=57;
+		items=59;
 		class Item0
 		{
 			dataType="Layer";
@@ -134024,6 +134048,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Shoot House";
+			state=1;
 			class Entities
 			{
 				items=349;
@@ -142797,6 +142822,36 @@ class Mission
 				};
 			};
 			id=12489;
+		};
+		class Item57
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23791.33,8.3133125,16079.034};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=12571;
+			type="B_MBT_01_arty_F";
+		};
+		class Item58
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23795.781,7.9564757,16077.717};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=12575;
+			type="B_MBT_01_TUSK_F";
 		};
 	};
 	class Connections
