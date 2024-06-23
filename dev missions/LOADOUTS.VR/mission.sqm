@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=39;
+		nextID=43;
 	};
 	class Camera
 	{
-		pos[]={3147.9473,29.925428,273.42374};
-		dir[]={-0.060522843,-0.38432068,-0.92130476};
-		up[]={-0.02519214,0.92319489,-0.3834902};
-		aside[]={-0.99793422,-6.8485679e-007,0.065554649};
+		pos[]={3127.2971,17.806599,255.89342};
+		dir[]={-0.41512761,-0.088346884,-0.90559888};
+		up[]={-0.036835089,0.99606282,-0.080359764};
+		aside[]={-0.90916187,3.1798845e-007,0.41675386};
 	};
 };
 binarizationWanted=0;
@@ -29,13 +29,22 @@ addons[]=
 	"tweed_uaf_21_cfg",
 	"A3_Supplies_F_Heli_Slingload",
 	"ace_cargo",
-	"ace_rearm"
+	"ace_rearm",
+	"SPS_weapons_hk417",
+	"A3_Weapons_F_Mark_Acc",
+	"A3_Weapons_F_Tank_Launchers_MRAWS",
+	"A3_Weapons_F_Tank",
+	"A3_Weapons_F",
+	"lxim_w28fixes",
+	"A3_Weapons_F_Items",
+	"ace_medical_engine",
+	"ace_medical_treatment"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=4;
+		items=10;
 		class Item0
 		{
 			className="tweed_uaf_21_cfg";
@@ -62,16 +71,61 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
+		class Item4
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Weapons_F_Mark";
+			name="Arma 3 Marksmen - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Weapons_F_Tank";
+			name="Arma 3 Tank - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item7
+		{
+			className="lxim_w28fixes";
+			name="61st - W28fixes";
+			author="LXIM";
+		};
+		class Item8
+		{
+			className="ace_medical_engine";
+			name="ACE3 - Medical Engine";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item9
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
 	};
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"Mark"
 };
 randomSeed=13985350;
 class ScenarioData
 {
 	author="YonV";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -96,7 +150,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=26;
+		items=28;
 		class Item0
 		{
 			dataType="Group";
@@ -3330,7 +3384,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3056,5.0014391,207.925};
+						position[]={3024,5.0014391,210.78801};
 					};
 					side="West";
 					flags=7;
@@ -3382,7 +3436,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3055.75,6.3620372,202.76199};
+				position[]={3023.75,6.3620372,205.625};
 			};
 			side="Empty";
 			flags=4;
@@ -3405,7 +3459,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3024,5.0014391,208.175};
+						position[]={2992,5.0014391,211.03801};
 					};
 					side="West";
 					flags=7;
@@ -3457,7 +3511,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3023.75,6.3620372,203.01199};
+				position[]={2991.75,6.3620372,205.875};
 			};
 			side="Empty";
 			flags=4;
@@ -3487,6 +3541,52 @@ class Mission
 					class Attributes
 					{
 						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="SPS_hk417_13_glm_fde_f";
+								underBarrel="bipod_02_F_blk";
+								firemode="SPS_hk417_13_glm_fde_f:Single";
+								class primaryMuzzleMag
+								{
+									name="SPS_20Rnd_762x51mm_M80A1_EPR_IR";
+									ammoLeft=20;
+								};
+							};
+							class secondaryWeapon
+							{
+								name="launch_MRAWS_olive_F";
+								class primaryMuzzleMag
+								{
+									name="MRAWS_HEAT_F";
+									ammoLeft=1;
+								};
+							};
+							class uniform
+							{
+								typeName="U_tweed_acu_summer_ocp_tuck_jedi";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_tweed_iotv_mk4_cell_1";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							headgear="H_tweed_ech_psq_OCP_alt";
+						};
 					};
 					id=17;
 					type="tweed_acu_summer_ocp_crye_knee_jedi";
@@ -3518,7 +3618,20 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute2
+						{
+							property="aceax_textureOptions";
+							expression="[_this, _value, false] call aceax_gearinfo_fnc_setTextureOptions;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="[[""w28OCPSummer_patch"",""""]]";
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 			};
@@ -3539,7 +3652,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2992,5.0014391,208.3};
+						position[]={2960,5.0014391,211.16301};
 					};
 					side="West";
 					flags=7;
@@ -3591,7 +3704,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2991.75,6.3620372,203.13699};
+				position[]={2959.75,6.3620372,206};
 			};
 			side="Empty";
 			flags=4;
@@ -4050,6 +4163,81 @@ class Mission
 				name="ARSENAL_FAC";
 			};
 			id=38;
+			type="B_Slingload_01_Ammo_F";
+		};
+		class Item26
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3056.125,5.0014391,210.03801};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						name="ROLE_JTAC";
+					};
+					id=40;
+					type="tweed_acu_summer_ocp_crye_knee_jedi";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=39;
+		};
+		class Item27
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3055.875,6.3620372,204.875};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="ARSENAL_JTAC";
+			};
+			id=41;
 			type="B_Slingload_01_Ammo_F";
 		};
 	};

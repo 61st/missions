@@ -23,6 +23,7 @@ class YMF {
         class init_staging {};
         class init_vehicle {};
         class init_zenModuels {};
+        class initEnvironmentMenu {};
     };
     class systems {
         file = "scripts\systems";
@@ -62,7 +63,7 @@ class YMF {
         class getVehicleLable {};
 
         class updateEnvironment {};
-        class initEnvironmentMenu {};
+        
 
     };
     class diag {

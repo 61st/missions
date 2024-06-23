@@ -1,0 +1,173 @@
+
+author = "Dom";
+overviewPicture = "";
+loadScreen = "";
+overviewText = "Game mode created by Dom.";
+onLoadMission = "Game mode created by Dom.";
+onLoadName = "Op Rising Phoenix";
+
+class Header {
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 51;
+};
+
+respawnButton = 1;
+respawn = 3;
+respawnOnStart = -1;
+respawnDelay = 5;
+
+corpseManagerMode = 1;
+corpseLimit = 30;
+corpseRemovalMinTime = 300;
+corpseRemovalMaxTime = 1200;
+
+wreckManagerMode = 1;
+wreckLimit = 5;
+wreckRemovalMinTime = 600;
+wreckRemovalMaxTime = 2400;
+minPlayerDistance = 1000;
+
+disabledAI = 1;
+enableDebugConsole[] = {"76561198071007604"};
+zeusUIDs[] = {"76561198071007604"}; //list UIDs for access to zeus here
+unsafeCVL = 1;
+joinUnassigned = 0;
+
+#include "GUI\masterHandler.hpp"
+
+class CfgFunctions {
+	#include "Functions.hpp"
+};
+
+#include "Config\Config_Civilian.hpp"
+#include "Config\Config_Compositions.hpp"
+#include "Config\Opfor\Config_Opfor.hpp"
+#include "Config\Blufor\Config_Blufor.hpp"
+
+class Params {
+	class bluforFaction {
+		title = "Blufor Faction";
+		texts[] = {"CTRG (Vanilla)","NATO (Vanilla)","CSAT (Vanilla)","AMF (AMF_AIO)","BAF (3CB)","USSOCOM (RHS)","Altis Armed Forces (3CB)","Livonian Defence Force (3CB)","Ukranian Armed Forces (3CB)"};
+		values[] = {0,1,2,3,4,5,6,7,8};
+		default = 0;
+	};
+	class opforFaction {
+		title = "Opfor Faction";
+		texts[] = {"CSAT (Vanilla)","AAF (Vanilla)","NATO (Vanilla)","Ardistan Army (3CB Factions)","African Desert Army (3CB Factions)","Chernorussian Movement of the Red Star (3CB Factions)","Karzeghistan Royal Guard (3CB Factions)","Middle Eastern Extremists (3CB Factions)"};
+		values[] = {0,1,2,3,4,5,6,7};
+		default = 0;
+	};
+	class missionCompletionCount
+	{
+		title = "Main Missions to complete before Final Mission";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {6,8,10,12,14};
+		default = 10;
+	};
+	class difficultyModifier
+	{
+		title = "Difficulty Modifier";
+		texts[] = {"Very Easy","Easy","Normal","Hard","Very Hard"};
+		values[] = {0.5,0.75,1,1.25,1.5};
+		default = 1;
+	};
+	class missionKarmaGain
+	{
+		title = "Karma gain on successful mission";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {30,40,50,60,70};
+		default = 50;
+	};
+	class ambientCivilianPresence
+	{
+		title = "Ambient Civilian Presence";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {1,2,3,4,5};
+		default = 3;
+	};
+	class townCivilianPresence
+	{
+		title = "Town Civilian Presence";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {3,6,9,12,15};
+		default = 9;
+	};
+	class hitCivilianKarmaPenalty
+	{
+		title = "Injured Civilian Karma Penalty";
+		texts[] = {"Very Forgiving","Forgiving","Normal","Harsh","Very Harsh"};
+		values[] = {-1,-2,-3,-4,-5};
+		default = -3;
+	};
+	class killedCivilianKarmaPenalty
+	{
+		title = "Killed Civilian Karma Penalty";
+		texts[] = {"Very Forgiving","Forgiving","Normal","Harsh","Very Harsh"};
+		values[] = {-3,-6,-9,-12,-15};
+		default = -9;
+	};
+	class healedCivilianKarmaGain
+	{
+		title = "Healed Civilian Karma Gain";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {1,2,3,4,5};
+		default = 3;
+	};
+	class rankAffectsCivTalking
+	{
+		title = "Should player rank increase the chance of civilians co-operating?";
+		texts[] = {"Yes","No"};
+		values[] = {1,0};
+		default = 1;
+	};
+	class enemyActionFrequency
+	{
+		title = "Opfor Side Mission Frequency";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {90,75,60,45,30};
+		default = 60;
+	};
+	class ambientOpforPresence
+	{
+		title = "Ambient Opfor Presence";
+		texts[] = {"None","Very Low","Low","Normal","High","Very High"};
+		values[] = {0,1,2,3,4,5};
+		default = 3;
+	};
+	class ambushOpforChance
+	{
+		title = "Chances of Ambushes";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {5,15,25,35,45};
+		default = 25;
+	};
+	class ambushOpforDelay
+	{
+		title = "Ambush Time Delay";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {15,30,45,60,75};
+		default = 45;
+	};
+	class opforTrapChance
+	{
+		title = "Chances of Booby Traps";
+		texts[] = {"None","Very Low","Low","Normal","High","Very High"};
+		values[] = {0,3,6,9,12,15};
+		default = 9;
+	};
+	class opforMineIntensity
+	{
+		title = "Opfor Mine Intensity";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {3,6,9,12,15};
+		default = 9;
+	};
+	class opforMortarIntensity
+	{
+		title = "Opfor Mortar Intensity";
+		texts[] = {"Very Low","Low","Normal","High","Very High"};
+		values[] = {45,35,25,20,15};
+		default = 25;
+	};
+};
