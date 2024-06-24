@@ -18,7 +18,7 @@ params ["_modulePos", "_objectPos"];
 [
     "61st Mechanized Infantry Battalion Staging Zone", 
     [
-        ["SLIDER:RADIUS", ["Zone size", "well you see its the size that maters"], [0, 1, 1], false]
+        ["SLIDER:RADIUS", ["Zone size", "well you see its the size that maters"], [0, 25, 50], false]
     ], 
     {
         params ["_arg", "_pos"];
