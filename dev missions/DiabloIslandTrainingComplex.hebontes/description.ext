@@ -23,7 +23,11 @@ class CfgSettings {
 /* ------------------------------------------------------------------------------------------------------------------ */
 // cba_settings_hasSettingsFile = 1;
 
-forceRotorLibSimulation  = 1;
+forceRotorLibSimulation  = 0;
+// 0 - based on player's options
+// 1 - enabled (advanced mode)
+// 2 - disabled (default flight mode)
+
 respawn=3;
 skipLobby = 1;
 
@@ -56,7 +60,6 @@ class CfgFunctions {
 };
 #include "scripts\CfgRemoteExec.hpp"	
 #include "scripts\CfgSimulator.hpp"
-#include "scripts\CfgSounds.hpp"
 #include "config\config_groups.hpp"
 
 /* gui ------------------------------------------------------------------------------------------------------- */

@@ -24,6 +24,10 @@ class CfgSettings {
 // cba_settings_hasSettingsFile = 1;
 
 forceRotorLibSimulation  = 0;
+// 0 - based on player's options
+// 1 - enabled (advanced mode)
+// 2 - disabled (default flight mode)
+
 respawn=3;
 skipLobby = 1;
 
@@ -46,9 +50,6 @@ disabledAI              = true;
 /* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
 class Extended_PreInit_EventHandlers {
     YMF_preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
-    class tinter_furniture_pre_init {
-        init = "call compile preprocessFileLineNumbers 'scripts\furniture\XEH_preInit.sqf'";
-    };
 };
 class Extended_PostInit_EventHandlers {
     YMF_postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";

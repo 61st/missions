@@ -1006,4 +1006,237 @@
     ["UGL_FlareRed_F", 0],
     ["UGL_FlareWhite_F", 0],
     ["UGL_FlareYellow_F", 0]
+]],
+
+["vehicle_ampf", [
+    ["ToolKit", 1],
+    ["YMF_vs17_vs17",1],
+    ["ACE_rope18", 4],
+    ["ACE_rope36", 2],
+    // Ammo
+    ["SPS_20Rnd_762x51mm_M80A1_EPR",24],
+    ["16Rnd_9x21_Mag_v2",12],
+    ["launch_NLAW_F",1],
+    ["sps_30Rnd_556x45_Stanag",24],
+    ["MS_Strobe_Mag_1",2],
+    ["B_IR_Grenade",2],
+    ["ACE_IR_Strobe_Item",2],
+    ["1Rnd_HE_Grenade_shell",4],
+    
+
+    // Offensive/Defensive Hand Grenades
+    ["HandGrenade",4],
+
+    // Smoke Grenades
+    ["SmokeShell",10],
+    ["SmokeShellBlue",2],
+    ["SmokeShellRed",2],
+
+    // Chemlights
+    ["ACE_Chemlight_HiBlue",2],
+    ["ACE_Chemlight_HiRed",2],
+    ["ACE_Chemlight_IR",4],
+
+    // Medical
+    ["kat_IFAK", 8]
+]],
+
+["vehicle_ampf_eng", [
+    ["ToolKit", 1],
+    ["ACE_wirecutter", 1],
+    ["ACE_EntrenchingTool", 1],
+
+    ["YMF_vs17_vs17",1],
+    ["ACE_rope18", 4],
+    ["ACE_rope36", 2],
+    // Ammo
+    ["SPS_20Rnd_762x51mm_M80A1_EPR",24],
+    ["16Rnd_9x21_Mag_v2",12],
+    ["launch_NLAW_F",1],
+    ["sps_30Rnd_556x45_Stanag",24],
+    ["MS_Strobe_Mag_1",2],
+    ["B_IR_Grenade",2],
+    ["ACE_IR_Strobe_Item",2],
+    ["1Rnd_HE_Grenade_shell",4],
+
+    ["SatchelCharge_Remote_Mag", 4],
+    ["SLAMDirectionalMine_Wire_Mag", 4],
+    ["lxim_breaching_BreachingCharge_Mag", 4],
+    ["DemoCharge_Remote_Mag", 4],
+    ["ClaymoreDirectionalMine_Remote_Mag", 4],
+    ["ACE_M26_Clacker", 2],
+    ["MineDetector", 2],
+    ["ACE_DefusalKit", 2],
+    
+
+    // Offensive/Defensive Hand Grenades
+    ["HandGrenade",4],
+
+    // Smoke Grenades
+    ["SmokeShell",10],
+    ["SmokeShellBlue",2],
+    ["SmokeShellRed",2],
+
+    // Chemlights
+    ["ACE_Chemlight_HiBlue",2],
+    ["ACE_Chemlight_HiRed",2],
+    ["ACE_Chemlight_IR",4],
+
+    // Medical
+    ["kat_IFAK", 8]
+]],
+
+["vehicle_ampf_med", [
+    ["ToolKit", 1],
+    ["ACE_rope18", 4],
+    ["ACE_rope36", 2],
+
+    ["kat_AFAK", 2],
+    ["kat_MFAK", 6],
+    ["kat_IFAK", 6],
+
+    ["Attachable_Helistretcher",1],
+
+    // AEDs
+    ["kat_AED",1],
+    ["kat_X_AED",1],
+
+    // Analgesic
+    ["kat_fentanyl",10],
+    ["kat_ketamine",20],
+    ["kat_nalbuphine",30],
+    ["kat_PenthroxItem",20],
+
+    // Airway Management and Respiration
+    ["kat_aatKit",4],
+    ["kat_accuvac",1],
+    ["kat_BVM",2],
+    ["kat_chestSeal",30],
+    ["kat_larynx",15],
+    ["kat_pocketBVM",3],
+    
+
+    // Bandages
+    ["ACE_elasticBandage",150],
+    ["ACE_packingBandage",90],
+    ["ACE_quikclot",150],
+
+    // Tourniquets
+    ["ACE_tourniquet",20],
+    ["kat_reboa",10],
+
+    // Fluids
+    ["ACE_plasmaIV",30],
+    ["ACE_plasmaIV_500",30],
+    ["ACE_salineIV_250",20],
+
+    // IV & IO Catheters
+    ["kat_IO_FAST",20],
+    ["kat_IV_16",40],
+
+    // Blood Pressure Medication
+    ["kat_nitroglycerin",40],
+    ["kat_phenylephrine",40],
+    ["kat_norepinephrine",40],
+
+    // Hemorrhage Control Medication
+    ["kat_EACA",40],
+    ["kat_TXA",40],
+    ["kat_amiodarone",15],
+    ["ACE_epinephrine",10],
+
+    // Oral Medication
+    ["kat_carbonate",20],
+    ["kat_Painkiller",40],
+
+    // Autoinjector & Nasal Spray Medication
+    ["kat_naloxone",20],
+    ["ACE_morphine",20],
+    ["ACE_epinephrine",40],
+    ["kat_phenylephrineAuto",40],
+    ["ACE_adenosine",0],
+
+    // Splints
+    ["ACE_splint",20],
+
+    // Surgical Equipment
+    ["kat_scalpel",40],
+    ["kat_plate",10],
+    ["kat_clamp",1],
+    ["kat_retractor",1],
+    ["kat_vacuum",1],
+
+    // Surgical Medication
+    ["kat_lidocaine",20],
+    ["kat_lorazepam",10],
+    ["kat_etomidate",20],
+    ["kat_flumazenil",10],
+
+    // Surgical Kits
+    ["ACE_surgicalKit",4],
+
+    // Body Bags
+    ["ACE_bodyBag",10],
+
+    // Tools
+    ["ACE_EntrenchingTool",1],
+    ["ACE_Flashlight_MX991",1],
+    ["ACE_wirecutter",1],
+
+    // Smoke Grenades
+    ["SmokeShell",16],
+    ["SmokeShellBlue",4],
+    ["SmokeShellGreen",4],
+    ["SmokeShellPurple",4],
+
+    // Flags and Paint
+    ["ace_marker_flags_green",4],
+    ["ace_marker_flags_red",4],
+    ["ace_marker_flags_blue",4],
+    ["ACE_SpraypaintBlue",1],
+    ["ACE_SpraypaintRed",1],
+    ["YMF_vs17_vs17",1],
+
+    // Rifle Ammo
+    ["SPS_20Rnd_762x51mm_M80A1_EPR",24],
+    ["16Rnd_9x21_Mag_v2",12],
+    ["launch_NLAW_F",1],
+    ["sps_30Rnd_556x45_Stanag",24],
+    ["MS_Strobe_Mag_1",2],
+    ["B_IR_Grenade",2],
+    ["ACE_IR_Strobe_Item",2],
+    ["1Rnd_HE_Grenade_shell",4]
+]],
+
+["vehicle_ampf_sup", [
+    ["ToolKit", 1],
+    ["YMF_vs17_vs17",1],
+    ["ACE_rope18", 4],
+    ["ACE_rope36", 2],
+    // Ammo
+    ["SPS_20Rnd_762x51mm_M80A1_EPR",24],
+    ["16Rnd_9x21_Mag_v2",12],
+    ["launch_NLAW_F",1],
+    ["sps_30Rnd_556x45_Stanag",24],
+    ["MS_Strobe_Mag_1",2],
+    ["B_IR_Grenade",2],
+    ["ACE_IR_Strobe_Item",2],
+    ["1Rnd_HE_Grenade_shell",4],
+    
+
+    // Offensive/Defensive Hand Grenades
+    ["HandGrenade",4],
+
+    // Smoke Grenades
+    ["SmokeShell",10],
+    ["SmokeShellBlue",2],
+    ["SmokeShellRed",2],
+
+    // Chemlights
+    ["ACE_Chemlight_HiBlue",2],
+    ["ACE_Chemlight_HiRed",2],
+    ["ACE_Chemlight_IR",4],
+
+    // Medical
+    ["kat_IFAK", 8]
 ]]

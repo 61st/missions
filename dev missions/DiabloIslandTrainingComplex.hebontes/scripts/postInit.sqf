@@ -21,14 +21,6 @@ call EFUNC(init,staging);
 // messages
 call EFUNC(init,message);
 
-
-//rank stuff
-[player, 'BIS'] call EFUNC(player,setRank);
-call EFUNC(player,setRankpatch);
-
-//Name Stuff
-call LXIM_w28fixes_fnc_player_set_name;
-
 onPlayerConnected { 
     [QEGVAR(log,player), [name player]] call CBA_fnc_serverEvent;
 };

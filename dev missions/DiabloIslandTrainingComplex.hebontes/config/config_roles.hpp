@@ -1,18 +1,18 @@
 class Dynamic_Roles {
-    // #include "outlaw_hq\config_officer_co.hpp"
-    // #include "outlaw_hq\config_ncoplsgt.hpp"
-    // #include "outlaw_hq\config_medic.hpp"
-    // #include "outlaw_hq\config_jtachpp"
-    // #include "outlaw_hq\config_engineer.hpp"
-    // #include "outlaw_hq\config_mark.hpp"
+    #include "outlaw_hq\config_co.hpp"
+    #include "outlaw_hq\config_xo.hpp"
+    #include "outlaw_hq\config_medic.hpp"
+    #include "outlaw_hq\config_jtac.hpp"
+    #include "outlaw_hq\config_engineer.hpp"
+    #include "outlaw_hq\config_mark.hpp"
 
-    #include "outlaw_1_1_a\config_officer_co.hpp"
-    #include "outlaw_1_1_a\config_driver.hpp"
-    #include "outlaw_1_1_a\config_gunner.hpp"
+    #include "outlaw_1_1_v\config_cmd.hpp"
+    #include "outlaw_1_1_v\config_driver.hpp"
+    #include "outlaw_1_1_v\config_gunner.hpp"
 
-    #include "outlaw_1_1_b\config_ncoplsgt.hpp"
-    #include "outlaw_1_1_b\config_driver.hpp"
-    #include "outlaw_1_1_b\config_gunner.hpp"
+    #include "outlaw_1_2_v\config_cmd.hpp"
+    #include "outlaw_1_2_v\config_driver.hpp"
+    #include "outlaw_1_2_v\config_gunner.hpp"
 
     #include "outlaw_1_1\config_engineer.hpp"
     #include "outlaw_1_1\config_squadleader.hpp"
@@ -21,15 +21,12 @@ class Dynamic_Roles {
     #include "outlaw_1_1\config_jtac.hpp"
     #include "outlaw_1_1\config_dismount.hpp"
 
-    // #include "outlaw_1_2\config_cmd.hpp"
-    // #include "outlaw_1_2\config_driver.hpp"
-    // #include "outlaw_1_2\config_gunner.hpp"
-    // #include "outlaw_1_2\config_engineer.hpp"
-    // #include "outlaw_1_2\config_squadleader.hpp"
-    // #include "outlaw_1_2\config_teamleader.hpp"
-    // #include "outlaw_1_2\config_medic.hpp"
-    // #include "outlaw_1_2\config_jtac.hpp"
-    // #include "outlaw_1_2\config_dismount.hpp"
+    #include "outlaw_1_2\config_engineer.hpp"
+    #include "outlaw_1_2\config_squadleader.hpp"
+    #include "outlaw_1_2\config_teamleader.hpp"
+    #include "outlaw_1_2\config_medic.hpp"
+    #include "outlaw_1_2\config_jtac.hpp"
+    #include "outlaw_1_2\config_dismount.hpp"
 
     // #include "rhino\config_squadleader.hpp"
     // #include "rhino\config_engineer.hpp"
@@ -37,6 +34,7 @@ class Dynamic_Roles {
     #include "phoenix\config_pilot.hpp"
     #include "phoenix\config_crewchief.hpp"
     #include "phoenix\config_medic.hpp"
+    #include "phoenix\config_jtac.hpp"
 
     #include "training\config_cadre.hpp"
     #include "training\config_dismount.hpp"
@@ -130,8 +128,12 @@ class Common_Arsenal {
         "ACE_tourniquet",
         "ACE_wirecutter",
         "acex_intelitems_notepad",
+        "ACE_packingBandage",
+        "ACE_elasticBandage",
+        "kat_chestSeal",
         "B_IR_Grenade",
         "Binocular",
+        "ACE_Splint",
         "ChemicalDetector_01_watch_F",
         "Chemlight_blue",
         "Chemlight_green",

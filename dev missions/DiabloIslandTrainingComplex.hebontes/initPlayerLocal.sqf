@@ -32,12 +32,12 @@ CUP_stopLampCheck = true;
 }, [], -1] call CBA_fnc_waitUntilAndExecute;
 
 
-/* optionals ------------------------------------------------------------------------------------------------------ */
-// call compile preprocessFileLineNumbers "scripts\opt\insideEffects.sqf";
-// [] call compile preprocessFileLineNumbers "scripts\opt\ambientCombat.sqf";
+//rank stuff
+[player, 'BIS'] call EFUNC(player,setRank);
+call EFUNC(player,setRankpatch);
 
-/* BFT -------------------------------------------------------------------------------------------------------------- */
-// [] execVM "scripts\opt\QS_icons.sqf";
+//Name Stuff
+call LXIM_w28fixes_fnc_player_set_name;
 
 /* groups ----------------------------------------------------------------------------------------------------------- */
 player addEventHandler ["Respawn",FUNC(onRespawn)];

@@ -1,21 +1,20 @@
-class pilot {
-    name = "Pilot";
-    description = "weeeeeeeeeeeee";
+class gunner1 {
+	name = "Crew Gunner";
+    description = "The Driver is responsible for driving the squads APC.";
     traits[] = {};
 	customVariables[] = {
-        {"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true},
-		// {"diwako_dui_indicators_customIcon", "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa", true},
+        {"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
         {"YMF_teamcolor", "MAIN", true}
 	};
-    icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
+    icon = "z\LXIM\addons\media\images\Icons\gunner.paa";
 
     defaultLoadout[] = {
-            {"SPS_hk337_t_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_HKG3PMAG_30Rnd_300BLK_147_B",30},{},""}, 
+            {"SPS_hk337_t_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_HKG3PMAG_30Rnd_300BLK_110_B",30},{},""}, 
             {}, 
             {"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""}, 
             {"U_tweed_acu_summer_ocp_tuck_trop",{{"kat_IFAK",1},{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
             {"V_tweed_msv_mk2_e_1",{{"SPS_HKG3PMAG_30Rnd_300BLK_110_B",2,30}}}, 
-            {},"H_PilotHelmetHeli_B","G_tweed_ESS_Green",
+            {},"H_HelmetCrew_B","G_tweed_ESS_Green",
             {"Binocular","","","",{},{},""}, 
             {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","psq42_blk_icup"}
     };
@@ -147,59 +146,11 @@ class pilot {
         "SPS_HKG3PMAG_30Rnd_300BLK_110_S"
     };
     arsenalItems[] = {
-        "H_PilotHelmetHeli_B",
-        "FIR_Fighter_Pilot_Nomex",
-        "FIR_Fighter_Pilot_Nomex2",
-        "FIR_Fighter_Pilot_Nomex3",
-        "FIR_Fighter_Pilot_Nomex4",
-        "FIR_Fighter_Pilot_Nomex5",
-        "FIR_Fighter_Pilot_Nomex6",
-        "FIR_Fighter_Pilot_Nomex7",
-        "FIR_Fighter_Pilot_Nomex8",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex7",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex6",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex7",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex6",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex5",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex5",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex4",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex3",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex3",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex2",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex4",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex2",
-        "FIR_Fighter_Pilot_USAF_agg_64agrs_Nomex",
-        "FIR_Fighter_Pilot_USAF_Agg_Nomex",
-        "FIR_HGU56P_Skull_Death",
-        "FIR_HGU56P_Skull",
-        "FIR_hgu26p",
-        "FIR_hgu26p_camo",
-        "FIR_HGU33P",
-        "FIR_HGU33P_VF1",
-        "FIR_HGU33P_VF84",
-        "FIR_USHelmetType2",
-        "FIR_USHelmetType2_USMC",
-        "FIR_USHelmetType2_Navy",
-        "FIR_USHelmetType2_VF103",
-        "FIR_USHelmetType2_VF154",
-        "FIR_USHelmetType1",
-        "FIR_USHelmetType1_Navy",
-        "FIR_USHelmetType1_VF31",
-        "FIR_USHelmetType1_Agg",
-        "FIR_HGU55PJ",
-        "FIR_HGU84P",
-        "FIR_HGU84P_Green",
-        "FIR_HGU84P_Marpat_D",
-        "FIR_HGU84P_Marpat_W",
-        "FIR_HGU84P_Custom_Example",
-        "FIR_HGU84P_Black",
-        "FIR_USHelmetType1_USMC",
-        "FIR_USHelmetType2_USAF_80s",
-        "FIR_HGU33P_VF111",
-        "H_PilotHelmetHeli_B",
-        "H_CrewHelmetHeli_B",
-        "FIR_USARMY_Heli_Uniform_Multicam",
-        "FIR_USARMY_Heli_Uniform"
+        "ToolKit",
+        "ACE_wirecutter",
+        "CUP_H_CVCH_des",
+        "CUP_H_CVC",
+        "MineDetector"
     };
     arsenalBackpacks[] = {};
 };
