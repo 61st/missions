@@ -2,23 +2,31 @@
     <img src="art\Spade Yellow_512.png" width="480">
 </p>
 
+
 <p align="center">
     <a href="https://github.com/61st/missions/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="ACE Project Template Version">
+        <img src="https://img.shields.io/github/release/61st/missions.svg?style=flat-square&label=Version" alt="missions Version">
     </a>
     <a href="https://github.com/61st/missions/issues">
-        <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
+        <img src="https://img.shields.io/github/issues-raw/61st/missions.svg?style=flat-square&label=Issues" alt="missions Issues">
     </a>
     <a href="https://github.com/61st/missions/releases">
-        <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="ACE Project Template Downloads">
+        <img src="https://img.shields.io/github/downloads/61st/missions/total.svg?style=flat-square&label=Downloads" alt="missions Downloads">
     </a>
     <a href="https://github.com/61st/missions/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
+        <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="missions License">
+    </a>
+    <a href="https://discord.gg/61st-mechanized">
+        <img src="https://img.shields.io/badge/Discord-Join-darkviolet.svg?style=flat-square" alt="missions Discord">
     </a>
 </p>
 
+
+
+
+
 <p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/acemod/ACE3/releases">ACE3</a>.<br/></strong></sup>
+    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/61st/missions/releases">missions</a>.<br/></strong></sup>
 </p>
 
 # LXIM Custom Missions
