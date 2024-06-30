@@ -49,10 +49,10 @@ disabledAI              = true;
 
 /* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
 class Extended_PreInit_EventHandlers {
-    YMF_preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
+    preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
 };
 class Extended_PostInit_EventHandlers {
-    YMF_postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";
+    postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";
 };
 
 class CfgFunctions {
