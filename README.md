@@ -22,20 +22,22 @@
 </p>
 
 
-
-
-
 <p align="center">
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and <a href="https://github.com/61st/missions/releases">missions</a>.<br/></strong></sup>
 </p>
 
 # LXIM Custom Missions
-
 This is the custom mod for 61st Mechanized Infantry Battalion
 Its based/inspired on/by the following projects;
 
 ##Its based on, and inspired by the following projects
-TBD
+https://github.com/7Cav/cScripts -- cScripts  cScripts is an easy to use ARMA3 mission framework used by the 7th Cavalry Gaming Communitys
+
+https://github.com/BaerMitUmlaut/Poppy -- Poppy A reliable, self configuring, error finding loadout framework for Arma.
+
+https://github.com/DomT602/Doms-Arma-3-Mods -- Dom's Dynamic Group System
+
+
 
 All the code in this mod is available in the Github
 you can find the 61st Mechanized Infantry Battalion Version at https://github.com/61st/missions
