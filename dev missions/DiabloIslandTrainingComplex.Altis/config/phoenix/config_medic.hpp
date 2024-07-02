@@ -53,6 +53,7 @@ class medicp {
 		"kat_X_AED",
 		"kat_aatKit",
 		"kat_atropine",
+		"ACE_epinephrine",
 		"kat_EACA",
 		"kat_etomidate",
 		"kat_lidocaine",
