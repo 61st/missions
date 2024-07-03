@@ -25,6 +25,7 @@ class medic11 {
 		"ACE_salineIV_250",
 		"ACE_salineIV",
 		"kat_X_AED",
+		"ACE_epinephrine",
 		"kat_aatKit",
 		"kat_atropine",
 		"kat_EACA",
