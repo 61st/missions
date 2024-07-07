@@ -50,6 +50,8 @@ disabledAI              = true;
 /* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
 class Extended_PreInit_EventHandlers {
     preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
+    class Rev_settings {init = "call compile preprocessFileLineNumbers 'scripts\Rev_teleport\Rev_tp_settings.sqf'";};
+
 };
 class Extended_PostInit_EventHandlers {
     postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";

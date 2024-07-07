@@ -23,7 +23,6 @@ class YMF {
         class init_staging {};
         class init_vehicle {};
         class init_zenModuels {};
-        class initEnvironmentMenu {};
     };
     class systems {
         file = "scripts\systems";
@@ -61,10 +60,6 @@ class YMF {
 
         class createVehicleLable {};
         class getVehicleLable {};
-
-        class updateEnvironment {};
-        
-
     };
     class diag {
         file = "scripts\diag";
@@ -208,3 +203,18 @@ class PDT_MedicalSimulator {
 		};
 	};
 
+class Rev_tp {   
+    class Teleport {
+		file ="scripts\Rev_teleport";
+        class addAction {};
+        class addPoint {};
+        class addZEN_modules {postinit = 1;};
+        class deletePoint {};
+        class listCheck {};
+		class onButtonClick {};
+		class onLBSelChanged {};
+        class onLoad {};
+        class teleport {};
+        class ZEN_dialog {};
+	};
+};
