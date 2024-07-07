@@ -12,13 +12,15 @@ EGVAR(patches,usesACEArsenal)   = isClass (configFile >> "CfgPatches" >> "ace_ar
 EGVAR(patches,usesACETagging)   = isClass (configFile >> "CfgPatches" >> "ace_tagging");
 EGVAR(patches,usesACEX)         = isClass (configFile >> "CfgPatches" >> "acex_main");
 EGVAR(patches,usesKat)          = isClass (configFile >> "CfgPatches" >> "kat_main");
+EGVAR(patches,usesACRE)         = isClass (configFile >> "CfgPatches" >> "acre_sys_core");
+EGVAR(patches,usesTFAR)         = isClass (configFile >> "CfgPatches" >> "task_force_radio");
 EGVAR(patches,usesAlive)        = isClass (configFile >> "CfgPatches" >> "ALiVE_main");
 EGVAR(patches,usesZen)          = isClass (configFile >> "CfgPatches" >> "zen_main");
+EGVAR(patches,usesACEAX)        = isCLass (configFile >> "CfgPatches" >> "aceax_main");
 
 // Global Variables
-GVAR(isPlayer) = hasInterface || {isPlayer player};
 EGVAR(Staging,ZoneStatus) = false;
-
+GVAR(isPlayer) = hasInterface || {isPlayer player};
 
 #include "initSettings.inc.sqf"
 

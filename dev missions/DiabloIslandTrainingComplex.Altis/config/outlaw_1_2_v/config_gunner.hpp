@@ -6,7 +6,7 @@ class gunner2 {
 	};
 	customVariables[] = {
 		{"ace_isEngineer",1,true},
-        {"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
+        {"TFAR_freq_sr",{"100.1","120","210","33","100","75","60","35"},true},
         {"YMF_teamcolor", "MAIN", true}
 	};
     icon = "z\LXIM\addons\media\images\Icons\gunner.paa";

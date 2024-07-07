@@ -25,14 +25,4 @@ onPlayerConnected {
     [QEGVAR(log,player), [name player]] call CBA_fnc_serverEvent;
 };
 
-private _environmentCategory = [ 
- "environmentMenu", 
- "Environment Control", 
- "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa", 
- YMF_fnc_initEnvironmentMenu, 
- {} 
-] call ace_interact_menu_fnc_createAction; 
-[weatrher_1,0,["ACE_MainActions"],_environmentCategory] call ace_interact_menu_fnc_addActionToObject; 
-
-
 INFO("postInit", "Initialization completed.");

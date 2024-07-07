@@ -30,6 +30,15 @@ ACE_maxWeightDrag = 10000;
 minviewdistance = 500;
 maxviewdistance = 10000;
 
+if(isServer) then {
+    {
+        _x setObjectTextureGlobal    [0, "scripts\Data\target.paa"];
+    } foreach allMissionObjects "TargetP_Inf_F";
+    {
+        _x setObjectTextureGlobal    [0, "scripts\Data\target.paa"];
+    } foreach allMissionObjects "TargetP_Inf3_Acc2_NoPop_F";
+};
+
 // /* Start times selected randomly throughout the daylight hours between sunrise and one hour before sunset ----------- */
 // if (isServer) then {
 // waitUntil { time > 0 }; // Allow time subsystem to initialize so that missionStart is correct

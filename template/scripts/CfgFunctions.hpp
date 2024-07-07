@@ -23,7 +23,6 @@ class YMF {
         class init_staging {};
         class init_vehicle {};
         class init_zenModuels {};
-        class initEnvironmentMenu {};
     };
     class systems {
         file = "scripts\systems";
@@ -61,10 +60,6 @@ class YMF {
 
         class createVehicleLable {};
         class getVehicleLable {};
-
-        class updateEnvironment {};
-        
-
     };
     class diag {
         file = "scripts\diag";
@@ -185,26 +180,41 @@ class YMF {
 };
 class PDT_MedicalSimulator {
     
-		class dialogs {
-            file = "scripts\medical_simulator";
-            class lbAdd; // adds items to listbox
-            class lbSelChanged; // handles changing listbox selection
-            class updateButtons;// updates the button states
-		};
-		class medicalSimulator {
-            file = "scripts\medical_simulator";
-            // spawns patient
-            class spawnPatient;
-            // clears selected stretcher
-            class clearStretcher;
-            // clears all stretchers
-            class clearAllStretchers;
-            // create the view camera
-            class createCamera;
-            // gets object from string
-            class getObject;
-            // damages patients
-            class damagePatient;
-		};
-	};
+    class dialogs {
+        file = "scripts\medical_simulator";
+        class lbAdd; // adds items to listbox
+        class lbSelChanged; // handles changing listbox selection
+        class updateButtons;// updates the button states
+    };
+    class medicalSimulator {
+        file = "scripts\medical_simulator";
+        // spawns patient
+        class spawnPatient;
+        // clears selected stretcher
+        class clearStretcher;
+        // clears all stretchers
+        class clearAllStretchers;
+        // create the view camera
+        class createCamera;
+        // gets object from string
+        class getObject;
+        // damages patients
+        class damagePatient;
+    };
+};
 
+class Rev_tp {   
+    class Teleport {
+		file ="scripts\Rev_teleport";
+        class addAction {};
+        class addPoint {};
+        class addZEN_modules {postinit = 1;};
+        class deletePoint {};
+        class listCheck {};
+		class onButtonClick {};
+		class onLBSelChanged {};
+        class onLoad {};
+        class teleport {};
+        class ZEN_dialog {};
+	};
+};

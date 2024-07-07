@@ -117,11 +117,20 @@ if EGVAR(patches,usesACE) then {
 
 	/* TP ---------------------------------------------------------------------------------------------------------- */
 
+	// private _tpCategory = [
+	// 	"TPCategory",
+	// 	"TP",
+	// 	"scripts\Data\Icon\Teleport_Pos_64x64.paa",
+	// 	{[0] spawn A3U_Teleport_fnc_initStyle0;},
+	// 	_condition3
+	// ] call ace_interact_menu_fnc_createAction;
+	// [player,1,_category,_tpCategory] call ace_interact_menu_fnc_addActionToObject;
+
 	private _tpCategory = [
 		"TPCategory",
 		"TP",
 		"scripts\Data\Icon\Teleport_Pos_64x64.paa",
-		{[0] spawn A3U_Teleport_fnc_initStyle0;},
+		{createDialog "Rev_tp_dialog"},
 		_condition3
 	] call ace_interact_menu_fnc_createAction;
 	[player,1,_category,_tpCategory] call ace_interact_menu_fnc_addActionToObject;
