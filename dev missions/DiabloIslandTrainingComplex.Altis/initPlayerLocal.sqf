@@ -12,9 +12,6 @@
 }] remoteExecCall ["BIS_fnc_addScriptedEventHandler", [0, -2] select isDedicated];
 player setVariable ["PlayerReady",true,true];
 
-_ShortRange = ["50"];
-player setVariable ["TFAR_freq_sr", _ShortRange, true];
-
 // if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 
 /* Shut the hell up  - Mute Orders and Reports ---------------------------------------------------------------------- */
@@ -30,7 +27,6 @@ CUP_stopLampCheck = true;
 [{alive player}, {
     call FUNC(playerActions);
 }, [], -1] call CBA_fnc_waitUntilAndExecute;
-
 
 //rank stuff
 [player, 'BIS'] call EFUNC(player,setRank);
