@@ -1,0 +1,78 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                    */
+/*                                                Nothing to Edit Here                                                */
+/*                                                                                                                    */
+/*                                You should only edit the files in the Configs folder                                */
+/*                                                                                                                    */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+class Header {};
+
+class CfgSettings {
+    class CBA {
+        class Caching {
+            compile = 0;
+            xeh = 0;
+            functions = 0;
+        };
+    };
+};
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                            So again nothing to edit here                                           */
+/* ------------------------------------------------------------------------------------------------------------------ */
+// cba_settings_hasSettingsFile = 1;
+
+forceRotorLibSimulation  = 0;
+// 0 - based on player's options
+// 1 - enabled (advanced mode)
+// 2 - disabled (default flight mode)
+
+respawn=3;
+skipLobby = 1;
+
+/* SERVER STUFF ----------------------------------------------------------------------------------------------------- */
+
+enableDebugConsole[] = {DEBUG_ADMINS};
+cba_settings_whitelist[] = {CBA_ADMINS};
+
+enableTargetDebug = 1;
+
+
+ /* ------------------------------------------------------------------------------------------------------------------ */
+ /*                                                D O   N O T   E D I T  !                                            */
+ /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* RULES ------------------------------------------------------------------------------------------------------------ */
+
+disabledAI              = true;
+
+/* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
+class Extended_PreInit_EventHandlers {
+    preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
+};
+class Extended_PostInit_EventHandlers {
+    postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";
+};
+
+class CfgFunctions {
+    #include "scripts\CfgFunctions.hpp"
+};
+#include "scripts\CfgRemoteExec.hpp"	
+#include "scripts\CfgSimulator.hpp"
+#include "config\config_groups.hpp"
+
+/* gui ------------------------------------------------------------------------------------------------------- */
+#include "scripts\CfgGUI.hpp"
+
+// https://github.com/acemod/ACEX/tree/master/addons/killtracker
+class CfgDebriefingSections {
+    class acex_killTracker {
+        title = "Acex Killed Events";
+        variable = "acex_killTracker_outputText";
+    };
+};
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                          WHAT DID I TELL YOU ABOUT EDITING                                         */
+/* ------------------------------------------------------------------------------------------------------------------ */
