@@ -128,7 +128,7 @@ if EGVAR(patches,usesACE) then {
 
 	["ace_arsenal_displayClosed",{
 		YMF_savedLoadout = getUnitLoadout player;
-		player linkItem "ItemAndroid";
+		player addItem "ItemAndroidMisc";
 	}] call CBA_fnc_addEventHandler;
 	};
 

@@ -64,6 +64,6 @@ if (_isRespawn) then {
 	call LXIM_w28fixes_fnc_player_set_name;
 
 	/* forcectab -------------------------------------------------------------------------------------------------------- */
-	player linkItem "ItemAndroid";
+	player addItem "ItemAndroidMisc";
 };
 
