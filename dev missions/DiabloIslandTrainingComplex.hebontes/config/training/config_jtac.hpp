@@ -7,9 +7,7 @@ class jtacs {
 	customVariables[] = {
 		{"YMF_iscom", true, true},
 		{"draWhitelisted",TRUE,TRUE},
-		{"TFAR_freq_sr",{"30","150","150.1","150.2","150.3","35","150.9","69"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconmanexplosive_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+		{"TFAR_freq_sr",{"30","150","150.1","150.2","150.3","35","150.9","69"},true}
 	};
     
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanexplosive_ca.paa";

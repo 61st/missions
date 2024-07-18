@@ -5,8 +5,7 @@ class dismount12 {
 
 	};
 	customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","120","120.2","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "RED", true}
+		{"TFAR_freq_sr",{"100.1","120","120.2","33","100","75","60","35"},true}
 	};
 	icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 

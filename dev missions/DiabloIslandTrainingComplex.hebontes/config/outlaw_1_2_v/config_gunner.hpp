@@ -3,8 +3,7 @@ class gunner2 {
     description = "The Driver is responsible for driving the squads APC.";
     traits[] = {};
 	customVariables[] = {
-        {"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true}
+        {"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true}
 	};
     icon = "z\LXIM\addons\media\images\Icons\gunner.paa";
 
