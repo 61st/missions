@@ -1,11 +1,11 @@
-class dismount12 {
-	name = "dismount";
+class operator {
+	name = "operator";
 	description = "Its a grunts life";
 	traits[] = {
 
 	};
 	customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","120","120.2","33","100","75","60","35"},true},
+		{"TFAR_freq_sr",{"100.1","110","110.2","33","100","75","60","35"},true},
         {"YMF_teamcolor", "RED", true}
 	};
 	icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";

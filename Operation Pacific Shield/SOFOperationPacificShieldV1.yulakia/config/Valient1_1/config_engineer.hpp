@@ -1,4 +1,4 @@
-class engineer12 {
+class engineer {
 	name = "Combat Engineer";
 	description = "makes things go boom or not to go boom";
 	traits[] = {
@@ -6,7 +6,7 @@ class engineer12 {
 	};
 	customVariables[] = {
 		{"ace_isEngineer",2,true},
-		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
+		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
         {"YMF_teamcolor", "YELLOW", true}
 	};
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
@@ -39,4 +39,5 @@ class engineer12 {
 		"SLAMDirectionalMine_Wire_Mag",
 		"ACE_Fortify"
 	};
+	
 };

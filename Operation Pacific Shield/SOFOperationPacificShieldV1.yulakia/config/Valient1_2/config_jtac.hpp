@@ -1,4 +1,4 @@
-class jtac11 {
+class jtac2 {
 	name = "JTAC";
 	description = "Big bada boom";
 	traits[] = {
@@ -7,7 +7,7 @@ class jtac11 {
 	customVariables[] = {
 		{"YMF_iscom", true, true},
 		{"draWhitelisted",TRUE,TRUE},
-		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
         {"YMF_teamcolor", "YELLOW", true}
 	};
     

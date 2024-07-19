@@ -1,4 +1,4 @@
-class squadlead11 {
+class squadlead {
 	name = "Squad Leader";
 	description = "the one who looks for who to blame";
 	traits[] = {};
