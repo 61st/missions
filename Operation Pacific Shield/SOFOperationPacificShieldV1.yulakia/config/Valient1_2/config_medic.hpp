@@ -1,16 +1,15 @@
-class medic {
-	name = "Medic";
+class medic2 {
+	name = "medic";
 	description = "MEDIC!";
 	traits[] = {
 		{"Medic",true}
 	};
 	customVariables[] = {
 		{"ace_medical_medicClass",2,true},
-		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
+        {"YMF_teamcolor", "GREEN", true}
 	};
-	icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
+	icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
 
 	defaultLoadout[] = {
             {"SPS_hk417_13_vfg_fde_f","","CUP_acc_ANPEQ_15","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},{},
@@ -21,14 +20,18 @@ class medic {
 			{"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ChemicalDetector_01_watch_F",""}
     };
 	arsenalitems[] = {
+		"kat_accuvac",
+		"kat_pocketBVM",
+		"kat_oxygenTank_300_Item",
+		"kat_oxygenTank_150_Item",
 		"kat_AFAK",
 		"ACE_salineIV_500",
 		"ACE_salineIV_250",
 		"ACE_salineIV",
 		"kat_X_AED",
+		"ACE_epinephrine",
 		"kat_aatKit",
 		"kat_atropine",
-		"ACE_epinephrine",
 		"kat_EACA",
 		"kat_etomidate",
 		"kat_lidocaine",

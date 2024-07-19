@@ -1,14 +1,12 @@
-class co {
-    name = "CO";
-    description = "Head mofo";
-    traits[] = {};
+class squadlead2 {
+	name = "Squad Leader";
+	description = "the one who looks for who to blame";
+	traits[] = {};
     customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true},
-		{"YMF_iscom", true, true},
-		{"draWhitelisted",TRUE,TRUE},
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
+        {"YMF_teamcolor", "MAIN", true}
 	};
-    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
+    icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 
     defaultLoadout[] = {
             {"SPS_hk417_20_afg_fde_f","","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},{},
