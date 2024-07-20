@@ -15,49 +15,49 @@
 			// Second element: seconds length/delay for that event
 			// Third element (optional): Sound to play out of range speakers
 			// Fourth element (optional): delay between end of this event and start of the next, default 2 if not present
-		["Load one 20 round magazine",6],
+		["Load one 20 round magazine",5],
 		["Assume a prone position and scan your lane",3],
 		["Range is hot!",1],
 		["Range is hot!",0,"FD_Course_Active_F",0],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [16,17,18])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [16,17,18])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [16,17,18])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [16,17,18])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
 		[[(selectRandom [1,2,3]),(selectRandom [4,5,6])],10],
 		[[(selectRandom [4,5,6]),(selectRandom [7,8,9])],10],
 		[[(selectRandom [7,8,9]),(selectRandom [10,11,12])],10],
 		[[(selectRandom [7,8,9,10,11,12]),(selectRandom [1,2,3,4,5,6])],10],
-		[[(selectRandom [7,8,9,10,11,12]),long1],10],
-		["Reload one 20 round magazine",6],
+		[[(selectRandom [7,8,9,10,11,12]),selectRandom [16,17,18]],10],
+		["Reload one 20 round magazine",5],
 		["Assume a kneeling position and scan your lane",3],
 		["Range is hot!",1],
 		["Range is hot!",0,"FD_Course_Active_F",0],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [7,8,9,10,11,12])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
-		[[(selectRandom [1,2,3,4,5,6])],6],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [7,8,9,10,11,12])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
+		[[(selectRandom [1,2,3,4,5,6])],5],
 		["Cease Fire!",3],
 		["Standby for final score...",1],
 		["Range complete.",0]
@@ -128,7 +128,9 @@
 		["Range complete.",0]
 	],
 	nil, // target grouping
-	[4,3,2] // qualification tiers
+	[4,3,2], // qualification tiers
+	true,	// add player actions
+	true	// use custom black texture
 ] spawn cav_ranges_fnc_createRange;
 
 [
@@ -148,7 +150,9 @@
 		["Range complete.",0]
 	],
 	nil, // target grouping
-	[8,6,4] // qualification tiers
+	[8,6,4], // qualification tiers
+	true,	// add player actions
+	true	// use custom black texture
 ] spawn cav_ranges_fnc_createRange;
 
 [
@@ -159,37 +163,10 @@
 	4, // targets per lane
 	nil, // Range sequence
 	nil, // target grouping
-	[3,2,1] // qualification tiers
+	[3,2,1], // qualification tiers
+	true,	// add player actions
+	true	// use custom black texture
 ] spawn cav_ranges_fnc_createRange;
-
-_marksmanDelay = 20;
-[
-	"targets", //range type
-	"Marksman Range", // title text
-	"mr", // range tag
-	1, // lane count
-	11, // targets per lane
-	[ // Range sequence
-		["Load your magazine",5],
-		["Range is hot!",5],
-		[[1],_marksmanDelay],
-		[[2],_marksmanDelay],
-		[[3],_marksmanDelay],
-		[[4],_marksmanDelay],
-		[[5],_marksmanDelay],
-		[[6],_marksmanDelay],
-		[[7],_marksmanDelay],
-		[[8],_marksmanDelay],
-		[[9],_marksmanDelay],
-		[[10],_marksmanDelay],
-		[[11],_marksmanDelay],
-		["Safe your weapon.",3],
-		["Range complete.",0]
-	],
-	nil, // target grouping
-	[11,9,7] // qualification tiers
-] spawn cav_ranges_fnc_createRange;
-
 
 // MG Range
 _group1 = [1,2,3,4,5];

@@ -1,4 +1,4 @@
-//REQUIRED
+[//REQUIRED
 ["crate_medicalInfantry", [
     ["Attachable_Helistretcher",1],
     ["kat_IFAK",12],
@@ -1240,3 +1240,4 @@
     // Medical
     ["kat_IFAK", 8]
 ]]
+];

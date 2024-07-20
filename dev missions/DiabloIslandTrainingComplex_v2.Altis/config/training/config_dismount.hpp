@@ -5,7 +5,7 @@ class recruit {
 
 	};
 	customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","150","150.1","33","100","75","60","35"},true}
+		{"TFAR_freq_sr",{"100.1","150","150.2","33","100","75","60","35"},true}
 	};
 	icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 

@@ -11,6 +11,5 @@ import RscDisplayTeamSwitch;
 
 #include "dialogs\defines.hpp"
 #include "dialogs\groupMenu.hpp"
-#include "dialogs\environmentalControlMenu.hpp"
 #include "dialogs\patientSpawnMenu.hpp"
 #include "dialogs\tp_dialog.hpp"

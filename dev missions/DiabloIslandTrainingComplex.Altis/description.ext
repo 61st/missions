@@ -32,11 +32,20 @@ respawn=3;
 skipLobby = 1;
 
 /* SERVER STUFF ----------------------------------------------------------------------------------------------------- */
-
+#include "config\config_admins.hpp"
 enableDebugConsole[] = {DEBUG_ADMINS};
 cba_settings_whitelist[] = {CBA_ADMINS};
 
 enableTargetDebug = 1;
+
+/* GARBADGE COLLECTIOR ---------------------------------------------------------------------------------------------- */
+
+corpseManagerMode = 3;
+corpseLimit = 25;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 7200;
+minPlayerDistance = 250;
+
 
 
  /* ------------------------------------------------------------------------------------------------------------------ */
