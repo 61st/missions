@@ -6,7 +6,8 @@ class medic {
 	};
 	customVariables[] = {
 		{"ace_medical_medicClass",2,true},
-		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true}
+		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
+        {"YMF_teamcolor", "GREEN", true}
 	};
 	icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
 
