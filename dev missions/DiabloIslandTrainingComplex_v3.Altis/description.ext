@@ -1,0 +1,97 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                    */
+/*                                                Nothing to Edit Here                                                */
+/*                                                                                                                    */
+/*                                You should only edit the files in the Configs folder                                */
+/*                                                                                                                    */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+// cba_settings_hasSettingsFile = 1;
+
+forceRotorLibSimulation  = 0;
+// 0 - based on player's options
+// 1 - enabled (advanced mode)
+// 2 - disabled (default flight mode)
+
+
+/* SERVER STUFF ----------------------------------------------------------------------------------------------------- */
+
+cba_settings_whitelist[] = {
+    "76561198000002705", //YonV 
+    "76561198176590682", //CARNAGE
+    "76561198068010293" //CURY 
+};
+
+enableTargetDebug = 1;
+enableDebugConsole[] = {
+    "76561198000002705", //YonV 
+    "76561198176590682", //CARNAGE
+    "76561198068010293" //CURY 
+};
+
+enableTargetDebug = 1;
+respawn=3;
+// skipLobby = 1;
+
+disabledAI               = true;
+disableChannels[]        = {{0,false,true},{1,false,true},{2,true,true},{6,true,true}};
+
+
+/* GARBADGE COLLECTIOR ---------------------------------------------------------------------------------------------- */
+
+corpseManagerMode = 3;
+corpseLimit = 25;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 7200;
+minPlayerDistance = 250;
+
+/* RESPAWN ---------------------------------------------------------------------------------------------------------- */
+
+// Name a marker "respawn_west" to set spawn.
+// See https://community.bistudio.com/wiki/Arma_3_Respawn for more info on respawn.
+respawn                = BASE;
+respawnDelay           = 4;
+//respawnDelay           = 30000;               // Enable for 1 life operations and disable the other.
+respawnOnStart         = -1;
+respawnTemplatesWest[] = {"MenuPosition"};
+//respawnTemplates[] = {"spectator"};       // Enable for 1 life operations and disable the other.
+
+/* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
+
+class Header {
+    gameType = Coop;
+    minPlayers = 1;
+    maxPlayers = 100;
+};
+
+class Extended_PreInit_EventHandlers {
+    Scripts_preInit = "0 spawn compile preprocessFileLineNumbers 'Scripts\preInit.sqf'";
+        class Rev_settings {init = "call compile preprocessFileLineNumbers 'Scripts\Rev_teleport\Rev_tp_settings.sqf'";};
+
+};
+class Extended_PostInit_EventHandlers {
+    Scripts_postInit = "0 spawn compile preprocessFileLineNumbers 'Scripts\postInit.sqf'";
+};
+
+class CfgFunctions {
+    #include "Scripts\CfgFunctions.hpp"
+};
+#include "Scripts\CfgGUI.hpp"
+#include "Scripts\CfgLoadouts.hpp"
+#include "Scripts\CfgSimulator.hpp"
+
+
+// https://github.com/acemod/ACEX/tree/master/addons/killtracker
+class CfgDebriefingSections {
+    class acex_killTracker {
+        title = "Acex Killed Events";
+        variable = "acex_killTracker_outputText";
+    };
+};
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                          WHAT DID I TELL YOU ABOUT EDITING                                         */
+/* ------------------------------------------------------------------------------------------------------------------ */
+

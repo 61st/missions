@@ -6,8 +6,7 @@ class engineer12 {
 	};
 	customVariables[] = {
 		{"ace_isEngineer",2,true},
-		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "YELLOW", true}
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true}
 	};
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 

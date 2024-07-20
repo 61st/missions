@@ -5,9 +5,7 @@ class mark {
 
 	};
 	customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconman_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true}
 	};
 	icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 

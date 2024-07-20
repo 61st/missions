@@ -6,9 +6,7 @@ class engineers {
 	};
 	customVariables[] = {
 		{"ace_isEngineer",2,true},
-		{"TFAR_freq_sr",{"30","150","150.1","150.2","150.3","34","150.9","69"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+		{"TFAR_freq_sr",{"30","150","150.1","150.2","150.3","34","150.9","69"},true}
 	};
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 

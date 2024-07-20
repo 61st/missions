@@ -3,9 +3,7 @@ class pilot {
     description = "weeeeeeeeeeeee";
     traits[] = {};
 	customVariables[] = {
-        {"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true},
-		// {"diwako_dui_indicators_customIcon", "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+        {"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true}
 	};
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 

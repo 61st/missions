@@ -3,8 +3,7 @@ class cmd2 {
     description = "Your uber is here";
     traits[] = {};
     customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true},
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 

@@ -7,8 +7,7 @@ class squadleadr {
     customVariables[] = {
 		{"ace_isEngineer",2,true},
 		{"TFAR_freq_sr",{"500","401","402","403","404","405","69","70"},true},
-		// {"diwako_dui_indicators_customIcon", "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+
 		};
 
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";

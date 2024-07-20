@@ -6,9 +6,7 @@ class medicp {
 	};
 	customVariables[] = {
 		{"ace_medical_medicClass",2,true},
-		{"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true},
-		// {"diwako_dui_indicators_customIcon", "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa", true},
-        {"YMF_teamcolor", "MAIN", true}
+		{"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true}
 	};
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
 

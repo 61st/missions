@@ -17,12 +17,8 @@ if (!isMultiplayer) then {SHOW_CHAT_WARNING("", "Mission is running on singelpla
 
 enableSaving [false, false];
 
-/* To Turns off or on ambient Wildelife, Ambient Sounds and wind sound strenght. ------------------------------------ */
-/* enableEnvironment [ambientLife, ambientSound, windyCoef] --------------------------------------------------------- */
-[{
-    // Disable Ambient Animals
-    [{time > 0}, {enableEnvironment [false, true, 1];}] call CBA_fnc_waitUntilAndExecute;
-}] call CBA_fnc_directCall;
+// To Turns off or on ambient Wildelife, Ambient Sounds and wind sound strenght.
+enableEnvironment [false, true, 1];
 
 ACE_maxWeightCarry = 7500;
 ACE_maxWeightDrag = 10000;

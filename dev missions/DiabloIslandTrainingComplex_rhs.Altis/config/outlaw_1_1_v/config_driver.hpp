@@ -6,8 +6,7 @@ class driver1 {
 	};
 	customVariables[] = {
 		{"ace_isEngineer",1,true},
-        {"TFAR_freq_sr",{"100.1","110","210","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true}
+        {"TFAR_freq_sr",{"100.1","110","210","33","100","75","60","35"},true}
 	};
     icon = "z\LXIM\addons\media\images\Icons\driver.paa";
 

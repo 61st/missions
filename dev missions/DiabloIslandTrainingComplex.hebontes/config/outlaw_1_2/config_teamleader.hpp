@@ -3,8 +3,7 @@ class teamlead12 {
 	description = "the one who is to blame";
 	traits[] = {};
     customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "RED", true}
+		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true}
 	};
     icon = "z\LXIM\addons\media\images\Icons\iconmanleader_red.paa";
 

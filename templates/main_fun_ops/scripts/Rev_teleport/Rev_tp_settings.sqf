@@ -11,7 +11,7 @@
  */
 
 
-#define REV_TP_SETTINGS "Reeveli's teleportation system"
+#define REV_TP_SETTINGS "61st Teleportation system"
 private _YMFsettings = "YMF Mission Settings";
 
 //Action radius

@@ -3,8 +3,7 @@ class driver1 {
     description = "vroom vroom";
     traits[] = {};
 	customVariables[] = {
-        {"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true}
+        {"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true}
 	};
     icon = "z\LXIM\addons\media\images\Icons\driver.paa";
 

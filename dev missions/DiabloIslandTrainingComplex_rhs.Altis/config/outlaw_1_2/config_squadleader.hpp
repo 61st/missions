@@ -4,7 +4,6 @@ class squadlead12 {
 	traits[] = {};
     customVariables[] = {
 		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true},
-        {"YMF_teamcolor", "MAIN", true},
 		{"cav_ranges_instructor", true, true}
 	};
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
