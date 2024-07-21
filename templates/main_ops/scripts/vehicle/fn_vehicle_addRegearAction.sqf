@@ -19,7 +19,7 @@ params [["_vehicle", objNull, [objNull]]];
 
 if (isNull _vehicle) exitWith {};
 
-private _icon = "scripts\Data\Icon\icon_00.paa" call FUNC(getIcon);
+private _icon = "scripts\data\Icon\icon_00.paa" call FUNC(getIcon);
 
 private _condition = { call FUNC(checkStagingZone) };
 private _stagingCat = [QEGVAR(Actions_Vehicle,Repair), "Regear", _icon, {

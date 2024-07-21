@@ -13,7 +13,7 @@
  */
 
 INFO("VehiclePylon", "Creating pylons database");
-private _raw = call compileFinal preprocessfilelinenumbers 'config\config_pylons.hpp';
+private _raw = call compileFinal preprocessfilelinenumbers 'config\config_pylons.sqf';
 private _processed = createHashMap;
 
 {

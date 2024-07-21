@@ -143,7 +143,6 @@
                 ["4Rnd_Titan_long_missiles",[0],4]
             ]]
         ]],
-        
         ["engineer",[
             ["displayName", "Engineer"],
             ["icon", ""],
@@ -163,7 +162,7 @@
                 ["2Rnd_Titan_long_missiles_ENG",[0],4]
             ]]
         ]],
-        ["balanced",[
+        ["default",[
             ["displayName", "Balanced"],
             ["icon", ""],
             ["loadout",[

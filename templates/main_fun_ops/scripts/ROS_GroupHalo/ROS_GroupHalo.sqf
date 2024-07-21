@@ -59,13 +59,7 @@ this addAction ["<t color='#b2ff66'>Move C130</t>",{[C130] execVM "scripts\ROS_G
 
 3) Add the following code to your initPlayerLocal.sqf file:
 
-[missionNamespace, "arsenalOpened", {
-	player setVariable ["PlayerReady",false,true];
-}] remoteExecCall ["BIS_fnc_addScriptedEventHandler", [0, -2] select isDedicated];
-[missionNamespace, "arsenalClosed", {
-	player setVariable ["PlayerReady",true,true];
-}] remoteExecCall ["BIS_fnc_addScriptedEventHandler", [0, -2] select isDedicated];
-player setVariable ["PlayerReady",true,true];
+
 
 4) Add the sound classes to CFGSounds in your description.ext - see example description.ext for reference.
 

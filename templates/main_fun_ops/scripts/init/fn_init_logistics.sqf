@@ -14,9 +14,7 @@
 
 
 INFO("Logistics", "Creating logistical database");
-private _dataArray = [
-    #include "..\..\config\config_loadouts.hpp"
-];
+private _dataArray = call compileFinal preprocessfilelinenumbers 'config\config_logistics.sqf';
 
 private _return = createHashMapFromArray _dataArray;
 

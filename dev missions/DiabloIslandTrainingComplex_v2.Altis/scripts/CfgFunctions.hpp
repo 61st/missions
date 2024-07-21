@@ -168,6 +168,7 @@ class YMF {
         class gear_preInit { preInit = 1; };
         class gear_postInitProxy { postInit = 1; };
         class gear_postInit {};
+
     };
     class training {
         file = "scripts\training";

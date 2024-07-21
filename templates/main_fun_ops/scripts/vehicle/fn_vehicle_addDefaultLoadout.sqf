@@ -14,7 +14,6 @@
  *
  * Public: No
  */
-
 params [["_vehicle", objNull, [objNull]]];
 
 if (!isServer) exitWith {};

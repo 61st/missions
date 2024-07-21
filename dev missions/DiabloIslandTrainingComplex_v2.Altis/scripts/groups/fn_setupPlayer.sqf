@@ -52,7 +52,7 @@ if (_isRespawn) then {
 
 	player setVariable ["YMF_role",_desiredRole,true];
 
-	/* /rank stuff ------------------------------------------------------------------------------------------------------ */
+	/* rank stuff ------------------------------------------------------------------------------------------------------ */
 	[player, 'BIS'] call EFUNC(player,setRank);
 	call EFUNC(player,setRankpatch);
 

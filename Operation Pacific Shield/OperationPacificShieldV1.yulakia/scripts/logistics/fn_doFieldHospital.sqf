@@ -22,7 +22,7 @@ params [
 INFO("", "Field Hostiptal applied to %1.", _crate);
 
 // Make addAction Topic
-_crate addAction ["<img image='scripts\Data\Icon\icon_00.paa' /> YMF Field Hospital", {}, [], 1.5, true, true, "", "true", 5];
+_crate addAction ["<img image='scripts\data\Icon\icon_00.paa' /> YMF Field Hospital", {}, [], 1.5, true, true, "", "true", 5];
 
 if (_isFacility) then {
     _crate setVariable ["ace_medical_isMedicalFacility", true, true];

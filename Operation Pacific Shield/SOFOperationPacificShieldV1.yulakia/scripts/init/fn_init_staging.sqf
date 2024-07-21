@@ -51,7 +51,7 @@ private _conditionr = { isNull objectParent player && {player getVariable ["cav_
 private _stagingCat = [
 	QEGVAR(Actions,StagingCategory), 
 	"Staging Zone", 
-	"scripts\Data\Icon\icon_00.paa", 
+	"scripts\data\Icon\icon_00.paa", 
 	{true}, 
 	_condition1
 	] call ace_interact_menu_fnc_createAction;
@@ -61,7 +61,7 @@ private _category = ["ACE_SelfActions", QEGVAR(Actions,StagingCategory)];
 
 // addAction notice
 player addAction [
-    "<img image='scripts\Data\Icon\icon_00.paa' /> <t color='#ffc61a'>YMF Staging Zone</t> <img image='scripts\Data\Icon\icon_00.paa' />",
+    "<img image='scripts\data\Icon\icon_00.paa' /> <t color='#ffc61a'>YMF Staging Zone</t> <img image='scripts\data\Icon\icon_00.paa' />",
     {
         params ["_target", "_caller", "_actionId", "_arguments"];
         [
@@ -109,7 +109,7 @@ if EGVAR(patches,usesACE) then {
 	private _arsenalCategory = [
 		"arsenalCategory",
 		"Arsenal",
-		"scripts\Data\Icon\icon_arsenal_ca.paa",
+		"scripts\data\Icon\icon_arsenal_ca.paa",
 		{[player,player,false] call ace_arsenal_fnc_openBox},
 		_condition3
 	] call ace_interact_menu_fnc_createAction;
@@ -120,7 +120,7 @@ if EGVAR(patches,usesACE) then {
 	// private _tpCategory = [
 	// 	"TPCategory",
 	// 	"TP",
-	// 	"scripts\Data\Icon\Teleport_Pos_64x64.paa",
+	// 	"scripts\data\Icon\Teleport_Pos_64x64.paa",
 	// 	{[0] spawn A3U_Teleport_fnc_initStyle0;},
 	// 	_condition3
 	// ] call ace_interact_menu_fnc_createAction;
@@ -129,16 +129,11 @@ if EGVAR(patches,usesACE) then {
 	private _tpCategory = [
 		"TPCategory",
 		"TP",
-		"scripts\Data\Icon\Teleport_Pos_64x64.paa",
+		"scripts\data\Icon\Teleport_Pos_64x64.paa",
 		{createDialog "Rev_tp_dialog"},
 		_condition3
 	] call ace_interact_menu_fnc_createAction;
 	[player,1,_category,_tpCategory] call ace_interact_menu_fnc_addActionToObject;
-
-	["ace_arsenal_displayClosed",{
-		YMF_savedLoadout = getUnitLoadout player;
-		player addItem "ItemAndroidMisc";
-	}] call CBA_fnc_addEventHandler;
 	};
 
 
