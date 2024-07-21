@@ -30,8 +30,8 @@ private _conditionHoldAction = format ["((_target getCargoIndex player) != -1) &
 private _actionID = [
     _vehicle,
     "<t color='#800080'>HALO Jump</t>",
-    "scripts\Data\Icon\icon_02.paa",
-    "scripts\Data\Icon\icon_02.paa",
+    "scripts\data\Icon\icon_02.paa",
+    "scripts\data\Icon\icon_02.paa",
     _conditionHoldAction,
     "true",
     {},

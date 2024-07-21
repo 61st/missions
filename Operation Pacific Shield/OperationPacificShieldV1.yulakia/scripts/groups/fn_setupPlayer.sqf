@@ -52,17 +52,11 @@ if (_isRespawn) then {
 
 	player setVariable ["YMF_role",_desiredRole,true];
 
-	/* Team stuff ------------------------------------------------------------------------------------------------------- */
-	_playerTColor = player getVariable "YMF_teamcolor";
-	player assignTeam _playerTColor;
-
-	/* /rank stuff ------------------------------------------------------------------------------------------------------ */
+	/* rank stuff ------------------------------------------------------------------------------------------------------ */
 	[player, 'BIS'] call EFUNC(player,setRank);
 	call EFUNC(player,setRankpatch);
 
 	/* Name Stuff ------------------------------------------------------------------------------------------------------- */
 	call LXIM_w28fixes_fnc_player_set_name;
-
-	/* forcectab -------------------------------------------------------------------------------------------------------- */
-	player addItem "ItemAndroidMisc";
 };
+

@@ -67,6 +67,20 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
     };
 };
 
+if (_vehicle iskindOf "lxim_outlaw_eng_base_F") then {
+    switch (_vehicleType) do {
+        case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
+        default {};
+    };
+};
+
+if (_vehicle iskindOf "lxim_outlaw_AA_base_F") then {
+    switch (_vehicleType) do {
+        case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
+        default {};
+    };
+};
+
 if (_vehicle iskindOf "rhsusf_stryker_base") then {
     switch (_vehicleType) do {
         case "rhsusf_stryker_m1126_m2_d";

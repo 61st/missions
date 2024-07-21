@@ -148,7 +148,7 @@ private _YMFsettings = "YMF Mission Settings";
     "EDITBOX",
     ["Factions","Array of factions allowing system loadout and pylon changes"],
     [_YMFsettings, "Vehicle"],
-    '["BLU_W_F","BLU_T_F","BLU_NATO_lxWS","BLU_F","rhs_faction_usarmy_wd","rhs_faction_socom","rhs_faction_usaf","rhs_faction_usarmy_d","tweed_UA_21","lxim"]',
+    '["BLU_W_F","BLU_T_F","BLU_NATO_lxWS","BLU_F","rhs_faction_usaf", "rhs_faction_usarmy", "rhs_faction_usarmy_d", "rhs_faction_usarmy_wd", "rhs_faction_usmc", "rhs_faction_usmc_d", "rhs_faction_usmc_wd", "rhs_faction_usn","rhs_faction_socom","USAF","tweed_UA_21","lxim"]',
     true,
     {},
     true
@@ -187,7 +187,7 @@ private _YMFsettings = "YMF Mission Settings";
     true
 ] call CBA_fnc_addSetting;
 [ // M67 Fragmentation Grenade
-    QEGVAR(Settings,replaceHandGrenades),
+    QEGVAR(Settings,replacerhs_mag_m67s),
     "LIST",
     ["M67 Fragmentation Grenade","Force specific usage of sertain objects"],
     [_YMFsettings, "Item Replacement"],

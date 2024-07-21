@@ -25,10 +25,10 @@ if (!isNil{_vehicle getVariable QEGVAR(VehicleFunc,StagingActions)}) exitWith {S
 INFO_2("VehicleStagingActions", "Applying vehicle staging actions to %1 (%2)", _vehicle, typeOf _vehicle);
 
 private _condition = { call FUNC(checkStagingZone) };
-private _stagingCat = [QEGVAR(Actions_Vehicle,Main_Cat), "Vehicle Staging Zone", "scripts\Data\Icon\icon_00.paa", {true}, _condition] call ace_interact_menu_fnc_createAction;
+private _stagingCat = [QEGVAR(Actions_Vehicle,Main_Cat), "Vehicle Staging Zone", "scripts\data\Icon\icon_00.paa", {true}, _condition] call ace_interact_menu_fnc_createAction;
 private _actionArray = [_vehicle, 1, ["ACE_SelfActions"], _stagingCat] call ace_interact_menu_fnc_addActionToObject;
 
-private _stagingCat = [QEGVAR(Actions_Vehicle,Cosmetic_Cat), "Vehicle Cosmetics", "scripts\Data\Icon\icon_00.paa", {true}, {true}] call ace_interact_menu_fnc_createAction;
+private _stagingCat = [QEGVAR(Actions_Vehicle,Cosmetic_Cat), "Vehicle Cosmetics", "scripts\data\Icon\icon_00.paa", {true}, {true}] call ace_interact_menu_fnc_createAction;
 [_vehicle, 1, ["ACE_SelfActions", QEGVAR(Actions_Vehicle,Main_Cat)], _stagingCat] call ace_interact_menu_fnc_addActionToObject;
 
 [_vehicle] call EFUNC(vehicle,addRegearAction);

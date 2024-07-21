@@ -39,6 +39,80 @@ private _textures = [
                 _vehicle animateSource ["showSLATHull",1, true];
             };
         }
+    ]],
+    ["lxim_outlaw_eng_base_F", "Toggle Camo Net", [
+        "",
+        {
+            private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
+            if (_camoNetMounted == 1) then {
+                _vehicle animateSource ["showCamonetHull",0, true];
+            } else {
+                _vehicle animateSource ["showCamonetHull",1, true];
+            };
+        }
+    ]],
+    ["lxim_outlaw_eng_base_F", "Toggle Slats", [
+        "",
+        {
+            private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
+            if (_slatsAreAttached == 1) then {
+                _vehicle animateSource ["showSLATHull",0, true];
+            } else {
+                _vehicle animateSource ["showSLATHull",1, true];
+            };
+        }
+    ]],
+    ["lxim_outlaw_AA_base_F", "Toggle Camo Net", [
+        "",
+        {
+            private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
+            if (_camoNetMounted == 1) then {
+                _vehicle animateSource ["showCamonetHull",0, true];
+            } else {
+                _vehicle animateSource ["showCamonetHull",1, true];
+            };
+        }
+    ]],
+    ["lxim_outlaw_AA_base_F", "Toggle Slats", [
+        "",
+        {
+            private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
+            if (_slatsAreAttached == 1) then {
+                _vehicle animateSource ["showSLATHull",0, true];
+            } else {
+                _vehicle animateSource ["showSLATHull",1, true];
+            };
+        }
+    ]],
+    ["rhsusf_m1a1tank_base", "Thunder (120mm IV)", [
+        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_120mmIV_ca.paa",
+        {
+            [_vehicle, [
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\4_ca.paa"],
+                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_120mmIV_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setVariable [QEGVAR(Vehicle,Callsign), 1, true];
+        }
+    ]],
+    ["rhsusf_m1a1tank_base", "Thunder-1 (War Daddy)", [
+        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_wardaddy_ca.paa",
+        {
+            [_vehicle, [
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\1_ca.paa"],
+                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_wardaddy_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
+        }
+    ]],
+    ["rhsusf_m1a1tank_base", "Thunder-2 (War Mommy)", [
+        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warmommy_ca.paa",
+        {
+            [_vehicle, [
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
+                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warmommy_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
+        }
     ]]
 ];
 

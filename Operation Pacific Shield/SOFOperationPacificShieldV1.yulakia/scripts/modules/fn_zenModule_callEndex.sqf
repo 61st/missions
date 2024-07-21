@@ -41,7 +41,7 @@ params ["_modulePos", "_objectPos"];
 
         //hint Endex message
         private _title = "<t color='#ffc61a' size='1.2' shadow='1' shadowColor='#000000' align='center'>ENDEX ENDEX ENDEX!</t><br />";
-        private _image = "<img size='5' image='scripts\Data\Icon\icon_00.paa' align='center'/><br /><br />";
+        private _image = "<img size='5' image='scripts\data\Icon\icon_00.paa' align='center'/><br /><br />";
         private _text0 = "<t font='PuristaMedium' size='1.1'>Mission complete</t><br /><br />";
         private _text1 = "Hold your fire and report to your Squad Leaders for debriefing.<br />";
         private _text3 = "<t font='PuristaMedium' size='1.1'>Please safe your weapons if you haven't already!</t>";
@@ -90,7 +90,7 @@ params ["_modulePos", "_objectPos"];
                                     [_unit, 'USA'] call EFUNC(player,getRank),
                                     [_unit] call EFUNC(unit,getName)
                                 ];
-                                private _hfimage = "<img size='5' image='scripts\Data\Icon\icon_00.paa' align='center'/><br /><br />";
+                                private _hfimage = "<img size='5' image='scripts\data\Icon\icon_00.paa' align='center'/><br /><br />";
                                 private _hftext = "You are not allowed to discharge your weapon during Endex.<br />";
 
                                 hint parseText (_hftitle + _hfimage + _hftext);

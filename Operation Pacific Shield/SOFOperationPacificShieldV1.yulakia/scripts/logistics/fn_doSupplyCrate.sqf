@@ -83,10 +83,10 @@ private _largeBox = [
     "B_CargoNet_01_ammo_F"
 ];
 if (typeOf _crate in _smallBox) then {
-    _crate setObjectTextureGlobal  [0, "\scripts\Data\Images\AmmoBox_signs_YMF_ammo_CA.paa"];
+    _crate setObjectTextureGlobal  [0, "\scripts\data\Images\AmmoBox_signs_YMF_ammo_CA.paa"];
 };
 if (typeOf _crate in _largeBox) then {
-    _crate setObjectTextureGlobal  [1, "\scripts\Data\Images\AmmoBox_signs_YMF_ammo_CA.paa"];
+    _crate setObjectTextureGlobal  [1, "\scripts\data\Images\AmmoBox_signs_YMF_ammo_CA.paa"];
 };
 
 // Add object to the curator for all Zeuses

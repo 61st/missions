@@ -51,9 +51,11 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
 
     switch (_vehicleType) do {
 
+        case "lxim_outlaw_g";
+        case "lxim_outlaw_d";
         case "lxim_outlaw_g_V11";
-        case "lxim_outlaw_d_V11";
         case "lxim_outlaw_g_V12";
+        case "lxim_outlaw_d_V11";
         case "lxim_outlaw_d_V12";
         case "lxim_outlaw_g_Vhq";
         case "lxim_outlaw_d_Vhq": {
@@ -70,86 +72,6 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory and missles
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],2]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
-        };
-
-        case "lxim_outlaw_AA__g_V11";
-        case "lxim_outlaw_AA__d_V11";
-        case "lxim_outlaw_AA__g_V12";
-        case "lxim_outlaw_AA__d_V12";
-        case "lxim_outlaw_AA__g_Vhq";
-        case "lxim_outlaw_AA__d_Vhq": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf")
-            ] call FUNC(setCargo);
-            
-            // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],2]; 
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
-        };
-
-        case "lxim_outlaw_AA__g_V11";
-        case "lxim_outlaw_AA__d_V11";
-        case "lxim_outlaw_AA__g_V12";
-        case "lxim_outlaw_AA__d_V12";
-        case "lxim_outlaw_AA__g_Vhq";
-        case "lxim_outlaw_AA__d_Vhq": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf")
-            ] call FUNC(setCargo);
-            
-            // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],2]; 
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
-        };
-
-        case "lxim_outlaw_d_rino";
-        case "lxim_outlaw_g_rino": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf_eng")
-            ] call FUNC(setCargo);
-            
-            // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
 
             // Supply Crate
@@ -194,6 +116,63 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory and missles
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["rhs_fim92_mag",1],[],""],1]; 
+
+            // Supply Crate
+            ["Box_NATO_Wps_F", 
+                GET_CONTAINER("crate_resupply_general"), 
+                _vehicle, nil, "Resupply Crate"
+            ] call FUNC(createCargoCrate);
+        };
+
+        default {
+            // Vehicle Inventory
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf")
+            ] call FUNC(setCargo);
+
+            // KAC_LWAMG with sight into vehicle inventory
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
+
+
+            // Supply Crate
+            ["Box_NATO_Wps_F", 
+                GET_CONTAINER("crate_resupply_general"), 
+                _vehicle, nil, "Resupply Crate"
+            ] call FUNC(createCargoCrate);
+        };
+        
+
+    };
+};
+
+if (_vehicle iskindOf "lxim_outlaw_eng_base_F") then {
+    [_vehicle, 15, 38, false, false] call FUNC(setCargoAttributes);
+    
+    // Emergency kit in case of tire damage and fuel loss.
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
+
+    switch (_vehicleType) do {
+
+        case "lxim_outlaw_d_rino";
+        case "lxim_outlaw_g_rino": {
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+
+            // Vehicle Inventory
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf_eng")
+            ] call FUNC(setCargo);
+            
+            // KAC_LWAMG with sight into vehicle inventory and missles
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
 
             // Supply Crate
@@ -226,6 +205,67 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
     };
 };
 
+if (_vehicle iskindOf "lxim_outlaw_AA_base_F") then {
+    [_vehicle, 15, 38, false, false] call FUNC(setCargoAttributes);
+    
+    // Emergency kit in case of tire damage and fuel loss.
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
+
+    switch (_vehicleType) do {
+
+        case "lxim_outlaw_AA_g";
+        case "lxim_outlaw_AA_d";
+        case "lxim_outlaw_AA_g_V11";
+        case "lxim_outlaw_AA_g_V12";
+        case "lxim_outlaw_AA_d_V11";
+        case "lxim_outlaw_AA_d_V12",
+        case "lxim_outlaw_AA_d_Vhq",
+        case "lxim_outlaw_AA_g_Vhq": {
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+
+            // Vehicle Inventory
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf")
+            ] call FUNC(setCargo);
+            
+            // KAC_LWAMG with sight into vehicle inventory and missles
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],2]; 
+
+            // Supply Crate
+            ["Box_NATO_Wps_F", 
+                GET_CONTAINER("crate_resupply_general"), 
+                _vehicle, nil, "Resupply Crate"
+            ] call FUNC(createCargoCrate);
+        };
+
+        default {
+            // Vehicle Inventory
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf")
+            ] call FUNC(setCargo);
+
+            // KAC_LWAMG with sight into vehicle inventory
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
+
+
+            // Supply Crate
+            ["Box_NATO_Wps_F", 
+                GET_CONTAINER("crate_resupply_general"), 
+                _vehicle, nil, "Resupply Crate"
+            ] call FUNC(createCargoCrate);
+        };
+    };
+};
+
 if (_vehicle iskindOf "MRAP_01_base_F") then {
         switch (_vehicleType) do {
         default {
@@ -251,7 +291,7 @@ if (_vehicle iskindOf "MRAP_01_base_F") then {
                 GET_CONTAINER("vehicle_Wheeled")
             ] call FUNC(setCargo);
             // missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_M136","","","",[],[],""],2]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_M136","","","",[],[],""],2]; 
         };
     };
 };
@@ -290,6 +330,12 @@ if (_vehicle iskindOf "APC_Wheeled_01_base_F") then {
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
 };
 
+if (_vehicle iskindOf "rhsusf_fmtv_base") then {
+    [_vehicle, 
+        GET_CONTAINER("vehicle_Wheeled")
+    ] call FUNC(setCargo);
+};
+
 if (_vehicle iskindOf "Truck_01_base_F") then {
     switch (_vehicleType) do {
         case "MED": {
@@ -311,6 +357,58 @@ if (_vehicle iskindOf "Truck_01_base_F") then {
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
 };
 
+if (_vehicle iskindOf "rhsusf_stryker_base") then {
+    [_vehicle, 6, 38, false, false] call FUNC(setCargoAttributes);
+
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+    
+    switch (_vehicleType) do {
+        case "rhsusf_stryker_m1126_m2_d";
+        case "rhsusf_stryker_m1126_m2_wd";
+        case "MED": {
+            [_vehicle, 
+                GET_CONTAINER("wheeled_medical")
+            ] call FUNC(setCargo);
+
+            ["ace_medicalSupplyCrate",
+                GET_CONTAINER("crate_medical"),
+                _vehicle
+            ] call FUNC(createCargoCrate);
+        };
+        default {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_stryker")
+            ] call FUNC(setCargo);
+        };
+    };
+    ["FlexibleTank_01_forest_F", false, _vehicle, 1] call FUNC(createCargoCrate);
+};
+
+if (_vehicle iskindOf "RHS_M2A2_Base") then {
+    [_vehicle, 4, -1, false, false] call FUNC(setCargoAttributes);
+
+    [_vehicle, 
+        GET_CONTAINER("vehicle_bradley")
+    ] call FUNC(setCargo);
+
+    ["ACE_Track", _vehicle, true] call ace_cargo_fnc_loadItem;
+};
+
+if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
+    [_vehicle, 4, -1, false, false] call FUNC(setCargoAttributes);
+    ["ACE_Track", _vehicle, true] call ace_cargo_fnc_loadItem;
+
+    [_vehicle, 
+        GET_CONTAINER("vehicle_bradley")
+    ] call FUNC(setCargo);
+};
+
+if (_vehicle iskindOf "RHS_MELB_base") then {
+    [_vehicle, []] call FUNC(setCargo);
+};
+
+
 /* water toys ------------------------------------------------------------------------------------------------------- */
 if (_vehicle iskindOf "Boat_F") then {
         switch (_vehicleType) do {
@@ -322,6 +420,19 @@ if (_vehicle iskindOf "Boat_F") then {
     };
 };
 
+// Deployable
+if (_vehicle iskindOf "rhs_m2staticmg_base") then {
+    [_vehicle, []] call FUNC(setCargo);
+};
+
+if (_vehicle iskindOf "RHS_MK19_TriPod_base") then {
+    [_vehicle, []] call FUNC(setCargo);
+};
+
+if (_vehicle iskindOf "RHS_TOW_TriPod_base") then {
+    [_vehicle, []] call FUNC(setCargo);
+};
+
 
 // Rotary Wing
 if (_vehicle iskindOf "Helicopter_Base_H") then {
@@ -331,7 +442,10 @@ if (_vehicle iskindOf "Helicopter_Base_H") then {
         case "CFP_B_USMC_UH_1Y_Venom_MEV_DES_01";
         case "CFP_B_USARMY_2003_UH_60M_MEV_DES_01";
         case "B_Heli_Transport_01_medevac_F";
-        case "CUP_B_UH60M_Unarmed_FFV_MEV_US"; 
+        case "RHS_UH60M_MEV2_d";
+        case "RHS_UH60M_MEV_d";
+        case "RHS_UH60M_MEV2";
+        case "RHS_UH60M_MEV";
         case "B_W_Heli_Transport_01_medevac_F"; 
         case "B_T_Heli_Transport_01_medevac_F"; 
         case "B_Heli_Transport_01_medevac_F";
@@ -360,7 +474,10 @@ if (_vehicle iskindOf "Heli_Transport_01_base_F") then {
         case "CFP_B_USMC_UH_1Y_Venom_MEV_DES_01";
         case "CFP_B_USARMY_2003_UH_60M_MEV_DES_01";
         case "B_Heli_Transport_01_medevac_F";
-        case "CUP_B_UH60M_Unarmed_FFV_MEV_US"; 
+        case "RHS_UH60M_MEV2_d";
+        case "RHS_UH60M_MEV_d";
+        case "RHS_UH60M_MEV2";
+        case "RHS_UH60M_MEV";
         case "B_W_Heli_Transport_01_medevac_F"; 
         case "B_T_Heli_Transport_01_medevac_F"; 
         case "B_Heli_Transport_01_medevac_F";
@@ -431,6 +548,7 @@ if (_vehicle iskindOf "Heli_Transport_02_base_F") then {
     ] call FUNC(setCargo);
 };
 
+
 if (_vehicle iskindOf "TF373_SOAR_MH47G_Base") then {
     [_vehicle, 
         GET_CONTAINER("vehicle_heliTransport")
@@ -443,6 +561,10 @@ if (_vehicle iskindOf "vtx_MH60M") then {
     ] call FUNC(setCargo);
 };
 
+if (_vehicle iskindOf "RHS_AH64_base") then {
+    [_vehicle, []] call FUNC(setCargo);
+};
+
 // Fixed Wing
 if (_vehicle iskindOf "Plane_Transport_01_base_F") then {
     [_vehicle, 45, -1, false, false] call FUNC(setCargoAttributes);
@@ -453,6 +575,14 @@ if (_vehicle iskindOf "Plane_Transport_01_base_F") then {
 };
 
 if (_vehicle iskindOf "VTOL_01_unarmed_base_F") then {
+    [_vehicle, 45, -1, false, false] call FUNC(setCargoAttributes);
+
+    [_vehicle, 
+        GET_CONTAINER("vehicle_planeTransport")
+    ] call FUNC(setCargo);
+};
+
+if (_vehicle iskindOf "RHS_C130J_Base") then {
     [_vehicle, 45, -1, false, false] call FUNC(setCargoAttributes);
 
     [_vehicle, 

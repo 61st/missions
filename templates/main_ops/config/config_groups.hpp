@@ -1,4 +1,3 @@
-YMF_arsenalBoxes = [arsenal_1,arsenal_2];
 
 class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the group to be shown"}
 	faction_name = "61st";
