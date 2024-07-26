@@ -10,7 +10,7 @@
  *
  * Example:
  * [[0.0,0.0,0.0],"crate_resupply_general"] call YMF_fnc_doSupplyCrate;
- * [[0.0,0.0,0.0],"crate_medicalAtlas"] call YMF_fnc_doSupplyCrate;
+ * [[0.0,0.0,0.0],"crate_medical"] call YMF_fnc_doSupplyCrate;
  */
 
 if (!isServer) exitWith {};
@@ -24,15 +24,17 @@ params [
 private _crateModel = "";
 
 switch (_crateType) do {
-    case "crate_medicalAtlas";
+    case "crate_medical": {
+        _crateModel = "Land_PortableCabinet_01_medical_F";
+    };
     case "crate_medicalInfantry": {
-        _crateModel = "ace_medicalSupplyCrate";
+        _crateModel = "Box_B_UAV_06_medical_F";
     };
     case "crate_stinger": {
         _crateModel = "Box_NATO_WpsLaunch_F";
     };
     default {
-        _crateModel = "Box_NATO_Equip_F";
+        _crateModel = "B_CargoNet_01_ammo_F";
     };
 };
 

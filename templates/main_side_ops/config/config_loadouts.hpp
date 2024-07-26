@@ -1,4 +1,4 @@
-//REQUIRED
+[//REQUIRED
 ["crate_medicalInfantry", [
     ["Attachable_Helistretcher",1],
     ["kat_IFAK",12],
@@ -154,119 +154,61 @@
 
 //REQUIRED
 ["crate_resupply_general", [
-    ["SPS_HKG3PMAG_30Rnd_300BLK_230_S", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_110_T", 0],
-    ["SPS_20Rnd_762x51mm_M80A1_EPR_Tracer", 0],
-    ["UGL_FlareGreen_F", 0],
-    ["UGL_FlareYellow_F", 0],
-    ["1Rnd_SmokeBlue_Grenade_shell", 0],
-    ["ACE_40mm_Flare_ir", 0],
-    ["MAA_MAAWS_HEDP502", 0],
-    ["MAA_MAAWS_GMM_HE", 0],
-    ["Titan_AT", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_147_T", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_110_B", 0],
-    ["UGL_FlareWhite_F", 0],
-    ["UGL_FlareCIR_F", 0],
-    ["30Rnd_9x21_Yellow_Mag", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_147_B", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_230_B", 0],
-    ["16Rnd_9x21_green_Mag", 0],
-    ["MAA_MAAWS_HE441_AB500", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_110_S", 0],
-    ["ACE_40mm_Flare_red", 0],
-    ["16Rnd_9x21_red_Mag", 0],
-    ["16Rnd_9x21_yellow_Mag", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_147_S", 0],
-    ["SPS_20Rnd_762x51mm_M80A1_EPR_IR", 0],
-    ["ACE_40mm_Flare_white", 0],
-    ["MRAWS_HEAT55_F", 0],
-    ["MRAWS_HEAT_F", 0],
-    ["1Rnd_SmokeYellow_Grenade_shell", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_124_T", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_230_T", 0],
-    ["1Rnd_Smoke_Grenade_shell", 0],
-    ["1Rnd_SmokePurple_Grenade_shell", 0],
-    ["1Rnd_SmokeOrange_Grenade_shell", 0],
-    ["16Rnd_9x21_Mag", 0],
-    ["sps_16Rnd_75x27_FK_95gr_jhp", 0],
-    ["MAA_MAAWS_ASM509", 0],
-    ["MAA_MAAWS_ILLUM545", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_124_S", 0],
-    ["SPS_20Rnd_762x51mm_M80A1_EPR", 0],
-    ["WNZ_EMP_MAAWS_Mag", 0],
-    ["MAA_MAAWS_SMOKE469", 0],
-    ["30Rnd_9x21_Red_Mag", 0],
-    ["SPS_HKG3PMAG_30Rnd_300BLK_124_B", 0],
-    ["1Rnd_HE_Grenade_shell", 0],
-    ["30Rnd_9x21_Mag", 0],
-    ["MRAWS_HE_F", 0],
-    ["ACE_40mm_Flare_green", 0],
-    ["30Rnd_9x21_Green_Mag", 0],
-    ["MAA_MAAWS_MT756", 0],
-    ["Titan_AP", 0],
-    ["MAA_MAAWS_ADM401", 0],
-    ["MAA_MAAWS_GMM_HEAT", 0],
-    ["ACE_HuntIR_M203", 0],
-    ["MAA_MAAWS_GMM_MT", 0],
-    ["MAA_MAAWS_HE441_AB100", 0],
-    ["MAA_MAAWS_HE441_AB250", 0],
-    ["Titan_AA", 0],
-    ["UGL_FlareRed_F", 0],
-    ["1Rnd_SmokeRed_Grenade_shell", 0],
-    ["1Rnd_SmokeGreen_Grenade_shell", 0],
-    ["ACE_M14", 0],
-    ["Chemlight_yellow", 0],
-    ["ACE_Chemlight_White", 0],
-    ["ACE_Chemlight_UltraHiOrange", 0],
-    ["Chemlight_red", 0],
-    ["ACE_Chemlight_Orange", 0],
-    ["ACE_Chemlight_IR", 0],
-    ["ACE_Chemlight_HiWhite", 0],
-    ["ACE_Chemlight_HiRed", 0],
-    ["ACE_Chemlight_HiGreen", 0],
-    ["ACE_Chemlight_HiBlue", 0],
-    ["Chemlight_blue", 0],
-    ["Chemlight_green", 0],
-    ["ACE_Chemlight_HiYellow", 0],
-    ["B_IR_Grenade", 0],
-    ["ACE_HandFlare_Yellow", 0],
-    ["ACE_HandFlare_White", 0],
-    ["ACE_HandFlare_Red", 0],
-    ["ACE_HandFlare_Green", 0],
-    ["SmokeShellBlue", 0],
-    ["SmokeShellGreen", 0],
-    ["SmokeShellOrange", 0],
-    ["SmokeShellPurple", 0],
-    ["SmokeShellRed", 0],
-    ["SmokeShellYellow", 0],
-    ["HandGrenade", 0],
-    ["SmokeShell", 0],
-    ["ACE_M84", 0],
-    ["MS_Strobe_Mag_1", 0],
-    ["MS_Strobe_Mag_2", 0],
-    ["tsp_popperCharge_auto_mag", 0],
-    ["ACE_SpraypaintYellow", 0],
-    ["ACE_SpraypaintRed", 0],
-    ["ACE_SpraypaintGreen", 0],
-    ["ACE_SpraypaintBlue", 0],
-    ["ACE_SpraypaintBlack", 0],
-    ["ACE_SpraypaintWhite", 0],
-    ["ACE_tourniquet", 0],
-    ["ace_marker_flags_yellow", 0],
-    ["ace_marker_flags_white", 0],
-    ["ace_marker_flags_red", 0],
-    ["ace_marker_flags_purple", 0],
-    ["ace_marker_flags_orange", 0],
-    ["ace_marker_flags_green", 0],
-    ["ace_marker_flags_blue", 0],
-    ["ace_marker_flags_black", 0],
-    ["ACE_fieldDressing", 0],
-    ["kat_IFAK", 0],
-    ["ACE_CableTie", 0],
-    ["ACE_IR_Strobe_Item", 0]
+        // Rifle Ammo
+        ["SPS_20Rnd_762x51mm_M80A1_EPR",80],
+        ["SPS_HKG3PMAG_30Rnd_556x45_M855A1_B",20],
+        
+        // MG Ammo
+        ["SPS_KAC_LAMG_M856A1_150rnd_T_Box",16],
+        ["SPS_KAC_LWAMG_100rnd_Box_T",16],
 
-]],
+        // AT
+        ["CUP_Javelin_M",3],
+        ["MRAWS_HEAT_F",6],
+        ["MRAWS_HE_F",3],
+        ["CUP_launch_M136",8],
+        
+        // AA
+        ["CUP_Stinger_M",3],
+        
+        // M320 Ammo
+        ["CUP_1Rnd_HEDP_M203",20],
+        ["1Rnd_HE_Grenade_shell",20],
+        ["ACE_HUNTIR_M203",5],
+        ["ACE_40mm_Flare_white",10],
+        ["ACE_40mm_Flare_IR",10],
+        
+        // Offensive/Defensive Hand Grenades
+        ["HandGrenade",20],
+
+        // LTL Hand Grenades
+        ["ACE_M84",10],
+        ["MS_Strobe_Mag_2",4],
+        ["MS_Strobe_Mag_1",4],
+        ["ACE_IR_Strobe_Item",4],
+        ["ACE_Chemlight_IR",10],
+
+        // Smoke Grenades
+        ["SmokeShell",30],
+        ["SmokeShellRed",10],
+        ["SmokeShellBlue",10],
+
+        // Chemlights
+        ["ACE_Chemlight_HiRed",15],
+        ["ACE_Chemlight_HiBlue",15],
+        ["ACE_Chemlight_IR",15],
+
+        // Explosives
+        ["lxim_breaching_BreachingCharge_Mag",8],
+        ["SatchelCharge_Remote_Mag",2],
+        ["DemoCharge_Remote_Mag",4],
+
+        ["kat_MFAK", 3],
+        ["kat_MFAK", 6],
+        ["kat_IFAK", 24]
+    ]],
+
+
 
 /* Vehicles --------------------------------------------------------------------------------------------------------- */
 
@@ -1239,4 +1181,9 @@
 
     // Medical
     ["kat_IFAK", 8]
+]],
+["crate_stinger",[
+        ["CUP_launch_FIM92Stinger", 1],
+        ["CUP_Stinger_M",2]
 ]]
+];

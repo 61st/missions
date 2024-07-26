@@ -10,7 +10,7 @@
  *
  * Example:
  * [[0.0,0.0,0.0],"crate_resupply_general"] call YMF_fnc_doSupplyCrate;
- * [[0.0,0.0,0.0],"crate_medicalAtlas"] call YMF_fnc_doSupplyCrate;
+ * [[0.0,0.0,0.0],"crate_medical"] call YMF_fnc_doSupplyCrate;
  */
 
 if (!isServer) exitWith {};
@@ -24,7 +24,7 @@ params [
 private _crateModel = "";
 
 switch (_crateType) do {
-    case "crate_medicalAtlas";
+    case "crate_medical";
     case "crate_medicalInfantry": {
         _crateModel = "ace_medicalSupplyCrate";
     };

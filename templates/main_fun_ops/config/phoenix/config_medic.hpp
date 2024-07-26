@@ -16,7 +16,7 @@ class medicp {
             {"CUP_hgun_M17_Coyote","","","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
             {"U_tweed_acu_summer_ocp_unbl_trop",{{"G_Aviator",1},{"CUP_G_WristWatch",1},{"ACE_MRE_MeatballsPasta",1},{"ACE_splint",2},{"acex_intelitems_notepad",1,1},{"kat_Painkiller",1,10},{"Chemlight_red",1,1},{"ACE_Chemlight_HiRed",4,1},{"ACE_Chemlight_HiGreen",4,1},{"ACE_Chemlight_HiBlue",4,1},{"CUP_HandGrenade_M67",1,1}}},
             {"V_tweed_msv_mk2_1",{{"ItemcTabHCam",1},{"CUP_21Rnd_9x19_M17_Coyote",2,21},{"SPS_HKG3PMAG_30Rnd_556x45_M856A1_B",7,30}}},
-            {"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"kat_EACA",4},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"kat_X_AED",1},{"kat_aatKit",5},{"kat_ncdKit",6},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"kat_atropine",10},{"kat_chestSeal",5},{"kat_lidocaine",6},{"kat_nitroglycerin",4},{"kat_norepinephrine",4},{"kat_accuvac",1}}},
+            {"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"kat_EACA",4},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"kat_X_AED",1},{"kat_aatKit",5},{"kat_ncdKit",6},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"kat_atropine",10},{"kat_chestSeal",5},{"kat_lidocaine",6},{"kat_nitroglycerin",4},{"kat_norepinephrine",4},{"kat_accuvac",1}}},
             "H_PilotHelmetHeli_B","CUP_G_Tan_Scarf_GPS",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };

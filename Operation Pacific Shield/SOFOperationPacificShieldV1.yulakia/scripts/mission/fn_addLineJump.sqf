@@ -24,7 +24,8 @@ params [
     ["_minAltetude", 180, [180]],
     ["_maxAltetude", 350, [350]],
     ["_maxSpeed", 310, [310]],
-    ["_chuteVehicleClass", "rhs_d6_Parachute", ["rhs_d6_Parachute"]]
+    ["_chuteVehicleClass", "rhs_d6_Parachute", ["rhs_d6_Parachute"]],
+    ["_allowStaggared", false, [false]]
 ];
 
 // Check so the options arent added twice.
@@ -50,22 +51,22 @@ private _conditionHoldAction = format ["((_target getCargoIndex player) != -1) &
 private _actionID = [
     _vehicle,
     "<t color='#800080'>Jump</t>",
-    "scripts\data\Icon\icon_02.paa",
-    "scripts\data\Icon\icon_02.paa",
+    "scripts\Data\Icon\icon_02.paa",
+    "scripts\Data\Icon\icon_02.paa",
     _conditionHoldAction,
     "true",
     {},
     {},
     {
         params ["_target", "_caller", "_actionId", "_arguments"];
-        _arguments params ["_chuteVehicleClass"];
-        [_caller, _target, _chuteVehicleClass] call EFUNC(para,lineJump)
+        _arguments params ["_chuteVehicleClass", "_allowStaggared"];
+        [_caller, _target, _chuteVehicleClass, _allowStaggared] call EFUNC(para,lineJump)
     },
     {},
-    [_chuteVehicleClass],
+    [_chuteVehicleClass, _allowStaggared],
     0,
     25,
     false
 ] call BIS_fnc_holdActionAdd;
 
-_vehicle setVariable [QEGVAR(VehicleFunc,JumpAction), [_vehicle, _actionID, _minAltetude, _maxAltetude, _maxSpeed, _chuteVehicleClass]];
+_vehicle setVariable [QEGVAR(VehicleFunc,JumpAction), [_vehicle, _actionID, _minAltetude, _maxAltetude, _maxSpeed, _chuteVehicleClass, _allowStaggared]];
