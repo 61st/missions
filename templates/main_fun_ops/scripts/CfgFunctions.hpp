@@ -55,8 +55,9 @@ class YMF {
         class para_backpack {};
 
         // Training scripts
-        class training_addHitIndicator {};
-        class training_clearhitIndicator {};
+        // class training_addHitIndicator {};
+        // class training_clearhitIndicator {};
+        // class training_addTargetComputer {};
 
         class createVehicleLable {};
         class getVehicleLable {};
@@ -168,9 +169,10 @@ class YMF {
         class gear_preInit { preInit = 1; };
         class gear_postInitProxy { postInit = 1; };
         class gear_postInit {};
-
     };
 };
+
+
 class Rev_tp {   
     class Teleport {
 		file ="scripts\Rev_teleport";

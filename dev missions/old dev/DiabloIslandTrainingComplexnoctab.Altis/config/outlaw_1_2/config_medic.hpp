@@ -14,7 +14,7 @@ class medic12 {
             {"SPS_hk417_13_vfg_fde_f","","CUP_acc_ANPEQ_15","sps_vortex_spitfire_gen2_x5_RMR_tan",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},{},
 			{"CUP_hgun_M17_Coyote","","CUP_acc_Glock17_Flashlight","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
 			{"U_tweed_acu_summer_ocp_trop",{{"ACE_CableTie",4},{"ACE_Flashlight_XL50",1},{"kat_IV_16",19},{"ACE_surgicalKit",1},{"psq42_blk",1},{"kat_IO_FAST",4}}},{"V_tweed_msv_mk2_cell_1",{{"ACE_epinephrine",6},{"kat_larynx",12},{"CUP_17Rnd_9x19_M17_Coyote",3,17},{"SPS_20Rnd_762x51mm_M80A1_EPR",10,20},{"SmokeShell",3,1},{"HandGrenade",2,1}}},
-			{"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"kat_EACA",4},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"kat_X_AED",1},{"kat_aatKit",5},{"kat_ncdKit",6},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"kat_atropine",10},{"kat_chestSeal",5},{"kat_lidocaine",6},{"kat_nitroglycerin",4},{"kat_norepinephrine",4},{"kat_accuvac",1}}},
+			{"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"kat_EACA",4},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"kat_X_AED",1},{"kat_aatKit",5},{"kat_ncdKit",6},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"kat_atropine",10},{"kat_chestSeal",5},{"kat_lidocaine",6},{"kat_nitroglycerin",4},{"kat_norepinephrine",4},{"kat_accuvac",1}}},
 			"H_tweed_ihps_tasc_rail","G_tweed_ESS_Green",{"CUP_LRTV","","","",{"Laserbatteries",1},{},""},
 			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ChemicalDetector_01_watch_F",""}
     };
@@ -72,6 +72,8 @@ class medic12 {
 		"lxim_backpack_Backpack_Kitbag_Medic_MTP",
 		"lxim_backpack_Backpack_Kitbag_Medic_Coyote",
 		"lxim_backpack_Backpack_Kitbag_Medic_Tan",
-		"lxim_backpack_Backpack_Kitbag_Medic_RGR"
+		"lxim_backpack_Backpack_Kitbag_Medic_RGR",
+		"B_simc_US_Molle_sturm_OCP_RTO_wasser",
+		"B_simc_US_Molle_sturm_OCP_RTO"
 	};
 };

@@ -1,6 +1,6 @@
 private _message = "
-	<t align='center' size='6' shadow='0'><br/>Diablo Training Area</t><br/>
-	Welcome to Demo Mission<br/>
+	<t align='center' size='6' shadow='0'><br/>Operation Pacific Shield</t><br/>
+	Welcome to the 61st Main Campaign<br/>
 	To get started, select a role from the group menu and access subsequent menus through ACE Self Interact. You can view more information in the diary.<br/><br/>
 	<br/>
 	DO NOT REPROGRAM your radios they are preprogramed based on your role/slot in the Platoon
