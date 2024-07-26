@@ -70,6 +70,8 @@ class medic {
 		"lxim_backpack_Backpack_Kitbag_Medic_MTP",
 		"lxim_backpack_Backpack_Kitbag_Medic_Coyote",
 		"lxim_backpack_Backpack_Kitbag_Medic_Tan",
-		"lxim_backpack_Backpack_Kitbag_Medic_RGR"
+		"lxim_backpack_Backpack_Kitbag_Medic_RGR",
+		"B_simc_US_Molle_sturm_OCP_RTO_wasser",
+		"B_simc_US_Molle_sturm_OCP_RTO"
 	};
 };

@@ -142,6 +142,8 @@ class Cadre {
 		"lxim_backpack_Backpack_Kitbag_Medic_RGR",
 		"B_simc_US_Molle_sturm_OCP_RTO_wasser",
 		"B_simc_US_Molle_sturm_OCP_RTO",
+		"B_simc_US_Molle_sturm_OCP_RTO_wasser",
+		"B_simc_US_Molle_sturm_OCP_RTO",
 		"ACE_artilleryTable",
 		"ACE_PlottingBoard",
 		"acex_intelitems_notepad",
