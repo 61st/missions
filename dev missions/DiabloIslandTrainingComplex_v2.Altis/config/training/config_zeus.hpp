@@ -6,7 +6,7 @@ class zeus {
 	};
 	customVariables[] = {
         {"TFAR_freq_sr",{"100.1","150","150.2","33","100","75","60","35"},true},
-		{"cav_ranges_instructor", true, true},
+		{"cav_ranges_instructor", true, true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmanvirtual_ca.paa";
 
