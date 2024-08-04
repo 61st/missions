@@ -5,7 +5,7 @@ class xo {
     customVariables[] = {
 		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
 		{"YMF_iscom", true, true},
-		{"draWhitelisted",TRUE,true}
+		{"cav_ranges_instructor", true, true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 

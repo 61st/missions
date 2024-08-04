@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=517;
+	toggles=525;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=78;
+		nextID=95;
 	};
 	class Camera
 	{
-		pos[]={3156.439,7.8804007,146.93954};
-		dir[]={-0.99596715,-0.089029439,-0.019044431};
-		up[]={-0.089109696,0.99595797,-0.0017030123};
-		aside[]={-0.019121228,-5.8372052e-008,1.0000007};
+		pos[]={3142.5071,22.94198,210.5921};
+		dir[]={-0.25259635,-0.25806317,0.93253088};
+		up[]={-0.067470789,0.9661268,0.24908732};
+		aside[]={0.96522361,-1.0477379e-008,0.26145241};
 	};
 };
 binarizationWanted=0;
@@ -45,9 +45,7 @@ addons[]=
 	"kat_misc",
 	"ace_hearing",
 	"ace_captives",
-	"kat_chemical",
-	"CUP_Weapons_NVG",
-	"ace_compat_cup_weapons_nightvision",
+	"lxim_nvg",
 	"A3_Supplies_F_Heli_Slingload",
 	"ace_cargo",
 	"ace_rearm",
@@ -64,6 +62,7 @@ addons[]=
 	"ace_arsenal",
 	"CUP_Weapons_Grenades",
 	"A3_Weapons_F_Explosives",
+	"tsp_breach_shock",
 	"A3_Weapons_F_Items",
 	"ace_maptools",
 	"CUP_Weapons_Glock17",
@@ -77,7 +76,6 @@ addons[]=
 	"CUP_Creatures_Military_USArmy",
 	"MS_IFF_Addon",
 	"A3_Characters_F_Enoch_Facewear",
-	"CBRN_gear",
 	"CUP_Weapons_M16",
 	"SPS_weapons_hk416",
 	"sps_hk_g3_pmag",
@@ -91,6 +89,8 @@ addons[]=
 	"A3_Characters_F_Orange_Facewear",
 	"ace_field_rations",
 	"ace_grenades",
+	"CUP_Weapons_NVG",
+	"ace_compat_cup_weapons_nightvision",
 	"ace_medical_vitals",
 	"ace_gforces",
 	"FIR_PilotCrewPack_US",
@@ -110,13 +110,14 @@ addons[]=
 	"A3_Weapons_F_Tank_Launchers_MRAWS",
 	"A3_Weapons_F_Tank",
 	"MAAMod",
-	"SPS_equipment_gemtech_suppressors"
+	"SPS_equipment_gemtech_suppressors",
+	"drongosaps"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=72;
+		items=73;
 		class Item0
 		{
 			className="tweed_uaf_21_cfg";
@@ -233,260 +234,259 @@ class AddonsMetaData
 		};
 		class Item18
 		{
-			className="kat_chemical";
-			name="KAT - KAT - Chemical";
-			author="DiGii";
-			url="https://github.com/KAT-Advanced-Medical/KAM";
+			className="lxim_nvg";
+			name="61st - nvg";
+			author="lxim";
 		};
 		class Item19
-		{
-			className="CUP_Weapons_NVG";
-			name="CUP_Weapons_NVG";
-		};
-		class Item20
-		{
-			className="ace_compat_cup_weapons";
-			name="ACE3 - CUP Weapons Compatibility";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item21
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item20
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item23
+		class Item21
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item24
+		class Item22
 		{
 			className="tweed_augen";
 			name="tweed_augen";
 		};
-		class Item25
+		class Item23
 		{
 			className="CUP_Creatures_Military_Taki";
 			name="CUP_Creatures_Military_Taki";
 		};
-		class Item26
+		class Item24
 		{
 			className="ace_vector";
 			name="ACE3 - Vector";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item27
+		class Item25
 		{
 			className="kat_pharma";
 			name="KAT - KAT - Pharma";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item28
+		class Item26
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item29
+		class Item27
 		{
 			className="kat_breathing";
 			name="KAT - KAT - Breathing";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item30
+		class Item28
 		{
 			className="lxim_medical_treatment";
 			name="61st - medical_treatment";
 			author="ArmaForces";
 		};
-		class Item31
+		class Item29
 		{
 			className="kat_airway";
 			name="KAT - KAT - Airway";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item32
+		class Item30
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item33
+		class Item31
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item32
 		{
 			className="ace_arsenal";
 			name="ACE3 - Arsenal";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item35
+		class Item33
 		{
 			className="CUP_Weapons_Grenades";
 			name="CUP_Weapons_Grenades";
 		};
-		class Item36
+		class Item34
+		{
+			className="tsp_breach_shock";
+			name="tsp_breach_shock";
+		};
+		class Item35
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item37
+		class Item36
 		{
 			className="CUP_Weapons_Glock17";
 			name="CUP_Weapons_Glock17";
 		};
-		class Item38
+		class Item37
 		{
 			className="CUP_Weapons_Items";
 			name="CUP_Weapons_Items";
 		};
-		class Item39
+		class Item38
 		{
 			className="A3_Weapons_F_Enoch";
 			name="Arma 3 Contact Platform - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item40
+		class Item39
 		{
 			className="kat_circulation";
 			name="KAT - KAT - Circulation";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item41
+		class Item40
 		{
 			className="sps_eotech";
 			name="SPS-Equipment-EOTech-Sights";
 			author="SPS Team";
 			url="http://specialforcesgroup.co.uk/";
 		};
-		class Item42
+		class Item41
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item43
+		class Item42
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item44
+		class Item43
 		{
 			className="CUP_Creatures_Military_USArmy";
 			name="CUP_Creatures_Military_USArmy";
 		};
-		class Item45
+		class Item44
 		{
 			className="MS_IFF_Addon";
 			name="Multispectral IFF Strobes";
 			author="Fat_Lurch";
 		};
-		class Item46
+		class Item45
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item47
-		{
-			className="CBRN_gear";
-			name="CBRN_gear";
-		};
-		class Item48
+		class Item46
 		{
 			className="CUP_Weapons_M16";
 			name="CUP_Weapons_M16";
 		};
-		class Item49
+		class Item47
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item50
+		class Item48
 		{
 			className="tfar_external_intercom";
 			name="TFAR - Intercom Phone";
 			author="Task Force Arrowhead Radio Team";
 		};
-		class Item51
+		class Item49
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item52
+		class Item50
 		{
 			className="ace_intelitems";
 			name="ACE3 - Intel Items";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item53
+		class Item51
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item54
+		class Item52
 		{
 			className="ace_chemlights";
 			name="ace_chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item55
+		class Item53
 		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item56
+		class Item54
 		{
 			className="ace_field_rations";
 			name="ACE3 - Field Rations";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item57
+		class Item55
 		{
 			className="ace_grenades";
 			name="ACE3 - Grenades";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item56
+		{
+			className="CUP_Weapons_NVG";
+			name="CUP_Weapons_NVG";
+		};
+		class Item57
+		{
+			className="ace_compat_cup_weapons";
+			name="ACE3 - CUP Weapons Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
@@ -582,23 +582,26 @@ class AddonsMetaData
 			name="MAAMod";
 			author="Neonex";
 		};
+		class Item72
+		{
+			className="DrongosAPS";
+			name="Drongo's APS";
+			author="Drongo";
+		};
 	};
 };
 dlcs[]=
 {
 	"CUP_Weapons",
 	"CUP_Units",
-	"Enoch",
 	"Heli",
+	"Enoch",
 	"Mark"
 };
 randomSeed=13985350;
 class ScenarioData
 {
 	author="YonV";
-};
-class CustomAttributes
-{
 };
 class Mission
 {
@@ -623,7 +626,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=45;
+		items=46;
 		class Item0
 		{
 			dataType="Group";
@@ -794,7 +797,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="CUP_FR_NeckScarf";
 							headgear="H_tweed_ech_OCP_ESS_low_b";
 						};
@@ -5800,7 +5802,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_oak_2_cut";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -6027,7 +6028,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="CUP_TK_NeckScarf";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -6974,7 +6974,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							headgear="H_tweed_Hat_Patrol_ocp";
 						};
 					};
@@ -7183,7 +7182,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_comba_1_cut";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -10543,7 +10541,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_oak_1_cut";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -13619,7 +13616,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="CUP_FR_NeckScarf2";
 							headgear="CFP_BaseballCap_Multicam_DEF";
 						};
@@ -14518,7 +14514,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="CUP_TK_NeckScarf";
 							headgear="H_tweed_ihps_tasc_scrim_g_rail";
 						};
@@ -15735,7 +15730,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_comba_1_cut";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -16161,7 +16155,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_tweed_ESS_Green";
 							headgear="H_tweed_ihps_tasc_rail";
 						};
@@ -16429,7 +16422,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_oak_2_cut";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -17058,7 +17050,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_tweed_tacticool_blauw_peltor_comba";
 							headgear="H_tweed_ihps_tasc_scrim_rail";
 						};
@@ -19638,7 +19629,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							goggles="G_comba_1_cut";
 							headgear="H_tweed_ihps_g_tasc_rail";
 						};
@@ -19981,7 +19971,6 @@ class Mission
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="TFAR_anprc152";
-							gps="";
 							headgear="H_tweed_Hat_Patrol_ocp";
 						};
 					};
@@ -20023,6 +20012,111 @@ class Mission
 			{
 			};
 			id=76;
+		};
+		class Item45
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3145.4199,5,247.341};
+			};
+			id=78;
+			type="DAPS_Options";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="DAPS_Options_dapsDebug";
+					expression="_this setVariable ['dapsDebug',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="FALSE";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="DAPS_Options_dapsBlastSize";
+					expression="_this setVariable ['dapsBlastSize',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Small";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="DAPS_Options_dapsClearAll";
+					expression="_this setVariable ['dapsClearAll',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="FALSE";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="DAPS_Options_dapsRearmDelay";
+					expression="_this setVariable ['dapsRearmDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=5;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="DAPS_Options_dapsRearmRange";
+					expression="_this setVariable ['dapsRearmRange',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=50;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="DAPS_Options_dapsMaxAngle";
+					expression="_this setVariable ['dapsMaxAngle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=45;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="DAPS_Options_dapsRearmTime";
+					expression="_this setVariable ['dapsRearmTime',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=5;
+						};
+					};
+				};
+				nAttributes=7;
+			};
 		};
 	};
 };
