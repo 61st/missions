@@ -46,7 +46,6 @@ if !(GVAR(isPlayer)) exitWith {};
 private _condition1 = { call FUNC(checkStagingZone) };
 private _condition2 = { isNull objectParent player && call FUNC(checkStagingZone) };
 private _condition3 = { isNull objectParent player && {player getVariable ["ace_arsenal_virtualItems",[]] isNotEqualTo [] && call FUNC(checkStagingZone)} };
-private _conditionr = { isNull objectParent player && {player getVariable ["cav_ranges_instructor",[]] isNotEqualTo [] && call FUNC(checkStagingZone)} };
 
 private _stagingCat = [
 	QEGVAR(Actions,StagingCategory), 

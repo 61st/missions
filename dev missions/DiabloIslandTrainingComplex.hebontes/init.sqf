@@ -26,7 +26,6 @@ ACE_maxWeightDrag = 10000;
 minviewdistance = 500;
 maxviewdistance = 10000;
 
-[] execVM "range_init.sqf";
 
 // if(isServer) then {
 //     {
