@@ -218,5 +218,3 @@ class Rev_tp {
         class ZEN_dialog {};
 	};
 };
-
-#include "..\cav_ranges\cfgFunctions.hpp"

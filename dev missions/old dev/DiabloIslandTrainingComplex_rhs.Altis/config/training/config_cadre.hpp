@@ -10,8 +10,7 @@ class Cadre {
 		{"draWhitelisted",TRUE,TRUE},
         {"ace_medical_medicClass",2,true},
         {"ace_isEngineer",2,true},
-        {"TFAR_freq_sr",{"100.1","150","150.1","33","100","75","60","35"},true},
-		{"cav_ranges_instructor", true, true}
+        {"TFAR_freq_sr",{"100.1","150","150.1","33","100","75","60","35"},true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmanvirtual_ca.paa";
 
