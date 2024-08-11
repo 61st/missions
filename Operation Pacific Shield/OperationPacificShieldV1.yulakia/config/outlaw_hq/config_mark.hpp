@@ -19,7 +19,7 @@ class mark {
             {"Binocular","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemAndroidMisc","TFAR_anprc152","ItemCompass","ItemWatch","psq42_blk_icup"}
     };
-	arsenalWeapons[] = {
+	arsenalitems[] = {
 		"SPS_AI_AXMC308_26_PB_F",
 		"SPS_AI_AXMC308_26_G_F",
 		"SPS_AI_AXMC308_26_ES_F",
@@ -111,9 +111,7 @@ class mark {
 		"SPS_Trijicon_RMR_Black",
 		"SPS_Trijicon_RMR_FDE",
 		"SPS_Trijicon_RMR_Grey",
-		"SPS_Trijicon_RMR_ODG"
-	};
-	arsenalMagazines[] = {
+		"SPS_Trijicon_RMR_ODG",
 		"SPS_AI_AXMC_762x51_Mk316_Mod_0_Mag",
 		"SPS_AI_AXMC_762x51_Berger_JOTM_Mag",
 		"SPS_AI_AXMC_338_Mag",
@@ -141,13 +139,10 @@ class mark {
 		"SPS_AI_AXMC_762x51_M118LR_Mag",
 		"SPS_AI_AXMC_338_300gr_Berger_Mag",
 		"SPS_AI_AXMC_762x51_M993_AP_Mag",
-		"SPS_AI_AXMC_338_250gr_Naturalis_IR_Mag"
-	};
-	arsenalItems[] = {
+		"SPS_AI_AXMC_338_250gr_Naturalis_IR_Mag",
 		"ACE_Kestrel4500",
 		"ACE_HuntIR_monitor",
 		"ACE_ATragMX",
 		"ACE_RangeCard"
 	};
-	arsenalBackpacks[] = {};
 };

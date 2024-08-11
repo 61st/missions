@@ -15,6 +15,7 @@
     ["ACE_quikclot",150],
     ["kat_chestSeal",20],
     ["kat_guedel",10],
+    ["kat_suction",4],
 
     // Tourniquets
     ["ACE_tourniquet",50],
@@ -122,7 +123,8 @@
     ["kat_retractor",4],
     ["kat_vacuum",1],
     ["kat_reboa",12],
-    
+    ["kat_suction",4],
+
     // Surgical Medication
     ["kat_lidocaine",20],
     ["kat_lorazepam",10],
@@ -151,6 +153,7 @@
     ["ACE_SpraypaintBlue",1],
     ["ACE_SpraypaintRed",1]
 ]],
+
 
 //REQUIRED
 ["crate_resupply_general", [
@@ -402,7 +405,8 @@
     // Fluids
     ["ACE_plasmaIV",30],
     ["ACE_plasmaIV_500",30],
-    ["ACE_salineIV_250",20],
+    ["ACE_salineIV",10],
+    ["ACE_salineIV_500",20],
 
     // IV & IO Catheters
     ["kat_IO_FAST",20],
@@ -439,6 +443,9 @@
     ["kat_clamp",1],
     ["kat_retractor",1],
     ["kat_vacuum",1],
+
+    ["kat_oxygenTank_150_Item",4],
+    ["kat_oxygenTank_300_Item",2],
 
     // Surgical Medication
     ["kat_lidocaine",20],
