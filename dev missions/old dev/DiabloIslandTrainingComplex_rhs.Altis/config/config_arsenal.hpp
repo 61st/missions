@@ -539,7 +539,7 @@ class Common_Arsenal {
         "rhs_weap_M136_hedp",
         "rhs_weap_M136_hp",
         "rhs_fgm148_magazine_AT",
-        "rhs_fim92_mag",
+        "CUP_Stinger_M",
         "KAR_100Rnd_Fury_YT",
         "KAR_100Rnd_Fury_RT",
         "KAR_100Rnd_Fury_RT_blk",

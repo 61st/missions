@@ -6,6 +6,7 @@ class medic12 {
 	};
 	customVariables[] = {
 		{"ace_medical_medicClass",2,true},
+		{"YMF_ismed", true, true},
 		{"TFAR_freq_sr",{"100.1","120","120.1","33","100","75","60","35"},true}
 	};
 	icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
@@ -21,8 +22,6 @@ class medic12 {
 	arsenalitems[] = {
 		"kat_accuvac",
 		"kat_pocketBVM",
-		"kat_oxygenTank_300_Item",
-		"kat_oxygenTank_150_Item",
 		"kat_AFAK",
 		"ACE_salineIV_500",
 		"ACE_salineIV_250",
@@ -43,9 +42,6 @@ class medic12 {
 		"kat_Pulseoximeter",
 		"kat_pocketBVM",
 		"kat_phenylephrine",
-		"kat_PervitinItem",
-		"kat_PenthroxItem",
-		"kat_PainkillerItem",
 		"lxim_naloxone",
 		"kat_naloxone",
 		"kat_nalbuphine",
@@ -57,7 +53,6 @@ class medic12 {
 		"kat_IO_FAST",
 		"kat_fentanyl",
 		"kat_vacuum",
-		"kat_CarbonateItem",
 		"kat_amiodarone",
 		"kat_BVM",
 		"kat_plate",
@@ -74,6 +69,30 @@ class medic12 {
 		"lxim_backpack_Backpack_Kitbag_Medic_Tan",
 		"lxim_backpack_Backpack_Kitbag_Medic_RGR",
 		"B_simc_US_Molle_sturm_OCP_RTO_wasser",
-		"B_simc_US_Molle_sturm_OCP_RTO"
+		"B_simc_US_Molle_sturm_OCP_RTO",
+		"ACE_adenosine",
+		"kat_Carbonate",
+		"kat_AED",
+		"ACE_fieldDressing",
+		"ACE_elasticBandage",
+		"ACE_packingBandage",
+		"kat_crossPanel",
+		"kat_Bubble_Wrap_Item",
+		"kat_chestSeal",
+		"kat_Painkiller",
+		"KAT_Empty_bloodIV_250",
+		"KAT_Empty_bloodIV_500",
+		"kat_ultrasound",
+		"kat_nasal",
+		"kat_Penthrox",
+		"kat_phenylephrineAuto",
+		"ACE_splint",
+		"kat_reboa",
+		"ACE_quikclot",
+		"kat_oxygenTank_300_Item",
+		"kat_oxygenTank_150_Item",
+		"lxim_backpack_Backpack_Kitbag_Medic_Black",
+		"lxim_backpack_Backpack_Kitbag_Medic_Sage",
+		"lxim_backpack_Backpack_Kitbag_Medic_White"
 	};
 };

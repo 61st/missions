@@ -23,62 +23,21 @@ class squadleadr {
             {"LXIM_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","psq42_blk_icup"}
     };
-    arsenalWeapons[] = {
-		"tsp_frameCharge_mag",
-		"tsp_popperCharge_mag",
-		"tsp_popperCharge_auto_mag",
+    arsenalitems[] = {
+		"ACE_M26_Clacker",
+		"ACE_Clacker",
+		"ACE_DefusalKit",
+		"ToolKit",
+		"MineDetector",
+		"lxim_breaching_BreachingCharge_Mag",
+		"ACE_VMH3",
+		"ACE_VMM3",
 		"DemoCharge_Remote_Mag",
 		"ATMine_Range_Mag",
 		"SatchelCharge_Remote_Mag",
 		"ClaymoreDirectionalMine_Remote_Mag",
 		"SLAMDirectionalMine_Wire_Mag",
-		"tsp_stickCharge_mag",
-		"tsp_stickCharge_auto_mag",
-		"ACE_FlareTripMine_Mag",
-		"ACE_VMH3",
-		"ACE_VMM3"
-	};
-	arsenalMagazines[] = {
-		"tsp_frameCharge_mag",
-		"tsp_popperCharge_auto_mag",
-		"tsp_popperCharge_mag",
-		"tsp_stickCharge_auto_mag",
-		"tsp_stickCharge_mag",
-		"SatchelCharge_Remote_Mag",
-		"SLAMDirectionalMine_Wire_Mag",
-		"ATMine_Range_Mag",
-		"ClaymoreDirectionalMine_Remote_Mag",
-		"DemoCharge_Remote_Mag"
-
-	};
-    arsenalItems[] = {
-		"LXIM_vs17_vs17",
-		"ACE_SpottingScope",
-		"ItemcTabMisc",
-		"ItemcTab",
-		"ItemAndroidMisc",
-		"ACE_PlottingBoard",
-		"LXIM_equipment_Vector_Designator",
-		"LXIM_equipment_Vector_Designator_NVG",
-		"ACE_VectorDay",
-		"ACE_Vector",
-		"Laserdesignator",
-		"Laserdesignator_03",
-		"Camera_lxWS",
-		"B_UavTerminal",
-		"YMF_vs17_vs17",
-		"ACE_UAVBattery",
-		"ACE_Kestrel4500",
-		"ACE_wirecutter",
-        "tsp_paperclip",
-        "MineDetector",
-        "tsp_lockpick",
-        "ACE_M26_Clacker",
-		"ACE_Clacker",
-		"ToolKit",
-		"ACE_DefusalKit"
-	};
-	arsenalBackpacks[] = {
+		"ACE_Fortify",
 		"B_simc_US_Molle_sturm_OCP_RTO",
 		"B_simc_US_Molle_sturm_OCP_RTO_wasser"
 	};

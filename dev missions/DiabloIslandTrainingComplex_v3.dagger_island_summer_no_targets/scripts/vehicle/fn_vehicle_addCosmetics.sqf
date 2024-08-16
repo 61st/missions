@@ -24,7 +24,7 @@ INFO_2("VehicleCosmetics", "Applying vehicle cosmetics to %1 [%2].", _vehicle, t
 
 private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,Type), typeOf _vehicle];
 
-private _textureMed = "\z\lxim\addons\media\images\vehicles\label\special\reddiamond_s_ca.paa";
+private _textureMed = "\z\addons\media\images\vehicles\label\special\reddiamond_s_ca.paa";
 
 if (_vehicle iskindOf "rhsusf_hmmwe_base") then { // MRAP_01_base_F
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
@@ -114,7 +114,7 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
         case 1: {
             [_vehicle, [
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\1_ca.paa"],
-                [12, "\z\lxim\addons\media\images\vehicles\abrams\BarrelArt_120mmIV_ca.paa"]
+                [12, "\z\cav\addons\textures\data\vehicles\abrams\BarrelArt_120mmIV_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 1, true];
             _vehicle setVariable [QEGVAR(Vehicle,Name), "WAR-DADDY", true];
@@ -122,7 +122,7 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
         case 2: {
             [_vehicle, [
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
-                [12, "\z\lxim\addons\media\images\vehicles\abrams\BarrelArt_BountyHunters_ca.paa"]
+                [12, "\z\cav\addons\textures\data\vehicles\abrams\BarrelArt_BountyHunters_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
             _vehicle setVariable [QEGVAR(Vehicle,Name), "WAR-MOMMY", true];

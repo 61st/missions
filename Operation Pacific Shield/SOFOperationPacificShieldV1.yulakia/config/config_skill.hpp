@@ -1,9 +1,9 @@
 
         if (EGVAR(Settings,setAiSystemDifficulty) == 1) then {
             _unit setSkill ["aimingspeed",     0.420];
-            _unit setSkill ["aimingaccuracy",  1.000];
+            _unit setSkill ["aimingaccuracy",  0.500];
             _unit setSkill ["aimingshake",     0.360];
-            _unit setSkill ["spottime",        1.000];
+            _unit setSkill ["spottime",        0.800];
             _unit setSkill ["spotdistance",    1.000];
             _unit setSkill ["commanding",      1.0];
             _unit setSkill ["general",         1.0];
@@ -37,7 +37,7 @@
                     _unit setSkill ["commanding",      0.750]; //  Bad <=> Good
                     _unit setSkill ["courage",         0.750]; //  Bad <=> Good
                     _unit setSkill ["aimingspeed",     0.620]; //  Bad <=> Good
-                    _unit setSkill ["aimingaccuracy",  0.830]; //  Bad <=> Good
+                    _unit setSkill ["aimingaccuracy",  0.500]; //  Bad <=> Good
                     _unit setSkill ["aimingshake",     0.360]; // Good <=> Bad
                     _unit setSkill ["reloadSpeed",     0.750]; //  Bad <=> Good
                 };

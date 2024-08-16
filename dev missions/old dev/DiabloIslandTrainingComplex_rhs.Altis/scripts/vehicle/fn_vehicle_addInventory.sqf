@@ -116,7 +116,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory and missles
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fgm148","","","",["rhs_fgm148_magazine_AT",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fim92","","","",["rhs_fim92_mag",1],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fim92","","","",["CUP_Stinger_M",1],[],""],1]; 
 
             // Supply Crate
             ["Box_NATO_Wps_F", 

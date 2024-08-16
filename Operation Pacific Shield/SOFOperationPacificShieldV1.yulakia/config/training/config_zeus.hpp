@@ -6,7 +6,8 @@ class zeus {
 	};
 	customVariables[] = {
         {"ace_isEngineer",1,true},
-        {"TFAR_freq_sr",{"100.1","150","150.1","33","100","75","60","35"},true}
+        {"TFAR_freq_sr",{"100.1","150","150.1","33","100","75","60","35"},true},
+		{"YMF_Player_Unit","ZEUS",true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmanvirtual_ca.paa";
 

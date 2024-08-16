@@ -10,7 +10,7 @@
  * true/False <BOOLEAN>
  *
  * Example:
- * call YMF_fnc_unit_isCurator
+ * call YMF_fnc_player_isCurator
  *
  */
 
