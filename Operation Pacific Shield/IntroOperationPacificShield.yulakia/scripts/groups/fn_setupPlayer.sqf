@@ -52,6 +52,12 @@ if (_isRespawn) then {
 
 	player setVariable ["YMF_role",_desiredRole,true];
 
+	if (player call YMF_fnc_player_isCurator) then {
+		[player,true] call lxim_curator_fnc_assignZeus;
+	} else {
+		[player,false] call lxim_curator_fnc_assignZeus;
+	};
+
 	/* rank stuff ------------------------------------------------------------------------------------------------------ */
 	[player, 'BIS'] call EFUNC(player,setRank);
 	call EFUNC(player,setRankpatch);

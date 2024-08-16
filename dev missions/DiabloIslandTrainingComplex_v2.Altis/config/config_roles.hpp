@@ -6,13 +6,17 @@ class Dynamic_Roles {
     #include "outlaw_hq\config_engineer.hpp"
     #include "outlaw_hq\config_mark.hpp"
 
-    #include "outlaw_1_1_v\config_cmd.hpp"
-    #include "outlaw_1_1_v\config_driver.hpp"
-    #include "outlaw_1_1_v\config_gunner.hpp"
+    #include "thunder6\config_cmd.hpp"
+    #include "thunder6\config_driver.hpp"
+    #include "thunder6\config_gunner.hpp"
 
-    #include "outlaw_1_2_v\config_cmd.hpp"
-    #include "outlaw_1_2_v\config_driver.hpp"
-    #include "outlaw_1_2_v\config_gunner.hpp"
+    #include "thunder1\config_cmd.hpp"
+    #include "thunder1\config_driver.hpp"
+    #include "thunder1\config_gunner.hpp"
+
+    #include "thunder2\config_cmd.hpp"
+    #include "thunder2\config_driver.hpp"
+    #include "thunder2\config_gunner.hpp"
 
     #include "outlaw_1_1\config_engineer.hpp"
     #include "outlaw_1_1\config_squadleader.hpp"

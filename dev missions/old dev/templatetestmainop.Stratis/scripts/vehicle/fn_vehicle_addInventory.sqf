@@ -70,7 +70,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory and missles
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],2]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
             // Supply Crate
             ["Box_NATO_Wps_F", 
@@ -150,7 +150,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory and missles
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
             // Supply Crate
             ["Box_NATO_Wps_F", 
@@ -194,7 +194,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory and missles
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
             // Supply Crate
             ["Box_NATO_Wps_F", 
@@ -212,7 +212,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             // KAC_LWAMG with sight into vehicle inventory
             _vehicle addWeaponWithAttachmentsCargoGlobal [["SPS_KAC_LWAMG_Black_F","","","sps_vortex_spitfire_gen2_x5_RMR_black",["SPS_KAC_LWAMG_100rnd_Box_M80A1",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
 
             // Supply Crate

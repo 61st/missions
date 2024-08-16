@@ -4,7 +4,9 @@ class co {
     traits[] = {};
     customVariables[] = {
 		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true},
-		{"YMF_iscom", true, true}
+		{"YMF_iscom", true, true},
+		{"YMF_ismed", true, true},
+		{"draWhitelisted",TRUE,true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 

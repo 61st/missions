@@ -3,7 +3,10 @@ class squadlead11 {
 	description = "the one who looks for who to blame";
 	traits[] = {};
     customVariables[] = {
-		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true}
+		{"YMF_ismed", true, true},
+		{"YMF_iscom", true, true},
+		{"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true},
+		{"YMF_Player_Unit","ZEUS",true}
 	};
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 
