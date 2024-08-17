@@ -21,7 +21,8 @@ class crewchief {
             {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
     arsenalitems[] = {
-		"CUP_arifle_M4A1_standard_short_black",
+        "ToolKit",
+        "CUP_arifle_M4A1_standard_short_black",
         "H_PilotHelmetHeli_B",
         "H_CrewHelmetHeli_B",
         "FIR_HGU56P_Skull_Death",

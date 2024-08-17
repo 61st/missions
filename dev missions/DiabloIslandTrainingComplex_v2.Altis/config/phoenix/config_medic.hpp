@@ -22,6 +22,12 @@ class medicp {
             {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
     arsenalitems[] = {
+		"H_PilotHelmetHeli_B",
+		"H_CrewHelmetHeli_B",
+		"FIR_HGU56P_Skull_Death",
+		"FIR_HGU56P_Skull",
+		"H_PilotHelmetHeli_I_E",
+		"H_CrewHelmetHeli_I_E",
 		"CUP_arifle_M4A1_standard_short_black",
         "SPS_HKG3PMAG_30Rnd_556x45_M855A1_B",
         "SPS_HKG3PMAG_30Rnd_556x45_M856A1_B",
