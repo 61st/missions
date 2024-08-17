@@ -1,13 +1,13 @@
-class cmd1 {
+class cmd6 {
     name = "Vehicle CMD";
-    description = "Your uber is here";
+    description = "Daddy's here";
     traits[] = {
         {"Engineer",true}
 	};
 	customVariables[] = {
 		{"ace_isEngineer",2,true},
         {"YMF_iscmd", true, true},
-        {"TFAR_freq_sr",{"100.1","110","210","33","100","75","60","35"},true},
+        {"TFAR_freq_sr",{"100.1","110","120","230","100","75","60","35"},true},
 		{"YMF_Player_Unit","ZEUS",true}
 	};
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";

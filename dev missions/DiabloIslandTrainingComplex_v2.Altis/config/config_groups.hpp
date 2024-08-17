@@ -3,9 +3,9 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
     group_setup[] = {
         {"Outlaw 1-1",{"squadlead11","jtac11","engineer11","medic11","teamlead11","dismount11","dismount11","dismount11","dismount11","dismount11"},"true"},
         {"Outlaw 1-2",{"squadlead12","jtac12","medic12","teamlead12","dismount12","dismount12","dismount12","dismount12","dismount12","dismount12"},"true"},
-        {"Wardaddy 2-6",{"cmd1","driver1","gunner1"},"true"},
-        {"Warmommy 2-1 ",{"cmd2","driver2","gunner2"},"true"},
-        {"Warchild 2-2 ",{"cmd3","driver3","gunner3"},"true"},
+        {"War Mommy 2-1 ",{"cmd1","driver1","gunner1"},"true"},
+        {"War Child 2-2 ",{"cmd2","driver2","gunner2"},"true"},
+        {"War Daddy 2-6",{"cmd6","driver6","gunner6"},"true"},
         {"Outlaw HQ",{"co","xo","jtac","medic","engineer","mark"},"true"},
         {"Rhino",{"squadleadr","engineer","engineer","engineer","engineer"},"true"},
         {"Phoenix",{"pilot","pilot","fac"},"true"},

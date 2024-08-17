@@ -1,6 +1,6 @@
 class pilot {
         name = "Pilot";
-        description = "weeeeeeeeeeeee";
+        description = "Weeeeeeeeeeeee";
         traits[] = {};
         customVariables[] = {
         {"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true}

@@ -1,14 +1,16 @@
-class driver2 {
-	name = "Crew Driver";
-    description = "vroom vroom";
+class cmd6 {
+    name = "Vehicle CMD";
+    description = "Daddy's here";
     traits[] = {
         {"Engineer",true}
 	};
 	customVariables[] = {
-		{"ace_isEngineer",1,true},
-        {"TFAR_freq_sr",{"100.1","120","210","33","100","75","60","35"},true}
+		{"ace_isEngineer",2,true},
+        {"YMF_iscmd", true, true},
+        {"TFAR_freq_sr",{"100.1","110","120","230","100","75","60","35"},true},
+		{"YMF_Player_Unit","ZEUS",true}
 	};
-    icon = "z\LXIM\addons\media\images\Icons\driver.paa";
+    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
             {"SPS_hk417_13_vfg_black_f","","CUP_acc_ANPEQ_15_Black","SPS_EOTech_Black",{"20Rnd_762x51_Mag",20},{},""},
@@ -16,10 +18,12 @@ class driver2 {
             {"CUP_hgun_M17_Black","","CUP_acc_Glock17_Flashlight","optic_MRD_black",{"CUP_21Rnd_9x19_M17_Black",21},{},""},
             {"U_tweed_acu_summer_ocp_tuck_unbl_trop",{{"kat_IV_16",1},{"ACE_quikclot",5},{"ACE_packingBandage",10},{"ACE_elasticBandage",10},{"kat_chestSeal",2},{"ACE_splint",2},{"ACE_tourniquet",4},{"ACE_EarPlugs",1},{"ACE_epinephrine",1},{"kat_guedel",1},{"ACE_CableTie",1},{"kat_Painkiller",1,10}}},
             {"V_tweed_msv_mk2_cell_2",{{"ACE_M26_Clacker",1},{"G_AirPurifyingRespirator_01_F",1},{"kat_gasmaskFilter",2},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"SmokeShellGreen",1,1},{"MS_Strobe_Mag_1",2,1},{"CUP_21Rnd_9x19_M17_Black",1,21},{"SPS_20Rnd_762x51mm_M80A1_EPR",6,20}}},
-            {"B_simc_US_MoB_simc_US_Molle_sturm_OCP_thermos_od7lle_sturm_OCP_RTO_wasser",{{"psq42_blk",1},{"ToolKit",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_EntrenchingTool",1}}},"CUP_H_CVC","G_tweed_ESS_Green",{"ACE_Vector","","","",{},{},""},
+            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"psq42_blk",1},{"ToolKit",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_EntrenchingTool",1}}},"CUP_H_CVC","G_tweed_ESS_Green",{"ACE_Vector","","","",{},{},""},
             {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+		"B_simc_US_Molle_sturm_OCP_RTO",
 		"CUP_H_CVCH_des",
         "CUP_H_CVC",
         "H_HelmetCrew_I",
