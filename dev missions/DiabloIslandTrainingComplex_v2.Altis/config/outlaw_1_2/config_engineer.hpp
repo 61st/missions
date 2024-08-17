@@ -1,6 +1,6 @@
 class engineer12 {
 	name = "Combat Engineer";
-	description = "makes things go boom or not to go boom";
+	description = "Makes things go boom or not to go boom";
 	traits[] = {
 		{"Engineer",true}
 	};

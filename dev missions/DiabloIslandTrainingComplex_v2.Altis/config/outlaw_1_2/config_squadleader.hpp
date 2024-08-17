@@ -1,6 +1,6 @@
 class squadlead12 {
 	name = "Squad Leader";
-	description = "the one who looks for who to blame";
+	description = "The one who looks for who to blame";
 	traits[] = {};
     customVariables[] = {
 		{"YMF_iscom", true, true},

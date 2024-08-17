@@ -1,6 +1,6 @@
 class teamlead12 {
 	name = "Team Leader";
-	description = "the one who is to blame";
+	description = "The one who is to blame";
 	traits[] = {};
     customVariables[] = {
 		{"TFAR_freq_sr",{"100.1","120","120.2","33","100","75","60","35"},true}
