@@ -1,6 +1,6 @@
 class crewchief {
     name = "Crew Chief";
-    description = "weeeeeeeeeeeee";
+    description = "Weeeeeeeeeeeee";
     traits[] = {
 		{"Engineer",true}
 	};

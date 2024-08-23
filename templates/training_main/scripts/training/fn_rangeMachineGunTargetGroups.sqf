@@ -10,22 +10,21 @@
  * None
  *
  * Example:
- * [this] call TAC_Olympus_fnc_rangeMachineGunTargetGroups
+ * [this] call YMF_fnc_rangeMachineGunTargetGroups
  */
 
-#define TARGET_GROUP_1 rangeMachineGunTarget01, rangeMachineGunTarget02
-#define TARGET_GROUP_2 rangeMachineGunTarget03, rangeMachineGunTarget04
-#define TARGET_GROUP_3 rangeMachineGunTarget12, rangeMachineGunTarget13, rangeMachineGunTarget14, rangeMachineGunTarget15
-#define TARGET_GROUP_4 rangeMachineGunTarget41, rangeMachineGunTarget42
-#define TARGET_GROUP_5 rangeMachineGunTarget09, rangeMachineGunTarget10, rangeMachineGunTarget11
-#define TARGET_GROUP_6 rangeMachineGunTarget05, rangeMachineGunTarget06, rangeMachineGunTarget07, rangeMachineGunTarget08
-#define TARGET_GROUP_7 rangeMachineGunTarget16, rangeMachineGunTarget17, rangeMachineGunTarget18, rangeMachineGunTarget19, rangeMachineGunTarget20, rangeMachineGunTarget21, rangeMachineGunTarget22, rangeMachineGunTarget23, rangeMachineGunTarget24
-#define TARGET_GROUP_8 rangeMachineGunTarget25, rangeMachineGunTarget26, rangeMachineGunTarget27, rangeMachineGunTarget28, rangeMachineGunTarget29, rangeMachineGunTarget30
-#define TARGET_GROUP_9 rangeMachineGunTarget31, rangeMachineGunTarget32, rangeMachineGunTarget33, rangeMachineGunTarget34, rangeMachineGunTarget35
-#define TARGET_GROUP_10 rangeMachineGunTarget36, rangeMachineGunTarget37, rangeMachineGunTarget38, rangeMachineGunTarget39, rangeMachineGunTarget40
+#define TARGET_GROUP_1 mg_target_l1_t1, mg_target_l1_t2, mg_target_l1_t3, mg_target_l1_t4, mg_target_l1_t5
+#define TARGET_GROUP_2 mg_target_l1_t6, mg_target_l1_t7, mg_target_l1_t8, mg_target_l1_t9, mg_target_l1_t10
+#define TARGET_GROUP_3 mg_target_l1_t11, mg_target_l1_t12, mg_target_l1_t13, mg_target_l1_t14, mg_target_l1_t15
+#define TARGET_GROUP_4 mg_target_l1_t16, mg_target_l1_t17, mg_target_l1_t18, mg_target_l1_t19, mg_target_l1_t20
+#define TARGET_GROUP_5 mg_target_l1_t21, mg_target_l1_t22, mg_target_l1_t23, mg_target_l1_t24, mg_target_l1_t25
+#define TARGET_GROUP_6 mg_target_l1_t26, mg_target_l1_t27, mg_target_l1_t28, mg_target_l1_t29, mg_target_l1_t30
+#define TARGET_GROUP_7 mg_target_l1_t31, mg_target_l1_t32, mg_target_l1_t33, mg_target_l1_t34, mg_target_l1_t35
+#define TARGET_GROUP_8 mg_target_l1_t36, mg_target_l1_t37, mg_target_l1_t38, mg_target_l1_t39, mg_target_l1_t40
 
-#define ALL_TARGETS TARGET_GROUP_1, TARGET_GROUP_2, TARGET_GROUP_3, TARGET_GROUP_4, TARGET_GROUP_5, TARGET_GROUP_6, TARGET_GROUP_7, TARGET_GROUP_8, TARGET_GROUP_9, TARGET_GROUP_10
-#define ALL_TARGET_GROUPS [[ALL_TARGETS], [ALL_TARGETS], [TARGET_GROUP_1], [TARGET_GROUP_2], [TARGET_GROUP_3], [TARGET_GROUP_4], [TARGET_GROUP_5], [TARGET_GROUP_6], [TARGET_GROUP_7], [TARGET_GROUP_8], [TARGET_GROUP_9], [TARGET_GROUP_10]]
+
+#define ALL_TARGETS TARGET_GROUP_1, TARGET_GROUP_2, TARGET_GROUP_3, TARGET_GROUP_4, TARGET_GROUP_5, TARGET_GROUP_6, TARGET_GROUP_7, TARGET_GROUP_8
+#define ALL_TARGET_GROUPS [[ALL_TARGETS], [ALL_TARGETS], [TARGET_GROUP_1], [TARGET_GROUP_2], [TARGET_GROUP_3], [TARGET_GROUP_4], [TARGET_GROUP_5], [TARGET_GROUP_6], [TARGET_GROUP_7], [TARGET_GROUP_8]]
 
 // Default targets down
 {
@@ -59,13 +58,11 @@ params ["_controller"];
     [QGVAR(targetsUp), "All Up", 0],
     [QGVAR(targetsDown), "All Down", 1],
     [QGVAR(group1up), "Left 1", 0],
-    [QGVAR(group2up), "Left 2", 0],
-    [QGVAR(group3up), "Right 1", 0],
-    [QGVAR(group4up), "Right 2", 0],
-    [QGVAR(group5up), "Right 3", 0],
-    [QGVAR(group6up), "Right 4", 0],
-    [QGVAR(group7up), "Vehicles", 0],
-    [QGVAR(group8up), "Beach", 0],
-    [QGVAR(group9up), "Flanking Fire", 0],
-    [QGVAR(group10up), "Enfilading Fire", 0]
+    [QGVAR(group2up), "right 2", 0],
+    [QGVAR(group3up), "Left 3", 0],
+    [QGVAR(group4up), "Right 4", 0],
+    [QGVAR(group5up), "Left 5", 0],
+    [QGVAR(group6up), "Right 6", 0],
+    [QGVAR(group7up), "Left 7", 0],
+    [QGVAR(group8up), "Far", 0]
 ];

@@ -6,6 +6,7 @@ class jtac {
 	};
 	customVariables[] = {
 		{"YMF_iscom", true, true},
+		{"YMF_ismed", true, true},
 		{"draWhitelisted",TRUE,TRUE},
 		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true}
 	};
@@ -28,7 +29,6 @@ class jtac {
 		"B_UavTerminal",
 		"ItemcTabMisc",
 		"ACE_RangeCard",
-		"Rev_Darter",
 		"lxim_vs17_vs17"
 	};
 };
