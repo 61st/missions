@@ -1,6 +1,6 @@
 class engineer {
 	name = "Combat Engineer";
-	description = "makes things go boom or not to go boom";
+	description = "Makes things go boom or not to go boom";
 	traits[] = {
 		{"Engineer",true}
 	};
@@ -22,43 +22,20 @@ class engineer {
 			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","psq42_blk_icup"}
     };
 	
-	arsenalWeapons[] = {
-		"tsp_frameCharge_mag",
-		"tsp_popperCharge_mag",
-		"tsp_popperCharge_auto_mag",
+	arsenalitems[] = {
+		"ACE_M26_Clacker",
+		"ACE_Clacker",
+		"ACE_DefusalKit",
+		"ToolKit",
+		"MineDetector",
+		"lxim_breaching_BreachingCharge_Mag",
+		"ACE_VMH3",
+		"ACE_VMM3",
 		"DemoCharge_Remote_Mag",
 		"ATMine_Range_Mag",
 		"SatchelCharge_Remote_Mag",
 		"ClaymoreDirectionalMine_Remote_Mag",
 		"SLAMDirectionalMine_Wire_Mag",
-		"tsp_stickCharge_mag",
-		"tsp_stickCharge_auto_mag",
-		"ACE_FlareTripMine_Mag",
-		"ACE_VMH3",
-		"ACE_VMM3"
+		"ACE_Fortify"
 	};
-	arsenalMagazines[] = {
-		"tsp_frameCharge_mag",
-		"tsp_popperCharge_auto_mag",
-		"tsp_popperCharge_mag",
-		"tsp_stickCharge_auto_mag",
-		"tsp_stickCharge_mag",
-		"SatchelCharge_Remote_Mag",
-		"SLAMDirectionalMine_Wire_Mag",
-		"ATMine_Range_Mag",
-		"ClaymoreDirectionalMine_Remote_Mag",
-		"DemoCharge_Remote_Mag"
-
-	};
-	arsenalItems[] = {
-		"ACE_wirecutter",
-        "tsp_paperclip",
-        "MineDetector",
-        "tsp_lockpick",
-        "ACE_M26_Clacker",
-		"ACE_Clacker",
-		"ToolKit",
-		"ACE_DefusalKit"
-	};
-	arsenalBackpacks[] = {};
 };

@@ -71,6 +71,11 @@ class dismount12 {
 		"SPS_KAC_LWAMG_100rnd_Box_IRDIM",
 		"SPS_KAC_LAMG_150rnd_T_Box_Tan",
 		"ACE_LWAMG_SpareBarrel",
-		"ACE_LAMG_SpareBarrel"
+		"ACE_LAMG_SpareBarrel",
+		"CUP_lmg_M240_norail",
+		"CUP_lmg_M240_B",
+		"CUP_lmg_M240",
+		"150Rnd_762x51_Box",
+		"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"
 	};
 };

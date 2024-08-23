@@ -6,6 +6,7 @@ class medic {
 	};
 	customVariables[] = {
 		{"ace_medical_medicClass",2,true},
+		{"YMF_ismed", true, true},
 		{"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true}
 	};
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
