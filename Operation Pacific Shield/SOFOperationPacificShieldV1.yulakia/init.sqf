@@ -26,14 +26,20 @@ ACE_maxWeightDrag = 10000;
 minviewdistance = 500;
 maxviewdistance = 10000;
 
+
 if(isServer) then {
     {
-        _x setObjectTextureGlobal    [0, "scripts\Data\target.paa"];
+        _x setObjectTextureGlobal    [0, "scripts\data\target.paa"];
     } foreach allMissionObjects "TargetP_Inf_F";
     {
-        _x setObjectTextureGlobal    [0, "scripts\Data\target.paa"];
+        _x setObjectTextureGlobal    [0, "scripts\data\target.paa"];
     } foreach allMissionObjects "TargetP_Inf3_Acc2_NoPop_F";
+    {
+        _x setObjectTextureGlobal    [0, "scripts\data\target.paa"];
+    } foreach allMissionObjects "Target_Swivel_01_ground_F";
 };
+
+
 
 // /* Start times selected randomly throughout the daylight hours between sunrise and one hour before sunset ----------- */
 // if (isServer) then {

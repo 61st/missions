@@ -22,6 +22,8 @@ class engineer12 {
     };
 	
 	arsenalitems[] = {
+		"Rev_Demine",
+		"Rev_Roller",
 		"ACE_M26_Clacker",
 		"ACE_Clacker",
 		"ACE_DefusalKit",

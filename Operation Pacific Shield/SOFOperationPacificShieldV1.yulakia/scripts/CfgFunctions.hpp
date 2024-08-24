@@ -30,22 +30,16 @@ class YMF {
         class deleteDroppedObjects {};
         class doGetOutHeloSide {};
         class dynamicMarkers {};
-
         class getAttendance {};
         class getServerMetrics {};
-
         class isValidFaction {};
-
         class checkStagingZone {};
 
         // Buttons and options
         class addHeal {};
-
         class getIcon {};
         class renameObject {};
-
         class addObjectToCurator {};
-
         class createActionCategory {};
 
         // Plane jump
@@ -55,9 +49,9 @@ class YMF {
         class para_backpack {};
 
         // Training scripts
-        // class training_addHitIndicator {};
-        // class training_clearhitIndicator {};
-        // class training_addTargetComputer {};
+        class training_addHitIndicator {};
+        class training_clearhitIndicator {};
+        class training_addTargetComputer {};
 
         class createVehicleLable {};
         class getVehicleLable {};
@@ -169,6 +163,7 @@ class YMF {
         class gear_preInit { preInit = 1; };
         class gear_postInitProxy { postInit = 1; };
         class gear_postInit {};
+
     };
 };
 

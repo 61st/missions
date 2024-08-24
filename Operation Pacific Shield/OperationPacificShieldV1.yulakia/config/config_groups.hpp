@@ -7,13 +7,13 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"War Child 2-2 ",{"cmd2","driver2","gunner2"},"true"},
         {"War Daddy 2-6",{"cmd6","driver6","gunner6"},"true"},
         {"Outlaw HQ",{"co","xo","jtac","medic","engineer","mark"},"true"},
-        {"Rhino",{"squadleadr","medicr","engineerr","engineerr","engineerr","engineerr"},"true"},
+        {"Rhino",{"squadleadr","engineer","engineer","engineer","engineer"},"true"},
         {"Phoenix",{"pilot","pilot","fac"},"true"},
         {"Phoenix 1-1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"Phoenix 1-2",{"pilot","pilot","crewchief","crewchief","medicp"},"count playableUnits > 6"},
         {"Recruits",{"Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit"},"true"},
-        // {"Students",{"jtacs","jtacs","jtacs","jtacs","engineers","engineers","engineers","engineers","medics","medics","medics","medics"},"true"},
-        {"Range Control",{"Zeus","Zeus"},"true"}
+        {"Students",{"jtacs","jtacs","jtacs","jtacs","engineers","engineers","engineers","engineers","medics","medics","medics","medics"},"true"},
+        {"Range Control",{"Zeus","Zeus","Cadre","Cadre","Cadre","Cadre"},"true"}
     };
 };
 

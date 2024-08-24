@@ -21,6 +21,9 @@ class jtac12 {
 			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
 	arsenalitems[] = {
+				"Rev_Pelican",
+		"Rev_darter",
+		"Rev_Designator",
 		"B_simc_US_Molle_sturm_OCP_RTO_wasser",
 		"B_simc_US_Molle_sturm_OCP_RTO",
 		"ACE_artilleryTable",

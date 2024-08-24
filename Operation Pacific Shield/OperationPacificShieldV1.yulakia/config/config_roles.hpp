@@ -32,9 +32,8 @@ class Dynamic_Roles {
     #include "outlaw_1_2\config_jtac.hpp"
     #include "outlaw_1_2\config_dismount.hpp"
 
-    #include "rhino\config_squadleader.hpp"
-    #include "rhino\config_engineer.hpp"
-    #include "rhino\config_medic.hpp"
+    // #include "rhino\config_squadleader.hpp"
+    // #include "rhino\config_engineer.hpp"
 
     #include "phoenix\config_pilot.hpp"
     #include "phoenix\config_crewchief.hpp"

@@ -7,8 +7,6 @@
 /*                                                                                                                    */
 /* ------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------ */
-class Header {};
-
 class CfgSettings {
     class CBA {
         class Caching {
@@ -32,9 +30,9 @@ respawn=3;
 skipLobby = 1;
 
 /* SERVER STUFF ----------------------------------------------------------------------------------------------------- */
-#include "config\config_admins.hpp"
-enableDebugConsole[] = {DEBUG_ADMINS};
-cba_settings_whitelist[] = {CBA_ADMINS};
+
+enableDebugConsole[] = {"76561198000002705","76561198176590682","76561198068010293"};
+cba_settings_whitelist[] = {"76561198000002705","76561198176590682","76561198068010293"};
 
 enableTargetDebug = 1;
 
@@ -45,7 +43,6 @@ corpseLimit = 25;
 corpseRemovalMinTime = 60;
 corpseRemovalMaxTime = 7200;
 minPlayerDistance = 250;
-
 
 
  /* ------------------------------------------------------------------------------------------------------------------ */
@@ -60,7 +57,6 @@ disabledAI              = true;
 class Extended_PreInit_EventHandlers {
     preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
     class Rev_settings {init = "call compile preprocessFileLineNumbers 'scripts\Rev_teleport\Rev_tp_settings.sqf'";};
-
 };
 class Extended_PostInit_EventHandlers {
     postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";
@@ -69,8 +65,6 @@ class Extended_PostInit_EventHandlers {
 class CfgFunctions {
     #include "scripts\CfgFunctions.hpp"
 };
-
-#include "scripts\CfgSimulator.hpp"
 #include "config\config_groups.hpp"
 
 /* gui ------------------------------------------------------------------------------------------------------- */
