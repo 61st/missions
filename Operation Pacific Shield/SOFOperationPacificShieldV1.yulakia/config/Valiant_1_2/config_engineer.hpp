@@ -36,6 +36,13 @@ class engineer12 {
 		"SatchelCharge_Remote_Mag",
 		"ClaymoreDirectionalMine_Remote_Mag",
 		"SLAMDirectionalMine_Wire_Mag",
-		"ACE_Fortify"
+		"ACE_Fortify",
+		"tsp_breach_package_mag",
+		"tsp_breach_popper_auto_mag",
+		"tsp_breach_popper_mag",
+		"tsp_breach_linear_auto_mag",
+		"tsp_breach_linear_mag",
+		"tsp_breach_block_auto_mag",
+		"tsp_breach_block_mag"
 	};
 };

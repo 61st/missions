@@ -50,7 +50,7 @@ object addAction [title, script, arguments, priority, showWindow, hideOnUse, sho
 
 this addAction ["<t color='#ff9900'>HALO C130</t>",{params ["_target", "_caller"]; [_caller, C130] execVM "scripts\ROS_GroupHalo\ROS_GroupHalo.sqf"},[],1.5,false,false,"","player distance _target <3 && count (((position C130) nearObjects ['CAManBase', 10]) select {alive _x}) ==0"];
 this addAction ["<t color='#b2ff66'>Move C130</t>",{[C130] execVM "scripts\ROS_GroupHalo\ROS_MoveHaloPlane.sqf"},[],1.4,false,false,"","player distance _target <3 && count (((position C130) nearObjects ['CAManBase', 10]) select {alive _x}) ==0"];
-
+this addAction ["<t color='#3399ff'>Weather Report</t>", "scripts\ROS_GroupHalo\ROS_weatherReport.sqf",[], 1.3, false, false,"","_this distance _target < 3"];
 
 
 2) Add the following line to the init field of the C130:

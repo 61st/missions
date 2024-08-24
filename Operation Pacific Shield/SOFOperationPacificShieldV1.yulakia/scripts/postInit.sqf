@@ -21,4 +21,8 @@ call EFUNC(init,staging);
 // messages
 call EFUNC(init,message);
 
+onPlayerConnected { 
+    [QEGVAR(log,player), [getPlayerUID player, player]] call CBA_fnc_serverEvent;
+};
+
 INFO("postInit", "Initialization completed.");
