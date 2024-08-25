@@ -3,6 +3,7 @@
  /* ------------------------------------------------------------------------------------------------------------------ */
  /*                                                D O   N O T   E D I T  !                                            */
  /* ------------------------------------------------------------------------------------------------------------------ */
+
 [missionNamespace, "arsenalOpened", {
 	player setVariable ["PlayerReady",false,true];
 }] remoteExecCall ["BIS_fnc_addScriptedEventHandler", [0, -2] select isDedicated];
@@ -28,7 +29,6 @@ CUP_stopLampCheck = true;
     call FUNC(playerActions);
 }, [], -1] call CBA_fnc_waitUntilAndExecute;
 
-
 //rank stuff
 [player, 'BIS'] call EFUNC(player,setRank);
 call EFUNC(player,setRankpatch);
@@ -38,7 +38,6 @@ call LXIM_w28fixes_fnc_player_set_name;
 
 /* groups ----------------------------------------------------------------------------------------------------------- */
 player addEventHandler ["Respawn",FUNC(onRespawn)];
-[] call FUNC(initGroupMenu);
 
 /* welcome ---------------------------------------------------------------------------------------------------------- */
 createDialog ["RscDisplayWelcome",true];

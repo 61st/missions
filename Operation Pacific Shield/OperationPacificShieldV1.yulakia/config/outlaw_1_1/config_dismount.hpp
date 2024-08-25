@@ -18,6 +18,7 @@ class dismount11 {
 			{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
 			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
+	// for 1-1
 	arsenalitems[] = {
 		"cup_glaunch_mk13",
 		"CUP_FlareYellow_M203",
@@ -38,20 +39,6 @@ class dismount11 {
 		"CUP_1Rnd_SmokeRed_M203",
 		"CUP_1Rnd_SmokeYellow_M203",
 		"ACE_LWAMG_SpareBarrel",
-		"ACE_LAMG_SpareBarrel",
-		"KAR_XM250",
-		"KAR_XM250_BLK",
-		"KAR_XM250_SUP",
-		"KAR_XM250_SUP_BLK",
-		"CUP_launch_FIM92Stinger",
-        "I_E_HMG_02_support_F",
-        "I_E_HMG_02_support_high_F",
-        "B_HMG_01_support_F",
-        "B_HMG_01_support_high_F",
-        "B_Mortar_01_weapon_F",
-        "B_Mortar_01_support_F",
-		"CUP_launch_Javelin",
-		"CUP_Javelin_M",
-		"cup_lmg_m240"
+		"ACE_LAMG_SpareBarrel"
 	};
 };
