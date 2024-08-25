@@ -1,6 +1,6 @@
 class engineer12 {
 	name = "Combat Engineer";
-	description = "makes things go boom or not to go boom";
+	description = "Makes things go boom or not to go boom";
 	traits[] = {
 		{"Engineer",true}
 	};
@@ -11,11 +11,10 @@ class engineer12 {
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 
 	defaultLoadout[] = {
-            {"SPS_hk417_13_vfg_fde_f","","","sps_vortex_spitfire_gen2_x5_RMR_tan",{"20Rnd_762x51_Mag",20},{},""}, 
-			{}, 
-			{"sps_hk_vp9_stnd_black","","","",{"16Rnd_9x21_Mag",17},{},""}, 
-			{"U_tweed_acu_summer_ocp_tuck_trop",{{"kat_IFAK",1},{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"16Rnd_9x21_Mag",2,17}}},
-			{"V_tweed_msv_mk2_cell_45_1",{{"kat_IFAK",1},{"SPS_20Rnd_762x51mm_M80A1_EPR",9,20},{"HandGrenade",2,1}}}, 
+			{"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+			{"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},
+			{"U_tweed_acu_summer_ocp_tuck_trop",{{"kat_IFAK",1},{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"CUP_17Rnd_9x19_M17_Black",2,17}}},
+			{"V_tweed_msv_mk2_cell_45_1",{{"kat_IFAK",1},{"lxim_sig_25Rnd_Fury",9,20},{"HandGrenade",2,1}}}, 
 			{"B_simc_US_Molle_sturm_OCP_etool",{{"ItemcTabMisc",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_Clacker",1},{"ACE_wirecutter",1},{"B_IR_Grenade",1,1},{"ACE_M14",1,1},{"SmokeShellBlue",1,1},{"SmokeShellPurple",1,1},{"SmokeShellRed",1,1},{"SmokeShell",2,1},{"ClaymoreDirectionalMine_Remote_Mag",1,1},{"DemoCharge_Remote_Mag",2,1}}},
 			"H_tweed_ihps_tasc_rail","",
 			{"Binocular","","","",{},{},""}, 
@@ -36,6 +35,13 @@ class engineer12 {
 		"SatchelCharge_Remote_Mag",
 		"ClaymoreDirectionalMine_Remote_Mag",
 		"SLAMDirectionalMine_Wire_Mag",
-		"ACE_Fortify"
+		"ACE_Fortify",
+		"tsp_breach_package_mag",
+		"tsp_breach_popper_auto_mag",
+		"tsp_breach_popper_mag",
+		"tsp_breach_linear_auto_mag",
+		"tsp_breach_linear_mag",
+		"tsp_breach_block_auto_mag",
+		"tsp_breach_block_mag"
 	};
 };
