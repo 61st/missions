@@ -12,26 +12,25 @@ class medicp {
 	icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
 
 	defaultLoadout[] = {
-            {"CUP_arifle_M4A1_standard_short_black","","CUP_acc_ANPEQ_15","SPS_EOTech_Black",{"SPS_HKG3PMAG_30Rnd_556x45_M855A1_B",30},{},""},
+            {"CUP_arifle_M4A1_standard_short_black","","CUP_acc_ANPEQ_15","CUP_optic_ACOG_TA01B_RMR_Black",{"CUP_30Rnd_556x45_PMAG_BLACK_PULL",30},{},""},
             {},
             {"CUP_hgun_M17_Coyote","","","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
             {"U_tweed_acu_summer_ocp_unbl_trop",{{"G_Aviator",1},{"CUP_G_WristWatch",1},{"ACE_MRE_MeatballsPasta",1},{"ACE_splint",2},{"acex_intelitems_notepad",1,1},{"kat_Painkiller",1,10},{"Chemlight_red",1,1},{"ACE_Chemlight_HiRed",4,1},{"ACE_Chemlight_HiGreen",4,1},{"ACE_Chemlight_HiBlue",4,1},{"CUP_HandGrenade_M67",1,1}}},
-            {"V_tweed_msv_mk2_1",{{"ItemcTabHCam",1},{"CUP_21Rnd_9x19_M17_Coyote",2,21},{"SPS_HKG3PMAG_30Rnd_556x45_M856A1_B",7,30}}},
+            {"V_tweed_msv_mk2_1",{{"ItemcTabHCam",1},{"CUP_21Rnd_9x19_M17_Coyote",2,21},{"CUP_30Rnd_556x45_PMAG_BLACK_PULL",7,30}}},
             {"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"kat_EACA",4},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"kat_X_AED",1},{"kat_aatKit",5},{"kat_ncdKit",6},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"kat_atropine",10},{"kat_chestSeal",5},{"kat_lidocaine",6},{"kat_nitroglycerin",4},{"kat_norepinephrine",4},{"kat_accuvac",1}}},
             "H_PilotHelmetHeli_B","CUP_G_Tan_Scarf_GPS",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
     arsenalitems[] = {
+		"CUP_30Rnd_556x45_PMAG_BLACK_PULL",
+		"CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red",
+		"H_PilotHelmetHeli_B",
+		"H_CrewHelmetHeli_B",
+		"FIR_HGU56P_Skull_Death",
+		"FIR_HGU56P_Skull",
+		"H_PilotHelmetHeli_I_E",
+		"H_CrewHelmetHeli_I_E",
 		"CUP_arifle_M4A1_standard_short_black",
-        "SPS_HKG3PMAG_30Rnd_556x45_M855A1_B",
-        "SPS_HKG3PMAG_30Rnd_556x45_M856A1_B",
-        "SPS_HKG3PMAG_30Rnd_556x45_B_M995",
-        "SPS_HKG3PMAG_30Rnd_556x45_M855A1_FDE",
-        "SPS_HKG3PMAG_30Rnd_556x45_M856A1_FDE",
-        "SPS_HKG3PMAG_30Rnd_556x45_FDE_M995",
-        "SPS_HKG3PMAG_30Rnd_556x45_S_M995",
-        "SPS_HKG3PMAG_30Rnd_556x45_M856A1_S",
-        "SPS_HKG3PMAG_30Rnd_556x45_M855A1_S",
 		"kat_accuvac",
 		"kat_pocketBVM",
 		"kat_AFAK",
@@ -105,6 +104,8 @@ class medicp {
 		"kat_oxygenTank_150_Item",
 		"lxim_backpack_Backpack_Kitbag_Medic_Black",
 		"lxim_backpack_Backpack_Kitbag_Medic_Sage",
-		"lxim_backpack_Backpack_Kitbag_Medic_White"
+		"lxim_backpack_Backpack_Kitbag_Medic_White",
+		"cup_arifle_m4a1_standard_short_black",
+		"ACE_30Rnd_556x45_Stanag_Mk262_mag"
 	};
 };

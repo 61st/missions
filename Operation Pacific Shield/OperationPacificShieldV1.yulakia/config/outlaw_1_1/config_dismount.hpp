@@ -39,10 +39,6 @@ class dismount11 {
 		"CUP_1Rnd_SmokeRed_M203",
 		"CUP_1Rnd_SmokeYellow_M203",
 		"ACE_LWAMG_SpareBarrel",
-		"ACE_LAMG_SpareBarrel",
-		"KAR_XM250",
-		"KAR_XM250_BLK",
-		"KAR_XM250_SUP",
-		"KAR_XM250_SUP_BLK"
+		"ACE_LAMG_SpareBarrel"
 	};
 };

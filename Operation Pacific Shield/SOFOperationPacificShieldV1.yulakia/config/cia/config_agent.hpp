@@ -13,7 +13,6 @@ class Officer {
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
-			{"SPS_hk416_14_5_exsmr_hk_ctr_vfg_black_f","muzzle_snds_HXQD556_black_M","CUP_acc_ANPEQ_15_Flashlight_Black_L","sps_vortex_spitfire_gen2_x5_RMR_black",{"sps_30Rnd_556x45_Stanag",30},{},"bipod_01_F_blk"},{},
 			{"CUP_hgun_M9","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_I_B_PMC_Unit_43",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"CUP_30Rnd_556x45_Stanag",4,30}}},
 			{"CUP_V_B_Ciras_Black4",{{"ACE_Clacker",1},{"CUP_HandGrenade_M67",3,1},{"SmokeShell",2,1},{"sps_30Rnd_556x45_Stanag",10,30},{"Chemlight_blue",2,1},{"Chemlight_green",2,1},{"ACE_Chemlight_IR",2,1},{"MS_Strobe_Mag_1",2,1},{"ACE_M84",2,1},{"DemoCharge_Remote_Mag",1,1}}},
 			{"B_Carryall_blk",{{"kat_AFAK",1},{"ACE_EarPlugs",2},{"ItemcTabHCam",1},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintRed",1},{"ACE_EntrenchingTool",1},{"ACE_DefusalKit",1},{"ACE_Flashlight_MX991",1},{"ACE_microDAGR",1},{"DemoCharge_Remote_Mag",2,1},{"sps_30Rnd_556x45_Stanag",3,30},{"CUP_15Rnd_9x19_M9",3,15}}},
@@ -109,7 +108,6 @@ class Officer {
 		"ClaymoreDirectionalMine_Remote_Mag",
 		"SLAMDirectionalMine_Wire_Mag",
 		"ACE_Fortify",
-		"SPS_hk416_14_5_exsmr_hk_ctr_vfg_black_f",
 		"IS_Balaclava",
 		"G_Balaclava_blk",
 		"SP_Balaclava_Black",
