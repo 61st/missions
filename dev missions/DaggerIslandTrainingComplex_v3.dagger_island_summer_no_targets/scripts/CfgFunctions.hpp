@@ -28,6 +28,7 @@ class YMF {
     class documents {
         file = "scripts\documents";
         class DOC_mission_Info  {};
+        class Doc_mission_map  {};
     };
     class systems {
         file = "scripts\systems";
