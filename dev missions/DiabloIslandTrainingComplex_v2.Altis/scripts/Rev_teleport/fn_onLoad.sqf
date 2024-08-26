@@ -15,7 +15,7 @@
  */
 
 params [
-	["_control",controlNull,[controlNull]]
+    ["_control",controlNull,[controlNull]]
 ];
 
 if !(hasInterface) exitWith {false};
@@ -23,12 +23,12 @@ if !(hasInterface) exitWith {false};
 private _list = missionNamespace getVariable ["Rev_tp_list",[]];
 private ["_object", "_name","_side","_index"];
 {
-	_object = _x # 0;
-	_name = _x # 1;
-	_side = _x # 2;
-		
-	_index = _control lbAdd _name;
-	_control lbSetData [_forEachindex,_name];
+    _object = _x # 0;
+    _name = _x # 1;
+    _side = _x # 2;
+        
+    _index = _control lbAdd _name;
+    _control lbSetData [_forEachindex,_name];
 
 } forEach _list;
 

@@ -3,12 +3,12 @@ class cmd1 {
     description = "Never fear War Mommy is here";
     traits[] = {
         {"Engineer",true}
-	};
-	customVariables[] = {
-		{"ace_isEngineer",2,true},
+    };
+    customVariables[] = {
+        {"ace_isEngineer",2,true},
         {"YMF_iscmd", true, true},
         {"TFAR_freq_sr",{"100.1","110","210","33","100","75","60","35"},true}
-	};
+    };
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
@@ -22,8 +22,8 @@ class cmd1 {
     };
     arsenalitems[] = {
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-		"B_simc_US_Molle_sturm_OCP_RTO",
-		"H_HelmetCrew_I",
+        "B_simc_US_Molle_sturm_OCP_RTO",
+        "H_HelmetCrew_I",
         "ToolKit",
         "SPS_KAC_LAMG_NHG_black_F",
         "SPS_KAC_LAMG_NHG_tan_F",
@@ -60,5 +60,5 @@ class cmd1 {
         "SPS_KAC_LWAMG_100rnd_Box_M80A1M62A1",
         "MineDetector",
         "SatchelCharge_Remote_Mag"
-	};
+    };
 };

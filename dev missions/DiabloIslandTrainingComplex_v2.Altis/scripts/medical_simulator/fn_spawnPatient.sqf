@@ -3,14 +3,14 @@
 #define IDC_TOOL_BOX_01 9985006 // toolbox IDC
 
 /*
- *	Author: PDT
- *	spawns a patient
+ * Author: PDT
+ * spawns a patient
  *
- *	Arguments:
+ * Arguments:
  *  1: _difficulty <NUMBER> - difficulty of the patient.
  *
- *	Return Value:
- *	None
+ * Return Value:
+ * None
  *
  */
 

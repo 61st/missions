@@ -133,16 +133,16 @@ _wy = _curwind select 1;
 
 // Adjust view distance on client in SP. Note: In MP it will be overridden by the server - see server config
 if (_changeVD) then {
-	[_viewDist] remoteExec ["setViewDistance", 0];
-	[_objViewDist] remoteExec ["setObjectViewDistance", 0];
+    [_viewDist] remoteExec ["setViewDistance", 0];
+    [_objViewDist] remoteExec ["setObjectViewDistance", 0];
 };
 
 // Check C130 altitude is greater than 750m (minimum)
 _posPlane = getPos _plane;
 _altPlane = _posPlane select 2;
 if (_altPlane <750) then {
-	_posPlane set [2, 750];
-	_plane setPos _posPlane;
+    _posPlane set [2, 750];
+    _plane setPos _posPlane;
 };
 
 // Check _deployAlt is not below min 130m or above C130 alt-200
@@ -177,35 +177,35 @@ if (count _nearestEnemies >0) then {_plane setdir (_plane getdir _nearestEnemy)}
 
 // Disable AI Fatigue - useful if there are AT/AA slower units
 if (_disableAIfatigue) then {
-	{if (local _x) then { _x enableFatigue false}} forEach _aiUnits;
+    {if (local _x) then { _x enableFatigue false}} forEach _aiUnits;
 };
 
 // Fade out screen during teleport, reposition, stance, orientation, loadout switch etc
 [_players] spawn {
- 	params ["_players"];
- 	[["TRANSFERRING TO THE C130", "BLACK", 1]] remoteExec ["cuttext", _players];
- 	sleep 1;
+     params ["_players"];
+     [["TRANSFERRING TO THE C130", "BLACK", 1]] remoteExec ["cuttext", _players];
+     sleep 1;
 };
 
 sleep 1;
 
 // 15 positions in C130
 _attachpositions = [
-	[-0.9,-7,-4.85], // L back
-	[-0.1,-7,-4.85], // C
-	[0.9,-7,-4.85], // R
-	[-0.9,-5,-4.85], // L
-	[-0.1,-5,-4.85], // C
-	[0.9,-5,-4.85], // R
-	[-0.9,-3,-4.85], // L
-	[-0.1,-3,-4.85], // C
-	[0.9,-3,-4.85], // R
-	[0.9,-1,-4.85], // L
-	[-0.1,-1,-4.85], // C
-	[-0.9,-1,-4.85], // R
-	[-0.9,1,-4.85], // L
-	[-0.1,1,-4.85], // C
-	[0.9,1,-4.85] // R front
+    [-0.9,-7,-4.85], // L back
+    [-0.1,-7,-4.85], // C
+    [0.9,-7,-4.85], // R
+    [-0.9,-5,-4.85], // L
+    [-0.1,-5,-4.85], // C
+    [0.9,-5,-4.85], // R
+    [-0.9,-3,-4.85], // L
+    [-0.1,-3,-4.85], // C
+    [0.9,-3,-4.85], // R
+    [0.9,-1,-4.85], // L
+    [-0.1,-1,-4.85], // C
+    [-0.9,-1,-4.85], // R
+    [-0.9,1,-4.85], // L
+    [-0.1,1,-4.85], // C
+    [0.9,1,-4.85] // R front
 ];
 
 //// Reorder array so players are at back of plane (otherwise AI will run through players)
@@ -223,18 +223,18 @@ _haloUnits = [];
 
 // Transfer all Halo (AI and player) units to plane
 {
-	if (local _x) then {_x allowDamage false};
-	_selectedPos = (_attachpositions select _foreachindex);
-	[_x,"up"] remoteExec ["setUnitPos", _x];
-	if (!isplayer _x) then {_x disableAI "anim"};
-	[_x, "HubStandingUA_idle1"] remoteExec ["switchMove"];
-	[_x, false] remoteExec ["enableSimulationGlobal",2];
-	_x attachTo [_plane, _selectedPos];
-	if (_enableSmoke) then {
-		[[_x],"scripts\ROS_GroupHalo\ROS_ParaSmoke.sqf"] remoteExec ["execVM", _x];
-	};
-	sleep 0.1;
-	[_x, true] remoteExec ["enableSimulationGlobal",2];
+    if (local _x) then {_x allowDamage false};
+    _selectedPos = (_attachpositions select _foreachindex);
+    [_x,"up"] remoteExec ["setUnitPos", _x];
+    if (!isplayer _x) then {_x disableAI "anim"};
+    [_x, "HubStandingUA_idle1"] remoteExec ["switchMove"];
+    [_x, false] remoteExec ["enableSimulationGlobal",2];
+    _x attachTo [_plane, _selectedPos];
+    if (_enableSmoke) then {
+        [[_x],"scripts\ROS_GroupHalo\ROS_ParaSmoke.sqf"] remoteExec ["execVM", _x];
+    };
+    sleep 0.1;
+    [_x, true] remoteExec ["enableSimulationGlobal",2];
 } forEach _haloUnits;
 
 sleep 1;
@@ -247,23 +247,23 @@ if (_plane animationPhase "ramp_bottom" < 0.2) then {["10secs"] remoteExec ["pla
 
 // Let players move around after positioning AI
 {
-	detach _x;
-	[_x, "amovpercmstpslowwrfldnon"] remoteExec ["switchmove", _x];
-	[_x, "up"] remoteExec ["setUnitPos", _x];
+    detach _x;
+    [_x, "amovpercmstpslowwrfldnon"] remoteExec ["switchmove", _x];
+    [_x, "up"] remoteExec ["setUnitPos", _x];
 } forEach _players;
 
 if (_plane animationPhase "ramp_bottom" < 0.2) then {sleep 5};
 
 // Open c130 ramp - rampopen 10secs
 if (_plane animationPhase "ramp_bottom" < 0.2) then {
-	["rampopen"] remoteExec ["playSound", _players];
-	["doorwind"] remoteExec ["playSound", _players];
+    ["rampopen"] remoteExec ["playSound", _players];
+    ["doorwind"] remoteExec ["playSound", _players];
 };
 
 // AnimationName, phase, speed
 if (_plane animationPhase "ramp_bottom" < 0.2) then {
-	_plane animate ["ramp_top",1,0.7];
-	_plane animate ["ramp_bottom",1,0.7];
+    _plane animate ["ramp_top",1,0.7];
+    _plane animate ["ramp_bottom",1,0.7];
 };
 
 if (_plane animationPhase "ramp_bottom" < 0.2) then {sleep 6};
@@ -276,101 +276,101 @@ sleep 1;
 
 // Detach NPC's and run them out with some random velocity
 if (count _aiUnits > 0) then {
-	reverse _aiUnits;
-	_numAI = count _aiUnits;
-	{
-		[_x, _foreachindex, _numAI] spawn {
-			params ["_x", "_idx", "_numAI"];
-			detach _x;
-			_sign = 1;
-			_dir = 0;
-			if (random 1 <0.5) then {_sign = 1} else {_sign = -1};
+    reverse _aiUnits;
+    _numAI = count _aiUnits;
+    {
+        [_x, _foreachindex, _numAI] spawn {
+            params ["_x", "_idx", "_numAI"];
+            detach _x;
+            _sign = 1;
+            _dir = 0;
+            if (random 1 <0.5) then {_sign = 1} else {_sign = -1};
 
-			if (local _x) then {
-				[_x, "AmovPercMrunSnonWnonDf"] remoteExec ["switchmove"]; // AmovPercMrunSnonWnonDf 0.8 run
-				waitUntil {animationState _x == "HaloFreeFall_non"};
-				_rndx = (10 + (random 10 * _sign));
-				_rndy = (5 + random 20);
-				_rndz = 7 + random -10;
-				_dir = (direction _x) + (_sign * 10);
-				// Make them jump slightly when they exit ramp and spread them out to avoid collisions
-				[_x, [_rndx * (sin _dir), _rndy * (cos _dir), _rndz]] remoteExec ["setvelocity",_x];
-				//sleep 2.5; // run anim 0.8x2
-				_x enableAI "anim";
-				waitUntil {getPosATL _x select 2 <350};
-				[_x] remoteExec ["removebackpack", 0];
-				waitUntil {getPosATL _x select 2 <=100};
-				_pos = getPosATL _x;
-				_chute = createVehicle ["NonSteerable_Parachute_F", _pos, [], 0, "fly"];
-				//_chute setdir (_chute getDir (getMarkerPos "Marker_C130")) +random 50;
-				_x moveInDriver _chute;
-			};
-		};
-		// interleave delay - to limit collisions min = 0.2 based on testing with other mods and 14 units.
-		sleep 0.25;
-	} foreach _aiUnits;
+            if (local _x) then {
+                [_x, "AmovPercMrunSnonWnonDf"] remoteExec ["switchmove"]; // AmovPercMrunSnonWnonDf 0.8 run
+                waitUntil {animationState _x == "HaloFreeFall_non"};
+                _rndx = (10 + (random 10 * _sign));
+                _rndy = (5 + random 20);
+                _rndz = 7 + random -10;
+                _dir = (direction _x) + (_sign * 10);
+                // Make them jump slightly when they exit ramp and spread them out to avoid collisions
+                [_x, [_rndx * (sin _dir), _rndy * (cos _dir), _rndz]] remoteExec ["setvelocity",_x];
+                //sleep 2.5; // run anim 0.8x2
+                _x enableAI "anim";
+                waitUntil {getPosATL _x select 2 <350};
+                [_x] remoteExec ["removebackpack", 0];
+                waitUntil {getPosATL _x select 2 <=100};
+                _pos = getPosATL _x;
+                _chute = createVehicle ["NonSteerable_Parachute_F", _pos, [], 0, "fly"];
+                //_chute setdir (_chute getDir (getMarkerPos "Marker_C130")) +random 50;
+                _x moveInDriver _chute;
+            };
+        };
+        // interleave delay - to limit collisions min = 0.2 based on testing with other mods and 14 units.
+        sleep 0.25;
+    } foreach _aiUnits;
 };
 
 waitUntil {_player distance _plane > 30};
 
 // Manual chute deployment
 if (_manualOpen) then {
-	{if (animationState _x != "para_pilot") then {["REMINDER!\nDeploy your chute at around 140m"] remoteExec ["hint", _x]}} foreach _players;
+    {if (animationState _x != "para_pilot") then {["REMINDER!\nDeploy your chute at around 140m"] remoteExec ["hint", _x]}} foreach _players;
 } else {
-	{if (animationState _x != "para_pilot") then {["Chute will auto deploy around 130m"] remoteExec ["hint", _x]}} foreach _players;
+    {if (animationState _x != "para_pilot") then {["Chute will auto deploy around 130m"] remoteExec ["hint", _x]}} foreach _players;
 };
 
 ROS_OpenChute_fnc = {
-	params ["_unit", "_deployAlt"];
-	[_unit, _deployAlt] spawn {
-		params ["_unit", "_deployAlt"];
-		waitUntil {(getPosATL _unit select 2) <=_deployAlt};
-		_unit action ["openParachute", _unit];
-	};
-	true
+    params ["_unit", "_deployAlt"];
+    [_unit, _deployAlt] spawn {
+        params ["_unit", "_deployAlt"];
+        waitUntil {(getPosATL _unit select 2) <=_deployAlt};
+        _unit action ["openParachute", _unit];
+    };
+    true
 };
 
 // Auto deploy chutes
 if !(_manualOpen) then {
-	{
-		[_x, _deployAlt] remoteExecCall ["ROS_OpenChute_fnc", _x];
-	} forEach _players;
+    {
+        [_x, _deployAlt] remoteExecCall ["ROS_OpenChute_fnc", _x];
+    } forEach _players;
 };
 
 // Close doors and change light colour
 if !(_leaveRampOpen) then {
-	_plane animate ["ramp_top",0,0.7];
-	_plane animate ["ramp_bottom",0,0.7];
-	[_plane, "rampopen"] remoteExec ["say3D", _players];
-	// Change light colour
-	[lightR, [0.2,0,0]] remoteExec ["setLightAmbient", 0];
-	[lightR, [1,0.1,0]] remoteExec ["setLightColor", 0];
+    _plane animate ["ramp_top",0,0.7];
+    _plane animate ["ramp_bottom",0,0.7];
+    [_plane, "rampopen"] remoteExec ["say3D", _players];
+    // Change light colour
+    [lightR, [0.2,0,0]] remoteExec ["setLightAmbient", 0];
+    [lightR, [1,0.1,0]] remoteExec ["setLightColor", 0];
 };
 
 // Load player inventory on landing
 
 {
-	[_x] spawn {
-	params ["_player"];
-		//Load Inventory when on ground
-		waitUntil {(getposatl _player select 2) < 2 or isTouchingGround _player};
-		_inv = name _player;
-		[_player, [missionNamespace, format["%1%2", "inventory",_inv]]] call BIS_fnc_LoadInventory;
-	};
+    [_x] spawn {
+    params ["_player"];
+        //Load Inventory when on ground
+        waitUntil {(getposatl _player select 2) < 2 or isTouchingGround _player};
+        _inv = name _player;
+        [_player, [missionNamespace, format["%1%2", "inventory",_inv]]] call BIS_fnc_LoadInventory;
+    };
 } foreach _players;
 
 // Load AI inventory on landing
 {
-	if (local _x) then {
-		[_x, _player] spawn {
-			params ["_unit", "_player"];
-			waitUntil {(getposatl _unit select 2) < 1 or isTouchingGround _unit};
-			_inv = name _unit;
-			[_unit, [missionNamespace, format["%1%2", "inventory",_inv]]] call BIS_fnc_LoadInventory;
-			_unit allowDamage true;
-			_unit enableAI "anim";
-		};
-	};
+    if (local _x) then {
+        [_x, _player] spawn {
+            params ["_unit", "_player"];
+            waitUntil {(getposatl _unit select 2) < 1 or isTouchingGround _unit};
+            _inv = name _unit;
+            [_unit, [missionNamespace, format["%1%2", "inventory",_inv]]] call BIS_fnc_LoadInventory;
+            _unit allowDamage true;
+            _unit enableAI "anim";
+        };
+    };
 } forEach _aiUnits;
 
 // Wait until all Halo units are on the ground

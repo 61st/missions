@@ -15,7 +15,7 @@
  */
 
 params [
-	["_object", objNull, [objNull]]
+    ["_object", objNull, [objNull]]
 ];
 
 //Safetychecks

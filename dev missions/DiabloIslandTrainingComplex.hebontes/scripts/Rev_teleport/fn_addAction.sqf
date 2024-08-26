@@ -16,8 +16,8 @@
  */
 
 params [
-	["_object", objNull, [objNull]],
-	["_side",west,[civilian]]
+    ["_object", objNull, [objNull]],
+    ["_side",west,[civilian]]
 ];
 
 
@@ -30,16 +30,16 @@ private _text = "<t align='center'><img image='a3\ui_f_curator\data\cfgwrapperui
 
 private _id = _object addAction 
 [
-	_text //title
-	,{params ["_target", "_caller", "_actionId", "_arguments"];createDialog "Rev_tp_dialog"} //script
-	,[_object] //arguments
-	,12 //priority
-	,true //showWindow
-	,false //hideOnUse
-	,"" //shortcut
-	,"(side _this isEqualTo (_originalTarget getVariable ['Rev_tp_side',sideEnemy]))" //condition
-	,Rev_tp_action_radius //radius
-	,false //unconscious
-	,"" //selection
-	,"" //
+    _text //title
+    ,{params ["_target", "_caller", "_actionId", "_arguments"];createDialog "Rev_tp_dialog"} //script
+    ,[_object] //arguments
+    ,12 //priority
+    ,true //showWindow
+    ,false //hideOnUse
+    ,"" //shortcut
+    ,"(side _this isEqualTo (_originalTarget getVariable ['Rev_tp_side',sideEnemy]))" //condition
+    ,Rev_tp_action_radius //radius
+    ,false //unconscious
+    ,"" //selection
+    ,"" //
 ];

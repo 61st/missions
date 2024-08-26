@@ -8,13 +8,13 @@
 #define IDC_TOOL_BOX_01 9985006               // toolbox IDC
 
 /*
- *	Author: PDT
- *	adds items to a lisbox
+ * Author: PDT
+ * adds items to a lisbox
  *
- *	Arguments:
+ * Arguments:
  *  None
  *
- *	Return Value:
+ * Return Value:
  *  None
  *
  */
@@ -29,8 +29,8 @@ if (_stretchers isEqualTo []) exitWith {};
 
 //add the items to the dropdown menu
 {
-	_item = _listBox lbAdd (_x select 0);
-	_listBox lbSetData [_item, (_x select 1)];
+    _item = _listBox lbAdd (_x select 0);
+    _listBox lbSetData [_item, (_x select 1)];
 } forEach _stretchers;
 
 _listBox lbSetCurSel 0;
@@ -38,10 +38,10 @@ _listBox lbSetCurSel 0;
 
 //add lbSelChanged eventhandlers
 private _lbSelChanged = _listBox ctrlAddEventHandler ["LBSelChanged",
-	{
-	  params ["_control", "_selectedIndex"];
-		[_control, _selectedIndex] call PDT_MedicalSimulator_fnc_lbSelChanged;
-	}
+    {
+        params ["_control", "_selectedIndex"];
+        [_control, _selectedIndex] call PDT_MedicalSimulator_fnc_lbSelChanged;
+    }
 ];
 
 [] spawn PDT_MedicalSimulator_fnc_createCamera;

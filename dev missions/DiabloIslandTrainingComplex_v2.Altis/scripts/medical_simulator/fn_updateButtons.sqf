@@ -4,14 +4,14 @@
 #define IDC_BUTTON_03 9985005 // button 03 IDC
 
 /*
- *	Author: PDT
- *	updates dialog buttons
+ * Author: PDT
+ * updates dialog buttons
  *
- *	Arguments:
+ * Arguments:
  *  0: _stretcher <OBJECT> - the selected stretcher
  *
- *	Return Value:
- *	None
+ * Return Value:
+ * None
  *
  */
 

@@ -2,12 +2,12 @@ class crewchief {
     name = "Crew Chief";
     description = "Weeeeeeeeeeeee";
     traits[] = {
-		{"Engineer",true}
-	};
-	customVariables[] = {
-		{"ace_isEngineer",2,true},
+    {"Engineer",true}
+  };
+  customVariables[] = {
+    {"ace_isEngineer",2,true},
         {"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true}
-	};
+  };
     icon = "a3\ui_f\data\map\vehicleicons\iconman_ca.paa";
 
     defaultLoadout[] = {
@@ -21,7 +21,7 @@ class crewchief {
             {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
     arsenalitems[] = {
-		"CUP_arifle_M4A1_standard_short_black",
+    "CUP_arifle_M4A1_standard_short_black",
         "H_PilotHelmetHeli_B",
         "H_CrewHelmetHeli_B",
         "FIR_HGU56P_Skull_Death",
@@ -44,5 +44,5 @@ class crewchief {
         "SPS_HKG3PMAG_30Rnd_556x45_M855A1_S",
         "B_simc_US_Molle_sturm_OCP_RTO",
         "B_simc_US_Molle_sturm_OCP_RTO_wasser"
-	};
+  };
 };

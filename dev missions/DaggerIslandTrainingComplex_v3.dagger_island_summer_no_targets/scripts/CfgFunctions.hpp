@@ -1,16 +1,16 @@
 class YMF {
-	class Groups {
-		file = "scripts\groups";
-		class assignPlayer {};
-		class handleDisconnect {};
-		class initGroupMenu {};
-		class onGroupMenuTvSelectChange {};
-		class onRespawn {};
-		class removeFromGroup {};
-		class selectPosition {};
-		class setupPlayer {};
-		class updateGroups {};
-	};
+    class Groups {
+        file = "scripts\groups";
+        class assignPlayer {};
+        class handleDisconnect {};
+        class initGroupMenu {};
+        class onGroupMenuTvSelectChange {};
+        class onRespawn {};
+        class removeFromGroup {};
+        class selectPosition {};
+        class setupPlayer {};
+        class updateGroups {};
+    };
     class init {
         file = "scripts\init";
         class init_aceItemReplace {};
@@ -182,13 +182,13 @@ class YMF {
 };
 class PDT_MedicalSimulator {
     
-		class dialogs {
+        class dialogs {
             file = "scripts\medical_simulator";
             class lbAdd; // adds items to listbox
             class lbSelChanged; // handles changing listbox selection
             class updateButtons;// updates the button states
-		};
-		class medicalSimulator {
+        };
+        class medicalSimulator {
             file = "scripts\medical_simulator";
             // spawns patient
             class spawnPatient;
@@ -202,21 +202,21 @@ class PDT_MedicalSimulator {
             class getObject;
             // damages patients
             class damagePatient;
-		};
-	};
+        };
+    };
 
 class Rev_tp {   
     class Teleport {
-		file ="scripts\Rev_teleport";
+        file ="scripts\Rev_teleport";
         class addAction {};
         class addPoint {};
         class addZEN_modules {postinit = 1;};
         class deletePoint {};
         class listCheck {};
-		class onButtonClick {};
-		class onLBSelChanged {};
+        class onButtonClick {};
+        class onLBSelChanged {};
         class onLoad {};
         class teleport {};
         class ZEN_dialog {};
-	};
+    };
 };

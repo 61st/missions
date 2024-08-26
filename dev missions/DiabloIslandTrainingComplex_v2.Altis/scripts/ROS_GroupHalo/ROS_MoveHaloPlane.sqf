@@ -29,48 +29,48 @@ publicVariable "ROS_Haloplane";
 
 if (!isnull _plane) then {
 
-	[_plane] spawn {
-		params ["_plane"];
-		if (isnil "_markerC130") then {
-			_pos = getPosATL _plane;
-			_pos set [2,0];
-			_markerC130 = createMarker ["Marker_C130", _pos];
-	        _markerC130 setMarkerShape "ICON";
-	        _markerC130 setMarkerType "respawn_para";
-	        _markerC130 setMarkerText "C130";
-	        _markerC130 setMarkerColor "ColorWest";
-		};
-	};
+    [_plane] spawn {
+        params ["_plane"];
+        if (isnil "_markerC130") then {
+            _pos = getPosATL _plane;
+            _pos set [2,0];
+            _markerC130 = createMarker ["Marker_C130", _pos];
+            _markerC130 setMarkerShape "ICON";
+            _markerC130 setMarkerType "respawn_para";
+            _markerC130 setMarkerText "C130";
+            _markerC130 setMarkerColor "ColorWest";
+        };
+    };
 
-	ROS_Fnc_OMSC = {
-		params ["_pos", "_thisEH"];
+    ROS_Fnc_OMSC = {
+        params ["_pos", "_thisEH"];
 
-		hint "";
-		// Map Click
-		"Marker_C130" setmarkerpos _pos;
-		_z = getPos ROS_Haloplane select 2;
-		_pos set [2,_z];
-	    ROS_Haloplane setPosATL _pos;
-	    playSound "beep";
-		hint "C130\nRELOCATING\nTO THE HALO POSITION SIR !";
-		sleep 3;
-		hint "";
-		removeMissionEventHandler ["MapSingleClick", _thisEH];
-		onMapSingleClick "";
-    	openMap false;
-    	true
-	};
+        hint "";
+        // Map Click
+        "Marker_C130" setmarkerpos _pos;
+        _z = getPos ROS_Haloplane select 2;
+        _pos set [2,_z];
+        ROS_Haloplane setPosATL _pos;
+        playSound "beep";
+        hint "C130\nRELOCATING\nTO THE HALO POSITION SIR !";
+        sleep 3;
+        hint "";
+        removeMissionEventHandler ["MapSingleClick", _thisEH];
+        onMapSingleClick "";
+        openMap false;
+        true
+    };
 
-	openMap true;
+    openMap true;
 
-	// Hint and Wind params
-	hint format ["CLICK ON THE MAP TO\nSET THE HALO POSITION\n\nWIND\nHeading: %1 deg\nSpeed: %2 km/h\nGusts: %3\n\nNOTE\nHigh gust value (>0.5) can result\nin erratic wind speed & heading", windDir toFixed 0, (vectorMagnitude wind) toFixed 1, gusts tofixed 2];
+    // Hint and Wind params
+    hint format ["CLICK ON THE MAP TO\nSET THE HALO POSITION\n\nWIND\nHeading: %1 deg\nSpeed: %2 km/h\nGusts: %3\n\nNOTE\nHigh gust value (>0.5) can result\nin erratic wind speed & heading", windDir toFixed 0, (vectorMagnitude wind) toFixed 1, gusts tofixed 2];
 
-	addMissionEventHandler ["MapSingleClick", {
-	   	params ["", "_pos", "", ""];
-	   	[_pos, _thisEventHandler] spawn ROS_Fnc_OMSC;
-	}];
-	waitUntil {!visibleMap};
-	sleep 2;
-	hint"";
+    addMissionEventHandler ["MapSingleClick", {
+           params ["", "_pos", "", ""];
+           [_pos, _thisEventHandler] spawn ROS_Fnc_OMSC;
+    }];
+    waitUntil {!visibleMap};
+    sleep 2;
+    hint"";
 };

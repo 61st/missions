@@ -24,6 +24,6 @@ if (hasInterface) then {
             then {player addItem "ItemAndroidMisc"}; 
         } else { 
             if !([player, "ItemAndroid"] call ace_common_fnc_hasItem) then {player linkItem "ItemAndroid"}; 
-        };	
+        };
     }] call CBA_fnc_addEventHandler;
 };

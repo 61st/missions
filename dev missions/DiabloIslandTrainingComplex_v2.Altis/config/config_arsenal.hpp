@@ -1,5 +1,5 @@
 class Common_Arsenal {
-	items[] = {
+    items[] = {
         "16Rnd_9x21_Mag",
         "16Rnd_9x21_red_Mag",
         "acc_flashlight_pistol",

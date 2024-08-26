@@ -17,9 +17,9 @@
  */
 
 params [
-	["_object", objNull, [objNull]],
-	["_name","",[""]],
-	["_side",west,[civilian]]
+    ["_object", objNull, [objNull]],
+    ["_name","",[""]],
+    ["_side",west,[civilian]]
 ];
 
 //Safetychecks
@@ -27,8 +27,8 @@ if !(isServer) exitWith {false;};
 if (isNull _object) exitWith {false;};
 
 if (([_object] call Rev_tp_fnc_listCheck) > -1) exitWith {
-	diag_log "Rev_tp_fnc_addPoint: Teleport point already exists on selected object";
-	false;
+    diag_log "Rev_tp_fnc_addPoint: Teleport point already exists on selected object";
+    false;
 };
 
 //Updating and propagating new list
@@ -39,13 +39,13 @@ missionNamespace setVariable ["Rev_tp_list",_list,true];
 
 //Ehs to remove point if killed/deleted
 _object addEventHandler ["Killed", {
-	params ["_unit", "_killer", "_instigator", "_useEffects"];
-	[_unit] call Rev_tp_fnc_deletePoint;
+    params ["_unit", "_killer", "_instigator", "_useEffects"];
+    [_unit] call Rev_tp_fnc_deletePoint;
 }];
 
 _object addEventHandler ["Deleted", {
-	params ["_entity"];
-	[_entity] call Rev_tp_fnc_deletePoint;
+    params ["_entity"];
+    [_entity] call Rev_tp_fnc_deletePoint;
 }];
 
 //Adding action to players
