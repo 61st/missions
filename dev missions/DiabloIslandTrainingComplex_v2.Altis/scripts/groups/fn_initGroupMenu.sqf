@@ -9,39 +9,39 @@ private _rolesArray = missionConfigFile >> "Dynamic_Roles";
 private _myPath = [0,0];
 
 {
-	_x params ["_groupName","_roles","_conditions","","_units"];
+    _x params ["_groupName","_roles","_conditions","","_units"];
 
-	private _treeIndex = _tree tvAdd [[],_groupName];
+    private _treeIndex = _tree tvAdd [[],_groupName];
 
-	if (call compile _conditions) then {
-		{
-			private _roleInfo = _rolesArray >> _x;
-			private _roleName = getText(_roleInfo >> "name");
-			private _roleIcon = getText(_roleInfo >> "icon");
+    if (call compile _conditions) then {
+        {
+            private _roleInfo = _rolesArray >> _x;
+            private _roleName = getText(_roleInfo >> "name");
+            private _roleIcon = getText(_roleInfo >> "icon");
 
-			private _playerInRole = _units select _forEachIndex;
-			private _alpha = 1;
-			private _name = format["%1: ",_roleName];
+            private _playerInRole = _units select _forEachIndex;
+            private _alpha = 1;
+            private _name = format["%1: ",_roleName];
 
-			if !(isNull _playerInRole) then {
-				_alpha = 0.4;
-				_name = format ["%1%2",_name,name _playerInRole];
-			};
+            if !(isNull _playerInRole) then {
+                _alpha = 0.4;
+                _name = format ["%1%2",_name,name _playerInRole];
+            };
 
-			private _unitIndex = _tree tvAdd [[_treeIndex],_name];
-			_tree tvSetColor [[_treeIndex,_unitIndex],[1,1,1,_alpha]];
+            private _unitIndex = _tree tvAdd [[_treeIndex],_name];
+            _tree tvSetColor [[_treeIndex,_unitIndex],[1,1,1,_alpha]];
 
-			private _data = [netID _playerInRole,_x];
-			_tree tvSetData [[_treeIndex,_unitIndex],str(_data)];
+            private _data = [netID _playerInRole,_x];
+            _tree tvSetData [[_treeIndex,_unitIndex],str(_data)];
 
-			_tree tvSetPicture [[_treeIndex,_unitIndex],_roleIcon];
-			_tree tvSetPictureColor [[_treeIndex,_unitIndex],[1,1,1,_alpha]];
+            _tree tvSetPicture [[_treeIndex,_unitIndex],_roleIcon];
+            _tree tvSetPictureColor [[_treeIndex,_unitIndex],[1,1,1,_alpha]];
 
-			if (player isEqualTo _playerInRole) then {
-				_myPath = [_treeIndex,_unitIndex];
-			};
-		} forEach _roles;
-	};
+            if (player isEqualTo _playerInRole) then {
+                _myPath = [_treeIndex,_unitIndex];
+            };
+        } forEach _roles;
+    };
 } forEach YMF_dynamicGroups;
 
 _tree tvSetCurSel _myPath;

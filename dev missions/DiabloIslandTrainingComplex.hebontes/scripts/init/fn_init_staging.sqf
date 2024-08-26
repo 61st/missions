@@ -48,12 +48,12 @@ private _condition2 = { isNull objectParent player && call FUNC(checkStagingZone
 private _condition3 = { isNull objectParent player && {player getVariable ["ace_arsenal_virtualItems",[]] isNotEqualTo [] && call FUNC(checkStagingZone)} };
 
 private _stagingCat = [
-	QEGVAR(Actions,StagingCategory), 
-	"Staging Zone", 
-	"scripts\data\Icon\icon_00.paa", 
-	{true}, 
-	_condition1
-	] call ace_interact_menu_fnc_createAction;
+    QEGVAR(Actions,StagingCategory), 
+    "Staging Zone", 
+    "scripts\data\Icon\icon_00.paa", 
+    {true}, 
+    _condition1
+    ] call ace_interact_menu_fnc_createAction;
 [player, 1, ["ACE_SelfActions"], _stagingCat] call ace_interact_menu_fnc_addActionToObject;
 
 private _category = ["ACE_SelfActions", QEGVAR(Actions,StagingCategory)];
@@ -81,59 +81,50 @@ player addAction [
 // Menu option
 /* group ------------------------------------------------------------------------------------------------------------ */
 if EGVAR(patches,usesACE) then {
-	private _groupCategory = [
-		"groupCategory",
-		"Group Menu",
-		"\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\meet_ca.paa",
-		{[] call FUNC(initGroupMenu)},
-		_condition2
-	] call ace_interact_menu_fnc_createAction;
-	[player,1,_category,_groupCategory] call ace_interact_menu_fnc_addActionToObject;
+    private _groupCategory = [
+        "groupCategory",
+        "Group Menu",
+        "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\meet_ca.paa",
+        {[] call FUNC(initGroupMenu)},
+        _condition2
+    ] call ace_interact_menu_fnc_createAction;
+    [player,1,_category,_groupCategory] call ace_interact_menu_fnc_addActionToObject;
 
 /* heal ------------------------------------------------------------------------------------------------------------- */
-	private _healCategory = [
-		"healCategory",
-		"Heal",
-		"\z\ACE\addons\medical_gui\ui\cross.paa",
-		{
-			[_this select 0, player] call ace_medical_treatment_fnc_fullHeal;
-			[[],["You have been healed"], [""], [""]] call CBA_fnc_notify;
-		},
-		_condition2
-	] call ace_interact_menu_fnc_createAction;
-	[player,1,_category,_healCategory] call ace_interact_menu_fnc_addActionToObject;
+    private _healCategory = [
+        "healCategory",
+        "Heal",
+        "\z\ACE\addons\medical_gui\ui\cross.paa",
+        {
+            [_this select 0, player] call ace_medical_treatment_fnc_fullHeal;
+            [[],["You have been healed"], [""], [""]] call CBA_fnc_notify;
+        },
+        _condition2
+    ] call ace_interact_menu_fnc_createAction;
+    [player,1,_category,_healCategory] call ace_interact_menu_fnc_addActionToObject;
 
 
 /* arsenal ---------------------------------------------------------------------------------------------------------- */
-	private _arsenalCategory = [
-		"arsenalCategory",
-		"Arsenal",
-		"scripts\data\Icon\icon_arsenal_ca.paa",
-		{[player,player,false] call ace_arsenal_fnc_openBox},
-		_condition3
-	] call ace_interact_menu_fnc_createAction;
-	[player,1,_category,_arsenalCategory] call ace_interact_menu_fnc_addActionToObject;
+    private _arsenalCategory = [
+        "arsenalCategory",
+        "Arsenal",
+        "scripts\data\Icon\icon_arsenal_ca.paa",
+        {[player,player,false] call ace_arsenal_fnc_openBox},
+        _condition3
+    ] call ace_interact_menu_fnc_createAction;
+    [player,1,_category,_arsenalCategory] call ace_interact_menu_fnc_addActionToObject;
 
-	/* TP ---------------------------------------------------------------------------------------------------------- */
+    /* TP ---------------------------------------------------------------------------------------------------------- */
 
-	// private _tpCategory = [
-	// 	"TPCategory",
-	// 	"TP",
-	// 	"scripts\data\Icon\Teleport_Pos_64x64.paa",
-	// 	{[0] spawn A3U_Teleport_fnc_initStyle0;},
-	// 	_condition3
-	// ] call ace_interact_menu_fnc_createAction;
-	// [player,1,_category,_tpCategory] call ace_interact_menu_fnc_addActionToObject;
-
-	private _tpCategory = [
-		"TPCategory",
-		"TP",
-		"scripts\data\Icon\Teleport_Pos_64x64.paa",
-		{createDialog "Rev_tp_dialog"},
-		_condition3
-	] call ace_interact_menu_fnc_createAction;
-	[player,1,_category,_tpCategory] call ace_interact_menu_fnc_addActionToObject;
-	};
+    private _tpCategory = [
+        "TPCategory",
+        "TP",
+        "scripts\data\Icon\Teleport_Pos_64x64.paa",
+        {createDialog "Rev_tp_dialog"},
+        _condition3
+    ] call ace_interact_menu_fnc_createAction;
+    [player,1,_category,_tpCategory] call ace_interact_menu_fnc_addActionToObject;
+    };
 
 
 INFO_1("Staging", "Staging options for %1 have been setup.", name player)

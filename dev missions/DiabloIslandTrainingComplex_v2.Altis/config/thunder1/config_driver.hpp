@@ -1,13 +1,13 @@
 class driver1 {
-	name = "Crew Driver";
+    name = "Crew Driver";
     description = "vroom vroom";
     traits[] = {
         {"Engineer",true}
-	};
-	customVariables[] = {
-		{"ace_isEngineer",1,true},
+    };
+    customVariables[] = {
+        {"ace_isEngineer",1,true},
         {"TFAR_freq_sr",{"100.1","110","210","33","100","75","60","35"},true}
-	};
+    };
     icon = "z\LXIM\addons\media\images\Icons\driver.paa";
 
     defaultLoadout[] = {
@@ -21,7 +21,7 @@ class driver1 {
     };
     arsenalitems[] = {
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-		"B_simc_US_Molle_sturm_OCP_RTO",
+        "B_simc_US_Molle_sturm_OCP_RTO",
         "H_HelmetCrew_I",
         "ToolKit",
         "SPS_KAC_LAMG_NHG_black_F",
@@ -59,5 +59,5 @@ class driver1 {
         "SPS_KAC_LWAMG_100rnd_Box_M80A1M62A1",
         "MineDetector",
         "SatchelCharge_Remote_Mag"
-	};
+    };
 };

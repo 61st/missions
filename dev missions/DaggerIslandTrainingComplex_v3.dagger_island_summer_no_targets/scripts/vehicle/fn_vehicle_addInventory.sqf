@@ -69,7 +69,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             ] call FUNC(setCargo);
             
             // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1]; 
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],2]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",2],[],""],1]; 
 
@@ -113,7 +113,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             ] call FUNC(setCargo);
             
             // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
@@ -131,7 +131,7 @@ if (_vehicle iskindOf "lxim_outlaw_base_F") then {
             ] call FUNC(setCargo);
 
             // KAC_LWAMG with sight into vehicle inventory
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
@@ -170,7 +170,7 @@ if (_vehicle iskindOf "lxim_outlaw_eng_base_F") then {
             ] call FUNC(setCargo);
             
             // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
@@ -188,7 +188,7 @@ if (_vehicle iskindOf "lxim_outlaw_eng_base_F") then {
             ] call FUNC(setCargo);
 
             // KAC_LWAMG with sight into vehicle inventory
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
@@ -233,7 +233,7 @@ if (_vehicle iskindOf "lxim_outlaw_AA_base_F") then {
             ] call FUNC(setCargo);
             
             // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",[],[],""],2]; 
 
@@ -251,7 +251,7 @@ if (_vehicle iskindOf "lxim_outlaw_AA_base_F") then {
             ] call FUNC(setCargo);
 
             // KAC_LWAMG with sight into vehicle inventory
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 
@@ -299,7 +299,7 @@ if (_vehicle iskindOf "lxim_outlaw_unarmed_base_F") then {
             ] call FUNC(setCargo);
 
             // KAC_LWAMG with sight into vehicle inventory
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["KAR_100Rnd_Fury",100],[],""],1];  
+            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_Javelin","","","",["CUP_Javelin_M",1],[],""],1]; 
             _vehicle addWeaponWithAttachmentsCargoGlobal [["CUP_launch_FIM92Stinger","","","",["CUP_Stinger_M",1],[],""],1]; 
 

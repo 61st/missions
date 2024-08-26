@@ -16,13 +16,13 @@
  */
 
 params [
-	["_control",controlNull,[controlNull]],
-	["_lbCurSel",-1,[0]]
+    ["_control",controlNull,[controlNull]],
+    ["_lbCurSel",-1,[0]]
 ];
 
 if (_lbCurSel < 0) exitWith {
-	playSound "FD_Start_F";
-	[objNull, "No teleportation point was selected!"] call BIS_fnc_showCuratorFeedbackMessage;
+    playSound "FD_Start_F";
+    [objNull, "No teleportation point was selected!"] call BIS_fnc_showCuratorFeedbackMessage;
 };
 
 private _name = _control lbData _lbCurSel;

@@ -33,6 +33,8 @@ class pilot {
                 "CUP_30Rnd_556x45_PMAG_BLACK_PULL",
                 "CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red",
                 "B_simc_US_Molle_sturm_OCP_RTO",
-                "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+                "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+                "U_I_pilotCoveralls",
+                "U_B_HeliPilotCoveralls"
         };
 };

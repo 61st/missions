@@ -1,7 +1,6 @@
 // Make settings name
 private _YMFsettings = "YMF Mission Settings";
 
-// 1; Mission
 [ // Mission Type
     QEGVAR(Settings,setMissionType),
     "LIST",
@@ -22,18 +21,7 @@ private _YMFsettings = "YMF Mission Settings";
     {},
     true
 ] call CBA_fnc_addSetting;
-// [ // Ai setting
-//     QEGVAR(Settings,AllowAILoadouts),
-//     "CHECKBOX",
-//     ["AI Loadouts (Experimental)", "Allow gear system to apply loadouts to AI units as well as player."],
-//     [_YMFsettings, "Mission"],
-//     false,
-//     true,
-//     {},
-//     true
-// ] call CBA_fnc_addSetting;
 
-// 3; Player
 [ // Documents
     QEGVAR(Settings,showDiaryRecords),
     "CHECKBOX",
@@ -86,7 +74,6 @@ private _YMFsettings = "YMF Mission Settings";
 ] call CBA_fnc_addSetting;
 
 
-// 4; Staging
 [ // Enable
     QEGVAR(Settings,enableStagingSystem),
     "CHECKBOX",
@@ -97,21 +84,6 @@ private _YMFsettings = "YMF Mission Settings";
     {},
     false
 ] call CBA_fnc_addSetting;
-[ // Show all loadouts
-    QEGVAR(Settings,showAllLoadouts),
-    "CHECKBOX",
-    ["Show all loadouts","Allow the selection of any loadouts from the personal selection menu."],
-    [_YMFsettings, "Staging"],
-    false,
-    true,
-    {
-        params ["_value"];
-        { EGVAR(Staging,showAllLoadouts) = _value; } remoteExecCall ["call"];
-    },
-    false
-] call CBA_fnc_addSetting;
-
-// 5; Vehicle
 [ // Enable
     QEGVAR(Settings,enableVehicleSystem),
     "CHECKBOX",

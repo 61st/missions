@@ -2,14 +2,14 @@
 #include "..\script_component.hpp";
 
 /*
- *	Author: PDT
- *	clears all patients
+ * Author: PDT
+ * clears all patients
  *
- *	Arguments:
+ * Arguments:
  *  None
  *
- *	Return Value:
- *	None
+ * Return Value:
+ * None
  *
  */
 

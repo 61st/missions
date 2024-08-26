@@ -1,12 +1,12 @@
 /*
- *	Author: PDT
- *	aconverts string to object
+ * Author: PDT
+ * aconverts string to object
  *
- *	Arguments:
+ * Arguments:
  *  0: _stretcher <STRING> - the selected stretcher
  *
- *	Return Value:
- *	0: _stretcher <OBJECT> - stretcher object
+ * Return Value:
+ * 0: _stretcher <OBJECT> - stretcher object
  *
  */
 

@@ -3,12 +3,12 @@ class cmd2 {
     description = "Wild child";
     traits[] = {
         {"Engineer",true}
-	};
-	customVariables[] = {
-		{"ace_isEngineer",2,true},
+    };
+    customVariables[] = {
+        {"ace_isEngineer",2,true},
         {"YMF_iscmd", true, true},
         {"TFAR_freq_sr",{"100.1","120","220","33","100","75","60","35"},true}
-	};
+    };
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
@@ -23,14 +23,12 @@ class cmd2 {
         "lxim_headgear_H_HelmetCrew_green",
         "lxim_headgear_H_HelmetCrew_sand",
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-		"B_simc_US_Molle_sturm_OCP_RTO",
+        "B_simc_US_Molle_sturm_OCP_RTO",
         "H_HelmetCrew_I",
         "ToolKit",
         "MineDetector",
         "SatchelCharge_Remote_Mag",
-        "KAR_XM250",
-        "KAR_XM250_BLK",
-        "KAR_XM250_SUP",
-        "KAR_XM250_SUP_BLK"
-	};
+        "lxim_sig_M250",
+        "lxim_sig_M250_BLK"
+    };
 };

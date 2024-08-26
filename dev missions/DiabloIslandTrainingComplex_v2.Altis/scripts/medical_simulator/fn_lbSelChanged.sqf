@@ -3,14 +3,14 @@
 
 
 /*
- *	Author: PDT
- *	handles what happens when a listbox selection is changed
+ * Author: PDT
+ * handles what happens when a listbox selection is changed
  *
- *	Arguments:
+ * Arguments:
  *  None
  *
- *	Return Value:
- *	None
+ * Return Value:
+ * None
  *
  */
 

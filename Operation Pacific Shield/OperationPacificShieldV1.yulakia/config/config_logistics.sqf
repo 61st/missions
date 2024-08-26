@@ -159,15 +159,15 @@
     ["crate_resupply_general", [
             // Rifle Ammo
             ["lxim_sig_25Rnd_Fury",80],
-            ["lxim_sig_25Rnd_Fury_RT",80],
+            ["lxim_sig_150Rnd_Fury_blk",80],
             ["lxim_sig_25Rnd_Fury_blk",80],
             ["lxim_sig_25Rnd_Fury_RT_blk",80],
             
             // MG Ammo
-            ["KAR_100Rnd_Fury_RT",24],
-            ["KAR_100Rnd_Fury_RT_blk",24],
-            ["KAR_100Rnd_Fury_RT",24],
-            ["KAR_100Rnd_Fury_RT_blk",24],
+            ["lxim_sig_150Rnd_Fury",24],
+            ["lxim_sig_150Rnd_Fury_blk",24],
+            ["lxim_sig_150Rnd_Fury_RT",24],
+            ["lxim_sig_150Rnd_Fury_RT_blk",24],
             ["150Rnd_762x51_Box",24],
 
             // AT
@@ -368,10 +368,10 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
         ["SmokeShell", 8],
         ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 20],
@@ -506,10 +506,10 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
         
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
         ["launch_NLAW_F",1],
@@ -635,10 +635,15 @@
         ["lxim_sig_25Rnd_Fury_RT",20],
         ["lxim_sig_25Rnd_Fury_blk",20],
         ["lxim_sig_25Rnd_Fury",20],
-        ["KAR_100Rnd_Fury_RT",10],
-        ["KAR_100Rnd_Fury_RT_blk",10],
-        ["KAR_100Rnd_Fury_RT",10],
-        ["KAR_100Rnd_Fury_RT_blk",10],
+        ["lxim_sig_150Rnd_Fury",10],
+        ["lxim_sig_150Rnd_Fury_blk",10],
+        ["lxim_sig_150Rnd_Fury_RT",10],
+        ["lxim_sig_150Rnd_Fury_RT_blk",10],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
+
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
         ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
@@ -678,11 +683,15 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
         ["150Rnd_762x51_Box",10],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
         ["launch_NLAW_F",1],
@@ -722,10 +731,14 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
 
@@ -764,12 +777,17 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
+
         ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
@@ -896,11 +914,15 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",0],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",0],
-        ["KAR_100Rnd_Fury_RT_blk",0],
-        ["KAR_100Rnd_Fury_RT",0],
-        ["KAR_100Rnd_Fury_RT_blk",0],
+        ["lxim_sig_150Rnd_Fury",0],
+        ["lxim_sig_150Rnd_Fury_blk",0],
+        ["lxim_sig_150Rnd_Fury_RT",0],
+        ["lxim_sig_150Rnd_Fury_RT_blk",0],
         ["150Rnd_762x51_Box",0],
+
+        ["CUP_1Rnd_12Gauge_Slug",0],
+        ["CUP_6Rnd_12Gauge_Slug",0],
+        ["CUP_2Rnd_12Gauge_Slug",0],
 
         ["Titan_AA", 0],
         ["Titan_AP", 0],
@@ -924,11 +946,16 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+
         ["150Rnd_762x51_Box",10],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
         ["launch_NLAW_F",1],
@@ -970,11 +997,16 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+
         ["150Rnd_762x51_Box",10],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
         ["launch_NLAW_F",1],
@@ -1127,12 +1159,17 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],
+
         ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
@@ -1152,10 +1189,15 @@
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
         // MG Ammo
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
-        ["KAR_100Rnd_Fury_RT",24],
-        ["KAR_100Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",24],
+        ["lxim_sig_150Rnd_Fury_blk",24],
+        ["lxim_sig_150Rnd_Fury_RT",24],
+        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+
+        ["CUP_1Rnd_12Gauge_Slug",40],
+        ["CUP_6Rnd_12Gauge_Slug",10],
+        ["CUP_2Rnd_12Gauge_Slug",20],
+
         ["150Rnd_762x51_Box",10],
 
         ["CUP_17Rnd_9x19_M17_Black_v2",12],

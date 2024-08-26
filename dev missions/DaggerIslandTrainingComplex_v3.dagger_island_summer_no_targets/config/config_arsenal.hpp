@@ -1,5 +1,5 @@
 class Common_Arsenal {
-	items[] = {
+    items[] = {
         "ACE_Altimeter",
         "ACE_CableTie",
         "ACE_Chemlight_HiBlue",
@@ -438,10 +438,10 @@ class Common_Arsenal {
         //ammo
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL",
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red",
-        "KAR_100Rnd_Fury_RT",
-        "KAR_100Rnd_Fury_RT_blk",
-        "KAR_100Rnd_Fury_blk",
-        "KAR_100Rnd_Fury",
+        "lxim_sig_150Rnd_Fury_RT",
+        "lxim_sig_150Rnd_Fury_RT_blk",
+        "lxim_sig_150Rnd_Fury_blk",
+        "lxim_sig_150Rnd_Fury",
         "lxim_sig_25Rnd_Fury_RT",
         "lxim_sig_25Rnd_Fury_YT",
         "lxim_sig_25Rnd_Fury_YT_blk",
@@ -489,6 +489,10 @@ class Common_Arsenal {
         "CUP_bipod_Harris_1A2_L",
         "KAR_XM250_SUP_BLK",
         "KAR_XM250_SUP",
+        //shootgun
+        "CUP_1Rnd_12Gauge_Slug",
+        "CUP_6Rnd_12Gauge_Slug",
+        "CUP_2Rnd_12Gauge_Slug",
         // scopes
         "Scot_SigT6_RMR_Top_Canted",
         "Scot_SigT6_RMR_Top",
@@ -500,7 +504,9 @@ class Common_Arsenal {
         "lxim_equipment_optic_DMS",
         "optic_Arco_AK_arid_F",
         "optic_Arco_AK_blk_F",
-        "optic_Arco_AK_lush_F"
+        "optic_Arco_AK_lush_F",
+        "optic_Hamr",
+        "optic_Hamr_khk_F"
     };
 };
 

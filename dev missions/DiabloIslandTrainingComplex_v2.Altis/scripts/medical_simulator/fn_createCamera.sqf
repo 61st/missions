@@ -4,14 +4,14 @@
 //define stuff
 #define IDD_PDT_MEDICALSIMULATOR_MENU 9985001 // simulator menu IDD
 /*
- *	Author: PDT
- *	creates the view camera
+ * Author: PDT
+ * creates the view camera
  *
- *	Arguments:
+ * Arguments:
  *  None
  *
- *	Return Value:
- *	None
+ * Return Value:
+ * None
  *
  * example:
  * call PDT_MedicalSimulator_fnc_createCamera;

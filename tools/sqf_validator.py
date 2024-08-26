@@ -162,9 +162,9 @@ def main():
     args = parser.parse_args()
 
     # Allow running from root directory as well as from inside the tools directory
-    rootDir = "../addons"
-    if (os.path.exists("addons")):
-        rootDir = "addons"
+    rootDir = "../dev missions"
+    if (os.path.exists("dev missions")):
+        rootDir = "dev missions"
 
     for root, dirnames, filenames in os.walk(rootDir + '/' + args.module):
       for filename in fnmatch.filter(filenames, '*.sqf'):

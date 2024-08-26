@@ -14,7 +14,7 @@
  */
 
 params [
-	["_object", objNull, [objNull]]
+    ["_object", objNull, [objNull]]
 ];
 
 if (isNull _object) exitWith {false;};

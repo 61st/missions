@@ -2,14 +2,14 @@
 #define IDC_LIST_BOX_01 9985002 // listbox IDC
 
 /*
- *	Author: PDT
- *	clears patient from a stretcher
+ * Author: PDT
+ * clears patient from a stretcher
  *
- *	Arguments:
+ * Arguments:
  *  None
  *
- *	Return Value:
- *	None
+ * Return Value:
+ * None
  *
  */
 

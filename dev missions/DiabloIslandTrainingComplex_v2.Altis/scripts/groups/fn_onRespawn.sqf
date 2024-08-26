@@ -1,21 +1,21 @@
 #include "..\script_component.hpp";
 params [
-	["_unit",objNull,[objNull]],
-	["_corpse",objNull,[objNull]]
+    ["_unit",objNull,[objNull]],
+    ["_corpse",objNull,[objNull]]
 ];
 
 private _oldPath = [];
 private _oldRole = "";
 
 {
-	_x params ["","_roles","","","_units"];
-	private _groupIndex = _forEachIndex;
-	{
-		if (_x isEqualTo _corpse) exitWith {
-			_oldPath = [_groupIndex,_forEachIndex];
-			_oldRole = _roles select _forEachIndex;
-		};
-	} forEach _units;
+    _x params ["","_roles","","","_units"];
+    private _groupIndex = _forEachIndex;
+    {
+        if (_x isEqualTo _corpse) exitWith {
+            _oldPath = [_groupIndex,_forEachIndex];
+            _oldRole = _roles select _forEachIndex;
+        };
+    } forEach _units;
 } forEach YMF_dynamicGroups;
 
 if (_oldPath isEqualTo []) exitWith {[] call YMF_fnc_initGroupMenu};

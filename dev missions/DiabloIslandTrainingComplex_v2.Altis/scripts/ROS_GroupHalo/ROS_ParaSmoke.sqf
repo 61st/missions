@@ -31,23 +31,23 @@ sleep 2;
 
 // Create smoke
 if (_RWBSmoke) then {
-	waitUntil {animationState _unit == 'para_pilot'};
-	[_unit,true,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-blue.sqf";
-	[_unit,true,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-white.sqf";
-	[_unit,true,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-red.sqf";
+    waitUntil {animationState _unit == 'para_pilot'};
+    [_unit,true,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-blue.sqf";
+    [_unit,true,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-white.sqf";
+    [_unit,true,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-red.sqf";
 } else {
-	if (_colorSmoke isEqualTo "blue") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-blue.sqf"};
-	if (_colorSmoke isEqualTo "white") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-white.sqf"};
-	if (_colorSmoke isEqualTo "red") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-red.sqf"};
-	if (_colorSmoke isEqualTo "yellow") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-yellow.sqf"};
-	if (_colorSmoke isEqualTo "purple") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-purple.sqf"};
-	if (_colorSmoke isEqualTo "green") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-green.sqf"};
+    if (_colorSmoke isEqualTo "blue") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-blue.sqf"};
+    if (_colorSmoke isEqualTo "white") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-white.sqf"};
+    if (_colorSmoke isEqualTo "red") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-red.sqf"};
+    if (_colorSmoke isEqualTo "yellow") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-yellow.sqf"};
+    if (_colorSmoke isEqualTo "purple") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-purple.sqf"};
+    if (_colorSmoke isEqualTo "green") then {[_unit,false,_attachToChute] execvm "scripts\ROS_GroupHalo\smoke-green.sqf"};
 };
 
 // Delete smoke
 [_unit] spawn {
-	params ["_unit"];
-	waitUntil {((getPosATL _unit select 2) <=2 or isTouchingGround _unit)};
-	{if (typeOf _x == "#particlesource") then {deleteVehicle _x}} forEach (_unit nearObjects 50);
+    params ["_unit"];
+    waitUntil {((getPosATL _unit select 2) <=2 or isTouchingGround _unit)};
+    {if (typeOf _x == "#particlesource") then {deleteVehicle _x}} forEach (_unit nearObjects 50);
 };
 
