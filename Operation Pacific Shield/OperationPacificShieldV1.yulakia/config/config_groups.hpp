@@ -11,6 +11,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"Phoenix",{"pilot","pilot","fac"},"true"},
         {"Phoenix 1-1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"Phoenix 1-2",{"pilot","pilot","crewchief","crewchief","medicp"},"count playableUnits > 6"},
+        {"Phoenix 1-3",{"pilot","pilot","crewchief","crewchief","medicp"},"count playableUnits > 6"},
         {"Recruits",{"Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit"},"true"},
         {"Range Control",{"Zeus","Zeus"},"true"}
     };
