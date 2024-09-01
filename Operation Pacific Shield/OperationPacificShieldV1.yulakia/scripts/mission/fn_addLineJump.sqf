@@ -1,6 +1,6 @@
 #include "..\script_component.hpp";
 /*
- * Author: CPL.Brostrom.A, Elemtael
+ * Author: CPL.Brostrom.A -- Tinkered with by YonV tinkered with by YonV
  * This function adds a Jump out option to a vehicle.
  *
  * Arguments:
@@ -9,22 +9,22 @@
  * 2: Maximum altetude    <NUMBER> (Optional) (Default; 350)
  * 3: Maximum speed       <NUMBER> (Optional) (Default; 310)
  * 4: Chute Vehicle Class <OBJECT> (Optional) (Default; "rhs_d6_Parachute")
- * 5: Staggared Jump <BOOL> (Optional) [Default; false]
  *
  * Example:
  * ["my_c130"] call YMF_fnc_addLineJump
  * ["my_c130", 180] call YMF_fnc_addLineJump
- * ["my_c130", 180, 350, 310] call YMF_fnc_addLineJump
- * ["my_c130", 180, 350, 310, "rhs_d6_Parachute", false] call YMF_fnc_addLineJump
+ * ["my_c130", 180, 350, 300] call YMF_fnc_addLineJump
+ * ["my_c130", 180, 350, 300, "rhs_d6_Parachute"] call YMF_fnc_addLineJump
  *
  */
+
 
 params [
     ["_vehicle", objNull, [objNull]],
     ["_minAltetude", 180, [180]],
     ["_maxAltetude", 350, [350]],
     ["_maxSpeed", 310, [310]],
-    ["_chuteVehicleClass", "ACE_NonSteerableParachute", ["ACE_NonSteerableParachute"]],
+    ["_chuteVehicleClass", "rhs_d6_Parachute", ["rhs_d6_Parachute"]],
     ["_allowStaggared", false, [false]]
 ];
 

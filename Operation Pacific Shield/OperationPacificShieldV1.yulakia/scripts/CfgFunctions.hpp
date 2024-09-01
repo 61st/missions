@@ -30,16 +30,22 @@ class YMF {
         class deleteDroppedObjects {};
         class doGetOutHeloSide {};
         class dynamicMarkers {};
+
         class getAttendance {};
         class getServerMetrics {};
+
         class isValidFaction {};
+
         class checkStagingZone {};
 
         // Buttons and options
         class addHeal {};
+
         class getIcon {};
         class renameObject {};
+
         class addObjectToCurator {};
+
         class createActionCategory {};
 
         // Plane jump

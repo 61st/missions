@@ -17,8 +17,8 @@
 
 params [
     ["_vehicle", objNull, [objNull]],
-    ["_minAltetude", 2950, [2950]],
-    ["_chuteBackpackClass", "Steerable_Parachute_F", ["Steerable_Parachute_F"]],
+    ["_minAltetude", 5000, [5000]],
+    ["_chuteBackpackClass", "B_Parachute", ["B_Parachute"]],
     ["_allowStaggared", false, [false]]
 ];
 

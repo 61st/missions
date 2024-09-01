@@ -60,15 +60,6 @@ if (_vehicle iskindOf "Truck_01_base_F") then {
     };
 };
 
-if (_vehicle iskindOf "lxim_outlaw_unarmed_base_F") then {
-    switch (_vehicleType) do {
-        case "lxim_outlaw_Unarmed_d";
-        case "lxim_outlaw_Unarmed_g";
-        case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
-        default {};
-    };
-};
-
 if (_vehicle iskindOf "lxim_outlaw_base_F") then {
     switch (_vehicleType) do {
         case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
