@@ -10,9 +10,10 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"Rhino",{"squadleadr","engineer","engineer","engineer","engineer"},"true"},
         {"Phoenix",{"pilot","pilot","fac"},"true"},
         {"Phoenix 1-1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
-        {"Phoenix 1-2",{"pilot","pilot","crewchief","crewchief","medicp"},"count playableUnits > 6"},
-        {"Phoenix 1-3",{"pilot","pilot","crewchief","crewchief","medicp"},"count playableUnits > 6"},
+        {"Phoenix 1-2",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
+        {"Phoenix 1-3",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"Recruits",{"Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit"},"true"},
+        // {"Students",{"jtacs","jtacs","jtacs","jtacs","engineers","engineers","engineers","engineers","medics","medics","medics","medics"},"true"},
         {"Range Control",{"Zeus","Zeus"},"true"}
     };
 };

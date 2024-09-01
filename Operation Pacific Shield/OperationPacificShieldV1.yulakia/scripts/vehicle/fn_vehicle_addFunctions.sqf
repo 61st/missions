@@ -68,63 +68,24 @@ if (_vehicle iskindOf "Heli_Transport_02_base_F") then {
 };
 
 if (_vehicle iskindOf "RHS_C130J_Base") then {
-    [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
-    [_vehicle] call FUNC(addHaloJump);
+    [_vehicle,nil,nil,true] call FUNC(addLineJump);
+    [_vehicle,nil,nil,nil,nil,true] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
 if (_vehicle iskindOf "USAF_C130J") then {
-    [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
-    [_vehicle] call FUNC(addHaloJump);
+    [_vehicle,nil,nil,true] call FUNC(addLineJump);
+    [_vehicle,nil,nil,nil,nil,true] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
 if (_vehicle iskindOf "USAF_C17") then {
-    [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
-    [_vehicle] call FUNC(addHaloJump);
+    [_vehicle,nil,nil,true] call FUNC(addLineJump);
+    [_vehicle,nil,nil,nil,nil,true] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
 if ((_vehicle isKindOf "USAF_F22_Heavy") || (_vehicle isKindOf "USAF_F35A") || (_vehicle isKindOf "USAF_A10")) then {
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_UH60M_US") then {
-    [_vehicle] call FUNC(addGetOutHelo);
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_UH60M_FFV_US") then {
-    [_vehicle] call FUNC(addGetOutHelo);
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_UH60M_Unarmed_FFV_MEV_US") then {
-    [_vehicle] call FUNC(addGetOutHelo);
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_AH6J_USA") then {
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_MH6M_USA") then {
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_MH6J_OBS_USA") then {
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_CH47F_VIV_USA") then {
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_CH47F_USA") then {
-    [_vehicle] call FUNC(addEscapeWreck);
-};
-
-if (_vehicle iskindOf "CUP_B_AH64D_DL_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 

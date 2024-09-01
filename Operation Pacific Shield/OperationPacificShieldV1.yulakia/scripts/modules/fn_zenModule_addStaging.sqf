@@ -1,7 +1,7 @@
 #include "..\script_component.hpp";
 /*
  * Author: CPL.Brostrom.A
- * This module function spawn a 61st Mechanized Infantry Battalion Fieald Hostpital.
+ * This module function spawn a 61st Mechanized Infantry BattalionFieald Hostpital.
  *
  * Arguments:
  * 0: modulePos <POSITION>
