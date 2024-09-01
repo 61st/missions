@@ -87,7 +87,7 @@ Leave the ramp down after the first Halo jump (speeds up subsequent Halo jumps)*
 _leaveRampOpen = true;
 
 // Default parachute (player)
-_chute = "B_Parachute"; // "BHZ_Para_US_Pack", "BHZ_Para_UK_Pack"; (BHZ parachutes mod)
+_chute = "B_Parachute";
 
 // Maunally deploy chute or auto open?
 _manualOpen = true;

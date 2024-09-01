@@ -24,6 +24,7 @@ if (isServer) then {
         _vehicle setDir (getDir _x);
         _vehicle setVehicleLock "LOCKED";
         _vehicle setVehicleAmmo 0;
+        _vehicle setVehicleTIPars [1, 1, 1];
         clearMagazineCargoGlobal _vehicle;
         clearWeaponCargoGlobal _vehicle;
         clearItemCargoGlobal _vehicle;
@@ -51,6 +52,7 @@ if (hasInterface) then {
                             _newTarget setDir (getDir _position);
                             _newTarget setVehicleLock "LOCKED";
                             _newTarget setVehicleAmmo 0;
+                            _newTarget setVehicleTIPars [1, 1, 1];
                             clearMagazineCargoGlobal _newTarget;
                             clearWeaponCargoGlobal _newTarget;
                             clearItemCargoGlobal _newTarget;
