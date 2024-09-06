@@ -31,8 +31,8 @@ class PDT_MedicalSimulator_Menu {
 
   class controlsBackground {
 
-    class PDT_RscText_TitleBackground: RscText
-    {
+		class PDT_RscText_TitleBackground: RscText
+		{
       idc = -1;
       shadow = 0;
       type = 0;
@@ -49,7 +49,7 @@ class PDT_MedicalSimulator_Menu {
       tooltipColorText[] = {1,1,1,1};
       tooltipColorBox[] = {1,1,1,1};
       tooltipColorShade[] = {0,0,0,0.65};
-    };
+		};
   };
 
   class controls {
@@ -175,34 +175,34 @@ class PDT_MedicalSimulator_Menu {
 
     class PDT_RscToolbox_Difficulty: RscToolbox
     {
-      onLoad = "_this select 0 ctrlSetChecked [0, true];";
+    	onLoad = "_this select 0 ctrlSetChecked [0, true];";
 
-      idc = IDC_TOOL_BOX_01;
-      style = 2; // ST_CENTER
+    	idc = IDC_TOOL_BOX_01;
+    	style = 2; // ST_CENTER
 
       x = 0.065* safezoneW + safezoneX;
       y = 0.1665 * safezoneH + safezoneY;
       w = 0.1 * safezoneW;
       h = 0.025 * safezoneH;
 
-      colorText[] = {1, 1, 1, 1};
-      colorTextSelect[] = {1, 0, 0, 1};
+    	colorText[] = {1, 1, 1, 1};
+    	colorTextSelect[] = {1, 0, 0, 1};
 
-      colorBackground[] = {0, 0, 0, 0.0};
-      colorSelectedBg[] = {1, 1, 1, 0.0};
+    	colorBackground[] = {0, 0, 0, 0.0};
+    	colorSelectedBg[] = {1, 1, 1, 0.0};
 
-      font = "RobotoCondensed";
-      sizeEx = 0.04;
+    	font = "RobotoCondensed";
+    	sizeEx = 0.04;
 
-      onCheckBoxesSelChanged = "";
+    	onCheckBoxesSelChanged = "";
 
-      columns = 3;
-      rows = 1;
+    	columns = 3;
+    	rows = 1;
 
-      strings[] = {"1", "2", "3"};
-      checked_strings[] = {"[1]", "[2]", "[3]"};
-      values[] = {0, 1, 2};
-      tooltips[] = {"Easy", "Medium","Hard"};
+    	strings[] = {"1", "2", "3"};
+    	checked_strings[] = {"[1]", "[2]", "[3]"};
+    	values[] = {0, 1, 2};
+    	tooltips[] = {"Easy", "Medium","Hard"};
     };
   };
 };
