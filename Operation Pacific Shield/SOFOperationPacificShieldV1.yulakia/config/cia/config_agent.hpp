@@ -18,7 +18,7 @@ class Officer {
 			{"CUP_V_B_Ciras_Black4",{{"ACE_Clacker",1},{"CUP_HandGrenade_M67",3,1},{"SmokeShell",2,1},{"sps_30Rnd_556x45_Stanag",10,30},{"Chemlight_blue",2,1},{"Chemlight_green",2,1},{"ACE_Chemlight_IR",2,1},{"MS_Strobe_Mag_1",2,1},{"ACE_M84",2,1},{"DemoCharge_Remote_Mag",1,1}}},
 			{"B_Carryall_blk",{{"kat_AFAK",1},{"ACE_EarPlugs",2},{"ItemcTabHCam",1},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintRed",1},{"ACE_EntrenchingTool",1},{"ACE_DefusalKit",1},{"ACE_Flashlight_MX991",1},{"ACE_microDAGR",1},{"DemoCharge_Remote_Mag",2,1},{"sps_30Rnd_556x45_Stanag",3,30},{"CUP_15Rnd_9x19_M9",3,15}}},
 			"CUP_H_OpsCore_Grey","CUP_G_Grn_Scarf_Shades_Beard_Blonde",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black_WP"}
+			{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_black_WP"}
     };
     arsenalitems[] = {
 		"kat_accuvac",

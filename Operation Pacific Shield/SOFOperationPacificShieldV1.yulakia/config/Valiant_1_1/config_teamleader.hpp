@@ -12,9 +12,9 @@ class teamlead11 {
 			{},
 			{"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},{"U_tweed_acu_summer_ocp_tuck_jedi",{{"HandGrenade",2,1},{"SmokeShell",2,1}}},
 			{"V_tweed_iotv_mk4_cell_45_2",{{"ItemcTabHCam",1},{"CUP_17Rnd_9x19_M17_Black",3,17},{"SPS_20Rnd_762x51mm_M80A1_EPR",10,20}}},
-			{"B_simc_US_Molle_sturm_OCP_etool",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ItemcTabMisc",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"kat_IFAK",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"kat_gasmaskFilter",2},{"kat_mask_M50",1},{"psq42_blk",1}}},
+			{"B_simc_US_Molle_sturm_OCP_etool",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"kat_IFAK",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"kat_gasmaskFilter",2},{"kat_mask_M50",1},{"psq42_blk",1}}},
 			"H_tweed_ihps_g_tasc_rail","CUP_TK_NeckScarf",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-			{"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""}
+			{"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
     arsenalitems[] = {
 		"SPS_hk417_16_afg_black_f",
@@ -53,6 +53,6 @@ class teamlead11 {
 		"SPS_EOTech_Tan_3xMAG_up",
 		"SPS_EOTech_Vudu_Black",
 		"SPS_EOTech_Vudu_Black_PVS24LR",
-		"ItemcTabMisc"
+		// "ItemcTabMisc"
 	};
 };
