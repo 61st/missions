@@ -19,11 +19,11 @@ if (hasInterface) then {
         [player, 'BIS'] call EFUNC(player,setRank);
         call EFUNC(player,setRankpatch);
         call LXIM_w28fixes_fnc_player_set_name;
-        if ("B_UavTerminal" in (player getSlotItemName 612)) then { 
-        if !([player, "ItemAndroidMisc"] call ace_common_fnc_hasItem)  
-            then {player addItem "ItemAndroidMisc"}; 
-        } else { 
-            if !([player, "ItemAndroid"] call ace_common_fnc_hasItem) then {player linkItem "ItemAndroid"}; 
-        };
+        // if ("B_UavTerminal" in (player getSlotItemName 612)) then { 
+        // if !([player, "ItemAndroidMisc"] call ace_common_fnc_hasItem)  
+        //     then {player addItem "ItemAndroidMisc"}; 
+        // } else { 
+        //     if !([player, "ItemAndroid"] call ace_common_fnc_hasItem) then {player linkItem "ItemAndroid"}; 
+        // };
     }] call CBA_fnc_addEventHandler;
 };
