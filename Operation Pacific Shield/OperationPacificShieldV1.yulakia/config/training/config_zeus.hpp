@@ -15,9 +15,9 @@ class zeus {
             {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
             {"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},{"U_tweed_acu_summer_ocp_tuck_trop",{{"HandGrenade",2,1},{"SmokeShell",2,1}}},
             {"",{}},
-            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"kat_IFAK",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"kat_gasmaskFilter",2},{"kat_mask_M50",1},{"psq42_blk",1}}},
+            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"psq42_blk",1}}},
             "lxim_headgear_Cap_BlackLogo","G_oak_2_cut",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch",""}
+            {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
         "lxim_backpack_Carryall_Solid_White",
@@ -50,8 +50,9 @@ class zeus {
         "lxim_equipment_optic_AMS_snd",
         "B_simc_US_Molle_sturm_OCP_RTO",
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "uh60_jvmf_tablet",
         "lxim_vs17_vs17",
-        // "ItemcTabMisc",
+        // "ItemGPSMisc",
         "lxim_headgear_Cap_BlackLogo",
         "lxim_headgear_Cap_Headphones_BlackLogo"
     };

@@ -34,7 +34,7 @@
         ["kat_phenylephrineAuto",24],
         
         // Oral Medication
-        ["kat_Painkiller",60],
+        ["ACE_painkillers",60],
         
         // Splints
         ["ACE_splint",40],
@@ -74,7 +74,9 @@
 
         // Diagnostic Tools
         ["kat_Pulseoximeter",12],
-        ["kat_ultrasound",2],
+        ["kat_ultrasound",
+        "kat_coag_sense",
+        "kat_fluidWarmer",2],
         ["kat_stethoscope",4],
         
         // Tourniquets
@@ -110,7 +112,7 @@
         // Oral Medication & 
         ["kat_naloxone",20],
         ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",40],
         ["kat_PenthroxItem",10],
         
         // Splints
@@ -311,7 +313,7 @@
 
         // Oral Medication
         ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",40],
 
         // Autoinjector & Nasal Spray Medication
         ["kat_naloxone",20],
@@ -446,7 +448,7 @@
 
         // Oral Medication
         ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",40],
 
         // Autoinjector & Nasal Spray Medication
         ["kat_naloxone",20],
@@ -580,7 +582,7 @@
 
         // Oral Medication
         ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",40],
 
         // Autoinjector & Nasal Spray Medication
         ["kat_naloxone",20],
@@ -1103,7 +1105,7 @@
 
         // Oral Medication
         ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",40],
 
         // Autoinjector & Nasal Spray Medication
         ["kat_naloxone",20],
