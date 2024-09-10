@@ -19,7 +19,7 @@ class roleClassname { //this class is used when defining which roles are in what
 		{"V_RebreatherB",{}},
 		{"B_Assault_Diver",{{"30Rnd_556x45_Stanag_red",2,30},{"20Rnd_556x45_UW_mag",2,20},{"SatchelCharge_Remote_Mag",1,1},{"MiniGrenade",3,1},{"SmokeShellBlue",2,1},{"Chemlight_blue",4,1},{{"Rangefinder","","","",{},{},""},1}}},
 		"","G_B_Diving",{},
-		{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}
+		{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ACE_Altimeter",""}
 	};
 
 	arsenalitems[] = {

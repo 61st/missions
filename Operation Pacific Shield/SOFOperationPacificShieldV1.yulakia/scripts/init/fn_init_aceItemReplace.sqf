@@ -16,12 +16,12 @@ INFO("init", "Initializing Item replacement system.");
 if (!isNil {ace_medical_treatment_convertItems == 2}) then {
     switch (EGVAR(Settings,replaceMedical)) do {
         case (1): {
-            ["FirstAidKit",[
-                "kat_IFAK"
-            ]] call ace_common_fnc_registerItemReplacement;
-            ["Medikit",[
-                "kat_MFAK"
-            ]] call ace_common_fnc_registerItemReplacement;
+            // ["FirstAidKit",[
+            //     "kat_IFAK"
+            // ]] call ace_common_fnc_registerItemReplacement;
+            // ["Medikit",[
+            //     "kat_MFAK"
+            // ]] call ace_common_fnc_registerItemReplacement;
         };
     };
 };

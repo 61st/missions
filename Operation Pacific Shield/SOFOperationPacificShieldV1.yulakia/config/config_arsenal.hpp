@@ -1,5 +1,7 @@
 class Common_Arsenal {
 	items[] = {
+        "kat_handWarmer",
+        "KAT_Katmin",
         "ItemGPS",
         "ACE_Altimeter",
         "ACE_CableTie",
@@ -250,8 +252,8 @@ class Common_Arsenal {
         // "ItemAndroid",
         // "ItemAndroidMisc",
         // "ItemCompass",
-        // "ItemcTabHCam",
-        // "ItemcTabHCam",
+        // "ACE_painkillers",
+        // "ACE_painkillers",
         // "ItemcTabMisc",
         "ItemMap",
         // "ItemMicroDAGRMisc",

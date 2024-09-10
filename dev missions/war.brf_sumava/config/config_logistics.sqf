@@ -1,21 +1,16 @@
 [//REQUIRED
     ["crate_medicalInfantry", [
-        ["Attachable_Helistretcher",1],
-        ["kat_IFAK",12],
-        ["ACE_salineIV_500",3],
-        ["ACE_salineIV_250",4],
-        ["ACE_salineIV",1],
-
-        ["kat_AFAK", 2],
-        ["kat_MFAK", 6],
-        ["kat_X_AED", 1],
+        ["ACE_salineIV_500",6],
+        ["ACE_salineIV_250",8],
+        ["ACE_salineIV",2],
         // Bandages
+        ["ACE_fieldDressing",60],
         ["ACE_elasticBandage",60],
         ["ACE_packingBandage",90],
         ["ACE_quikclot",150],
-        ["kat_chestSeal",20],
-        ["kat_guedel",10],
-        ["kat_suction",4],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
 
         // Tourniquets
         ["ACE_tourniquet",50],
@@ -24,115 +19,62 @@
         ["ACE_plasmaIV",20],
         ["ACE_plasmaIV_500",20],
         
-        // IV & IO Catheters
-        ["kat_IO_FAST",10],
-        ["kat_IV_16",20],
-        
         // Autoinjector Medication
-        ["kat_naloxone",20],
         ["ACE_epinephrine",20],
-        ["kat_phenylephrineAuto",24],
+        ["ACE_adenosine",20],
+        ["ACE_morphine",20],
+        ["lxim_naloxone",20],
         
         // Oral Medication
-        ["kat_Painkiller",60],
+        ["ACE_painkillers",60],
         
         // Splints
         ["ACE_splint",40],
         
-        // Surgical Medication
-        ["kat_lidocaine",16],
-        
         // Surgical Kits
         ["ACE_surgicalKit",2],
+        ["ACE_suture",20],
         
         // Body Bags
-        ["ACE_bodyBag",10]
+        ["ACE_bodyBag",10],
     ]],
 
     //REQUIRED
     ["crate_medical", [
-        // AEDs
-        ["kat_AED",1],
-        ["kat_X_AED",1],
-        
-        // Airway Management and Respiration
-        ["kat_aatKit",10],
-        ["kat_accuvac",2],
-        ["kat_BVM",4],
-        ["kat_chestSeal",20],
-        ["kat_larynx",10],
-        
-        // Autoinjectors
-        ["ACE_morphine",20],
-        ["ACE_epinephrine",40],
-        ["kat_phenylephrineAuto",40],
-
+        ["ACE_salineIV_500",6],
+        ["ACE_salineIV_250",8],
+        ["ACE_salineIV",2],
         // Bandages
-        ["ACE_elasticBandage",150],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
         ["ACE_packingBandage",90],
         ["ACE_quikclot",150],
 
-        // Diagnostic Tools
-        ["kat_Pulseoximeter",12],
-        ["kat_ultrasound",2],
-        ["kat_stethoscope",4],
-        
         // Tourniquets
-        ["ACE_tourniquet",20],
+        ["ACE_tourniquet",50],
         
         // Fluids
-        ["ACE_plasmaIV",30],
-        ["ACE_plasmaIV_500",30],
-        ["ACE_salineIV_250",20],
+        ["ACE_plasmaIV",20],
+        ["ACE_plasmaIV_500",20],
         
-        // IV & IO Catheters
-        ["kat_IO_FAST",20],
-        ["kat_IV_16",40],
+        // Autoinjector Medication
+        ["ACE_epinephrine",20],
+        ["ACE_adenosine",20],
+        ["ACE_morphine",20],
+        ["lxim_naloxone",20],
         
-        // Analgesic Medication
-        ["kat_fentanyl",10],
-        ["kat_ketamine",10],
-        ["kat_nalbuphine",40],
-
-        // Cardiac resuscitation
-        ["kat_amiodarone",10],
-        ["kat_atropine",10],
-
-        // Blood Pressure Medication
-        ["kat_nitroglycerin",40],
-        ["kat_phenylephrine",40],
-        ["kat_norepinephrine",40],
-        
-        // Hemorrhage Control Medication
-        ["kat_EACA",40],
-        ["kat_TXA",40],
-        
-        // Oral Medication & 
-        ["kat_naloxone",20],
-        ["kat_carbonate",20],
-        ["kat_Painkiller",40],
-        ["kat_PenthroxItem",10],
+        // Oral Medication
+        ["ACE_painkillers",60],
         
         // Splints
         ["ACE_splint",40],
         
-        // Surgical Equipment
-        ["kat_scalpel",40],
-        ["kat_plate",10],
-        ["kat_clamp",4],
-        ["kat_retractor",4],
-        ["kat_vacuum",1],
-        ["kat_reboa",12],
-        ["kat_suction",4],
-
-        // Surgical Medication
-        ["kat_lidocaine",20],
-        ["kat_lorazepam",10],
-        ["kat_etomidate",20],
-        ["kat_flumazenil",10],
-        
         // Surgical Kits
-        ["ACE_surgicalKit",4],
+        ["ACE_surgicalKit",2],
+        ["ACE_suture",20],
+        
+        // Body Bags
+        ["ACE_bodyBag",10],
         
         // Body Bags
         ["ACE_bodyBag",10],
@@ -211,9 +153,14 @@
             ["SatchelCharge_Remote_Mag",2],
             ["DemoCharge_Remote_Mag",4],
 
-            ["kat_MFAK", 3],
-            ["kat_MFAK", 6],
-            ["kat_IFAK", 24]
+            // Bandages
+            ["ACE_fieldDressing",60],
+            ["ACE_elasticBandage",60],
+            ["ACE_packingBandage",90],
+            ["ACE_quikclot",150],
+
+            // Oral Medication
+            ["ACE_painkillers",60],
         ]],
 
 
@@ -226,7 +173,14 @@
         ["ACE_rope36", 2],
 
         // Medical
-        ["kat_IFAK", 8],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
+
         ["B_simc_US_Molle_sturm_OCP_RTO", 1],
 
         ["lxim_sig_25Rnd_Fury", 20],
@@ -241,8 +195,13 @@
         ["ACE_rope36", 2],
 
         // Medical
-        ["kat_IFAK", 8],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
 
+        // Oral Medication
+        ["ACE_painkillers",60],
 
         ["lxim_sig_25Rnd_Fury", 20],
         ["SmokeShell", 8],
@@ -255,90 +214,43 @@
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
 
-        ["kat_AFAK", 2],
-        ["kat_MFAK", 6],
-
         ["B_simc_US_Molle_sturm_OCP_RTO", 1],
 
-        ["Attachable_Helistretcher",1],
-        // AEDs
-        ["kat_AED",1],
-        ["kat_X_AED",1],
-
-        // Analgesic
-        ["kat_fentanyl",10],
-        ["kat_ketamine",20],
-        ["kat_nalbuphine",30],
-        ["kat_PenthroxItem",20],
-
-        // Airway Management and Respiration
-        ["kat_aatKit",4],
-        ["kat_accuvac",1],
-        ["kat_BVM",2],
-        ["kat_chestSeal",30],
-        ["kat_larynx",15],
-        ["kat_pocketBVM",3],
-        
-
+        ["ACE_salineIV_500",6],
+        ["ACE_salineIV_250",8],
+        ["ACE_salineIV",2],
         // Bandages
-        ["ACE_elasticBandage",150],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
         ["ACE_packingBandage",90],
         ["ACE_quikclot",150],
 
-        // Tourniquets
-        ["ACE_tourniquet",20],
-        ["kat_reboa",10],
-
-        // Fluids
-        ["ACE_plasmaIV",30],
-        ["ACE_plasmaIV_500",30],
-        ["ACE_salineIV_250",20],
-
-        // IV & IO Catheters
-        ["kat_IO_FAST",20],
-        ["kat_IV_16",40],
-
-        // Blood Pressure Medication
-        ["kat_nitroglycerin",40],
-        ["kat_phenylephrine",40],
-        ["kat_norepinephrine",40],
-
-        // Hemorrhage Control Medication
-        ["kat_EACA",40],
-        ["kat_TXA",40],
-        ["kat_amiodarone",15],
-        ["ACE_epinephrine",10],
-
         // Oral Medication
-        ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",60],
 
-        // Autoinjector & Nasal Spray Medication
-        ["kat_naloxone",20],
+        // Tourniquets
+        ["ACE_tourniquet",50],
+        
+        // Fluids
+        ["ACE_plasmaIV",20],
+        ["ACE_plasmaIV_500",20],
+        
+        // Autoinjector Medication
+        ["ACE_epinephrine",20],
+        ["ACE_adenosine",20],
         ["ACE_morphine",20],
-        ["ACE_epinephrine",40],
-        ["kat_phenylephrineAuto",40],
-        ["ACE_adenosine",0],
-
+        ["lxim_naloxone",20],
+        
+        // Oral Medication
+        ["ACE_painkillers",60],
+        
         // Splints
-        ["ACE_splint",20],
-
-        // Surgical Equipment
-        ["kat_scalpel",40],
-        ["kat_plate",10],
-        ["kat_clamp",1],
-        ["kat_retractor",1],
-        ["kat_vacuum",1],
-
-        // Surgical Medication
-        ["kat_lidocaine",20],
-        ["kat_lorazepam",10],
-        ["kat_etomidate",20],
-        ["kat_flumazenil",10],
-
+        ["ACE_splint",40],
+        
         // Surgical Kits
-        ["ACE_surgicalKit",4],
-
+        ["ACE_surgicalKit",2],
+        ["ACE_suture",20],
+        
         // Body Bags
         ["ACE_bodyBag",10],
 
@@ -389,94 +301,41 @@
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
 
-        ["kat_AFAK", 2],
-        ["kat_MFAK", 6],
-        ["kat_IFAK", 6],
-
-        ["Attachable_Helistretcher",1],
-
-        // AEDs
-        ["kat_AED",1],
-        ["kat_X_AED",1],
-
-        // Analgesic
-        ["kat_fentanyl",10],
-        ["kat_ketamine",20],
-        ["kat_nalbuphine",30],
-        ["kat_PenthroxItem",20],
-
-        // Airway Management and Respiration
-        ["kat_aatKit",4],
-        ["kat_accuvac",1],
-        ["kat_BVM",2],
-        ["kat_chestSeal",30],
-        ["kat_larynx",15],
-        ["kat_pocketBVM",3],
-        
-
+        ["ACE_salineIV_500",6],
+        ["ACE_salineIV_250",8],
+        ["ACE_salineIV",2],
         // Bandages
-        ["ACE_elasticBandage",150],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
         ["ACE_packingBandage",90],
         ["ACE_quikclot",150],
 
-        // Tourniquets
-        ["ACE_tourniquet",20],
-        ["kat_reboa",10],
-
-        // Fluids
-        ["ACE_plasmaIV",30],
-        ["ACE_plasmaIV_500",30],
-        ["ACE_salineIV",10],
-        ["ACE_salineIV_500",20],
-
-        // IV & IO Catheters
-        ["kat_IO_FAST",20],
-        ["kat_IV_16",40],
-
-        // Blood Pressure Medication
-        ["kat_nitroglycerin",40],
-        ["kat_phenylephrine",40],
-        ["kat_norepinephrine",40],
-
-        // Hemorrhage Control Medication
-        ["kat_EACA",40],
-        ["kat_TXA",40],
-        ["kat_amiodarone",15],
-        ["ACE_epinephrine",10],
-
         // Oral Medication
-        ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",60],
 
-        // Autoinjector & Nasal Spray Medication
-        ["kat_naloxone",20],
+        // Tourniquets
+        ["ACE_tourniquet",50],
+        
+        // Fluids
+        ["ACE_plasmaIV",20],
+        ["ACE_plasmaIV_500",20],
+        
+        // Autoinjector Medication
+        ["ACE_epinephrine",20],
+        ["ACE_adenosine",20],
         ["ACE_morphine",20],
-        ["ACE_epinephrine",40],
-        ["kat_phenylephrineAuto",40],
-        ["ACE_adenosine",0],
-
+        ["lxim_naloxone",20],
+        
+        // Oral Medication
+        ["ACE_painkillers",60],
+        
         // Splints
-        ["ACE_splint",20],
-
-        // Surgical Equipment
-        ["kat_scalpel",40],
-        ["kat_plate",10],
-        ["kat_clamp",1],
-        ["kat_retractor",1],
-        ["kat_vacuum",1],
-
-        ["kat_oxygenTank_150_Item",4],
-        ["kat_oxygenTank_300_Item",2],
-
-        // Surgical Medication
-        ["kat_lidocaine",20],
-        ["kat_lorazepam",10],
-        ["kat_etomidate",20],
-        ["kat_flumazenil",10],
-
+        ["ACE_splint",40],
+        
         // Surgical Kits
-        ["ACE_surgicalKit",4],
-
+        ["ACE_surgicalKit",2],
+        ["ACE_suture",20],
+        
         // Body Bags
         ["ACE_bodyBag",10],
 
@@ -524,90 +383,41 @@
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
 
-        ["kat_AFAK", 2],
-        ["kat_MFAK", 6],
-        ["kat_IFAK", 6],
-
-        ["Attachable_Helistretcher",1],
-
-        // AEDs
-        ["kat_AED",1],
-        ["kat_X_AED",1],
-
-        // Analgesic
-        ["kat_fentanyl",10],
-        ["kat_ketamine",20],
-        ["kat_nalbuphine",30],
-        ["kat_PenthroxItem",20],
-
-        // Airway Management and Respiration
-        ["kat_aatKit",4],
-        ["kat_accuvac",1],
-        ["kat_BVM",2],
-        ["kat_chestSeal",30],
-        ["kat_larynx",15],
-        ["kat_pocketBVM",3],
-        
-
+        ["ACE_salineIV_500",6],
+        ["ACE_salineIV_250",8],
+        ["ACE_salineIV",2],
         // Bandages
-        ["ACE_elasticBandage",150],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
         ["ACE_packingBandage",90],
         ["ACE_quikclot",150],
 
-        // Tourniquets
-        ["ACE_tourniquet",20],
-        ["kat_reboa",10],
-
-        // Fluids
-        ["ACE_plasmaIV",30],
-        ["ACE_plasmaIV_500",30],
-        ["ACE_salineIV_250",20],
-
-        // IV & IO Catheters
-        ["kat_IO_FAST",20],
-        ["kat_IV_16",40],
-
-        // Blood Pressure Medication
-        ["kat_nitroglycerin",40],
-        ["kat_phenylephrine",40],
-        ["kat_norepinephrine",40],
-
-        // Hemorrhage Control Medication
-        ["kat_EACA",40],
-        ["kat_TXA",40],
-        ["kat_amiodarone",15],
-        ["ACE_epinephrine",10],
-
         // Oral Medication
-        ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",60],
 
-        // Autoinjector & Nasal Spray Medication
-        ["kat_naloxone",20],
+        // Tourniquets
+        ["ACE_tourniquet",50],
+        
+        // Fluids
+        ["ACE_plasmaIV",20],
+        ["ACE_plasmaIV_500",20],
+        
+        // Autoinjector Medication
+        ["ACE_epinephrine",20],
+        ["ACE_adenosine",20],
         ["ACE_morphine",20],
-        ["ACE_epinephrine",40],
-        ["kat_phenylephrineAuto",40],
-        ["ACE_adenosine",0],
-
+        ["lxim_naloxone",20],
+        
+        // Oral Medication
+        ["ACE_painkillers",60],
+        
         // Splints
-        ["ACE_splint",20],
-
-        // Surgical Equipment
-        ["kat_scalpel",40],
-        ["kat_plate",10],
-        ["kat_clamp",1],
-        ["kat_retractor",1],
-        ["kat_vacuum",1],
-
-        // Surgical Medication
-        ["kat_lidocaine",20],
-        ["kat_lorazepam",10],
-        ["kat_etomidate",20],
-        ["kat_flumazenil",10],
-
+        ["ACE_splint",40],
+        
         // Surgical Kits
-        ["ACE_surgicalKit",4],
-
+        ["ACE_surgicalKit",2],
+        ["ACE_suture",20],
+        
         // Body Bags
         ["ACE_bodyBag",10],
 
@@ -653,8 +463,13 @@
     ]],
 
     ["droneair_medical", [
-        ["kat_IFAK",4],
-        ["kat_MFAK", 1]
+        ["ACE_fieldDressing",20],
+        ["ACE_elasticBandage",20],
+        ["ACE_packingBandage",30],
+        ["ACE_quikclot",50],
+
+        // Oral Medication
+        ["ACE_painkillers",10],
     ]],
 
     ["droneair_ammo", [
@@ -715,7 +530,13 @@
         ["ACE_Chemlight_IR",4],
 
         // Medical
-        ["kat_IFAK", 8]
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
     ]],
 
     ["vehicle_Tracked", [
@@ -762,7 +583,13 @@
         ["ACE_Chemlight_IR",4],
 
         // Medical
-        ["kat_IFAK", 8]
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
     ]],
 
     ["vehicle_boat", [
@@ -809,12 +636,25 @@
         ["ACE_Chemlight_IR",4],
 
         // Medical
-        ["kat_IFAK", 8]
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
     ]],
 
     ["vehicle_resupply", [
         // Medical
-        ["kat_IFAK", 0],
+        ["ACE_fieldDressing",0],
+        ["ACE_elasticBandage",0],
+        ["ACE_packingBandage",0],
+        ["ACE_quikclot",0],
+
+        // Oral Medication
+        ["ACE_painkillers",0],
+
         ["16Rnd_9x21_green_Mag", 0],
         ["16Rnd_9x21_green_Mag_v2", 0],
         ["CUP_17Rnd_9x19_M17_Black", 0],
@@ -979,7 +819,13 @@
         ["ACE_Chemlight_IR",4],
 
         // Medical
-        ["kat_IFAK", 8]
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
     ]],
 
     ["vehicle_ampf_eng", [
@@ -1039,7 +885,13 @@
         ["ACE_Chemlight_IR",4],
 
         // Medical
-        ["kat_IFAK", 8]
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
     ]],
 
     ["vehicle_ampf_med", [
@@ -1047,90 +899,41 @@
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
 
-        ["kat_AFAK", 2],
-        ["kat_MFAK", 6],
-        ["kat_IFAK", 6],
-
-        ["Attachable_Helistretcher",1],
-
-        // AEDs
-        ["kat_AED",1],
-        ["kat_X_AED",1],
-
-        // Analgesic
-        ["kat_fentanyl",10],
-        ["kat_ketamine",20],
-        ["kat_nalbuphine",30],
-        ["kat_PenthroxItem",20],
-
-        // Airway Management and Respiration
-        ["kat_aatKit",4],
-        ["kat_accuvac",1],
-        ["kat_BVM",2],
-        ["kat_chestSeal",30],
-        ["kat_larynx",15],
-        ["kat_pocketBVM",3],
-        
-
+        ["ACE_salineIV_500",6],
+        ["ACE_salineIV_250",8],
+        ["ACE_salineIV",2],
         // Bandages
-        ["ACE_elasticBandage",150],
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
         ["ACE_packingBandage",90],
         ["ACE_quikclot",150],
 
-        // Tourniquets
-        ["ACE_tourniquet",20],
-        ["kat_reboa",10],
-
-        // Fluids
-        ["ACE_plasmaIV",30],
-        ["ACE_plasmaIV_500",30],
-        ["ACE_salineIV_250",20],
-
-        // IV & IO Catheters
-        ["kat_IO_FAST",20],
-        ["kat_IV_16",40],
-
-        // Blood Pressure Medication
-        ["kat_nitroglycerin",40],
-        ["kat_phenylephrine",40],
-        ["kat_norepinephrine",40],
-
-        // Hemorrhage Control Medication
-        ["kat_EACA",40],
-        ["kat_TXA",40],
-        ["kat_amiodarone",15],
-        ["ACE_epinephrine",10],
-
         // Oral Medication
-        ["kat_carbonate",20],
-        ["kat_Painkiller",40],
+        ["ACE_painkillers",60],
 
-        // Autoinjector & Nasal Spray Medication
-        ["kat_naloxone",20],
+        // Tourniquets
+        ["ACE_tourniquet",50],
+        
+        // Fluids
+        ["ACE_plasmaIV",20],
+        ["ACE_plasmaIV_500",20],
+        
+        // Autoinjector Medication
+        ["ACE_epinephrine",20],
+        ["ACE_adenosine",20],
         ["ACE_morphine",20],
-        ["ACE_epinephrine",40],
-        ["kat_phenylephrineAuto",40],
-        ["ACE_adenosine",0],
-
+        ["lxim_naloxone",20],
+        
+        // Oral Medication
+        ["ACE_painkillers",60],
+        
         // Splints
-        ["ACE_splint",20],
-
-        // Surgical Equipment
-        ["kat_scalpel",40],
-        ["kat_plate",10],
-        ["kat_clamp",1],
-        ["kat_retractor",1],
-        ["kat_vacuum",1],
-
-        // Surgical Medication
-        ["kat_lidocaine",20],
-        ["kat_lorazepam",10],
-        ["kat_etomidate",20],
-        ["kat_flumazenil",10],
-
+        ["ACE_splint",40],
+        
         // Surgical Kits
-        ["ACE_surgicalKit",4],
-
+        ["ACE_surgicalKit",2],
+        ["ACE_suture",20],
+        
         // Body Bags
         ["ACE_bodyBag",10],
 
@@ -1222,7 +1025,13 @@
         ["ACE_Chemlight_IR",4],
 
         // Medical
-        ["kat_IFAK", 8]
+        ["ACE_fieldDressing",60],
+        ["ACE_elasticBandage",60],
+        ["ACE_packingBandage",90],
+        ["ACE_quikclot",150],
+
+        // Oral Medication
+        ["ACE_painkillers",60],
     ]],
     
     ["crate_stinger",[
