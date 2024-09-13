@@ -1,27 +1,80 @@
 class medicp {
-	name = "Flight Medic";
-	description = "MEDIC!";
-	traits[] = {
-		{"Medic",true}
-	};
-	customVariables[] = {
-		{"ace_medical_medicClass",2,true},
-		{"YMF_ismed", true, true},
-		{"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true}
-	};
-	icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
+    name = "Flight Medic";
+    description = "MEDIC!";
+    traits[] = {
+        {"Medic",true}
+    };
+    customVariables[] = {
+        {"ace_medical_medicClass",2,true},
+        {"YMF_ismed", true, true},
+        {"TFAR_freq_sr",{"100.1","82","35.1","33","100","75","60","35"},true}
+    };
+    icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
 
-	defaultLoadout[] = {
+    defaultLoadout[] = {
             {"CUP_arifle_M4A1_standard_short_black","","CUP_acc_ANPEQ_15","CUP_optic_ACOG_TA01B_RMR_Black",{"CUP_30Rnd_556x45_PMAG_BLACK_PULL",30},{},""},
             {},
             {"CUP_hgun_M17_Coyote","","","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
-            {"U_tweed_acu_summer_ocp_unbl_trop",{{"G_Aviator",1},{"CUP_G_WristWatch",1},{"ACE_MRE_MeatballsPasta",1},{"ACE_splint",2},{"acex_intelitems_notepad",1,1},{"ACE_painkillers",1,10},{"Chemlight_red",1,1},{"ACE_Chemlight_HiRed",4,1},{"ACE_Chemlight_HiGreen",4,1},{"ACE_Chemlight_HiBlue",4,1},{"CUP_HandGrenade_M67",1,1}}},
-            {"V_tweed_msv_mk2_1",{{"CUP_21Rnd_9x19_M17_Coyote",2,21},{"CUP_30Rnd_556x45_PMAG_BLACK_PULL",7,30}}},
+            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"kat_IFAK",1},{"ACE_fieldDressing",4},{"ACE_tourniquet",4},{"kat_Painkiller",1,4}}},
+            {"V_tweed_msv_mk2_1",{{"CUP_17Rnd_9x19_M17_Black",3,17},{"ACE_CableTie",4},{"SmokeShell",2,1},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"HandGrenade",2,1},{"CUP_30Rnd_556x45_PMAG_BLACK_PULL",12,30}}},
             {"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"ACE_epinephrine",14},{"ACE_adenosine",14},{"ACE_fieldDressing",24},{"ACE_quikclot",14},{"ACE_morphine",24},{"lxim_naloxone",14}}},
             "H_PilotHelmetHeli_B","CUP_G_Tan_Scarf_GPS",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemcTab","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
+            {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "kat_IV_16",
+        "kat_aatKit",
+        "kat_accuvac",
+        "kat_AED",
+        "kat_AFAK",
+        "kat_amiodarone",
+        "kat_atropine",
+        "kat_Bubble_Wrap",
+        "kat_BVM",
+        "kat_Carbonate",
+        "kat_chestSeal",
+        "kat_clamp",
+        "kat_coag_sense",
+        "kat_crossPanel",
+        "kat_EACA",
+        "KAT_Empty_bloodIV_250",
+        "KAT_Empty_bloodIV_500",
+        "kat_epinephrineIV",
+        "kat_etomidate",
+        "kat_fentanyl",
+        "kat_flumazenil",
+        "kat_guedel",
+        "kat_IO_FAST",
+        "kat_IV_16",
+        "kat_ketamine",
+        "kat_larynx",
+        "kat_lidocaine",
+        "kat_lorazepam",
+        "kat_MFAK",
+        "kat_nalbuphine",
+        "kat_naloxone",
+        "kat_nasal",
+        "kat_ncdKit",
+        "kat_nitroglycerin",
+        "kat_norepinephrine",
+        "kat_oxygenTank_150",
+        "kat_oxygenTank_300",
+        "kat_Painkiller",
+        "kat_Penthrox",
+        "kat_phenylephrine",
+        "kat_phenylephrineAuto",
+        "kat_plate",
+        "kat_pocketBVM",
+        "kat_Pulseoximeter",
+        "kat_reboa",
+        "kat_retractor",
+        "kat_scalpel",
+        "kat_stethoscope",
+        "kat_suction",
+        "kat_TXA",
+        "kat_ultrasound",
+        "kat_vacuum",
+        "kat_X_AED",
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL",
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red",
         "H_PilotHelmetHeli_B",

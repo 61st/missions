@@ -10,7 +10,7 @@ class dismount11 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"SPS_hk417_13_afg_ral8000_f","","CUP_acc_ANPEQ_15","sps_vortex_spitfire_gen2_x5_RMR_black",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},{},
+            {"SPS_hk417_13_afg_ral8000_f","","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"SPS_20Rnd_762x51mm_M80A1_EPR",20},{},""},{},
             {"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},
             {"U_tweed_acu_summer_ocp_jedi",{}},
             {"V_tweed_msv_mk2_1",{{"ItemcTabHCam",1},{"CUP_17Rnd_9x19_M17_Black",3,17},{"SmokeShell",2,1},{"HandGrenade",2,1},{"SPS_20Rnd_762x51mm_M80A1_EPR",12,20}}},
