@@ -499,7 +499,6 @@ class dismount11 {
         "lxim_sig_M250",
         "lxim_sig_M250_BLK",
         "CUP_sgun_M1014_Entry",
-        "CUP_sgun_M1014_Entry_vfg",
         "CUP_launch_FIM92Stinger",
         "I_E_HMG_02_support_F",
         "I_E_HMG_02_support_high_F",
@@ -508,6 +507,17 @@ class dismount11 {
         "B_Mortar_01_weapon_F",
         "B_Mortar_01_support_F",
         "cup_lmg_m240",
-        "CUP_sgun_M1014_Entry_vfg"
+        "CUP_sgun_M1014_Entry_vfg",
+        "CCUP_muzzle_snds_mk23",
+        "CUP_srifle_m110_kac_black",
+        "CUP_srifle_m110_black",
+        "CUP_srifle_m110",
+        "CUP_srifle_m110_woodland",
+        "CUP_srifle_m110_kac",
+        "CUP_srifle_m110_kac_woodland",
+        "CUP_muzzle_snds_M110_black",
+        "CUP_muzzle_snds_M110",
+        "CUP_muzzle_snds_M110_woodland",
+        "CUP_20Rnd_762x51_B_M110"
     };
 };
