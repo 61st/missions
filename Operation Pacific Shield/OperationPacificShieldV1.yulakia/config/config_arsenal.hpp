@@ -1,6 +1,7 @@
 class Common_Arsenal {
     items[] = {
         //medical
+        "ItemCompass",
         "kat_IFAK",
         "ACE_tourniquet",
         "ACE_Splint", 

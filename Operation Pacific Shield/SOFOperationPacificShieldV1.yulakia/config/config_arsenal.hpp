@@ -1,5 +1,6 @@
 class Common_Arsenal {
 	items[] = {
+        "ItemCompass",
         "kat_handWarmer",
         "KAT_Katmin",
         "ItemGPS",
