@@ -8,7 +8,7 @@ class teamlead11 {
     icon = "z\LXIM\addons\media\images\Icons\iconmanleader_red.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},{"U_tweed_acu_summer_ocp_tuck_jedi",{{"HandGrenade",2,1},{"SmokeShell",2,1}}},
             {"V_tweed_iotv_mk4_cell_45_2",{{"CUP_17Rnd_9x19_M17_Black",3,17},{"lxim_sig_25Rnd_Fury",10,20}}},
             {"B_simc_US_Molle_sturm_OCP_etool",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"psq42_blk",1}}},
