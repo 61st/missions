@@ -10,7 +10,7 @@ class mark {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},
             {"U_tweed_acu_summer_ocp_tuck_trop",{{"ACE_IR_Strobe_Item",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"CUP_17Rnd_9x19_M17_Black",2,17}}},
             {"V_tweed_msv_mk2_cell_45_1",{{"lxim_sig_25Rnd_Fury",8,20},{"HandGrenade",2,1},{"ACE_M84",2,1},{"ACE_M14",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",2,1}}},{"B_simc_US_Molle_sturm_OCP_RTO",{{"uh60_jvmf_tablet",

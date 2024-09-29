@@ -6,7 +6,6 @@ class fac {
     };
     customVariables[] = {
         {"YMF_iscom", true, true},
-        {"YMF_ismed", true, true},
         {"draWhitelisted",TRUE,TRUE},
         {"TFAR_freq_sr",{"100.1","110","120","33","100","75","60","35"},true}
     };

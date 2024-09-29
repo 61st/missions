@@ -12,7 +12,7 @@ class medic {
     icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"CUP_hgun_M17_Coyote","","CUP_acc_Glock17_Flashlight","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
             {"U_tweed_acu_summer_ocp_trop",{{"ACE_CableTie",4},{"ACE_Flashlight_XL50",1},{"ACE_surgicalKit",1},{"psq42_blk",1}}},
             {"V_tweed_msv_mk2_cell_1",{{"ACE_epinephrine",6},{"CUP_17Rnd_9x19_M17_Coyote",3,17},{"lxim_sig_25Rnd_Fury",10,20},{"SmokeShell",3,1},{"HandGrenade",2,1}}},

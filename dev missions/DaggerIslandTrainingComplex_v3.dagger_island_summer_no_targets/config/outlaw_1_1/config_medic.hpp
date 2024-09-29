@@ -12,13 +12,12 @@ class medic11 {
     icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"CUP_hgun_M17_Coyote","","CUP_acc_Glock17_Flashlight","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"kat_IFAK",1},{"ACE_fieldDressing",4},{"ACE_tourniquet",4},{"kat_Painkiller",1,4}}},
-            {"V_tweed_msv_mk2_1",{{"CUP_17Rnd_9x19_M17_Black",3,17},{"ACE_CableTie",4},{"SmokeShell",2,1},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
-            {"B_simc_US_Molle_sturm_OCP_thermos_od7",{{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"psq42_blk",1},{"ACE_packingBandage",20},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"ACE_epinephrine",14},{"ACE_adenosine",14},{"ACE_fieldDressing",24},{"ACE_quikclot",14},{"ACE_morphine",24},{"lxim_naloxone",14}}},
-            "H_tweed_ihps_tasc_rail","G_tweed_ESS_Green",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
+            {"U_tweed_acu_summer_ocp_trop",{{"ACE_CableTie",4},{"ACE_Flashlight_XL50",1},{"psq42_blk",1},{"kat_IV_16",5}}},
+            {"V_tweed_msv_mk2_cell_1",{{"ACE_epinephrine",6},{"CUP_17Rnd_9x19_M17_Coyote",3,17},{"lxim_sig_25Rnd_Fury",10,25},{"SmokeShell",3,1},{"HandGrenade",2,1}}},
+            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACE_IR_Strobe_Item",1},{"ACE_tourniquet",6},{"ACE_splint",5},{"ACE_elasticBandage",40},{"ACE_packingBandage",20},{"ACE_salineIV",4},{"ACE_adenosine",2},{"ACE_fieldDressing",24},{"ACE_quikclot",8},{"kat_accuvac",1},{"kat_X_AED",1},{"kat_IV_16",12},{"kat_aatKit",2},{"kat_chestSeal",5},{"kat_IO_FAST",7},{"kat_Pulseoximeter",2},{"kat_pocketBVM",1},{"kat_stethoscope",1},{"kat_TXA",2},{"kat_EACA",2},{"kat_epinephrineIV",2},{"kat_ncdKit",4},{"kat_larynx",10},{"ACE_EntrenchingTool",1},{"ACE_SpraypaintRed",1},{"ACE_EarPlugs",1},{"ACE_salineIV_500",10},{"ACE_salineIV_250",2},{"kat_Carbonate",1,10},{"kat_Painkiller",2,4},{"kat_Penthrox",4,10},{"SmokeShellPurple",2,1}}},"H_tweed_ihps_tasc_rail","G_tweed_ESS_Green",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"ItemMap","ItemGPS","TFAR_anprc152_2","","ACE_Altimeter",""}
     };
     arsenalitems[] = {
         "kat_IV_16",

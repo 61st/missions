@@ -11,7 +11,7 @@ class engineer11 {
     icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"CUP_hgun_M17_Black","","","",{"CUP_17Rnd_9x19_M17_Black",17},{},""},
             {"U_tweed_acu_summer_ocp_tuck_trop",{{"ACE_IR_Strobe_Item",1},{"ACE_CableTie",4},{"ACE_Flashlight_MX991",1},{"ACE_MapTools",1},{"ACE_microDAGR",1},{"CUP_17Rnd_9x19_M17_Black",2,17}}},
             {"V_tweed_msv_mk2_cell_45_1",{{"lxim_sig_25Rnd_Fury",9,20},{"HandGrenade",2,1}}}, 

@@ -11,7 +11,7 @@ class driver6 {
     icon = "z\LXIM\addons\media\images\Icons\driver.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",20},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","CUP_acc_ANPEQ_15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"CUP_hgun_M17_Black","","CUP_acc_Glock17_Flashlight","optic_MRD_black",{"CUP_21Rnd_9x19_M17_Black",21},{},""},
             {"U_tweed_acu_summer_ocp_tuck_unbl_trop",{{"ACE_quikclot",5},{"ACE_packingBandage",10},{"ACE_elasticBandage",10},{"ACE_splint",2},{"ACE_tourniquet",4},{"ACE_EarPlugs",1},{"ACE_epinephrine",1},{"ACE_CableTie",1},{"ACE_painkillers",1,10}}},
             {"V_tweed_msv_mk2_cell_2",{{"ACE_M26_Clacker",1},{"G_AirPurifyingRespirator_01_F",1},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"SmokeShellGreen",1,1},{"MS_Strobe_Mag_1",2,1},{"CUP_21Rnd_9x19_M17_Black",1,21},{"lxim_sig_25Rnd_Fury",6,20}}},
