@@ -74,6 +74,7 @@ class medicp {
         "kat_TXA",
         "kat_ultrasound",
         "kat_vacuum",
+        "ACE_surgicalKit",
         "kat_X_AED",
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL",
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red",

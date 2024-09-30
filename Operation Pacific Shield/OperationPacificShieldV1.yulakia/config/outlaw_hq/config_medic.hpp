@@ -73,6 +73,7 @@ class medic {
         "kat_TXA",
         "kat_ultrasound",
         "kat_vacuum",
+        "ACE_surgicalKit",
         "kat_X_AED",
         "ACE_salineIV_500",
         "ACE_salineIV_250",

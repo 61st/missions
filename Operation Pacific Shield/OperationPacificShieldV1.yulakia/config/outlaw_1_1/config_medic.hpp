@@ -74,6 +74,7 @@ class medic11 {
         "kat_TXA",
         "kat_ultrasound",
         "kat_vacuum",
+        "ACE_surgicalKit",
         "kat_X_AED",
         "lxim_backpack_Backpack_Kitbag_Medic_Green",
         "lxim_backpack_Backpack_Kitbag_Medic_MTP",
