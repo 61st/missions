@@ -4,7 +4,7 @@
             ["displayName", "Anti-Armor"],
             ["icon", ""],
             ["loadout",[
-                ["SmokeLauncherMag",[0],6],
+                ["SmokeLauncherMag",[0,0],6]
                 ["200Rnd_762x51_Belt_Red",[0],300],
                 ["200Rnd_762x51_Belt_Red",[0],300],
                 ["200Rnd_762x51_Belt_Red",[0],300],
@@ -43,7 +43,7 @@
             ["displayName", "Engineer"],
             ["icon", ""],
             ["loadout",[
-                ["SmokeLauncherMag",[0],6],
+                ["SmokeLauncherMag",[0,0],6]
                 ["200Rnd_762x51_Belt_Red",[0],300],
                 ["200Rnd_762x51_Belt_Red",[0],300],
                 ["200Rnd_762x51_Belt_Red",[0],300],
@@ -62,7 +62,7 @@
             ["displayName", "Balanced"],
             ["icon", ""],
             ["loadout",[
-                ["SmokeLauncherMag",[0],6],
+                ["SmokeLauncherMag",[0,0],6]
                 ["200Rnd_762x51_Belt_Red",[0],300],
                 ["200Rnd_762x51_Belt_Red",[0],300],
                 ["200Rnd_762x51_Belt_Red",[0],300],
