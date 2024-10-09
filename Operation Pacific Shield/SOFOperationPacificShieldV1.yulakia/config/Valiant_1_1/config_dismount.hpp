@@ -518,6 +518,8 @@ class dismount11 {
         "CUP_muzzle_snds_M110_black",
         "CUP_muzzle_snds_M110",
         "CUP_muzzle_snds_M110_woodland",
-        "CUP_20Rnd_762x51_B_M110"
+        "CUP_20Rnd_762x51_B_M110",
+        "muzzle_snds_M",
+        "CUP_muzzle_snds_M110_black"
     };
 };

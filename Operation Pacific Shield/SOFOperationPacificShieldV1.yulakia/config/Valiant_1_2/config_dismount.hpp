@@ -59,6 +59,8 @@ class dismount12 {
         "lxim_sig_M250",
         "lxim_sig_M250_BLK",
         "CUP_sgun_M1014_Entry",
-        "CUP_sgun_M1014_Entry_vfg"
+        "CUP_sgun_M1014_Entry_vfg",
+        "muzzle_snds_M",
+        "CUP_muzzle_snds_M110_black"
     };
 };
