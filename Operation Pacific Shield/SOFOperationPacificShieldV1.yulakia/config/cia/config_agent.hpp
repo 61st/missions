@@ -359,6 +359,8 @@ class Officer {
 		"B_CivilianBackpack_01_Everyday_Black_F",
 		"B_CivilianBackpack_01_Everyday_IDAP_F",
 		"B_LegStrapBag_black_F",
-		"B_Messenger_Black_F"
+		"B_Messenger_Black_F",
+		"muzzle_snds_M",
+        "CUP_muzzle_snds_M110_black"
 	};
 };
