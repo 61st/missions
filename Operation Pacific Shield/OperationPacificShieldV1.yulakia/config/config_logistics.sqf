@@ -1,4 +1,5 @@
-[//REQUIRED
+[   
+    //REQUIRED
     ["crate_medicalInfantry", [
         // Bandages
         ["ACE_elasticBandage",60],
@@ -212,7 +213,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     // Vehicles
@@ -232,7 +233,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60],
+        ["kat_Painkillers",60],
 
         ["B_simc_US_Molle_sturm_OCP_RTO", 1],
 
@@ -257,7 +258,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60],
+        ["kat_Painkillers",60],
 
         ["lxim_sig_25Rnd_Fury", 20],
         ["SmokeShell", 8],
@@ -736,7 +737,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_Tracked", [
@@ -792,7 +793,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_boat", [
@@ -848,7 +849,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_resupply", [
@@ -862,7 +863,7 @@
         ["kat_IFAK",0],
 
         // Oral Medication
-        ["ACE_painkillers",0],
+        ["kat_Painkillers",0],
 
         ["16Rnd_9x21_green_Mag", 0],
         ["16Rnd_9x21_green_Mag_v2", 0],
@@ -1037,7 +1038,7 @@
         ["kat_IFAK",40],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_ampf_eng", [
@@ -1106,7 +1107,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_ampf_med", [
@@ -1297,11 +1298,163 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
     
     ["crate_stinger",[
             ["CUP_launch_FIM92Stinger", 1],
             ["CUP_Stinger_M",2]
+    ]],
+
+    ["vehicle_HMMWV", [
+        // Rifle Ammo
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",42],
+        
+        // MG Ammo
+        ["rhsusf_200Rnd_556x45_mixed_soft_pouch",8],
+
+        // AT
+        ["rhs_weap_fgm148",1],
+        ["rhs_fgm148_magazine_AT",1],
+        ["rhs_weap_M136_hedp",2],
+
+        // M320 Ammo
+        ["rhs_mag_M433_HEDP",20],
+        ["rhs_mag_m714_White",6],
+        ["rhs_mag_m713_Red",4],
+        ["ACE_HuntIR_M203",1],
+
+        // Offensive/Defensive Hand Grenades
+        ["HandGrenade",8],
+
+        // Smoke Grenades
+        ["SmokeShell",10],
+        ["SmokeShellBlue",2],
+        ["SmokeShellRed",2],
+
+        // Chemlights
+        ["ACE_Chemlight_HiBlue",2],
+        ["ACE_Chemlight_HiRed",2],
+        ["ACE_Chemlight_IR",4],
+
+        // Medical
+        ["kat_AED",1],
+        ["ACE_epinephrine",4],
+        ["ACE_splint",4],
+        ["kat_naloxone",2],
+        ["ACE_tourniquet",8],
+        ["kat_guedel",4],
+        ["kat_chestSeal",6],
+        ["ACE_packingBandage",40]
+    ]],
+
+    ["vehicle_HMMWV_Weapons", [
+        // Rifle Ammo
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",25],
+        
+        // MG Ammo
+        ["rhsusf_100Rnd_762x51_m62_tracer",18],
+
+        // AT
+        ["rhs_weap_fgm148",1],
+        ["rhs_fgm148_magazine_AT",1],
+        ["MRAWS_HE_F",2],
+        ["MRAWS_HEAT_F",6],
+
+        // M320 Ammo
+        ["rhs_mag_m713_Red",4],
+
+        // Offensive/Defensive Hand Grenades
+        ["HandGrenade",4],
+
+        // Smoke Grenades
+        ["SmokeShell",6],
+        ["SmokeShellBlue",1],
+
+        // Chemlights
+        ["ACE_Chemlight_HiBlue",2],
+        ["ACE_Chemlight_IR",2],
+    
+        // Medical
+        ["ACE_splint",4],
+        ["ACE_tourniquet",8],
+        ["kat_guedel",4],
+        ["kat_chestSeal",6],
+        ["ACE_packingBandage",40]
+    ]],
+
+    ["vehicle_bradley", [
+        ["rhs_weap_fgm148", 1],
+        ["rhs_fgm148_magazine_AT", 2],
+        ["rhs_weap_m32", 1],
+        ["rhsusf_mag_6Rnd_M397_HET", 2],
+        ["rhsusf_mag_6Rnd_M433_HEDP", 3],
+        ["rhsusf_mag_6Rnd_m4009", 3],
+        ["rhsusf_mag_6Rnd_M713_red", 2],
+        ["rhs_weap_M136", 4],
+        ["B_UAV_01_backpack_F", 2],
+        ["B_UavTerminal", 1],
+        ["ACE_UAVBattery", 4],
+        ["ACE_wirecutter", 1]
+    ]],
+    ["vehicle_stryker", [
+        // AT
+        ["rhs_weap_fgm148", 1],
+        ["rhs_fgm148_magazine_AT", 2],
+
+        // MG Ammo
+        ["rhsusf_100Rnd_762x51_m62_tracer", 10],
+
+        // Tools
+        ["ACE_wirecutter", 1],
+
+        // Medical
+        ["kat_AED",1],
+        ["ACE_epinephrine",4],
+        ["ACE_splint",4],
+        ["kat_naloxone",2],
+        ["ACE_tourniquet",8],
+        ["kat_guedel",2],
+        ["kat_ncdKit",2],
+        ["kat_pocketBVM",1],
+        ["kat_accuvac",1],
+        ["kat_chestSeal",4],
+        ["ACE_quikclot",20],
+        ["ACE_packingBandage",20]
+    ]],
+    ["vehicle_rooikat", [
+        // Ammo
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 16], // M856A1 PMAGs
+
+        // Grenades
+        ["HandGrenade",6],
+        ["SmokeShell",6],
+        ["SmokeShellBlue",2],
+        ["SmokeShellPurple",1],
+        ["SmokeShellRed",2],
+        
+        // Chemlights
+        ["ACE_Chemlight_HiBlue",2],
+        ["ACE_Chemlight_HiRed",2],
+        ["ACE_Chemlight_IR",4],
+
+        // Explosives
+        ["SatchelCharge_Remote_Mag",1],
+        ["ACE_M26_Clacker",1],
+
+        // Tools
+        ["ACE_EntrenchingTool",3],
+        ["ACE_wirecutter",1],
+
+        // Medical
+        ["kat_AED",1],
+        ["ACE_epinephrine",4],
+        ["ACE_splint",4],
+        ["kat_naloxone",2],
+        ["ACE_tourniquet",8],
+        ["kat_guedel",4],
+        ["kat_chestSeal",6],
+        ["kat_Painkiller",3],
+        ["ACE_packingBandage",40]
     ]]
 ];
