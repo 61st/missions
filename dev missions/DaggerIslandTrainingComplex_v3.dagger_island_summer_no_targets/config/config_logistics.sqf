@@ -213,7 +213,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     // Vehicles
@@ -233,7 +233,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60],
+        ["kat_Painkillers",60],
 
         ["B_simc_US_Molle_sturm_OCP_RTO", 1],
 
@@ -258,7 +258,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60],
+        ["kat_Painkillers",60],
 
         ["lxim_sig_25Rnd_Fury", 20],
         ["SmokeShell", 8],
@@ -737,7 +737,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_Tracked", [
@@ -793,7 +793,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_boat", [
@@ -849,7 +849,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_resupply", [
@@ -863,7 +863,7 @@
         ["kat_IFAK",0],
 
         // Oral Medication
-        ["ACE_painkillers",0],
+        ["kat_Painkillers",0],
 
         ["16Rnd_9x21_green_Mag", 0],
         ["16Rnd_9x21_green_Mag_v2", 0],
@@ -1038,7 +1038,7 @@
         ["kat_IFAK",40],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_ampf_eng", [
@@ -1107,7 +1107,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
 
     ["vehicle_ampf_med", [
@@ -1298,7 +1298,7 @@
         ["kat_IFAK",24],
 
         // Oral Medication
-        ["ACE_painkillers",60]
+        ["kat_Painkillers",60]
     ]],
     
     ["crate_stinger",[
