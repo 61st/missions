@@ -20,7 +20,6 @@ if (hasInterface) then {
         call EFUNC(player,setRankpatch);
         call LXIM_w28fixes_fnc_player_set_name;
         player linkItem "ItemCompass";
-        player linkItem "ItemGPS";
         YMF_savedLoadout = [player] call CBA_fnc_getLoadout;
     }] call CBA_fnc_addEventHandler;
 };
