@@ -50,6 +50,8 @@ class squadleadr {
         "B_simc_US_Molle_sturm_OCP_RTO",
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "CUP_sgun_M1014_Entry",
-        "CUP_sgun_M1014_Entry_vfg"
+        "CUP_sgun_M1014_Entry_vfg",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };

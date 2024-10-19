@@ -440,6 +440,8 @@ class Common_Arsenal {
         "psq42_blk_lenscap",
         "psq42_blk_icup",
         "psq42_blk",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F",
         //ammo
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL",
         "CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red",

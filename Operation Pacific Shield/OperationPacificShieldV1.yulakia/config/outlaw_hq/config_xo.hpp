@@ -90,6 +90,8 @@ class xo {
         "B_Mortar_01_weapon_F",
         "B_Mortar_01_support_F",
         "CUP_launch_Javelin",
-        "CUP_Javelin_M"
+        "CUP_Javelin_M",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };

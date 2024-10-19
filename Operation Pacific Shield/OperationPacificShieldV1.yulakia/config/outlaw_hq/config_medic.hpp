@@ -100,6 +100,8 @@ class medic {
         "ACE_quikclot",
         "lxim_backpack_Backpack_Kitbag_Medic_Black",
         "lxim_backpack_Backpack_Kitbag_Medic_Sage",
-        "lxim_backpack_Backpack_Kitbag_Medic_White"
+        "lxim_backpack_Backpack_Kitbag_Medic_White",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };
