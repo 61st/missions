@@ -46,6 +46,8 @@ class engineer {
         "tsp_breach_block_auto_mag",
         "tsp_breach_block_mag",
         "CUP_sgun_M1014_Entry",
-        "CUP_sgun_M1014_Entry_vfg"
+        "CUP_sgun_M1014_Entry_vfg",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };

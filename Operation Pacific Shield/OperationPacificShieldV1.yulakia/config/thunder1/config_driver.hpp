@@ -26,6 +26,8 @@ class driver1 {
         "H_HelmetCrew_I",
         "ToolKit",
         "MineDetector",
-        "SatchelCharge_Remote_Mag"
+        "SatchelCharge_Remote_Mag",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };

@@ -38,6 +38,8 @@ class mark {
         "CUP_bipod_VLTOR_Modpod_od",
         "CUP_bipod_Harris_1A2_L",
         "lxim_equipment_optic_AMS",
-        "lxim_equipment_optic_AMS_snd"
+        "lxim_equipment_optic_AMS_snd",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };

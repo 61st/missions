@@ -29,6 +29,8 @@ class cmd6 {
         "MineDetector",
         "SatchelCharge_Remote_Mag",
         "lxim_sig_M250",
-        "lxim_sig_M250_BLK"
+        "lxim_sig_M250_BLK",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };

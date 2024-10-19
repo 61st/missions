@@ -69,6 +69,8 @@ class dismount12 {
         "CUP_Javelin_M",
         "cup_lmg_m240",
         "CUP_sgun_M1014_Entry",
-        "CUP_sgun_M1014_Entry_vfg"
+        "CUP_sgun_M1014_Entry_vfg",
+        "G_AirPurifyingRespirator_01_F",
+        "G_RegulatorMask_F"
     };
 };
