@@ -15,7 +15,7 @@
  * Nil
  *
  * Example:
- * [ [ "marker_0" , "marker_1" ] , [ "marker_2" , "marker_3" ] , 0.005 , 0 , 0.25] spawn TFD_fnc_dynamicMarkers;
+ * [ [ "marker_0" , "marker_1" ] , [ "marker_2" , "marker_3" ] , 0.005 , 0 , 0.25] spawn YMF_fnc_dynamicMarkers;
  *
  * Public: No
  *
