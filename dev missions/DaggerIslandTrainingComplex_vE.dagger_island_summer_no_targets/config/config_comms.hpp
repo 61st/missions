@@ -1,31 +1,67 @@
-YMF_SR_CHANNELS = [
-	[1, "1-1"],
-	[2, "1-1-A"],
-	[3, "1-1-B"],
-	[4, "1-1-C"],
+private _srHashMap = [
+    
+    ["unassigned",          [["ACRE", 7], ["TFAR", 50]]],
+    ["OUTLAW-HQ",           [["ACRE", 1], ["TFAR", 50]]],
+    ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
+    ["OUTLAW-1/2",          [["ACRE", 4], ["TFAR", 121.2]]],
 
-	[17, "1-2"],
-	[18, "1-2-A"],
-	[19, "1-2-B"],
-	[20, "1-2-C"],
+    ["RECRUITS",            [["ACRE", 8], ["TFAR", 52]]],
+    ["STUDENTS",            [["ACRE", 8], ["TFAR", 52]]],
 
-	[33, "HQ"],
-	[34, "HQ-A"],
-	[35, "HQ-B"],
-	[36, "HQ-C"]
+    ["RHINO",               [["ACRE", 7], ["TFAR", 52]]],
+
+    ["WARMOMMY-2/1",        [["ACRE", 9], ["TFAR", 52.1]]],
+    ["WARCHILD-2/2",        [["ACRE", 10], ["TFAR", 52.1]]],
+    ["WARDADDY-2/6",        [["ACRE", 11], ["TFAR", 52.1]]],
+
+    ["PHOENIX",             [["ACRE", 12], ["TFAR", 52]]],
+    ["PHOENIX-3/1",         [["ACRE", 13], ["TFAR", 52]]],
+    ["PHOENIX-3/2",         [["ACRE", 14], ["TFAR", 52]]],
+    ["PHOENIX-3/3",         [["ACRE", 15], ["TFAR", 52]]]
 ];
 
+private _mrHashMap = [
+    ["OUTLAW-HQ",           [["ACRE", 1], ["TFAR", 50]]],
+    ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
+    ["OUTLAW-1/2",          [["ACRE", 3], ["TFAR", 121.2]]],
 
-YMF_LR_CHANNELS = [
-	[1, "PLT-NET-1"],
-	[2, "PLT-NET-2"],
-	[3, "VIC-NET"],
-	[4, "CAS-NET"],
-	[5, "FIRES-NET"],
-	[6, "AIR-NET-1"],
-	[7, "AIR-NET-2"],
-	[8, "AUX-NET-1"],
-	[9, "AUX-NET-2"],
-	[10, "MED-NET"],
-	[11, "HQ-NET"]
+    ["RECRUITS",            [["ACRE", 14], ["TFAR", 52]]],
+    ["STUDENTS",            [["ACRE", 15], ["TFAR", 52]]],
+
+    //Air   
+    ["PHOENIX",             [["ACRE", 7], ["TFAR", 52]]],
+    ["PHOENIX-3/1",         [["ACRE", 7], ["TFAR", 52]]],
+    ["PHOENIX-3/2",         [["ACRE", 7], ["TFAR", 52]]],
+    ["PHOENIX-3/3",         [["ACRE", 7], ["TFAR", 52]]],
+
+    ["RHINO",               [["ACRE", 6], ["TFAR", 52]]],
+
+    ["WARMOMMY-2/1",        [["ACRE", 6], ["TFAR", 52.1]]],
+    ["WARCHILD-2/2",        [["ACRE", 6], ["TFAR", 52.1]]],
+    ["WARDADDY-2/6",        [["ACRE", 6], ["TFAR", 52.1]]],
+
+    ["RANGE-CONTROL",       [["ACRE", 18], ["TFAR", 50]]]
+];
+
+private _lrHashMap = [
+    ["OUTLAW-HQ",           [["ACRE", 4], ["TFAR", 50]]],
+    ["OUTLAW-1/1",          [["ACRE", 1], ["TFAR", 121.1]]],
+    ["OUTLAW-1/2",          [["ACRE", 1], ["TFAR", 121.2]]],
+
+    ["RECRUITS",            [["ACRE", 6], ["TFAR", 52]]],
+    ["STUDENTS",            [["ACRE", 6], ["TFAR", 52]]],
+
+    //Air   
+    ["PHOENIX",             [["ACRE", 4], ["TFAR", 52]]],
+    ["PHOENIX-3/1",         [["ACRE", 10], ["TFAR", 52]]],
+    ["PHOENIX-3/2",         [["ACRE", 10], ["TFAR", 52]]],
+    ["PHOENIX-3/3",         [["ACRE", 10], ["TFAR", 52]]],
+
+    ["RHINO",               [["ACRE", 4], ["TFAR", 52]]],
+
+    ["WARMOMMY-2/1",        [["ACRE", 2], ["TFAR", 52.1]]],
+    ["WARCHILD-2/2",        [["ACRE", 3], ["TFAR", 52.1]]],
+    ["WARDADDY-2/6",        [["ACRE", 4], ["TFAR", 52.1]]],
+
+    ["RANGE-CONTROL",       [["ACRE", 4], ["TFAR", 50]]]
 ];

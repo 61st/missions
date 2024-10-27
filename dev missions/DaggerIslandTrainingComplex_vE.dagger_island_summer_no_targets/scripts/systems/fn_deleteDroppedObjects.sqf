@@ -19,5 +19,5 @@ params [
 
 [_object, "ContainerClosed", {
     params ["_object", "_unit"];
-    [{(count ((_this select 0) nearEntities ["Man", (_this select 1)]) < 1)}, {{ deleteVehicle _x; } forEach nearestObjects [getpos (_this select 0), ["WeaponHolder", "GroundWeaponHolder"], (_this select 1)];}, [_object, _thisArgs]] call CBA_fnc_waitUntilAndExecute;
+    [{(count ((_this select 0) nearEntities ["Man", (_this select 1)]) < 1)}, {{ deleteVehicle _x; } forEach nearestObjects [getPos (_this select 0), ["WeaponHolder", "GroundWeaponHolder"], (_this select 1)];}, [_object, _thisArgs]] call CBA_fnc_waitUntilAndExecute;
 }, _radius] call CBA_fnc_addBISEventHandler;

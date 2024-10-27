@@ -61,7 +61,7 @@ private _lableTexture9 = [toUpper(_lable9)] call FUNC(getVehicleLable);
 
 private _lableTextureLine = ["LINE"] call FUNC(getVehicleLable);
 
-if (_vehicle iskindOf "RHS_UH60_Base") then {
+if (_vehicle isKindOf "RHS_UH60_Base") then {
     if (_lable1 != "") then { [_vehicle,[-0.49,-2.45,-1.3],87,_lableTexture1] call FUNC(createVehicleLable); };
     if (_lable1 != "" && (_lable2 != "")) then { [_vehicle,[-0.49,-2.45,-1.3],87,_lableTextureLine] call FUNC(createVehicleLable); };
     if (_lable2 != "") then { [_vehicle,[-0.49,-2.45,-1.3],87,_lableTexture2] call FUNC(createVehicleLable); };
@@ -73,7 +73,7 @@ if (_vehicle iskindOf "RHS_UH60_Base") then {
     //if (_lable3 != "") then { [_vehicle,[0.49,-2.45,-1.3],-87,""] call FUNC(createVehicleLable); };
 };
 
-if (_vehicle iskindOf "RHS_C130J_Base") then {
+if (_vehicle isKindOf "RHS_C130J_Base") then {
     if (_lable1 != "") then { [_vehicle,[-0.205,-10.9,2.920],90,_lableTexture1,[0.05,0,1]] call FUNC(createVehicleLable); };
     if (_lable2 != "") then { [_vehicle,[-0.205,-11.4,2.920],90,_lableTexture2,[0.05,0,1]] call FUNC(createVehicleLable); };
     if (_lable3 != "") then { [_vehicle,[-0.205,-11.9,2.920],90,_lableTexture3,[0.05,0,1]] call FUNC(createVehicleLable); };
@@ -115,11 +115,11 @@ if (typeOf _vehicle in _vehicleTypeMRAP) then {
 };
 
 // STRYKER
-if (_vehicle iskindOf "rhsusf_stryker_base") then {
+if (_vehicle isKindOf "rhsusf_stryker_base") then {
     
 };
 
-if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
+if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
     //Front
     if (_lable1 != "") then { [_vehicle,[-0.5,2.53,-0.64],180,_lableTexture1,[0,0.9,1]] call FUNC(createVehicleLable); };
 

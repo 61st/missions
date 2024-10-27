@@ -13,7 +13,7 @@ if !(isNull _display) then {
     private _tree = _display displayCtrl 1500;
     if (_oldSelectionPath isNotEqualTo []) then {
         private _oldData = parseSimpleArray (_tree tvData _oldSelectionPath);
-        _oldData set [0,netID objNull];
+        _oldData set [0,netId objNull];
         _tree tvSetData [_oldSelectionPath,str(_oldData)];
 
         private _roleName = getText(missionConfigFile >> "Dynamic_Roles" >> (_oldData select 1) >> "name");
@@ -26,7 +26,7 @@ if !(isNull _display) then {
 
     if (_newSelectionPath isNotEqualTo []) then {
         private _newData = parseSimpleArray (_tree tvData _newSelectionPath);
-        _newData set [0,netID _unit];
+        _newData set [0,netId _unit];
         _tree tvSetData [_newSelectionPath,str(_newData)];
 
         private _roleName = getText(missionConfigFile >> "Dynamic_Roles" >> (_newData select 1) >> "name");

@@ -14,7 +14,7 @@
 #include "..\..\config\config_adminlist.hpp" // set up admin list
 
 admp_authorisedIDs = [];
-{admp_authorisedIDs pushBackUnique _x;} forEach ["_SP_AI_", "_SP_PLAYER_", "76561197987496729", "76561198272381832"]; // Make sure JohnnyShootos & TheTimidShade always have admin access for redundancy
+{admp_authorisedIDs pushBackUnique _x;} forEach ["_SP_AI_", "_SP_PLAYER_", "76561198000002705", "76561198068010293","76561198176590682"]; // Make sure CURY,CARNAGE & Yon  always have admin access for redundancy
 {admp_authorisedIDs pushBackUnique _x;} forEach _admins;
 
 // GLOBAL VARIABLES ///////////////////////////////////////////////////////////////////////////////
@@ -78,8 +78,8 @@ admp_message_display_history_local = [];
 // Add CBA keybind for admin panel
 // 0xC5 == Pause Break -- https://community.bistudio.com/wiki/DIK_KeyCodes
 if (hasInterface) then {
-	["YMF Admin Panel","open_admin_panel", ["Open Admin Panel", "Opens the YMF Admin Panel. If you do not have admin access, this will open the message menu instead."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [false, false, false]]] call CBA_fnc_addKeybind;
-	["YMF Admin Panel","open_admin_message", ["Open Admin Message Menu", "Shortcut for opening the YMF Admin Message menu."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [true, false, false]]] call CBA_fnc_addKeybind;
+	["61st Admin Panel","open_admin_panel", ["Open Admin Panel", "Opens the 61st Admin Panel. If you do not have admin access, this will open the message menu instead."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [false, false, false]]] call CBA_fnc_addKeybind;
+	["61st Admin Panel","open_admin_message", ["Open Admin Message Menu", "Shortcut for opening the 61st Admin Message menu."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [true, false, false]]] call CBA_fnc_addKeybind;
 };
 
 if (isServer) then { // start tracking server fps

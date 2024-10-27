@@ -22,11 +22,11 @@ if (!(_vehicle call FUNC(isValidFaction))) exitWith {};
 
 INFO_2("VehicleCosmetics", "Applying vehicle cosmetics to %1 [%2].", _vehicle, typeOf _vehicle);
 
-private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,Type), typeOf _vehicle];
+private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,type), typeOf _vehicle];
 
 private _textureMed = "\z\addons\media\images\vehicles\label\special\reddiamond_s_ca.paa";
 
-if (_vehicle iskindOf "rhsusf_hmmwe_base") then { // MRAP_01_base_F
+if (_vehicle isKindOf "rhsusf_hmmwe_base") then { // MRAP_01_base_F
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 
     _vehicle animateSource ["iff_hide", 1, true];
@@ -45,7 +45,7 @@ if (_vehicle iskindOf "rhsusf_hmmwe_base") then { // MRAP_01_base_F
     };
 };
 
-if (_vehicle iskindOf "rhsusf_m1151_base") then { // MRAP_01_base_F
+if (_vehicle isKindOf "rhsusf_m1151_base") then { // MRAP_01_base_F
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 
     _vehicle animateSource ["snorkel_lower", 1, true];
@@ -53,7 +53,7 @@ if (_vehicle iskindOf "rhsusf_m1151_base") then { // MRAP_01_base_F
     _vehicle animateSource ["dwf_kit_Hide", 1, true];
 };
 
-if (_vehicle iskindOf "rhsusf_m1152_base") then { // MRAP_01_base_F
+if (_vehicle isKindOf "rhsusf_m1152_base") then { // MRAP_01_base_F
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 
     _vehicle animateSource ["snorkel_lower", 1, true];
@@ -61,7 +61,7 @@ if (_vehicle iskindOf "rhsusf_m1152_base") then { // MRAP_01_base_F
     _vehicle animateSource ["dwf_kit_Hide", 1, true];
 };
 
-if (_vehicle iskindOf "rhsusf_fmtv_base") then {
+if (_vehicle isKindOf "rhsusf_fmtv_base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 };
 
@@ -105,7 +105,7 @@ if (_vehicle isKindOf "AFV_Wheeled_01_base_F") then {
 };
 
 
-if (_vehicle iskindOf "rhsusf_stryker_base") then {
+if (_vehicle isKindOf "rhsusf_stryker_base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
     _vehicle animateSource ["Hide_CIP", 1, true];
     switch (_vehicleType) do {
@@ -125,15 +125,15 @@ if (_vehicle iskindOf "rhsusf_stryker_base") then {
     ]] call EFUNC(vehicle,applyTextures);
 };
 
-if (_vehicle iskindOf "RHS_M2A2_Base") then {
+if (_vehicle isKindOf "RHS_M2A2_Base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 };
 
-if (_vehicle iskindOf "RHS_MELB_base") then {
+if (_vehicle isKindOf "RHS_MELB_base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 };
 
-if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
+if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 
     [{
@@ -148,7 +148,7 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
                 [12, "\z\cav\addons\textures\data\vehicles\abrams\BarrelArt_120mmIV_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 1, true];
-            _vehicle setVariable [QEGVAR(Vehicle,Name), "WAR-DADDY", true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-DADDY", true];
         };
         case 2: {
             [_vehicle, [
@@ -156,7 +156,7 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
                 [12, "\z\cav\addons\textures\data\vehicles\abrams\BarrelArt_BountyHunters_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
-            _vehicle setVariable [QEGVAR(Vehicle,Name), "WAR-MOMMY", true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-MOMMY", true];
         };
         case -1: {
             [_vehicle, [
@@ -164,7 +164,7 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
                 [12, ""]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), -1, true];
-            _vehicle setVariable [QEGVAR(Vehicle,Name), "WAR-DADDY", true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-DADDY", true];
         };
         case -2: {
             [_vehicle, [
@@ -172,7 +172,7 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
                 [12, ""]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), -2, true];
-            _vehicle setVariable [QEGVAR(Vehicle,Name), "WAR-MOMMY", true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-MOMMY", true];
         };
         default {
             [_vehicle, [
@@ -180,33 +180,33 @@ if (_vehicle iskindOf "rhsusf_m1a1tank_base") then {
                 [12, ""]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 0, true];
-            _vehicle setVariable [QEGVAR(Vehicle,Name), "", true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "", true];
         };
     };
 };
 
-if (_vehicle iskindOf "RHS_UH60_Base") then {
+if (_vehicle isKindOf "RHS_UH60_Base") then {
 };
 
-if (_vehicle iskindOf "RHS_CH_47F_base") then {
+if (_vehicle isKindOf "RHS_CH_47F_base") then {
 };
 
-if (_vehicle iskindOf "RHS_AH64_base") then {
+if (_vehicle isKindOf "RHS_AH64_base") then {
 };
 
-if (_vehicle iskindOf "rhs_m2staticmg_base") then {
+if (_vehicle isKindOf "rhs_m2staticmg_base") then {
 };
 
-if (_vehicle iskindOf "RHS_MK19_TriPod_base") then {
+if (_vehicle isKindOf "RHS_MK19_TriPod_base") then {
 };
 
-if (_vehicle iskindOf "RHS_TOW_TriPod_base") then {
+if (_vehicle isKindOf "RHS_TOW_TriPod_base") then {
 };
 
-if (_vehicle iskindOf "NDS_M224_mortar_base") then {
+if (_vehicle isKindOf "NDS_M224_mortar_base") then {
 };
 
-if (_vehicle iskindOf "RHS_C130J_Base") then {
+if (_vehicle isKindOf "RHS_C130J_Base") then {
 };
 
 _vehicle setPlateNumber "61 MECH";

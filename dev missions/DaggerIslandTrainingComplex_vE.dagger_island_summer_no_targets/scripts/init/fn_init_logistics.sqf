@@ -14,7 +14,7 @@
 
 
 INFO("Logistics", "Creating logistical database");
-private _dataArray = call compileFinal preprocessfilelinenumbers 'config\config_logistics.sqf';
+private _dataArray = call compileFinal preprocessFileLineNumbers 'config\config_logistics.sqf';
 
 private _return = createHashMapFromArray _dataArray;
 

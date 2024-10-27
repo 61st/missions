@@ -33,7 +33,7 @@ switch (EGVAR(Settings,jumpSimulation)) do {
         if (!_KeepNVG && EGVAR(Settings,jumpSimulationNVG) && ((hmd _player != "") && (_nvgRandom > 4))) then {
             private _baseHmd = hmd _player;
             _player unassignItem _baseHmd;
-            [["You almost lost"], [getText (configfile >> "CfgWeapons" >> _baseHmd >> "picture"), 2], ["during your jump, it is in your inventory"]] call CBA_fnc_notify;
+            [["You almost lost"], [getText (configFile >> "CfgWeapons" >> _baseHmd >> "picture"), 2], ["during your jump, it is in your inventory"]] call CBA_fnc_notify;
 
             INFO_2("JumpSimulation", "Jump simulation %1 lost NVG (%2>4)", _player, _nvgRandom);
         };
@@ -41,7 +41,7 @@ switch (EGVAR(Settings,jumpSimulation)) do {
         if (EGVAR(Settings,jumpSimulationHat) && ((headgear _player in _blacklist_headgear) && (_hatRandom > 3))) then {
             private _baseHeadgear = headgear _player;
             _player unassignItem _baseHeadgear;
-            [["You almost lost"], [getText (configfile >> "CfgWeapons" >> _baseHeadgear >> "picture"), 2], ["during your jump, it is in your inventory"]] call CBA_fnc_notify;
+            [["You almost lost"], [getText (configFile >> "CfgWeapons" >> _baseHeadgear >> "picture"), 2], ["during your jump, it is in your inventory"]] call CBA_fnc_notify;
 
             INFO_2("JumpSimulation", "Jump simulation %1 lost Hat (%2>3)", _player, _hatRandom);
         };
@@ -49,7 +49,7 @@ switch (EGVAR(Settings,jumpSimulation)) do {
         if (EGVAR(Settings,jumpSimulationGlasses) && ((goggles _player in _blacklist_glasses) && (_glaRandom > 2))) then {
             private _baseGoggles = goggles _player;
             _player unassignItem _baseGoggles;
-            [["You almost lost"], [getText (configfile >> "CfgGlasses" >> _baseGoggles >> "picture"), 2], ["during your jump, it is in your inventory"]] call CBA_fnc_notify;
+            [["You almost lost"], [getText (configFile >> "CfgGlasses" >> _baseGoggles >> "picture"), 2], ["during your jump, it is in your inventory"]] call CBA_fnc_notify;
             
             INFO_2("JumpSimulation", "Jump simulation %1 lost Glasses (%2>2)", _player, _glaRandom);
         };
@@ -59,7 +59,7 @@ switch (EGVAR(Settings,jumpSimulation)) do {
         if (!_KeepNVG && EGVAR(Settings,jumpSimulationNVG) && ((hmd _player != "") && (_nvgRandom > 4))) then {
             private _advHmd = hmd _player;
             _player unlinkItem _advHmd;
-            [["You lost"], [getText (configfile >> "CfgWeapons" >> _advHmd >> "picture"), 2], ["during your jump"]] call CBA_fnc_notify;
+            [["You lost"], [getText (configFile >> "CfgWeapons" >> _advHmd >> "picture"), 2], ["during your jump"]] call CBA_fnc_notify;
             
             INFO_2("JumpSimulation", "Jump simulation %1 lost Glasses (%2>4)", _player, _nvgRandom);
         };
@@ -67,7 +67,7 @@ switch (EGVAR(Settings,jumpSimulation)) do {
         if (EGVAR(Settings,jumpSimulationHat) && ((headgear _player in _blacklist_headgear) && (_hatRandom > 3))) then {
             private _advHeadgear = headgear _player;
             _player unlinkItem _advHeadgear;
-            [["You lost"], [getText (configfile >> "CfgWeapons" >> _advHeadgear >> "picture"), 2], ["during your jump"]] call CBA_fnc_notify;
+            [["You lost"], [getText (configFile >> "CfgWeapons" >> _advHeadgear >> "picture"), 2], ["during your jump"]] call CBA_fnc_notify;
             
             INFO_2("JumpSimulation", "Jump simulation %1 lost Glasses (%2>3)", _player, _hatRandom);
         };
@@ -75,7 +75,7 @@ switch (EGVAR(Settings,jumpSimulation)) do {
         if (EGVAR(Settings,jumpSimulationGlasses) && ((goggles _player in _blacklist_glasses) && (_glaRandom > 2))) then {
             private _advGoggles = goggles _player;
             _player unlinkItem _advGoggles;
-            [["You lost"], [getText (configfile >> "CfgGlasses" >> _advGoggles >> "picture"), 2], ["during your jump"]] call CBA_fnc_notify;
+            [["You lost"], [getText (configFile >> "CfgGlasses" >> _advGoggles >> "picture"), 2], ["during your jump"]] call CBA_fnc_notify;
             
             INFO_2("JumpSimulation", "Jump simulation %1 lost Glasses (%2>2)", _player, _glaRandom);
         };

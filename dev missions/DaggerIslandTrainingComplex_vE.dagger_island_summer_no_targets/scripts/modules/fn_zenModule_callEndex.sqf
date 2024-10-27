@@ -111,7 +111,7 @@ params ["_modulePos", "_objectPos"];
         };
 
         if (isNil{missionNamespace getVariable QEGVAR(Mission,Endex)}) then {
-            missionNamespace setVariable [QEGVAR(Mission,Endex), True];
+            missionNamespace setVariable [QEGVAR(Mission,Endex), true];
             INFO_2("", "Mission var %1 is set %2", QEGVAR(Mission,Endex), missionNamespace getVariable [QEGVAR(Mission,Endex), false]);
         };
         

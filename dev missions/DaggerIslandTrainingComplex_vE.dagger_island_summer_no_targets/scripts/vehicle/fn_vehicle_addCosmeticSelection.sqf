@@ -191,4 +191,4 @@ private _textures = [
 
         INFO_4("VehicleCosmeticSelector", "Selector for classname '%1' named '%2' added to %3 (%4)", typeOf _vehicle, _displayName, _vehicle, typeOf _vehicle);
     };
-} foreach _textures;
+} forEach _textures;

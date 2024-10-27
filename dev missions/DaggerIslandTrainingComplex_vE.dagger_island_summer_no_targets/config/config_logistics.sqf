@@ -17,7 +17,6 @@
         // Circulation
         ["ACE_epinephrine",10],
         // Disability
-        ["ACE_morphine",10],
         ["ACE_splint",10],
         ["ACM_SAMSplint",10],
         // Other
@@ -74,7 +73,6 @@
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
         // Disability
-        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
@@ -93,6 +91,11 @@
 
     //REQUIRED
     ["crate_resupply_general", [
+        // Radios
+        ["ACRE_PRC343", 0],
+        ["ACRE_PRC152", 0],
+        ["TFAR_anprc152", 0],
+
         // Rifle Ammo
         ["lxim_sig_25Rnd_Fury",80],
         ["lxim_sig_150Rnd_Fury_blk",80],
@@ -104,23 +107,32 @@
         ["lxim_sig_150Rnd_Fury_blk",24],
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
-        ["150Rnd_762x51_Box",24],
+        ["rhsusf_100Rnd_762x51",24],
 
         // AT
         ["rhs_fgm148_magazine_AT",3],
         ["MRAWS_HEAT_F",6],
         ["MRAWS_HE_F",3],
-        ["CUP_launch_M136",8],
+        ["rhs_weap_M136",8],
         
         // AA
         ["rhs_fim92_mag",3],
         
         // M320 Ammo
-        ["CUP_1Rnd_HEDP_M203",20],
-        ["1Rnd_HE_Grenade_shell",20],
+        ["rhs_mag_M441_HE",20],
+        ["rhs_mag_M433_HEDP",20],
+        ["rhs_mag_M397_HET",20],
+        ["rhs_mag_m576",10],
+        ["rhs_mag_m4009",10],
+        ["rhs_mag_M663_green_cluster",5],
+        ["rhs_mag_M585_white_cluster",5],
+        ["rhs_mag_M664_red_cluster",5],
+        ["rhs_mag_m714_White",5],
+        ["rhs_mag_m715_Green",5],
+        ["rhs_mag_m713_Red",5],
+        ["rhs_mag_m661_green",5],
+        ["rhs_mag_m716_yellow",5],
         ["ACE_HUNTIR_M203",5],
-        ["ACE_40mm_Flare_white",10],
-        ["ACE_40mm_Flare_IR",10],
         
         // Offensive/Defensive Hand Grenades
         ["HandGrenade",20],
@@ -158,7 +170,6 @@
         // Circulation
         ["ACE_epinephrine",10],
         // Disability
-        ["ACE_morphine",10],
         ["ACE_splint",10],
         ["ACM_SAMSplint",10],
         // Other
@@ -185,8 +196,8 @@
 
         ["lxim_sig_25Rnd_Fury", 20],
         ["SmokeShell", 8],
-        ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 20],
-        ["CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red", 20]
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 20],
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 20]
     ]],
 
     ["vehicle_planeTransport", [
@@ -205,8 +216,8 @@
 
         ["lxim_sig_25Rnd_Fury", 20],
         ["SmokeShell", 8],
-        ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 20],
-        ["CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red", 20]
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 20],
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 20]
     ]],
 
     ["helo_medical", [
@@ -258,7 +269,6 @@
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
         // Disability
-        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
@@ -294,8 +304,8 @@
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
         ["SmokeShell", 8],
-        ["CUP_30Rnd_556x45_PMAG_BLACK_PULL", 20],
-        ["CUP_30Rnd_556x45_PMAG_BLACK_PULL_Tracer_Red", 20],
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 20],
+        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 20],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["MS_Strobe_Mag_1",2],
@@ -353,7 +363,6 @@
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
         // Disability
-        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
@@ -428,7 +437,6 @@
         ["ACE_epinephrine",10],
 
         // Autoinjector & Nasal Spray Medication
-        ["ACE_morphine",20],
         ["ACE_epinephrine",40],
         ["ACE_adenosine",0],
 
@@ -472,9 +480,8 @@
         ["lxim_sig_150Rnd_Fury_RT",10],
         ["lxim_sig_150Rnd_Fury_RT_blk",10],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["launch_NLAW_F",1],
@@ -492,7 +499,7 @@
         ["lxim_sig_25Rnd_Fury_RT",24],
         ["lxim_sig_25Rnd_Fury_blk",24],
         ["lxim_sig_25Rnd_Fury",24],
-        ["150Rnd_762x51_Box",10],
+        ["rhsusf_100Rnd_762x51",10],
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
@@ -517,11 +524,10 @@
         ["lxim_sig_150Rnd_Fury_blk",24],
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
-        ["150Rnd_762x51_Box",10],
+        ["rhsusf_100Rnd_762x51",10],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["launch_NLAW_F",1],
@@ -572,9 +578,8 @@
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
@@ -626,9 +631,8 @@
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
@@ -773,11 +777,10 @@
         ["lxim_sig_150Rnd_Fury_blk",0],
         ["lxim_sig_150Rnd_Fury_RT",0],
         ["lxim_sig_150Rnd_Fury_RT_blk",0],
-        ["150Rnd_762x51_Box",0],
+        ["rhsusf_100Rnd_762x51",0],
 
-        ["CUP_1Rnd_12Gauge_Slug",0],
-        ["CUP_6Rnd_12Gauge_Slug",0],
-        ["CUP_2Rnd_12Gauge_Slug",0],
+        ["rhsusf_8Rnd_Slug",0],
+        ["rhsusf_5Rnd_Slug",0],
 
         ["Titan_AA", 0],
         ["Titan_AP", 0],
@@ -806,11 +809,10 @@
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
-        ["150Rnd_762x51_Box",10],
+        ["rhsusf_100Rnd_762x51",10],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["launch_NLAW_F",1],
@@ -863,11 +865,10 @@
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
-        ["150Rnd_762x51_Box",10],
+        ["rhsusf_100Rnd_762x51",10],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["launch_NLAW_F",1],
@@ -958,7 +959,6 @@
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
         // Disability
-        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
@@ -1005,9 +1005,8 @@
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
@@ -1035,11 +1034,10 @@
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
 
-        ["CUP_1Rnd_12Gauge_Slug",40],
-        ["CUP_6Rnd_12Gauge_Slug",10],
-        ["CUP_2Rnd_12Gauge_Slug",20],
+        ["rhsusf_8Rnd_Slug",40],
+        ["rhsusf_5Rnd_Slug",40],
 
-        ["150Rnd_762x51_Box",10],
+        ["rhsusf_100Rnd_762x51",10],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["launch_NLAW_F",1],

@@ -23,7 +23,7 @@ params[["_icon", "", [""]]];
 } forEach [
     getText (configFile >> 'CfgVehicleIcons' >> _icon),
     getText (configFile >> 'CfgGroupIcons' >> _icon >> "icon"),
-    getText (configfile >> "CfgUnitInsignia" >> _icon >> "texture"),
+    getText (configFile >> "CfgUnitInsignia" >> _icon >> "texture"),
     if (fileExists _icon) then {_icon} else {""}
 ];
 

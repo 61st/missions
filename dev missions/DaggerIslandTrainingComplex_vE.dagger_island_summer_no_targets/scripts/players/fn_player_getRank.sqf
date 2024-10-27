@@ -26,7 +26,7 @@ private _profileName = profileName;
 
 _profileName = [_profileName, 0, 2] call BIS_fnc_trimString;
 _profileName = toUpper(_profileName);
-_playerUID = getplayerUID player;
+_playerUID = getPlayerUID player;
 
 
 _rankType = toUpper(_rankType);
@@ -38,9 +38,9 @@ if (_rankType == 'USA') then {
         case (_profileName in ['AR.', 'AR ']): {_return = 'Reservist'};
         case (_profileName in ['RET']): {_return = 'Retire'};
         case (_profileName in ['RCT']): {_return = 'Recruit'};
-        case (_profileName in ['PVT']): {_return = 'Private'};
-        case (_profileName in ['PVT']): {_return = 'Private 2'};
-        case (_profileName in ['PFC']): {_return = 'Private First Class'};
+        case (_profileName in ['PVT']): {_return = 'private'};
+        case (_profileName in ['PVT']): {_return = 'private 2'};
+        case (_profileName in ['PFC']): {_return = 'private First Class'};
         case (_profileName in ['SPC']): {_return = 'Specialist'};
         case (_profileName in ['CPL']): {_return = 'Corporal'};
         case (_profileName in ['WO1']): {_return = 'Warrant Officer 1'};
@@ -75,7 +75,7 @@ if (_rankType == 'USA_FORMAL') then {
         case (_profileName in ['AR.', 'AR ']): {_return = 'Reservist'};
         case (_profileName in ['RET']): {_return = 'old man'};
         case (_profileName in ['RCT']): {_return = 'Recruit'};
-        case (_profileName in ['PVT', 'PFC']): {_return = 'Private'};
+        case (_profileName in ['PVT', 'PFC']): {_return = 'private'};
         case (_profileName in ['SPC']): {_return = 'Specialist'};
         case (_profileName in ['CPL']): {_return = 'Corporal'};
         case (_profileName in ['SGT', 'SSG', 'SFC', 'MSG']): {_return = 'Sergeant'};
@@ -90,14 +90,14 @@ if (_rankType == 'USA_FORMAL') then {
 // Arma rank translations
 if (_rankType == 'BIS') then {
     switch (_rankType == 'BIS') do {
-        case (_profileName in ['AR.','AR ','RCT','PVT','PFC']): {_return = 'PRIVATE'};
+        case (_profileName in ['AR.','AR ','RCT','PVT','PFC']): {_return = 'private'};
         case (_profileName in ['RET','SPC','CPL','WO1']): {_return = 'CORPORAL'};
         case (_profileName in ['SGT','SSG','SFC','MSG','1SG','SGM','CSM','CW2','CW3','CW4','CW5']): {_return = 'SERGEANT'};
         case (_profileName in ['2LT','1LT']): {_return = 'LIEUTENANT'};
         case (_profileName in ['CPT']): {_return = 'CAPTAIN'};
         case (_profileName in ['MAJ']): {_return = 'MAJOR'};
         case (_profileName in ['LTC','COL','BG.','BG ','MG.','MG ','LTG','GEN']): {_return = 'COLONEL'};
-        default {_return = 'PRIVATE'};
+        default {_return = 'private'};
     };
 };
 

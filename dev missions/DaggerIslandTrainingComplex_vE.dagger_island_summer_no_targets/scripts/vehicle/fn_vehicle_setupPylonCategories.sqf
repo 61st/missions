@@ -24,7 +24,7 @@ private _pylonList = [];
 
 {
     _x params ["_classname"];
-    if (_vehicle iskindOf _classname) then {
+    if (_vehicle isKindOf _classname) then {
         {
             _x params ["_pylonName"];
             private _displayName = [_classname, _pylonName] call EFUNC(vehicle,getPylonName);

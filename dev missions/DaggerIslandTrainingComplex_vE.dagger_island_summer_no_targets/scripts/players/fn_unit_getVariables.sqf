@@ -22,13 +22,13 @@ private _classname = typeOf _unit;
 private _netId = netId _unit;
 private _uid = if (isPlayer _unit) then {getPlayerUID _unit} else {""};
 
-private _name = GETVAR(_unit,EGVAR(Unit,Name),"");
+private _name = GETVAR(_unit,EGVAR(Unit,name),"");
 private _profileName = if (isPlayer _unit) then {profileName} else {""};
 private _profileNameSteam = if (isPlayer _unit) then {profileNameSteam} else {""};
 private _clanTag = call EFUNC(player,getClanTag);
 
 private _rank = [player, 'USA'] call YMF_fnc_player_getRank;
-private _rank_bis = GETVAR(_unit,EGVAR(Player,Rank),"PRIVATE");
+private _rank_bis = GETVAR(_unit,EGVAR(Player,rank),"PRIVATE");
 
 private _regiment = "";
 private _company = GETVAR(player,EGVAR(Player,Company), "");

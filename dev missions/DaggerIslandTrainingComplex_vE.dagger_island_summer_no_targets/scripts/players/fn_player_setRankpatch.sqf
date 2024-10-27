@@ -6,7 +6,7 @@ private _profileName = profileName;
 
 _profileName = [_profileName, 0, 2] call BIS_fnc_trimString;
 _profileName = toUpper(_profileName);
-_playerUID = getplayerUID player;
+_playerUID = getPlayerUID player;
 
 switch (true) do {
         case (_profileName in ['RET']): {[player,'tweed_UA_OCP_0'] call simc_fnc_setUnitRank;};

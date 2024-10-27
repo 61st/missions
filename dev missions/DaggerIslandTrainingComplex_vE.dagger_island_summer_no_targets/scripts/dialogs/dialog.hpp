@@ -20,7 +20,7 @@ class YMF_AdminPanel {
 		};
 		class MAIN_TITLE: RscADMPStructuredText {
 			idc = IDC_ADMINPANEL_MAIN_TITLE;
-			text = "<t font='PuristaBold', align='center'>YMF ADMIN PANEL</t>"; //--- ToDo: Localize;
+			text = "<t font='PuristaBold', align='center'>61st ADMIN PANEL</t>"; //--- ToDo: Localize;
 			x = 0.216406 * safezoneW + safezoneX; // TODO: ADMINPANEL EXPANSION // x = 0.0926563 * safezoneW + safezoneX;
 			y = 0.159 * safezoneH + safezoneY;
 			w = 0.567187 * safezoneW; // TODO: ADMINPANEL EXPANSION // w = 0.819844 * safezoneW;
@@ -420,7 +420,7 @@ class YMF_AdminPanel {
 			y = 0.522 * safezoneH + safezoneY;
 			w = 0.04125 * safezoneW;
 			h = 0.033 * safezoneH;
-			tooltip = "LMB: Opens BI arsenal on selected player\nSHIFT+LMB: Opens ACE arsenal on selected player"; //--- ToDo: Localize;
+			tooltip = "LMB: Opens ACE arsenal  on selected player\nSHIFT+LMB: Opens BI arsenal on selected player"; //--- ToDo: Localize;
 			sizeEx = 1 * GUI_GRID_H;
 
 			onMouseButtonClick = "_shift = _this#4; [_shift] call admp_fnc_arsenal;";
@@ -1003,7 +1003,7 @@ class YMF_AdminMessage
 		};
 		class MAIN_TITLE: RscADMPStructuredText {
 			idc = IDC_ADMINMESSAGE_MAIN_TITLE;
-			text = "<t font='PuristaBold', align='center'>YMF ADMIN MESSAGE</t>";
+			text = "<t font='PuristaBold', align='center'>61st ADMIN MESSAGE</t>";
 			x = 8 * GUI_GRID_CENTER_W + GUI_GRID_CENTER_X;
 			y = 3 * GUI_GRID_CENTER_H + GUI_GRID_CENTER_Y;
 			w = 24 * GUI_GRID_CENTER_W;

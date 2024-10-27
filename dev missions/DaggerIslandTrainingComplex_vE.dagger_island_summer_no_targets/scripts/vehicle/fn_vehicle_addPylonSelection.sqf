@@ -35,7 +35,7 @@ params [
 private _condition = { 
     params ["_vehicle", "", "_params"];
     _params params ["_vehicleKind"];
-    _vehicle iskindOf _vehicleKind;
+    _vehicle isKindOf _vehicleKind;
 };
 
 private _statement = {

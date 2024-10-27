@@ -54,8 +54,11 @@ if (_isRespawn) then {
 
     if (player call YMF_fnc_player_isCurator) then {
         [player,true] call lxim_curator_fnc_assignZeus;
+        [true, true] call acre_api_fnc_godModeConfigureAccess;
+        [player,true] call admp_fnc_grantAdminAccess;
     } else {
         [player,false] call lxim_curator_fnc_assignZeus;
+        [false, false] call acre_api_fnc_godModeConfigureAccess;
     };
 
     /* rank stuff ------------------------------------------------------------------------------------------------------ */
@@ -65,23 +68,11 @@ if (_isRespawn) then {
     /* Name Stuff ------------------------------------------------------------------------------------------------------- */
     call LXIM_w28fixes_fnc_player_set_name;
 
-    /* Radios ----------------------------------------------------------------------------------------------------------- */
-    private _343channel = player getVariable ["starting_343_channel", -1];
-    private _152channel = player getVariable ["starting_152_channel", -1];
-    private _148channel = player getVariable ["starting_148_channel", -1];
-    private _117channel = player getVariable ["starting_117_channel", -1];
-
-    if ((_117channel >= 0) && ([player, "ACRE_PRC117F"] call acre_api_fnc_hasKindOfRadio)) then {
-        [(["ACRE_PRC117F"] call acre_api_fnc_getRadioByType), _117channel] call acre_api_fnc_setRadioChannel;
-    };
-    if ((_343channel >= 0) && ([player, "ACRE_PRC343"] call acre_api_fnc_hasKindOfRadio)) then {
-        [(["ACRE_PRC343"] call acre_api_fnc_getRadioByType), _343channel] call acre_api_fnc_setRadioChannel;
-    };
-    if ((_148channel >= 0) && ([player, "ACRE_PRC148"] call acre_api_fnc_hasKindOfRadio)) then {
-        [(["ACRE_PRC148"] call acre_api_fnc_getRadioByType), _148channel] call acre_api_fnc_setRadioChannel;
-    };
-    if ((_152channel >= 0) && ([player, "ACRE_PRC152"] call acre_api_fnc_hasKindOfRadio)) then {
-        [(["ACRE_PRC152"] call acre_api_fnc_getRadioByType), _152channel] call acre_api_fnc_setRadioChannel;
-    };
+    /*  ----------------------------------------------------------------------------------------------------------- */
+    [{[] call acre_api_fnc_isInitialized}, {
+                INFO_1("GearRadio" "Setting up ACRE primary radio and channels for %1...", player);
+                hint "GearRadio Setting up ACRE primary radio and channels";
+                [player] call FUNC(setRadioChannel);
+                ["ACRE_PRC148"] call FUNC(setActiveRadio);
+            }, []] call CBA_fnc_waitUntilAndExecute;
 };
-

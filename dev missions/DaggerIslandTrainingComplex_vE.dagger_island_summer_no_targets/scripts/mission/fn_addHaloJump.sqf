@@ -25,7 +25,7 @@ params [
 // Check so the options arent added twice.
 if (!isNil {_vehicle getVariable QEGVAR(VehicleFunc,HaloAction)}) exitWith {SHOW_WARNING_1("HaloJump", "Aircraft halo jump setting already applied for %1.", _vehicle)};
 
-private _doors = tostring {
+private _doors = toString {
     ((_target animationPhase 'ramp_bottom' > 0.64) ||   // RHS_C130J
     (_target animationPhase 'door_2_1' == 1) ||         // RHS_C130J
     (_target animationPhase 'door_2_2' == 1) ||         // RHS_C130J

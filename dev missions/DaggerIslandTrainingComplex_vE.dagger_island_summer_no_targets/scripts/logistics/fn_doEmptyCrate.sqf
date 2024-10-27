@@ -14,10 +14,10 @@ if (!isServer) exitWith {};
 
 params [["_crate", objNull]];
 
-clearweaponcargoGlobal _crate;
-clearmagazinecargoGlobal _crate;
-clearitemcargoGlobal _crate;
-clearbackpackcargoGlobal _crate;
+clearWeaponCargoGlobal _crate;
+clearMagazineCargoGlobal _crate;
+clearItemCargoGlobal _crate;
+clearBackpackCargoGlobal _crate;
 
 // Change ace logistics size of crate
 [_crate, 1] remoteExec ["ace_cargo_fnc_setSize",0,true];

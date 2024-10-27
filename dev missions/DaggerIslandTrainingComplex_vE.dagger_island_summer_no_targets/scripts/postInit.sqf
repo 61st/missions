@@ -30,4 +30,7 @@ onPlayerConnected {
     [QEGVAR(log,player), [getPlayerUID player, player]] call CBA_fnc_serverEvent;
 };
 
+//radio
+call EFUNC(gear,setupRadios);
+
 INFO("postInit", "Initialization completed.");
