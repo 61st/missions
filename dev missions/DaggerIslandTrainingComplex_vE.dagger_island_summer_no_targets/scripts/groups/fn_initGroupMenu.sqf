@@ -31,7 +31,7 @@ private _myPath = [0,0];
             private _unitIndex = _tree tvAdd [[_treeIndex],_name];
             _tree tvSetColor [[_treeIndex,_unitIndex],[1,1,1,_alpha]];
 
-            private _data = [netID _playerInRole,_x];
+            private _data = [netId _playerInRole,_x];
             _tree tvSetData [[_treeIndex,_unitIndex],str(_data)];
 
             _tree tvSetPicture [[_treeIndex,_unitIndex],_roleIcon];

@@ -28,9 +28,9 @@
         _pos params ["_objectPos"];
 
         if (_medVehicle) then {
-            _objectPos setVariable [QEGVAR(Vehicle,Type), "MED", true];
+            _objectPos setVariable [QEGVAR(Vehicle,type), "MED", true];
         } else {
-            _objectPos setVariable [QEGVAR(Vehicle,Type), nil, true];
+            _objectPos setVariable [QEGVAR(Vehicle,type), nil, true];
         };
 
         _objectPos setVariable [QEGVAR(Vehicle,Inventory), nil, true];
@@ -48,6 +48,7 @@
         _objectPos call EFUNC(vehicle,addPylonLoadout);
         _objectPos call EFUNC(vehicle,addCosmetics);
         _objectPos call EFUNC(vehicle,addStagingActions);
+        _objectPos call EFUNC(vehicle,addRadio);
     },
     {},
     [_objectPos]

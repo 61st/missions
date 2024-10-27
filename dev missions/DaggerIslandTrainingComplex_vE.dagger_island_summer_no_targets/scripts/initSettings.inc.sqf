@@ -1,5 +1,5 @@
 // Make settings name
-private _YMFsettings = "YMF Mission Settings";
+private _YMFsettings = "61st - Mission Settings";
 
 [ // Mission Type
     QEGVAR(Settings,setMissionType),
@@ -17,6 +17,49 @@ private _YMFsettings = "YMF Mission Settings";
     ["AI Setting", "This adjustes the ai and make them less godlike and more arcade to play against."],
     [_YMFsettings, "Mission"],
     [[0,1,2], ["Arma Default", "Adjusted", "Faction Based"], 2],
+    true,
+    {},
+    true
+] call CBA_fnc_addSetting;
+
+// Radios
+[ // Enable
+    QEGVAR(Settings,enableRadios),
+    "CHECKBOX",
+    ["Enable","Allow mission to set up and handle radio distributution"],
+    [_YMFsettings, "Radios"],
+    true,
+    true,
+    {},
+    true
+] call CBA_fnc_addSetting;
+// [ // Long Range Radio Channels
+//     QEGVAR(Settings,LRsetRadioChannelNames),
+//     "EDITBOX",
+//     ["Long Range Radio Channels (ACRE)","Array of radio channels used for ACRE the index of the array translate to channel."],
+//     [_YMFsettings, "Radios"],
+//     '["COMMAND","OUTLAW","THUNDER","PHOENIX","RHINO","TRAINING","FIRES","CAS-1","CAS-2","AIR-1","AIR-2","GROUND-TO-AIR","CONVOY","AUX-1","AUX-2","ZEUS"]',
+//     true,
+//     {},
+//     true
+// ] call CBA_fnc_addSetting;
+// [ // Platoon Radio Channels
+//     QEGVAR(Settings,MRsetRadioChannelNames),
+//     "EDITBOX",
+//     ["Mid Range Radio Channels (ACRE)","Array of radio channels used for ACRE the index of the array translate to channel."],
+//     [_YMFsettings, "Radios"],
+//     '["OUTLAW-HQ","OUTLAW-1/1","OUTLAW-1/2","OUTLAW-1/3","MED-NET","ENG-NET","WHYAREUHERE"]',
+//     true,
+//     {},
+//     true
+// ] call CBA_fnc_addSetting;
+
+[ // Squad Radio Channels
+    QEGVAR(Settings,setRadio),
+    "CHECKBOX",
+    ["Squad Radio Channels (ACRE)","Allow radio channels to be changed based on player squadname."],
+    [_YMFsettings, "Radios"],
+    true,
     true,
     {},
     true
@@ -42,16 +85,7 @@ private _YMFsettings = "YMF Mission Settings";
     {},
     true
 ] call CBA_fnc_addSetting;
-[ // Tagging
-    QEGVAR(Settings,allowCustomTagging),
-    "CHECKBOX",
-    ["Custom Tagging","Allow players to spray custom taggs."],
-    [_YMFsettings, "Player"],
-    true,
-    true,
-    {},
-    true
-] call CBA_fnc_addSetting;
+
 [ // Insignia
     QEGVAR(Settings,allowInsigniaApplication),
     "CHECKBOX",
@@ -110,6 +144,16 @@ private _YMFsettings = "YMF Mission Settings";
     ["Inventory", "Enables scripted inventory to be applied to vehicles based on faction"],
     [_YMFsettings, "Vehicle"],
     true,
+    true,
+    {},
+    true
+] call CBA_fnc_addSetting;
+[ // Radio
+    QEGVAR(Settings,enableVehicleRadios),
+    "CHECKBOX",
+    ["Radio", "Enables vehicles radio to be enabled and set on vehicles"],
+    [_YMFsettings, "Vehicle"],
+    false,
     true,
     {},
     true

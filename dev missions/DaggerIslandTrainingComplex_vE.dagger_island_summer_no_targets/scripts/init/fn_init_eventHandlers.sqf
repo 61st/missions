@@ -9,7 +9,6 @@
  * Public: No
  */
 
-
 INFO("InitEventHandlers","Creating Global EventHandlers");
 
 [QGVAR(getAttendance), {

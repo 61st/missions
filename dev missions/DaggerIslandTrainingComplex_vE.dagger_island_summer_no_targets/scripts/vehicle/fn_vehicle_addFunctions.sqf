@@ -21,18 +21,18 @@ if (!isNil{_vehicle getVariable QEGVAR(VehicleFunc,Functions)}) exitWith {SHOW_W
 
 INFO_2("VehicleFunctions", "Applying vehicle functions to %1 (%2)", _vehicle, typeOf _vehicle);
 
-private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,Type), typeOf _vehicle];
+private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,type), typeOf _vehicle];
 
 _vehicle setVariable [QEGVAR(VehicleFunc,Functions), true];
 
 
 // Jump and get out systems universal for all airframes and non nato factions.
-if (_vehicle iskindOf "Heli_Transport_01_base_F") then {
+if (_vehicle isKindOf "Heli_Transport_01_base_F") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "RHS_UH60_Base") then {
+if (_vehicle isKindOf "RHS_UH60_Base") then {
     switch (_vehicleType) do {
         case "RHS_UH60M_MEV2_d";
         case "RHS_UH60M_MEV_d";
@@ -42,44 +42,44 @@ if (_vehicle iskindOf "RHS_UH60_Base") then {
         default {};
     };
 };
-if (_vehicle iskindOf "rhs_uh1h_base") then {
+if (_vehicle isKindOf "rhs_uh1h_base") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
-if (_vehicle iskindOf "RHS_UH1_Base") then {
+if (_vehicle isKindOf "RHS_UH1_Base") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "RHS_Mi24_base") then {
+if (_vehicle isKindOf "RHS_Mi24_base") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addLineJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "RHS_Mi8_base") then {
+if (_vehicle isKindOf "RHS_Mi8_base") then {
     [_vehicle] call FUNC(addLineJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "Heli_Transport_02_base_F") then {
+if (_vehicle isKindOf "Heli_Transport_02_base_F") then {
     [_vehicle] call FUNC(addLineJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "RHS_C130J_Base") then {
+if (_vehicle isKindOf "RHS_C130J_Base") then {
     [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
     [_vehicle] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "USAF_C130J") then {
+if (_vehicle isKindOf "USAF_C130J") then {
     [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
     [_vehicle] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "USAF_C17") then {
+if (_vehicle isKindOf "USAF_C17") then {
     [_vehicle,nil,nil,nil,nil,true] call FUNC(addLineJump);
     [_vehicle] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
@@ -89,62 +89,62 @@ if ((_vehicle isKindOf "USAF_F22_Heavy") || (_vehicle isKindOf "USAF_F35A") || (
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_UH60M_US") then {
+if (_vehicle isKindOf "CUP_B_UH60M_US") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_UH60M_FFV_US") then {
+if (_vehicle isKindOf "CUP_B_UH60M_FFV_US") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_UH60M_Unarmed_FFV_MEV_US") then {
+if (_vehicle isKindOf "CUP_B_UH60M_Unarmed_FFV_MEV_US") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_AH6J_USA") then {
+if (_vehicle isKindOf "CUP_B_AH6J_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_MH6M_USA") then {
+if (_vehicle isKindOf "CUP_B_MH6M_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_MH6J_OBS_USA") then {
+if (_vehicle isKindOf "CUP_B_MH6J_OBS_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_CH47F_VIV_USA") then {
+if (_vehicle isKindOf "CUP_B_CH47F_VIV_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_CH47F_USA") then {
+if (_vehicle isKindOf "CUP_B_CH47F_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "CUP_B_AH64D_DL_USA") then {
+if (_vehicle isKindOf "CUP_B_AH64D_DL_USA") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "vtx_MH60M") then {
+if (_vehicle isKindOf "vtx_MH60M") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "TF373_SOAR_MH47G_Base") then {
+if (_vehicle isKindOf "TF373_SOAR_MH47G_Base") then {
     [_vehicle] call FUNC(addLineJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "B_Plane_Transport_01_infantry_F") then {
+if (_vehicle isKindOf "B_Plane_Transport_01_infantry_F") then {
     [_vehicle] call FUNC(addLineJump);
     [_vehicle] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if (_vehicle iskindOf "VTOL_01_infantry_base_F") then {
+if (_vehicle isKindOf "VTOL_01_infantry_base_F") then {
     [_vehicle] call FUNC(addLineJump);
     [_vehicle] call FUNC(addHaloJump);
     [_vehicle] call FUNC(addEscapeWreck);

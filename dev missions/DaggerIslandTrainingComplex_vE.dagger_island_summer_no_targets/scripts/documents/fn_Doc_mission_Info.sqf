@@ -7,7 +7,7 @@
  * None
  *
  * Example:
- * call cScripts_fnc_Doc_Info
+ * call ymf_fnc_Doc_Info
  */
 
 

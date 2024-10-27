@@ -23,7 +23,7 @@ params [
     ["_vehicleLoadout", [], [[]]]
 ];
 
-if (_vehicle iskindOf "man") exitWith {};
+if (_vehicle isKindOf "man") exitWith {};
 if (isNull _vehicle) exitWith {};
 if (_loadoutName == "") exitWith {};
 if (count _vehicleLoadout == 0) exitWith {};

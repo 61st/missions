@@ -26,7 +26,7 @@ INFO_2("VehicleDefaultLoadout", "Applying vehicle loadout to %1 [%2].", _vehicle
 private _pylon = [];
 
 {
-    if (_vehicle iskindOf _x) exitWith {
+    if (_vehicle isKindOf _x) exitWith {
         _pylon = [_x, "default"] call EFUNC(vehicle,getPylonLoadout);
         INFO_3("VehicleDefaultLoadout", "Vehicle %1 [%2] applied have loadout %3.", _vehicle, typeOf _vehicle, _pylon);
         [_vehicle, "default", _pylon] call EFUNC(vehicle,applyLoadout);

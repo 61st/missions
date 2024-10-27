@@ -18,7 +18,7 @@
 params [["_vehicle", objNull, [objNull]]];
 
 if (!isServer) exitWith {};
-if (_vehicle iskindOf "man") exitWith {};
+if (_vehicle isKindOf "man") exitWith {};
 
 INFO_1("VehicleReset", "Clearing systems on vehicle %1.", _vehicle);
 
@@ -29,7 +29,7 @@ _vehicle getVariable [QEGVAR(Vehicle,Labels), nil];
 _vehicle setVariable [QEGVAR(VehicleFunc,Cosmetics), nil, true];
 
 _vehicle setVariable [QEGVAR(Vehicle,Callsign), nil, true];
-_vehicle setVariable [QEGVAR(Vehicle,Name), nil, true];
+_vehicle setVariable [QEGVAR(Vehicle,name), nil, true];
 
 
 // Clear pylon
@@ -38,7 +38,7 @@ _vehicle setVariable [QEGVAR(VehicleFunc,DefaultPylon), nil, true];
 
 
 // Clear Functions variable and vehicle type
-_vehicle setVariable [QEGVAR(Vehicle,Type),       nil, true]; // Clear type in case of
+_vehicle setVariable [QEGVAR(Vehicle,type),       nil, true]; // Clear type in case of
 _vehicle setVariable [QEGVAR(VehicleFunc,Functions),  nil, true];
 
 

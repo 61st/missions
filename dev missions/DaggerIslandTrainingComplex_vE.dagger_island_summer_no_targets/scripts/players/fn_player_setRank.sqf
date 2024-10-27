@@ -19,14 +19,14 @@ params [["_player", objNull, [objNull]]];
 if (!GVAR(isPlayer)) exitWith {};
 waitUntil {!isNull player && player == player};
 
-private _rank = 'PRIVATE';
+private _rank = 'private';
 
 _rank = [_player, 'BIS'] call EFUNC(player,getRank);
 
 
-if (_rank in ['PRIVATE','CORPORAL','SERGEANT','LIEUTENANT','CAPTAIN','MAJOR','COLONEL']) then {
+if (_rank in ['private','CORPORAL','SERGEANT','LIEUTENANT','CAPTAIN','MAJOR','COLONEL']) then {
     _player setRank _rank;
 };
 
-SETVAR(_player,EGVAR(Player,Rank), _rank);
+SETVAR(_player,EGVAR(Player,rank), _rank);
 _rank

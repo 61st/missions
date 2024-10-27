@@ -48,7 +48,7 @@ _player setDir _dir - 140;
 sleep 1.5;
 private _velocity = velocity _player;
 private _chute = createVehicle [_chuteVehicleClass, (position _player), [], 0, "CAN_COLLIDE"];
-_chute AttachTo [_player, [0,0,0]];
+_chute attachTo [_player, [0,0,0]];
 detach _chute;
 _player moveInDriver _chute;
 _chute setVelocity _velocity;

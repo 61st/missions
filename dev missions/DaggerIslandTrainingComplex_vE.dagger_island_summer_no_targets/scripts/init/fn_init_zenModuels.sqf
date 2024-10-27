@@ -52,6 +52,16 @@ INFO("init", "Initializing custom Zen Modules.");
     "\A3\ui_f\data\map\vehicleicons\iconCrate_ca.paa"
 ] call zen_custom_modules_fnc_register;
 
+if (EGVAR(Settings,enableRadios)) then {
+    ["61st Mission", "Reset Radio",
+        {
+            params ["_modulePos", "_objectPos"];
+            [_modulePos, _objectPos] call EFUNC(zenModule,ResetPlayerRadio);
+        },
+        "\a3\modules_f\data\portraitmodule_ca.paa"
+    ] call zen_custom_modules_fnc_register;
+};
+
 ["61st Mission", "Call Endex",
     {
         params ["_modulePos", "_objectPos"];

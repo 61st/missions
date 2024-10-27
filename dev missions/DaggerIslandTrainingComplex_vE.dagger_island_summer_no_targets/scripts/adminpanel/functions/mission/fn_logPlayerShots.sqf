@@ -17,7 +17,7 @@ if (!hasInterface) exitWith {};
 	params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile"];
 
 	private _weaponName = getText (configFile >> "CfgWeapons" >> _weapon >> "DisplayName");
-	private _message = format ["[YMF ADMIN] Player %1 fired weapon '%2'", name player, _weaponName];
+	private _message = format ["[61st ADMIN] Player %1 fired weapon '%2'", name player, _weaponName];
 	[_message] remoteExec ["YMF_fnc_logToServer", 2, false];
 
 }] call CBA_fnc_addEventHandler;

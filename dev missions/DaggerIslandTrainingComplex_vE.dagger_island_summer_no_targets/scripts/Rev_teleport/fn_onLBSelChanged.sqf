@@ -35,5 +35,5 @@ private _map = uiNamespace getVariable ['Rev_tp_map', controlNull];
 _map ctrlMapAnimAdd [0, 0.3, (getPos _object)];
 ctrlMapAnimCommit _map;
 
-"Rev_tp_marker" setMarkerPosLocal (getpos _object);
+"Rev_tp_marker" setMarkerPosLocal (getPos _object);
 "Rev_tp_marker" setMarkerAlphaLocal 1;

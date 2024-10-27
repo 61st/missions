@@ -26,15 +26,15 @@ private _player = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection; 
 
 if (isNull _player) exitWith {systemChat "No target found!"; playSound "addItemFailed";}; // if there is no selected target exit
 
-if (_shift && admp_aceEnabled) then { // check which arsenal to open
+if (_shift) then { // check which arsenal to open
 	[2] remoteExec ["closeDialog", _player, false]; // if the player has dialog open close it
-	[_player, _player, true] remoteExec ["ace_arsenal_fnc_openBox", _player, false];
-	systemChat format ["Opened ACE arsenal on %1!", name _player];
+	["Open", [true]] remoteExec ["BIS_fnc_arsenal", _player, false];
+	systemChat format ["Opened BI arsenal on %1!", name _player];
 	playSound "3DEN_notificationDefault";
 } else {
 	[2] remoteExec ["closeDialog", _player, false];
-	["Open", [true]] remoteExec ["BIS_fnc_arsenal", _player, false];
-	systemChat format ["Opened BI arsenal on %1!", name _player];
+	[_player, _player, true] remoteExec ["ace_arsenal_fnc_openBox", _player, false];
+	systemChat format ["Opened ACE arsenal on %1!", name _player];
 	playSound "3DEN_notificationDefault";
 };
 

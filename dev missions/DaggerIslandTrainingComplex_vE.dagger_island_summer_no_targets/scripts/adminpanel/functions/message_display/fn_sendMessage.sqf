@@ -75,9 +75,9 @@ switch (_recipient) do {
 private _senderID = getPlayerUID player;
 private _sentAt = [dayTime, "HH:MM"] call BIS_fnc_timeToString; 
 
-// if the message is a general announcement set sender name to 'YMF Admin' instead
+// if the message is a general announcement set sender name to '61st Admin' instead
 private _senderName = name player;
-if (_recipient in ["AllPlayers", "AllAlive", "AllDead"]) then {_senderName = "YMF Admin";};
+if (_recipient in ["AllPlayers", "AllAlive", "AllDead"]) then {_senderName = "61st Admin";};
 
 private _recipientName = _recipient_combo lbText (lbCurSel _recipient_combo);
 private _messageText = ctrlText _message_edit_box;

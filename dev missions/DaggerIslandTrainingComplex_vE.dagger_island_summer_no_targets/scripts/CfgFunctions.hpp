@@ -29,10 +29,10 @@ class YMF {
         file = "scripts\documents";
         class DOC_mission_Info  {};
         class Doc_mission_map  {};
+        // class Doc_Radio {};
     };
     class systems {
         file = "scripts\systems";
-
         class deleteDroppedObjects {};
         class doGetOutHeloSide {};
         class dynamicMarkers {};
@@ -40,6 +40,10 @@ class YMF {
         class getServerMetrics {};
         class isValidFaction {};
         class checkStagingZone {};
+
+        class getChannelName {};
+        class clearRadioIds {}
+        class getRadioBase {};
 
         // Buttons and options
         class addHeal {};
@@ -94,6 +98,9 @@ class YMF {
         class vehicle_addFunctionsGlobal {};
         class vehicle_addCosmetics {};
 
+        class vehicle_addRadio {};
+        class vehicle_setRadio {};
+
         class vehicle_applyTextures {};
 
         // Staging
@@ -142,6 +149,8 @@ class YMF {
         class zenModule_CallEndex {};
         class zenModule_createStaging  {};
         class zenModule_addStaging  {};
+        // class zenModule_RekitVehicle {};
+        class zenModule_ResetPlayerRadio {};
     };
     class civ {
         file = "scripts\civ";
@@ -160,6 +169,11 @@ class YMF {
         class player_isCurator {};
         
         class unit_getName {};
+        class unit_getSquadName {};
+
+        class getRadioChannel {};
+        class setRadioChannel {};
+        class setActiveRadio {};
 
         // Other Functions
         class unit_getVariables {};
@@ -169,6 +183,7 @@ class YMF {
         class gear_preInit { preInit = 1; };
         class gear_postInitProxy { postInit = 1; };
         class gear_postInit {};
+        class gear_setupRadios {};
 
     };
     class training {

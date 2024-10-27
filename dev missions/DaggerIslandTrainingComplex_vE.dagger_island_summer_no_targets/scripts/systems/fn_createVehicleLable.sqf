@@ -44,7 +44,7 @@ _label setObjectTextureGlobal [0, _texture];
 private _checkDirType = _dir isEqualType 0;
 if (_checkDirType) then {
     _label setDir _dir;
-    _label setvectorUp _vector;
+    _label setVectorUp _vector;
 } else {
     _label setVectorDirAndUp _vector;
 };

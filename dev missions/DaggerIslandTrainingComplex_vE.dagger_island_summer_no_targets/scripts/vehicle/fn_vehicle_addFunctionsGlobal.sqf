@@ -21,14 +21,14 @@ if (!isNil{_vehicle getVariable QEGVAR(VehicleFunc,FunctionsGlobal)}) exitWith {
 
 INFO_2("VehicleFunctionsGlobal", "Applying vehicle functions to %1 (%2)", _vehicle, typeOf _vehicle);
 
-private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,Type), typeOf _vehicle];
+private _vehicleType = _vehicle getVariable [QEGVAR(Vehicle,type), typeOf _vehicle];
 
 _vehicle setVariable [QEGVAR(VehicleFunc,FunctionsGlobal), true];
 
 if (!(_vehicle call FUNC(isValidFaction))) exitWith {};
 
 // Airframes
-if (_vehicle iskindOf "RHS_UH60_Base") then {
+if (_vehicle isKindOf "RHS_UH60_Base") then {
     switch (_vehicleType) do {
         case "RHS_UH60M_MEV2_d";
         case "RHS_UH60M_MEV_d";
@@ -42,7 +42,7 @@ if (_vehicle iskindOf "RHS_UH60_Base") then {
 
 
 // Ground vehicles
-if (_vehicle iskindOf "MRAP_01_base_F") then {
+if (_vehicle isKindOf "MRAP_01_base_F") then {
     switch (_vehicleType) do {
         case "rhsusf_m998_d_2dr_fulltop";
         case "rhsusf_m998_w_2dr_fulltop";
@@ -51,7 +51,7 @@ if (_vehicle iskindOf "MRAP_01_base_F") then {
     };
 };
 
-if (_vehicle iskindOf "Truck_01_base_F") then {
+if (_vehicle isKindOf "Truck_01_base_F") then {
     switch (_vehicleType) do {
         case "rhsusf_M1230a1_usarmy_wd";
         case "rhsusf_M1230a1_usarmy_d";
@@ -60,7 +60,7 @@ if (_vehicle iskindOf "Truck_01_base_F") then {
     };
 };
 
-if (_vehicle iskindOf "lxim_outlaw_unarmed_base_F") then {
+if (_vehicle isKindOf "lxim_outlaw_unarmed_base_F") then {
     switch (_vehicleType) do {
         case "lxim_outlaw_Unarmed_d";
         case "lxim_outlaw_Unarmed_g";
@@ -69,28 +69,28 @@ if (_vehicle iskindOf "lxim_outlaw_unarmed_base_F") then {
     };
 };
 
-if (_vehicle iskindOf "lxim_outlaw_base_F") then {
+if (_vehicle isKindOf "lxim_outlaw_base_F") then {
     switch (_vehicleType) do {
         case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
         default {};
     };
 };
 
-if (_vehicle iskindOf "lxim_outlaw_eng_base_F") then {
+if (_vehicle isKindOf "lxim_outlaw_eng_base_F") then {
     switch (_vehicleType) do {
         case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
         default {};
     };
 };
 
-if (_vehicle iskindOf "lxim_outlaw_AA_base_F") then {
+if (_vehicle isKindOf "lxim_outlaw_AA_base_F") then {
     switch (_vehicleType) do {
         case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
         default {};
     };
 };
 
-if (_vehicle iskindOf "rhsusf_stryker_base") then {
+if (_vehicle isKindOf "rhsusf_stryker_base") then {
     switch (_vehicleType) do {
         case "rhsusf_stryker_m1126_m2_d";
         case "rhsusf_stryker_m1126_m2_wd";
@@ -99,7 +99,7 @@ if (_vehicle iskindOf "rhsusf_stryker_base") then {
     };
 };
 
-if (_vehicle iskindOf "RHS_M2A2_Base") then {
+if (_vehicle isKindOf "RHS_M2A2_Base") then {
     switch (_vehicleType) do {
         default {};
     };

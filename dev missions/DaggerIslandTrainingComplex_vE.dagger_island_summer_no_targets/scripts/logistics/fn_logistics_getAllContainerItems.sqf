@@ -30,7 +30,7 @@ private _allContainers = [];
     } else {
         _allContainers append _y;
     };
-} foreach _containerMap;
+} forEach _containerMap;
 
 if (_keysOnly) then {
     _allContainers = _allContainers arrayIntersect _allContainers;
