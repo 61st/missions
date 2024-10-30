@@ -16,7 +16,7 @@ class mediccp {
             {"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},
             {"U_B_GEN_Soldier_F",{{"FirstAidKit",1},{"ACE_EarPlugs",1},{"ACE_CableTie",6},{"16Rnd_9x21_Mag",2,17},{"HandGrenade",1,1}}},
             {"V_TacVest_blk_POLICE",{{"CUP_30Rnd_545x39_AK74_plum_M",7,30},{"CUP_20Rnd_762x51_G3",3,20},{"CUP_15Rnd_9x19_M9",1,15}}},
-            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"psq42_blk",1},{"ACE_packingBandage",20},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"ACE_epinephrine",14},{"ACE_adenosine",14},{"ACE_fieldDressing",24},{"ACE_quikclot",14},{"ACE_morphine",24},{"lxim_naloxone",14}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"MS_Strobe_Mag_1",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"psq42_blk",1},{"ACE_packingBandage",20},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"ACE_epinephrine",14},{"ACE_adenosine",14},{"ACE_fieldDressing",24},{"ACE_quikclot",14},{"ACE_morphine",24},{"lxim_naloxone",14}}},
             "H_Cap_police","G_Bandanna_blk",{"Binocular","","","",{},{},""},
             {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch",""}
     };
