@@ -12,7 +12,7 @@ class teamlead11 {
             {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
             {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"kat_IFAK",1},{"ACE_fieldDressing",4},{"ACE_tourniquet",4},{"kat_Painkiller",1,4}}},
             {"V_tweed_msv_mk2_1",{{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"ACE_CableTie",4},{"SmokeShell",2,1},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
-            {"lxim_backpack_Backpack_Kitbag_Medic_RGR",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"psq42_blk",1}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_RGR",{{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"MS_Strobe_Mag_1",1},{"B_IR_Grenade",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5},{"psq42_blk",1}}},
             "H_tweed_ihps_g_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };

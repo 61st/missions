@@ -15,7 +15,7 @@ class crewchief {
           {"CUP_hgun_M17_Coyote","","","",{"CUP_21Rnd_9x19_M17_Coyote",21},{},""},
           {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ACE_MapTools",1},{"kat_IFAK",1},{"ACE_fieldDressing",4},{"ACE_tourniquet",4},{"kat_Painkiller",1,4}}},
           {"V_tweed_msv_mk2_1",{{"CUP_17Rnd_9x19_M17_Black",3,17},{"ACE_CableTie",4},{"SmokeShell",2,1},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"HandGrenade",2,1},{"CUP_30Rnd_556x45_PMAG_BLACK_PULL",12,30}}},
-          {"B_tweed_pack_wasser_molle_ocp",{{"ACE_Canteen",1},{"ACE_Chemlight_Shield",1},{"ACE_IR_Strobe_Item",1},{"B_IR_Grenade",1},{"ACE_Flashlight_MX991",1},{"CUP_NVG_GPNVG_black",1},{"ACE_CableTie",4},{"ACE_Flashlight_XL50",1},{"ACE_MapTools",1},{"SmokeShellGreen",1,1},{"ACE_HandFlare_Green",1,1},{"MS_Strobe_Mag_1",5,1}}},
+          {"B_tweed_pack_wasser_molle_ocp",{{"ACE_Canteen",1},{"ACE_Chemlight_Shield",1},{"MS_Strobe_Mag_1",1},{"B_IR_Grenade",1},{"ACE_Flashlight_MX991",1},{"CUP_NVG_GPNVG_black",1},{"ACE_CableTie",4},{"ACE_Flashlight_XL50",1},{"ACE_MapTools",1},{"SmokeShellGreen",1,1},{"ACE_HandFlare_Green",1,1},{"MS_Strobe_Mag_1",5,1}}},
           "H_PilotHelmetHeli_B","CUP_G_Tan_Scarf_GPS",{"Laserdesignator_03","","","",{"Laserbatteries",1},{},""},
           {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };
