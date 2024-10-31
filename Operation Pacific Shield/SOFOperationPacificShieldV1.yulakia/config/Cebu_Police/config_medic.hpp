@@ -1,0 +1,95 @@
+class mediccp {
+    name = "medic";
+    description = "To protect and serve when you're bleeding";
+    traits[] = {
+        {"Medic",true}
+    };
+    customVariables[] = {
+        {"ace_medical_medicClass",2,true},
+        {"YMF_ismed", true, true},
+        {"TFAR_freq_sr",{"100.1","110","110.1","33","100","75","60","35"},true}
+    };
+    icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
+
+    defaultLoadout[] = {
+            {"cup_arifle_g3a3_ris_vfg_black","","","CUP_optic_MicroT1_OD",{"CUP_20Rnd_762x51_G3",20},{},""},{},
+            {"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},
+            {"U_B_GEN_Soldier_F",{{"FirstAidKit",1},{"ACE_EarPlugs",1},{"ACE_CableTie",6},{"16Rnd_9x21_Mag",2,17},{"HandGrenade",1,1}}},
+            {"V_TacVest_blk_POLICE",{{"CUP_30Rnd_545x39_AK74_plum_M",7,30},{"CUP_20Rnd_762x51_G3",3,20},{"CUP_15Rnd_9x19_M9",1,15}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"MS_Strobe_Mag_1",1},{"B_IR_Grenade",1},{"ACE_tourniquet",4},{"ACE_splint",4},{"ACE_elasticBandage",40},{"psq42_blk",1},{"ACE_packingBandage",20},{"ACE_salineIV",4},{"ACE_salineIV_500",10},{"ACE_epinephrine",14},{"ACE_adenosine",14},{"ACE_fieldDressing",24},{"ACE_quikclot",14},{"ACE_morphine",24},{"lxim_naloxone",14}}},
+            "H_Cap_police","G_Bandanna_blk",{"Binocular","","","",{},{},""},
+            {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch",""}
+    };
+    arsenalitems[] = {
+        "kat_IV_16",
+        "kat_aatKit",
+        "kat_accuvac",
+        "kat_AED",
+        "kat_AFAK",
+        "kat_amiodarone",
+        "kat_atropine",
+        "kat_Bubble_Wrap",
+        "kat_BVM",
+        "kat_Carbonate",
+        "kat_chestSeal",
+        "kat_clamp",
+        "kat_coag_sense",
+        "kat_crossPanel",
+        "kat_EACA",
+        "KAT_Empty_bloodIV_250",
+        "KAT_Empty_bloodIV_500",
+        "kat_epinephrineIV",
+        "kat_etomidate",
+        "kat_fentanyl",
+        "kat_flumazenil",
+        "kat_guedel",
+        "kat_IO_FAST",
+        "kat_IV_16",
+        "kat_ketamine",
+        "kat_larynx",
+        "kat_lidocaine",
+        "kat_lorazepam",
+        "kat_MFAK",
+        "kat_nalbuphine",
+        "kat_naloxone",
+        "kat_nasal",
+        "kat_ncdKit",
+        "kat_nitroglycerin",
+        "kat_norepinephrine",
+        "kat_oxygenTank_150",
+        "kat_oxygenTank_300",
+        "kat_Painkiller",
+        "kat_Penthrox",
+        "kat_phenylephrine",
+        "kat_phenylephrineAuto",
+        "kat_plate",
+        "kat_pocketBVM",
+        "kat_Pulseoximeter",
+        "kat_reboa",
+        "kat_retractor",
+        "kat_scalpel",
+        "kat_stethoscope",
+        "kat_suction",
+        "kat_TXA",
+        "kat_ultrasound",
+        "kat_vacuum",
+        "ACE_surgicalKit",
+        "kat_X_AED",
+        "lxim_backpack_Backpack_Kitbag_Medic_Green",
+        "lxim_backpack_Backpack_Kitbag_Medic_MTP",
+        "lxim_backpack_Backpack_Kitbag_Medic_Coyote",
+        "lxim_backpack_Backpack_Kitbag_Medic_Tan",
+        "lxim_backpack_Backpack_Kitbag_Medic_RGR",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "B_simc_US_Molle_sturm_OCP_RTO",
+        "ACE_adenosine",
+        "ACE_fieldDressing",
+        "ACE_elasticBandage",
+        "ACE_packingBandage",
+        "ACE_splint",
+        "ACE_quikclot",
+        "lxim_backpack_Backpack_Kitbag_Medic_Black",
+        "lxim_backpack_Backpack_Kitbag_Medic_Sage",
+        "lxim_backpack_Backpack_Kitbag_Medic_White"
+    };
+};

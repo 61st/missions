@@ -20,4 +20,9 @@ class Dynamic_Roles {
 
     #include "training\config_zeus.hpp"
     #include "cia\config_agent.hpp"
+
+    #include "Cebu_Police\config_squadleader.hpp"
+    #include "Cebu_Police\config_teamleader.hpp"
+    #include "Cebu_Police\config_medic.hpp"
+    #include "Cebu_Police\config_dismount.hpp"
 };
