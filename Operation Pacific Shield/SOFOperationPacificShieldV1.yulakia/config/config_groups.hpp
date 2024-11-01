@@ -8,7 +8,8 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"Phoenix 1-2",{"pilot","pilot","crewchief","crewchief","medicp"},"count playableUnits > 6"},
         {"Ground Branch",{"Officer","Officer","Officer","Officer","Officer","Officer","Officer","Officer","Officer","Officer"},"true"},
         {"Range Control",{"Zeus","Zeus"},"true"},
-        {"Cebu Police",{"squadleadcp","mediccp","teamleadcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp"},"true"}
+        {"Cebu Police",{"squadleadcp","mediccp","teamleadcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp"},"true"},
+        {"Cebu SF",{"squadleadsf","medicsf","teamleadsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf"},"true"}
     };
 };
 
