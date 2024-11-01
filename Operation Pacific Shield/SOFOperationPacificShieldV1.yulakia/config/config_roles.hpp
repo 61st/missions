@@ -25,4 +25,9 @@ class Dynamic_Roles {
     #include "Cebu_Police\config_teamleader.hpp"
     #include "Cebu_Police\config_medic.hpp"
     #include "Cebu_Police\config_dismount.hpp"
+
+    #include "Cebu_SF\config_squadleader.hpp"
+    #include "Cebu_SF\config_teamleader.hpp"
+    #include "Cebu_SF\config_medic.hpp"
+    #include "Cebu_SF\config_dismount.hpp"
 };
