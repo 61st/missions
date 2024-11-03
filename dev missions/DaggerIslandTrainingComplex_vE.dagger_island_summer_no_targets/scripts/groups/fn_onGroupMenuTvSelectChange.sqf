@@ -58,12 +58,14 @@ private _text = format ["
 
 <br/><br/>
 
-<t font='PuristaLight' valign='bottom' align='left'>%3</t>
-
-
 <br/><br/>
 
-<t font='PuristaBold' size='1.2'>%5</t>
+<t font='PuristaBold' size='1.2'>%3</t>
+
+<br/>
+
+<t font='PuristaLight' valign='bottom' align='left'>%4</t>
+<t font='PuristaBold' align='Right' valign='bottom'>%5</t>
 
 <br/>
 
@@ -75,12 +77,12 @@ private _text = format ["
 <t font='PuristaLight' valign='bottom' align='left'>%8</t>
 <t font='PuristaBold' align='Right' valign='bottom'>%9</t>
 
-<br/>
+<br/><br/>
 
 <t font='PuristaLight' valign='bottom' align='left'>%10</t>
 <t font='PuristaBold' align='Right' valign='bottom'>%11</t>
 
-<br/><br/>
+<br/>
 
 <t font='PuristaLight' valign='bottom' align='left'>%12</t>
 <t font='PuristaBold' align='Right' valign='bottom'>%13</t>
@@ -94,11 +96,6 @@ private _text = format ["
 
 <t font='PuristaLight' valign='bottom' align='left'>%16</t>
 <t font='PuristaBold' align='Right' valign='bottom'>%17</t>
-
-<br/>
-
-<t font='PuristaLight' valign='bottom' align='left'>%18</t>
-<t font='PuristaBold' align='Right' valign='bottom'>%19</t>
 
 ",
     _roleName,_roleDesc,

@@ -65,46 +65,6 @@ if (_vehicle isKindOf "rhsusf_fmtv_base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 };
 
-if (_vehicle isKindOf "lxim_outlaw_base_F") then {
-    // Animate slat armor and camo nets
-    _vehicle animateSource ["showCamonetHull",0, true];
-    _vehicle animateSource ["showBags",0, true];
-    _vehicle animateSource ["showBags2",1, true];
-    _vehicle animateSource ["showTools",1, true];
-    _vehicle animateSource ["showSLATHull",0, true];
-};
-
-if (_vehicle isKindOf "AFV_Wheeled_01_base_F") then {
-    _vehicle animateSource ["showCamonetHull",0, true];
-    _vehicle animateSource ["showCamonetTurret",0, true];
-    _vehicle animateSource ["showSLATHull",0, true];
-
-    switch (_vehicleType) do {
-        case "B_AFV_Wheeled_01_up_cannon_F": {
-            [_vehicle,[
-                [0, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext1_green_co.paa"],
-                [1, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext2_green_co.paa"],
-                [2, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_wheel_green_co.paa"],
-                [3, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa"],
-                [4, "a3\armor_f_tank\afv_wheeled_01\data\afv_commander_tow_co.paa"],
-                [5, "a3\armor_f\data\camonet_nato_green_co.paa"],
-                [6, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa"]
-            ]] call EFUNC(vehicle,applyTextures);
-        };
-        case "B_AFV_Wheeled_01_cannon_F": {
-            [_vehicle,[
-                [0, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext1_green_co.paa"],
-                [1, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext2_green_co.paa"],
-                [2, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_wheel_green_co.paa"],
-                [3, "a3\armor_f\data\camonet_nato_green_co.paa"],
-                [4, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa"]
-            ]] call EFUNC(vehicle,applyTextures);
-        };
-        default {};
-    };
-};
-
-
 if (_vehicle isKindOf "rhsusf_stryker_base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
     _vehicle animateSource ["Hide_CIP", 1, true];
@@ -118,10 +78,11 @@ if (_vehicle isKindOf "rhsusf_stryker_base") then {
         default {};
     };
     [_vehicle, [
-        [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
-        [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
-        [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\B_ca.paa"],
-        [15, ""]
+        [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\6_ca.paa"],
+        [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+        [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+        [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\a_ca.paa"],
+        [16, "z\lxim\addons\textures\data\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
     ]] call EFUNC(vehicle,applyTextures);
 };
 
@@ -145,7 +106,7 @@ if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
         case 1: {
             [_vehicle, [
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\1_ca.paa"],
-                [12, "\z\cav\addons\textures\data\vehicles\abrams\BarrelArt_120mmIV_ca.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_wardaddy_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 1, true];
             _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-DADDY", true];
@@ -153,7 +114,15 @@ if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
         case 2: {
             [_vehicle, [
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
-                [12, "\z\cav\addons\textures\data\vehicles\abrams\BarrelArt_BountyHunters_ca.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warmommy_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-MOMMY", true];
+        };
+        case 3: {
+            [_vehicle, [
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
+                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warmommy_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
             _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-MOMMY", true];
@@ -163,8 +132,8 @@ if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\1_ca.paa"],
                 [12, ""]
             ]] call EFUNC(vehicle,applyTextures);
-            _vehicle setVariable [QEGVAR(Vehicle,Callsign), -1, true];
-            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-DADDY", true];
+            _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
+            _vehicle setVariable [QEGVAR(Vehicle,name), "WAR-CHILD", true];
         };
         case -2: {
             [_vehicle, [
@@ -209,7 +178,7 @@ if (_vehicle isKindOf "NDS_M224_mortar_base") then {
 if (_vehicle isKindOf "RHS_C130J_Base") then {
 };
 
-_vehicle setPlateNumber "61 MECH";
+_vehicle setPlateNumber "1/61 MECH";
 
 // Add eventHandlers to handle death and deletion.
 _vehicle addEventHandler ["Killed", {
