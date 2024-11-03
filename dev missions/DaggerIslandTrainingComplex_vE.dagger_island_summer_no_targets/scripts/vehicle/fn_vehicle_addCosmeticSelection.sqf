@@ -18,98 +18,42 @@
 params [["_vehicle", objNull, [objNull]]];
 
 private _textures = [
-    ["lxim_outlaw_base_F", "Toggle Camo Net", [
-        "",
-        {
-            private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
-            if (_camoNetMounted == 1) then {
-                _vehicle animateSource ["showCamonetHull",0, true];
-            } else {
-                _vehicle animateSource ["showCamonetHull",1, true];
-            };
-        }
-    ]],
-    ["lxim_outlaw_base_F", "Toggle Slats", [
-        "",
-        {
-            private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
-            if (_slatsAreAttached == 1) then {
-                _vehicle animateSource ["showSLATHull",0, true];
-            } else {
-                _vehicle animateSource ["showSLATHull",1, true];
-            };
-        }
-    ]],
-    ["lxim_outlaw_eng_base_F", "Toggle Camo Net", [
-        "",
-        {
-            private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
-            if (_camoNetMounted == 1) then {
-                _vehicle animateSource ["showCamonetHull",0, true];
-            } else {
-                _vehicle animateSource ["showCamonetHull",1, true];
-            };
-        }
-    ]],
-    ["lxim_outlaw_eng_base_F", "Toggle Slats", [
-        "",
-        {
-            private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
-            if (_slatsAreAttached == 1) then {
-                _vehicle animateSource ["showSLATHull",0, true];
-            } else {
-                _vehicle animateSource ["showSLATHull",1, true];
-            };
-        }
-    ]],
-    ["lxim_outlaw_AA_base_F", "Toggle Camo Net", [
-        "",
-        {
-            private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
-            if (_camoNetMounted == 1) then {
-                _vehicle animateSource ["showCamonetHull",0, true];
-            } else {
-                _vehicle animateSource ["showCamonetHull",1, true];
-            };
-        }
-    ]],
-    ["lxim_outlaw_AA_base_F", "Toggle Slats", [
-        "",
-        {
-            private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
-            if (_slatsAreAttached == 1) then {
-                _vehicle animateSource ["showSLATHull",0, true];
-            } else {
-                _vehicle animateSource ["showSLATHull",1, true];
-            };
-        }
-    ]],
     ["rhsusf_m1a1tank_base", "Thunder (120mm IV)", [
         "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_120mmIV_ca.paa",
         {
             [_vehicle, [
-                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\4_ca.paa"],
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
                 [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_120mmIV_ca.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 1, true];
         }
     ]],
     ["rhsusf_m1a1tank_base", "Thunder-1 (War Daddy)", [
-        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_wardaddy_ca.paa",
+        "z\lxim\addons\media\images\vehicles\abrams\wardaddy_br.paa",
         {
             [_vehicle, [
-                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\1_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_wardaddy_ca.paa"]
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
+                [12, "z\lxim\addons\media\images\vehicles\abrams\wardaddy_br.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
         }
     ]],
     ["rhsusf_m1a1tank_base", "Thunder-2 (War Mommy)", [
-        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warmommy_ca.paa",
+        "z\lxim\addons\media\images\vehicles\abrams\warmommy_br.paa",
         {
             [_vehicle, [
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warmommy_ca.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\warmommy_br.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
+        }
+    ]],
+    ["rhsusf_m1a1tank_base", "Thunder-3 (War CHILD)", [
+        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warchild_ca.paa",
+        {
+            [_vehicle, [
+                [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\2_ca.paa"],
+                [12, "z\lxim\addons\media\images\vehicles\abrams\warchild_br.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
         }
@@ -165,7 +109,53 @@ private _textures = [
                 [4, "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_sand_co.paa"]
             ]] call EFUNC(vehicle,applyTextures);
         }
+    ]],
+        // USAF_A10
+    ["USAF_A10", "Clean", [
+        "",
+        {
+            _vehicle animateSource ["serial_nose",1, true];
+            _vehicle animateSource ["serial_gear",0, true];
+            [_vehicle, [
+                [0, "\usaf_a10\skins\a10_01_worn_co.paa"],
+
+                // Tail Number
+                [25, ""], //tail_art
+                [26, "z\lxim\addons\media\images\logo_512.paa"],
+                [27, "\usaf_main\characters\u_dg.paa"],
+                [28, "\usaf_main\characters\s_dg.paa"],
+
+                [29,"\usaf_main\data\tail\fy\70_d.paa"],
+
+                [30, "\usaf_main\characters\numbers\n_0_dg.paa"],
+                [21, "\usaf_main\characters\numbers\n_6_dg.paa"],
+                [22, "\usaf_main\characters\numbers\n_1_dg.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["USAF_A10", "Shark", [
+        "",
+        {
+            _vehicle animateSource ["serial_nose",0, true];
+            _vehicle animateSource ["serial_gear",1, true];
+            [_vehicle, [
+                [0, "\usaf_a10\skins\a10_01_worn_shark_co.paa"],
+
+                // Tail Number
+                [25, ""], //tail_art
+                [26, "z\lxim\addons\media\images\logo_512.paa"],
+                [27, "\usaf_main\characters\u_dg.paa"],
+                [28, "\usaf_main\characters\s_dg.paa"],
+
+                [29,"\usaf_main\data\tail\fy\70_d.paa"],
+
+                [30, "\usaf_main\characters\numbers\n_0_dg.paa"],
+                [21, "\usaf_main\characters\numbers\n_6_dg.paa"],
+                [22, "\usaf_main\characters\numbers\n_1_dg.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
     ]]
+
 ];
 
 {

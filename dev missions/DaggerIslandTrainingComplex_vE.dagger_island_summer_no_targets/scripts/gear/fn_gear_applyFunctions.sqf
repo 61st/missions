@@ -28,12 +28,10 @@ if (EGVAR(Settings,enableRadios)) then {
 };
 
 // Earplugs
-if (EGVAR(Settings,addEarplugs)) then {
-    if !([player] call ace_hearing_fnc_hasEarPlugsIn) then {
-        [{
-            [_this select 0] call ace_hearing_fnc_putInEarplugs;
-        }, [player]] call CBA_fnc_execNextFrame;
-    };
+if !([player] call ace_hearing_fnc_hasEarPlugsIn) then {
+    [{
+        [_this select 0] call ace_hearing_fnc_putInEarplugs;
+    }, [player]] call CBA_fnc_execNextFrame;
 };
 
 
