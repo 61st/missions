@@ -8,10 +8,10 @@ private _roleConfig = missionConfigFile >> "Dynamic_Roles" >> _desiredRole;
 private _defaultLoadout = getArray(_roleConfig >> "defaultLoadout");
 
 if (_isRespawn) then {
-    player setUnitLoadout (missionNamespace getVariable ["YMF_savedLoadout",_defaultLoadout]);
+    [player,missionNamespace getVariable ["DT_savedLoadout",_defaultLoadout],true] call CBA_fnc_setLoadout;
 } else {
     YMF_savedLoadout = _defaultLoadout;
-    player setUnitLoadout _defaultLoadout;
+    [player,_defaultLoadout,true] call CBA_fnc_setLoadout;
     
     private _items = getArray(_roleConfig >> "arsenalItems");
     _items append getArray(missionConfigFile >> "Common_Arsenal" >> "items");
