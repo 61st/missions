@@ -71,18 +71,75 @@ if (_vehicle isKindOf "rhsusf_stryker_base") then {
     switch (_vehicleType) do {
         case "rhsusf_stryker_m1126_m2_d";
         case "rhsusf_stryker_m1126_m2_wd"; 
-        case "MED": {
+        case "SQD": {
             [_vehicle, [-0.98,-1.32,-0.42] , false, _textureMed, [[1,0,-0.145], [1,0,0]]] call FUNC(createVehicleLable);
             [_vehicle, [1.666,-1.32,-0.42] , false, _textureMed, [[-1,0,-0.152], [0,0,1]]] call FUNC(createVehicleLable);
+            [_vehicle, [
+                [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [16, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
         };
-        default {};
+        case "rhsusf_stryker_m1126_m2_d";
+        case "rhsusf_stryker_m1126_m2_wd"; 
+        case "CMD": {
+            [_vehicle, [-0.98,-1.32,-0.42] , false, _textureMed, [[1,0,-0.145], [1,0,0]]] call FUNC(createVehicleLable);
+            [_vehicle, [1.666,-1.32,-0.42] , false, _textureMed, [[-1,0,-0.152], [0,0,1]]] call FUNC(createVehicleLable);
+            [_vehicle, [
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [16, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\6_ca.paa"],
+                [17, ""],
+                [18, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        };
+        case "rhsusf_stryker_m1134_d";
+        case "rhsusf_stryker_m1134_d"; 
+        case "CAS": {
+            [_vehicle, [-0.98,-1.32,-0.42] , false, _textureMed, [[1,0,-0.145], [1,0,0]]] call FUNC(createVehicleLable);
+            [_vehicle, [1.666,-1.32,-0.42] , false, _textureMed, [[-1,0,-0.152], [0,0,1]]] call FUNC(createVehicleLable);
+            [_vehicle, [
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [16, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\5_ca.paa"],
+                [17, ""],
+                [18, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        };
+        case "rhsusf_stryker_m1132_m2_d";
+        case "rhsusf_stryker_m1132_m2_d"; 
+        case "ENG": {
+            [_vehicle, [-0.98,-1.32,-0.42] , false, _textureMed, [[1,0,-0.145], [1,0,0]]] call FUNC(createVehicleLable);
+            [_vehicle, [1.666,-1.32,-0.42] , false, _textureMed, [[-1,0,-0.152], [0,0,1]]] call FUNC(createVehicleLable);
+            [_vehicle, [
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\3_ca.paa"], 
+                [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"], 
+                [16, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"], 
+                [17, ""],
+                [18, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"] 
+            ]] call EFUNC(vehicle,applyTextures);
+        };
+        default {
+            [_vehicle, [-0.98,-1.32,-0.42] , false, _textureMed, [[1,0,-0.145], [1,0,0]]] call FUNC(createVehicleLable);
+            [_vehicle, [1.666,-1.32,-0.42] , false, _textureMed, [[-1,0,-0.152], [0,0,1]]] call FUNC(createVehicleLable);
+            [_vehicle, [
+                [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [16, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        };
     };
+};
+
+if (_vehicle isKindOf "rhsusf_MATV_CROWS_base") then {
+    _vehicle setVariable ["RHS_Decal_Enabled", false, true];
+    
     [_vehicle, [
-        [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\6_ca.paa"],
-        [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
-        [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
-        [15, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\a_ca.paa"],
-        [16, "z\lxim\addons\textures\data\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+        [3, "\z\lxim\addons\media\images\vehicles\matv\lxim_matv_decal_ca.paa"]
     ]] call EFUNC(vehicle,applyTextures);
 };
 
@@ -176,6 +233,14 @@ if (_vehicle isKindOf "NDS_M224_mortar_base") then {
 };
 
 if (_vehicle isKindOf "RHS_C130J_Base") then {
+};
+
+if (_vehicle isKindOf "RHSGREF_A29B_HIDF") then {
+    [_vehicle, [
+        [0, "rhsgref\addons\rhsgref_a29\tex\st_fuselage_usaf_co.paa"],
+        [1, "rhsgref\addons\rhsgref_a29\tex\st_wingsandstabs_usaf_co.paa"],
+        [2, "rhsgref\addons\rhsgref_a29\tex\st_everythingelse_usaf_co.paa"]
+    ]] call EFUNC(vehicle,applyTextures);
 };
 
 _vehicle setPlateNumber "1/61 MECH";

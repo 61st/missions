@@ -154,6 +154,54 @@ private _textures = [
                 [22, "\usaf_main\characters\numbers\n_1_dg.paa"]
             ]] call EFUNC(vehicle,applyTextures);
         }
+    ]],
+    ["rhsusf_stryker_m1126_m2_wd", "Outlaw 1-1", [
+        "",
+        {
+            [_vehicle, [
+                [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [15, ""],
+                [16, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["rhsusf_stryker_m1126_m2_d", "Outlaw 1-1", [
+        "",
+        {
+            [_vehicle, [
+                [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [15, ""],
+                [16, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["rhsusf_stryker_m1126_m2_wd", "Outlaw 1-2", [
+        "",
+        {
+            [_vehicle, [
+                [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\2_ca.paa"],
+                [15, ""],
+                [16, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["rhsusf_stryker_m1126_m2_d", "Outlaw 1-2", [
+        "",
+        {
+            [_vehicle, [
+                [12, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\1_ca.paa"],
+                [13, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\-_ca.paa"],
+                [14, "\rhsusf\addons\RHSUSF_Decals\Data\Numbers\USStencil\2_ca.paa"],
+                [15, ""],
+                [16, "\z\lxim\addons\media\images\vehicles\stryker\lxim_hulldecal_catD_ca.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
     ]]
 
 ];
