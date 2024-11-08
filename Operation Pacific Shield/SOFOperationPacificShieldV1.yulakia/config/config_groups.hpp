@@ -9,7 +9,8 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"Ground Branch",{"Officer","Officer","Officer","Officer","Officer","Officer","Officer","Officer","Officer","Officer"},"true"},
         {"Range Control",{"Zeus","Zeus"},"true"},
         {"Cebu Police",{"squadleadcp","mediccp","teamleadcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp","dismountcp"},"true"},
-        {"Cebu SF",{"squadleadsf","medicsf","teamleadsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf"},"true"}
+        {"Cebu SF",{"squadleadsf","medicsf","teamleadsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf","dismountsf"},"true"},
+        {"Philippine SF",{"squadleadpsf","medicpsf","teamleadpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf","dismountpsf"},"true"}
     };
 };
 
