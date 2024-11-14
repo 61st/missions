@@ -37,19 +37,16 @@ private _engineerSkill = _engineer_combo lbValue (lbCurSel _engineer_combo);
 private _eodSkill = cbChecked _eod_checkbox;
 private _comSkill = cbChecked _com_checkbox;
 
-if (admp_aceEnabled) then {	
-	_player setVariable ["ace_medical_medicClass", _medicSkill, true];
-	_player setVariable ["ACE_IsEngineer", _engineerSkill, true];
-	_player setVariable ["ACE_isEOD", _eodSkill, true];
-	_player setVariable ["YMF_iscom", _comSkill, true];
 
-}
-else 
-{
-	_player setUnitTrait ["Medic", [false, true]#_medicSkill];
-	_player setUnitTrait ["Engineer", [false, true]#_engineerSkill];
-	_player setUnitTrait ["ExplosiveSpecialist", _eodSkill];
-};
+_player setVariable ["ace_medical_medicClass", _medicSkill, true];
+_player setVariable ["ACE_IsEngineer", _engineerSkill, true];
+_player setVariable ["ACE_isEOD", _eodSkill, true];
+_player setVariable ["YMF_iscom", _comSkill, true];
+
+_player setUnitTrait ["Medic", [false, true]#_medicSkill];
+_player setUnitTrait ["Engineer", [false, true]#_engineerSkill];
+_player setUnitTrait ["ExplosiveSpecialist", _eodSkill];
+
 
 systemChat format ["Applied skills to %1!", name _player];
 playSound "3DEN_notificationDefault";

@@ -97,6 +97,12 @@ if EGVAR(patches,usesACE) then {
         "\z\ACE\addons\medical_gui\ui\cross.paa",
         {
             [_this select 0, player] call ace_medical_treatment_fnc_fullHeal;
+            [_this select 0, player] call ACM_core_fnc_resetVariables;
+            [_this select 0, player] call ACM_airway_fnc_resetVariables;
+            [_this select 0, player] call ACM_breathing_fnc_resetVariables;
+            [_this select 0, player] call ACM_circulation_fnc_resetVariables;
+            [_this select 0, player] call ACM_damage_fnc_resetVariables;
+            [_this select 0, player] call ACM_disability_fnc_resetVariables;
             [[],["You have been healed"], [""], [""]] call CBA_fnc_notify;
         },
         _condition2

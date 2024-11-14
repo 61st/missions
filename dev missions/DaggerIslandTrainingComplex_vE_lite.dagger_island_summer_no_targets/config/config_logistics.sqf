@@ -104,13 +104,19 @@
         ["lxim_sig_150Rnd_Fury_blk",24],
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
-        ["rhsusf_100Rnd_762x51",24],
+        ["rhsusf_100Rnd_762x51_m61_ap",12],
+        ["rhsusf_100Rnd_762x51",12],
+        ["rhsusf_100Rnd_762x51_m62_tracer",12],
+        ["rhsusf_100Rnd_762x51_m80a1epr",12],
 
         // AT
         ["rhs_fgm148_magazine_AT",3],
-        ["MRAWS_HEAT_F",6],
-        ["MRAWS_HE_F",3],
+        ["rhs_mag_maaws_HEAT",6],
+        ["rhs_mag_maaws_HE",3],
         ["rhs_weap_M136",8],
+        ["rhs_mag_smaw_HEAA",6],
+        ["rhs_mag_smaw_SR",3],
+        ["rhs_mag_smaw_HEDP",8],
         
         // AA
         ["rhs_fim92_mag",3],
@@ -389,7 +395,6 @@
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
         
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -455,7 +460,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -501,7 +505,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -587,7 +590,6 @@
         ["rhsusf_8Rnd_Slug",40],
         ["rhsusf_5Rnd_Slug",40],
 
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -752,7 +754,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -799,7 +800,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -928,7 +928,6 @@
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -958,7 +957,6 @@
         ["rhsusf_100Rnd_762x51",10],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],

@@ -7,7 +7,7 @@ _admins = [
     "76561198420345263", /* DELTA */ 
     "76561199164737010", /* INVALID */ 
     "76561198309279053", /* BIGFOOT */ 
-    "76561198332977952" /* MENDEZ */ 
-
+    "76561198332977952", /* MENDEZ */ 
+    "76561198138033132" /* Rock */
 ];
 /* Add your STEAMID to the above list to provide admin panel access ------------------------------------------------- */

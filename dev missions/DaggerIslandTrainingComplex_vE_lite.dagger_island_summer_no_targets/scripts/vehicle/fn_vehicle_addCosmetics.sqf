@@ -121,6 +121,13 @@ if (_vehicle isKindOf "rhsusf_MATV_CROWS_base") then {
     ]] call EFUNC(vehicle,applyTextures);
 };
 
+if (_vehicle isKindOf "rhsusf_MATV_SOF_CROWS_M2_base") then {
+    _vehicle setVariable ["RHS_Decal_Enabled", false, false];   
+    [_vehicle, [
+        [3, "\z\lxim\addons\media\images\vehicles\matv\lxim_matv_decal_ca.paa"]
+    ]] call EFUNC(vehicle,applyTextures);
+};
+
 if (_vehicle isKindOf "RHS_M2A2_Base") then {
     _vehicle setVariable ["RHS_Decal_Enabled", false, true];
 };
@@ -221,7 +228,7 @@ if (_vehicle isKindOf "RHSGREF_A29_Base") then {
     ]] call EFUNC(vehicle,applyTextures);
 };
 
-_vehicle setPlateNumber "1/61 MECH";
+_vehicle setPlateNumber "A 3/61 MECH";
 
 // Add eventHandlers to handle death and deletion.
 _vehicle addEventHandler ["Killed", {

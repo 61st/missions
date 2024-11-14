@@ -38,7 +38,10 @@ if (_vehicle isKindOf "RHS_UH60_Base") then {
         case "RHS_UH60M_MEV_d";
         case "RHS_UH60M_MEV2";
         case "RHS_UH60M_MEV";
-        case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
+        case "MED": {
+            _vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];
+            [_vehicle] call FUNC(addHealall);
+            };
         default {};
     };
 };
@@ -49,6 +52,11 @@ if (_vehicle isKindOf "rhs_uh1h_base") then {
 if (_vehicle isKindOf "RHS_UH1_Base") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
+};
+
+if (_vehicle isKindOf "B_UAV_06_medical_F") then {
+        _vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];
+        [_vehicle] call FUNC(addHealall);
 };
 
 if (_vehicle isKindOf "RHS_Mi24_base") then {

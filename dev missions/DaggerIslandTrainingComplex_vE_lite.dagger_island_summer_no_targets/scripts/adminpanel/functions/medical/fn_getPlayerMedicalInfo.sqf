@@ -9,16 +9,16 @@
 		0: OBJECT - Unit to retrieve stats from
 		
 	Returns:
-		ARRAY - ["conscious", "bpm", "bldpres", "bldvol", "pain"]
+		ARRAY - ["conscious", "bpm", "bldpres", "bldvol", "pain", "o2"]
 */
 
 params [
 	["_unit", objNull, [objNull]]
 ];
 
-if (!admp_aceEnabled || isNull _unit) then {
-	["N/A", "N/A", "N/A", "N/A", "N/A"]
-};
+// if (!admp_aceEnabled || isNull _unit) then {
+// 	["N/A", "N/A", "N/A", "N/A", "N/A"]
+// };
 
 private _conscious = if (_unit getVariable ["ACE_isUnconscious", false]) then {"<t color='#ff0000'>Unconscious</t>"} else {"<t color='#47ed00'>Conscious</t>"};
 private _bpm = str round (_unit getVariable ["ACE_medical_heartrate", 0]);
@@ -32,6 +32,8 @@ _bldvol = (_bldvol toFixed 2);
 private _pain = (_unit getVariable ["ACE_medical_pain", 0]);
 private _pain = (_pain toFixed 2);
 
-private _medInfo = [_conscious, _bpm, _bldpres, _bldvol, _pain];
+private _o2 = str round (_unit getVariable ["ACE_medical_spo2", 0]);
+
+private _medInfo = [_conscious, _bpm, _bldpres, _bldvol, _pain, _o2];
 
 _medInfo
