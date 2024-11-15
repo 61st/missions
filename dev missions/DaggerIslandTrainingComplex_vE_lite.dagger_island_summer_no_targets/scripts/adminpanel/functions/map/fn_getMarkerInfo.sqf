@@ -85,9 +85,9 @@ if (_unit in (units group _selectedPlayer)) then {_markerColour = "ColorWhite";}
 if (_unit == leader (group _selectedPlayer)) then {_markerColour = "ColorYellow";}; // highlight selected player's squad leader
 if (_unit == leader (group _selectedPlayer)) then {_markerColour = "ColorYellow";}; // highlight selected player's squad leader
 
-if (admp_aceEnabled) then {
-	if (_unit getVariable ["ACE_isUnconscious", false]) then {_markerColour = "ColorRed";}; // highlight unconscious units if ACE is enabled
-};
+
+if (_unit getVariable ["ACE_isUnconscious", false]) then {_markerColour = "ColorRed";}; // highlight unconscious units if ACE is enabled
+
 
 private _markerSize = if (_inVehicle) then {[0.75, 0.75]} else {[1, 1]};
 

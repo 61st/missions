@@ -47,6 +47,7 @@ class YMF {
 
         // Buttons and options
         class addHeal {};
+        class addHealall {};
         class getIcon {};
         class renameObject {};
         class addObjectToCurator {};
@@ -249,6 +250,7 @@ class admp {
 		class getPlayerMedicalInfo {};
 		class updatePlayerMedicalInfo {};
 		class fullHeal {};
+        class Healall {};
 		class wakeUp {};
 	};
 	class message_display

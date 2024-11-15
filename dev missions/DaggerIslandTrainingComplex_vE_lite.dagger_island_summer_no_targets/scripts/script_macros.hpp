@@ -3,6 +3,9 @@
 
 // ACE3
 #define ACEFUNC(var1,var2) TRIPLES(DOUBLES(ace,var1),fnc,var2)
+#define ACEGVAR(module,var)         TRIPLES(ACE_PREFIX,module,var)
+#define QACEGVAR(module,var)        QUOTE(ACEGVAR(module,var))
+#define QQACEGVAR(module,var)       QUOTE(QACEGVAR(module,var))
 
 #define QUOTE(var) #var
 #define DOUBLES(var1,var2) ##var1##_##var2

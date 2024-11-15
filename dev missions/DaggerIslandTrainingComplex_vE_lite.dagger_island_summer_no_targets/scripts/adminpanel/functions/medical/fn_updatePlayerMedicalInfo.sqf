@@ -19,6 +19,7 @@ disableSerialization;
 #define IDC_ADMINPANEL_PLAYER_MEDICAL_BLDPRES	4334
 #define IDC_ADMINPANEL_PLAYER_MEDICAL_BLDVOL	4335
 #define IDC_ADMINPANEL_PLAYER_MEDICAL_PAIN		4347
+#define IDC_ADMINPANEL_PLAYER_MEDICAL_SP02		4330
 
 params ["_dataArray"];
 
@@ -31,6 +32,7 @@ private _bpm_display = _admp_display displayCtrl IDC_ADMINPANEL_PLAYER_MEDICAL_H
 private _bldpres_display = _admp_display displayCtrl IDC_ADMINPANEL_PLAYER_MEDICAL_BLDPRES;
 private _bldvol_display = _admp_display displayCtrl IDC_ADMINPANEL_PLAYER_MEDICAL_BLDVOL;
 private _pain_display = _admp_display displayCtrl IDC_ADMINPANEL_PLAYER_MEDICAL_PAIN;
+private _sp02_display = _admp_display displayCtrl IDC_ADMINPANEL_PLAYER_MEDICAL_SP02;
 
 // update status on controls
 _status_display ctrlSetStructuredText parseText ("<t size='0.8'>Status: " + _dataArray#0 + "</t>");
@@ -38,3 +40,4 @@ _bpm_display ctrlSetText ("Heart Rate: " + _dataArray#1);
 _bldpres_display ctrlSetText ("Blood Pressure: " + _dataArray#2);
 _bldvol_display ctrlSetText (format ["Blood Volume: %1L", _dataArray#3]);
 _pain_display ctrlSetText ("Pain Level: " + _dataArray#4);
+_sp02_display ctrlSetText ("SP02 Level: " + _dataArray#5);

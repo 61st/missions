@@ -51,6 +51,7 @@ if (_rankType == 'USA') then {
         case (_profileName in ['1SG']): {_return = 'First Sergeant'};
         case (_profileName in ['SGM']): {_return = 'Sergeant Major'};
         case (_profileName in ['CSM']): {_return = 'Command Sergeant Major'};
+        case (_profileName in ['WO1']): {_return = 'Warrant Officer'};
         case (_profileName in ['CW2']): {_return = 'Chief Warrant Officer 2'};
         case (_profileName in ['CW3']): {_return = 'Chief Warrant Officer 3'};
         case (_profileName in ['CW4']): {_return = 'Chief Warrant Officer 4'};
