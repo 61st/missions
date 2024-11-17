@@ -43,7 +43,6 @@ class recruit {
         "1Rnd_HE_Grenade_shell",
         "rhs_mag_M441_HE",
         "rhs_mag_m716_yellow",
-        "rhs_weap_m32",
         "rhs_weap_m240G",
         "rhs_weap_m240B",
         "rhsusf_acc_ARDEC_M240"

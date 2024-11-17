@@ -41,22 +41,14 @@ class dismount12 {
         "1Rnd_HE_Grenade_shell",
         "rhs_mag_M441_HE",
         "rhs_mag_m716_yellow",
-        "rhs_weap_m32",
         "rhs_weap_m240G",
         "rhs_weap_m240B",
         "rhsusf_acc_ARDEC_M240",
         "rhs_weap_fgm148",
         "rhs_weap_fim92",
-        "rhs_weap_smaw",
-        "rhs_weap_smaw_green",
         "rhs_fgm148_magazine_AT",
         "rhs_mag_maaws_HEAT",
-        "rhs_mag_smaw_HEAA",
-        "rhs_mag_maaws_HE",
         "rhs_fim92_mag",
-        "rhs_mag_maaws_HEDP",
-        "rhs_mag_smaw_SR",
-        "rhs_mag_smaw_HEDP",
-        "rhs_weap_optic_smaw"
+        "rhs_mag_maaws_HEDP"
     };
 };

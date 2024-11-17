@@ -536,7 +536,6 @@ private _textures = [
         }
     ]],
 
-
     ["rhsusf_MATV_CROWS_base", "Outlaw 1-1A Woodland", [
         "",
         {
@@ -919,7 +918,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["rhsusf_MATV_SOrhsusf_MATV_CROWS_baseF_CROWS_M2_base", "Rhino Desert", [
+    ["rhsusf_MATV_CROWS_base", "Rhino Desert", [
         "",
         {
             [_vehicle, [
@@ -938,7 +937,6 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-
 
     ["rhsusf_MATV_SOF_CROWS_M2_base", "Outlaw 1-1A Woodland", [
         "",
@@ -1342,7 +1340,6 @@ private _textures = [
         }
     ]],
 
-
     ["rhsusf_RG33_CROWS_base", "Outlaw 1-1A Woodland", [
         "",
         {
@@ -1560,7 +1557,6 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-
     ["rhsusf_RG33_CROWS_base", "Toggle Duke", [
         "",
         {
@@ -1572,7 +1568,6 @@ private _textures = [
             };
         }
     ]],
-
 
     ["rhsusf_M1239_CROWS_base", "Outlaw 1-1A Desert", [
         "",
@@ -1810,6 +1805,95 @@ private _textures = [
         }
     ]],
 
+    ["rhsusf_M1230a1_usarmy_d", "Woodland Paint", [
+        "",
+        {
+            [_vehicle,[
+                [0, "rhsusf\addons\rhsusf_caiman\data\cmn_Body_WD_CO.paa"],
+                [1, "rhsusf\addons\rhsusf_caiman\data\cmn_Chassis_WD_CO.paa"],
+                [2, "rhsusf\addons\rhsusf_caiman\data\cmn_Accessory2_WD_CO.paa"],
+                [3, "rhsusf\addons\rhsusf_caiman\data\cmn_Armor_WD_CO.paa"],
+                [4, "rhsusf\addons\rhsusf_RG33L\data\RG33_TurretWD_CO.paa"],
+                [5, "rhsusf\addons\rhsusf_caiman\data\cmn_wheel_wd_co.paa"],
+                [6, "rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"],
+                [7, "rhsusf\addons\rhsusf_caiman\data\cmn_AMB_WD_CO.paa"],
+                [8, "rhsusf\addons\rhsusf_caiman\data\M153_WD_CO.paa"],
+                [9, "rhsusf\addons\rhsusf_rg33l\Data\rhsusf_camonet_wdl_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["rhsusf_M1230a1_usarmy_d", "Desert Paint", [
+        "",
+        {
+            [_vehicle,[
+                [0, "rhsusf\addons\rhsusf_caiman\data\cmn_Body_CO.paa"],
+                [1, "rhsusf\addons\rhsusf_caiman\data\cmn_Chassis_CO.paa"],
+                [2, "rhsusf\addons\rhsusf_caiman\data\cmn_Accessory2_CO.paa"],
+                [3, "rhsusf\addons\rhsusf_caiman\data\cmn_Armor_CO.paa"],
+                [4, "rhsusf\addons\rhsusf_RG33L\data\RG33_TurretD_CO.paa"],
+                [5, "rhsusf\addons\rhsusf_caiman\data\cmn_wheel_d_co.paa"],
+                [6, "rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"],
+                [7, "rhsusf\addons\rhsusf_caiman\data\cmn_AMB_CO.paa"],
+                [8, "rhsusf\addons\rhsusf_caiman\data\M153_CO.paa"],
+                [9, "rhsusf\addons\rhsusf_rg33l\Data\rhsusf_camonet_des_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+
+    ["rhsusf_M1085A1P2_B_Medical_fmtv_usarmy", "Woodland Paint", [
+        "",
+        {
+            [_vehicle,[
+                [0, "\z\lxim\addons\media\images\vehicles\fmtv\FMTV_Cab_CO.paa"],
+                [1, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Chassis_CO.paa"],
+                [2, "rhsusf\addons\rhsusf_fmtv\data\FMTV_wheel_wd_co.paa"],
+                [3, "rhsusf\addons\rhsusf_fmtv\data\FMTV_25TRear_CO.paa"],
+                [4, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Canvas1_CO.paa"],
+                [5, "\z\lxim\addons\media\images\vehicles\fmtv\FMTV_BKIT_CO.paa"],
+                [6, "rhsusf\addons\rhsusf_rg33l\data\rg33_turretwd_co.paa"],
+                [7, "rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa"],
+                [8, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Chassis1_CO.paa"],
+                [9, "rhsusf\addons\rhsusf_fmtv\data\FMTV_5TRear_CO.paa"],
+                [10, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Canvas1_CO.paa"],
+                [11, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Shelter_CO.paa"],
+                [12, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Hospital_CO.paa"],
+                [13, "rhsusf\addons\rhsusf_fmtv\data\FMTV_5TRearLHC_CO.paa"],
+                [14, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Chassis2_CO.paa"],
+                [15, "rhsusf\addons\rhsusf_fmtv\data\fmtv_sovchassis_wd_co.paa"],
+                [16, "rhsusf\addons\rhsusf_fmtv\data\fmtv_sovcab_w_co.paa"],
+                [17, "rhsusf\addons\rhsusf_fmtv\data\fmtv_sovrear_w_co.paa"],
+                [18, "rhsusf\addons\rhsusf_fmtv\data\FMTV_SOVKit_WD_CO.paa"],
+                [19, "rhsusf\addons\rhsusf_rg33l\Data\rhsusf_camonet_wdl_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["rhsusf_M1085A1P2_B_Medical_fmtv_usarmy", "Desert Paint", [
+        "",
+        {
+            [_vehicle,[
+                [0, "\z\lxim\addons\media\images\vehicles\fmtv\FMTV_Cab_D_CO.paa"],
+                [1, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Chassis_D_CO.paa"],
+                [2, "rhsusf\addons\rhsusf_fmtv\data\FMTV_wheel_d_co.paa"],
+                [3, "rhsusf\addons\rhsusf_fmtv\data\FMTV_25TRear_D_CO.paa"],
+                [4, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Canvas1_D_CO.paa"],
+                [5, "\z\lxim\addons\media\images\vehicles\fmtv\FMTV_BKIT_D_CO.paa"],
+                [6, "rhsusf\addons\rhsusf_rg33l\data\rg33_turretd_co.paa"],
+                [7, "rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_d_co.paa"],
+                [8, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Chassis1_D_CO.paa"],
+                [9, "rhsusf\addons\rhsusf_fmtv\data\FMTV_5TRear_D_CO.paa"],
+                [10, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Canvas2_D_CO.paa"],
+                [11, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Shelter_D_CO.paa"],
+                [12, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Hospital_D_CO.paa"],
+                [13, "rhsusf\addons\rhsusf_fmtv\data\FMTV_5TRearLHC_D_CO.paa"],
+                [14, "rhsusf\addons\rhsusf_fmtv\data\FMTV_Chassis2_D_CO.paa"],
+                [15, "rhsusf\addons\rhsusf_fmtv\data\fmtv_sovchassis_co.paa"],
+                [16, "rhsusf\addons\rhsusf_fmtv\data\fmtv_sovcab_co.paa"],
+                [17, "rhsusf\addons\rhsusf_fmtv\data\fmtv_sovrear_co.paa"],
+                [18, "rhsusf\addons\rhsusf_fmtv\data\FMTV_SOVKit_CO.paa"],
+                [19, "rhsusf\addons\rhsusf_rg33l\Data\rhsusf_camonet_des_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
 
     ["RHS_M2A3_BUSKIII", "Thunder-6 Olive (War Daddy)", [
         "",
