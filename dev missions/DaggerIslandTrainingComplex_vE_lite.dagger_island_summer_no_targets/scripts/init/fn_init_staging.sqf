@@ -60,7 +60,7 @@ private _category = ["ACE_SelfActions", QEGVAR(Actions,StagingCategory)];
 
 // addAction notice
 player addAction [
-    "<img image='scripts\data\Icon\icon_00.paa' /> <t color='#ffc61a'>YMF Staging Zone</t> <img image='scripts\data\Icon\icon_00.paa' />",
+    "<img image='scripts\data\Icon\icon_00.paa' /> <t color='#ffc61a'>61st Staging Zone</t> <img image='scripts\data\Icon\icon_00.paa' />",
     {
         params ["_target", "_caller", "_actionId", "_arguments"];
         [

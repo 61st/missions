@@ -158,3 +158,19 @@ if (_vehicle isKindOf "VTOL_01_infantry_base_F") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
+if (_vehicle iskindOf "MRAP_01_base_F") then {
+    switch (_vehicleType) do {
+        case "rhsusf_M1239_socom_d";
+        case "rhsusf_M1239_M2_socom_d";
+        case "rhsusf_M1239_MK19_socom_d";
+        case "rhsusf_M1239_M2_Deploy_socom_d";
+        case "rhsusf_M1239_MK19_Deploy_socom_d": {
+            //resupply
+            [_vehicle, 1000] call ace_refuel_fnc_makeSource;
+            [_vehicle, 1200] call ace_rearm_fnc_makeSource;
+            _vehicle setVariable ["ace_repair_canRepair", 1, true];
+        };
+        default {};
+    };
+
+};

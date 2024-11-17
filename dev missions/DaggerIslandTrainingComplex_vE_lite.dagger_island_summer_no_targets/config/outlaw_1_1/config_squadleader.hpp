@@ -38,7 +38,6 @@ class squadlead11 {
         "rhs_mag_M441_HE",
         "rhs_mag_m716_yellow",
         "ACE_HuntIR_M203",
-        "rhs_weap_m32",
         "ACE_LWAMG_SpareBarrel",
         "ACE_LAMG_SpareBarrel",
         "lxim_backpack_Carryall_Solid_White",
