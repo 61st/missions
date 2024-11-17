@@ -2,7 +2,8 @@ class zeus {
     name = "ZEUS";
     description = "Lord almighty";
     traits[] = {
-        {"Engineer",true}
+        {"Engineer",true},
+        {"explosiveSpecialist",true}
     };
     customVariables[] = {
         {"ace_isEngineer",1,true},

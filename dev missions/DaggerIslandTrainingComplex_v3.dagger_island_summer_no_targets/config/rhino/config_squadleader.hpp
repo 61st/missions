@@ -2,7 +2,8 @@ class squadleadr {
     name = "Engineer Squad Leader";
     description = "The one who looks for who to blame";
     traits[] = {
-        {"Engineer",true}
+        {"Engineer",true},
+        {"explosiveSpecialist",true}
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},

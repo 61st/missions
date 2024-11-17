@@ -2,7 +2,8 @@ class engineer12 {
     name = "Combat Engineer";
     description = "Makes things go boom or not to go boom";
     traits[] = {
-        {"Engineer",true}
+        {"Engineer",true},
+        {"explosiveSpecialist",true}
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},
