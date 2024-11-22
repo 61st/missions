@@ -20,7 +20,7 @@ admp_authorisedIDs = [];
 // GLOBAL VARIABLES ///////////////////////////////////////////////////////////////////////////////
 
 // general
-admp_aceEnabled = isClass(configFile >> "CfgPatches" >> "ace_main");
+admp_aceEnabled = true;
 admp_returnValue = -1; // used to return remote status from clients
 
 // player camera

@@ -22,6 +22,11 @@ switch (true) do {
         case (_profileName in ['MSG']): {[player,'tweed_UA_OCP_8'] call simc_fnc_setUnitRank;};
         case (_profileName in ['1SG']): {[player,'tweed_UA_OCP_9'] call simc_fnc_setUnitRank;};
         case (_profileName in ['SGM']): {[player,'tweed_UA_OCP_10'] call simc_fnc_setUnitRank;};
+        case (_profileName in ['WO1']): {[player,'lxim_UA_OCP_w1'] call simc_fnc_setUnitRank;};
+        case (_profileName in ['CW2']): {[player,'lxim_UA_OCP_cw2'] call simc_fnc_setUnitRank;};
+        case (_profileName in ['CW3']): {[player,'lxim_UA_OCP_cw3'] call simc_fnc_setUnitRank;};
+        case (_profileName in ['CW4']): {[player,'lxim_UA_OCP_cw4'] call simc_fnc_setUnitRank;};
+        case (_profileName in ['CW5']): {[player,'lxim_UA_OCP_cw5'] call simc_fnc_setUnitRank;};
         case (_profileName in ['2LT']): {[player,'tweed_UA_OCP_11'] call simc_fnc_setUnitRank;};
         case (_profileName in ['1LT']): {[player,'tweed_UA_OCP_12'] call simc_fnc_setUnitRank;};
         case (_profileName in ['CPT']): {[player,'tweed_UA_OCP_13'] call simc_fnc_setUnitRank;};
@@ -30,5 +35,3 @@ switch (true) do {
         case (_profileName in ['COL']): {[player,'tweed_UA_OCP_16'] call simc_fnc_setUnitRank;};
         default {[player,'tweed_UA_OCP_0'] call simc_fnc_setUnitRank;};
     };
-
-

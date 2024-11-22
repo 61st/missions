@@ -38,7 +38,10 @@ if (_vehicle isKindOf "RHS_UH60_Base") then {
         case "RHS_UH60M_MEV_d";
         case "RHS_UH60M_MEV2";
         case "RHS_UH60M_MEV";
-        case "MED": {_vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];};
+        case "MED": {
+            _vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];
+            [_vehicle] call FUNC(addHealall);
+            };
         default {};
     };
 };
@@ -49,6 +52,11 @@ if (_vehicle isKindOf "rhs_uh1h_base") then {
 if (_vehicle isKindOf "RHS_UH1_Base") then {
     [_vehicle] call FUNC(addGetOutHelo);
     [_vehicle] call FUNC(addEscapeWreck);
+};
+
+if (_vehicle isKindOf "B_UAV_06_medical_F") then {
+        _vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];
+        [_vehicle] call FUNC(addHealall);
 };
 
 if (_vehicle isKindOf "RHS_Mi24_base") then {
@@ -85,7 +93,7 @@ if (_vehicle isKindOf "USAF_C17") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
-if ((_vehicle isKindOf "USAF_F22_Heavy") || (_vehicle isKindOf "USAF_F35A") || (_vehicle isKindOf "USAF_A10")) then {
+if ((_vehicle isKindOf "USAF_F22_Heavy") || (_vehicle isKindOf "USAF_F35A") || (_vehicle isKindOf "RHS_A10") ||(_vehicle isKindOf "RHSGREF_A29_Base") ||(_vehicle isKindOf "USAF_A10")) then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
@@ -150,3 +158,19 @@ if (_vehicle isKindOf "VTOL_01_infantry_base_F") then {
     [_vehicle] call FUNC(addEscapeWreck);
 };
 
+if (_vehicle iskindOf "MRAP_01_base_F") then {
+    switch (_vehicleType) do {
+        case "rhsusf_M1239_socom_d";
+        case "rhsusf_M1239_M2_socom_d";
+        case "rhsusf_M1239_MK19_socom_d";
+        case "rhsusf_M1239_M2_Deploy_socom_d";
+        case "rhsusf_M1239_MK19_Deploy_socom_d": {
+            //resupply
+            [_vehicle, 1000] call ace_refuel_fnc_makeSource;
+            [_vehicle, 1200] call ace_rearm_fnc_makeSource;
+            _vehicle setVariable ["ace_repair_canRepair", 1, true];
+        };
+        default {};
+    };
+
+};

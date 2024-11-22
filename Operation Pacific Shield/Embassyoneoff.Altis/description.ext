@@ -70,12 +70,10 @@ class CfgFunctions {
 /* gui ------------------------------------------------------------------------------------------------------- */
 #include "scripts\CfgGUI.hpp"
 
-// https://github.com/acemod/ACEX/tree/master/addons/killtracker
 class CfgDebriefingSections {
-    class acex_killTracker {
-        title = "Acex Killed Events";
-        variable = "acex_killTracker_outputText";
-    };
+    #if __has_include("\z\ace\addons\killtracker\killtracker.inc")
+        #include "\z\ace\addons\killtracker\killtracker.inc"
+    #endif
 };
 
 /* ------------------------------------------------------------------------------------------------------------------ */

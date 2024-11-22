@@ -24,11 +24,15 @@ private _player = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection; 
 
 if (isNull _player) exitWith {systemChat "No target found!"; playSound "addItemFailed";}; // if there is no selected target exit
 
-if (admp_aceEnabled) then {
-	[_player] remoteExec ["ace_medical_treatment_fnc_fullHealLocal", _player, false];
-} else {
-	_player setDamage 0;
-};
+
+[_player] remoteExec ["ace_medical_treatment_fnc_fullHealLocal", _player, false];
+[_player] call ACM_core_fnc_resetVariables;
+[_player] call ACM_airway_fnc_resetVariables;
+[_player] call ACM_breathing_fnc_resetVariables;
+[_player] call ACM_circulation_fnc_resetVariables;
+[_player] call ACM_damage_fnc_resetVariables;
+[_player] call ACM_disability_fnc_resetVariables;
+
 
 systemChat format ["Healed %1!", name _player];
 playSound "3DEN_notificationDefault";
