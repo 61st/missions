@@ -22,7 +22,7 @@ params [
 INFO("", "Field Hostiptal applied to %1.", _crate);
 
 // Make addAction Topic
-_crate addAction ["<img image='scripts\data\Icon\icon_00.paa' /> YMF Field Hospital", {}, [], 1.5, true, true, "", "true", 5];
+_crate addAction ["<img image='scripts\data\Icon\icon_00.paa' /> 61st Field Hospital", {}, [], 1.5, true, true, "", "true", 5];
 
 if (_isFacility) then {
     _crate setVariable ["ace_medical_isMedicalFacility", true, true];
@@ -30,7 +30,7 @@ if (_isFacility) then {
 
 // If isServer add medical equipment
 if (isServer) then {
-    private _crateContent = ["atlas"] call FUNC(getMedicalCrate);
+    private _crateContent = ["crate_medical"] call FUNC(getMedicalCrate);
     [_crate, _crateContent] call FUNC(setCargo);
 };
 

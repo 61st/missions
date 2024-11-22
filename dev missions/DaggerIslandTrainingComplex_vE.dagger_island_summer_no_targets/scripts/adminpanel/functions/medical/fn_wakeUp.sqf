@@ -24,11 +24,10 @@ private _player = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection; 
 
 if (isNull _player) exitWith {systemChat "No target found!"; playSound "addItemFailed";}; // if there is no selected target exit
 
-if (!admp_aceEnabled) exitWith {};
 
 if (!(_player getVariable ["ACE_isUnconscious", false])) exitWith {systemChat format ["%1 is already conscious!", name _player]; playSound "addItemFailed";};
 
-[_player, false] remoteExec ["ace_medical_fnc_setUnconscious", _player, false];
+[_player, false] remoteExec ["ACM_zeus_fnc_forceWakeUp", _player, false];
 
 sleep 0.1; // small sleep to let state update
 

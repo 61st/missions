@@ -41,185 +41,113 @@ if (_vehicleType == "EMPTY") exitWith { [_vehicle, []] call FUNC(setCargo); };
 
 
 /* Ground Vehicles -------------------------------------------------------------------------------------------------- */
-if (_vehicle isKindOf "lxim_outlaw_base_F") then {
-    [_vehicle, 15, 38, false, false] call FUNC(setCargoAttributes);
+if (_vehicle iskindOf "MRAP_01_base_F") then {
     
-    // Emergency kit in case of tire damage and fuel loss.
-    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-    ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
-
-    switch (_vehicleType) do {
-        case "lxim_outlaw_g";
-        case "lxim_outlaw_d";
-        case "lxim_outlaw_g_V11";
-        case "lxim_outlaw_g_V12";
-        case "lxim_outlaw_d_V11";
-        case "lxim_outlaw_d_V12";
-        case "lxim_outlaw_g_Vhq";
-        case "lxim_outlaw_d_Vhq": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf")
-            ] call FUNC(setCargo);
-            
-            // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fgm148","","","",["rhs_fgm148_magazine_AT",1],[],""],2]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fim92","","","",["rhs_fim92_mag",2],[],""],1]; 
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
+    // Cargo
+    switch (true) do {
+        case (_vehicle iskindOf "rhsusf_m998_w_2dr"): {
+            [_vehicle, 8, 20, false, false] call FUNC(setCargoAttributes);
         };
-
-        case "lxim_outlaw_Unarmed_d";
-        case "lxim_outlaw_Unarmed_g";
-        case "MED": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf_med")
-            ] call FUNC(setCargo);
-            
-            // Supply Crate
-            ["ace_medicalSupplyCrate",
-                GET_CONTAINER("crate_medicalInfantry"),
-                _vehicle, nil, "Medical Supply Crate"
-            ] call FUNC(createCargoCrate);
+        case (_vehicle iskindOf "rhsusf_m1152_base"): {
+            [_vehicle, 20, 20, false, false] call FUNC(setCargoAttributes);
         };
-
-        case "lxim_outlaw_repair_d";
-        case "lxim_outlaw_repair_g": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf_sup")
-            ] call FUNC(setCargo);
-            
-            // KAC_LWAMG with sight into vehicle inventory and missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fgm148","","","",["rhs_fgm148_magazine_AT",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fim92","","","",["rhs_fim92_mag",1],[],""],1]; 
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
-        };
-
-        default {
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf")
-            ] call FUNC(setCargo);
-
-            // KAC_LWAMG with sight into vehicle inventory
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fgm148","","","",["rhs_fgm148_magazine_AT",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fim92","","","",["rhs_fim92_mag",1],[],""],1]; 
-
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
-        };
-        
-
-    };
-};
-
-if (_vehicle isKindOf "lxim_outlaw_unarmed_base_F") then {
-    [_vehicle, 15, 38, false, false] call FUNC(setCargoAttributes);
-    
-    // Emergency kit in case of tire damage and fuel loss.
-    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-    ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
-
-    switch (_vehicleType) do {
-        case "lxim_outlaw_Unarmed_g";
-        case "lxim_outlaw_Unarmed_d": {
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf_med")
-            ] call FUNC(setCargo);
-
-            ["ace_medicalSupplyCrate",
-                GET_CONTAINER("crate_medical"),
-                _vehicle
-            ] call FUNC(createCargoCrate);
-        };
-
-        default {
-            // Vehicle Inventory
-            [_vehicle, 
-                GET_CONTAINER("vehicle_ampf_sup")
-            ] call FUNC(setCargo);
-
-            // KAC_LWAMG with sight into vehicle inventory
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["KAR_XM250","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",["lxim_sig_150Rnd_Fury",100],[],""],1];  
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fgm148","","","",["rhs_fgm148_magazine_AT",1],[],""],1]; 
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_fim92","","","",["rhs_fim92_mag",1],[],""],1]; 
-
-            // Supply Crate
-            ["Box_NATO_Wps_F", 
-                GET_CONTAINER("crate_resupply_general"), 
-                _vehicle, nil, "Resupply Crate"
-            ] call FUNC(createCargoCrate);
-        };
-    };
-};
-
-if (_vehicle isKindOf "MRAP_01_base_F") then {
-        switch (_vehicleType) do {
         default {
             [_vehicle, 4, 20, false, false] call FUNC(setCargoAttributes);
         };
     };
+    
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
 
     // Interior
     switch (_vehicleType) do {
+        case "rhsusf_m998_d_2dr_fulltop";
+        case "rhsusf_m998_w_2dr_fulltop";
         case "MED": {
             [_vehicle, 
-                GET_CONTAINER("wheeled_medical")
+                GET_CONTAINER("vehicle_medicalAtlas")
             ] call FUNC(setCargo);
 
             ["ace_medicalSupplyCrate",
-                GET_CONTAINER("crate_medicalInfantry"),
+                GET_CONTAINER("crate_medicalAtlas"),
                 _vehicle
+            ] call FUNC(createCargoCrate);
+        };
+        case "rhsusf_m1165a1_gmv_m2_m240_socom_d";
+        case "rhsusf_m1165a1_gmv_m2_m240_socom_w": {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_HMMWV")
+            ] call FUNC(setCargo);
+        };
+        case "rhsusf_M1237_MK19_usarmy_d";
+        case "rhsusf_M1237_MK19_usarmy_W";
+        case "rhsusf_m1165a1_gmv_mk19_m240_socom_d";
+        case "rhsusf_m1165a1_gmv_mk19_m240_socom_w": {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_HMMWV_Weapons")
+            ] call FUNC(setCargo);
+        };
+        case "rhsusf_M1239_socom_d";
+        case "rhsusf_M1239_M2_socom_d";
+        case "rhsusf_M1239_MK19_socom_d";
+        case "rhsusf_M1239_M2_Deploy_socom_d";
+        case "rhsusf_M1239_MK19_Deploy_socom_d": {
+            [_vehicle, 15, 38, false, false] call FUNC(setCargoAttributes);
+
+            // Emergency kit in case of tire damage and fuel loss.
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
+            // Vehicle Inventory
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf_sup")
+            ] call FUNC(setCargo);
+
+            // Supply Crate
+            ["Box_NATO_Wps_F", 
+                GET_CONTAINER("crate_resupply_general"), 
+                _vehicle, nil, "Resupply Crate"
+            ] call FUNC(createCargoCrate);
+
+            // 2 Stingers to distribute to 1 section.
+            ["Box_NATO_WpsLaunch_F", 
+                GET_CONTAINER("crate_stinger"), 
+                _vehicle, nil, "MANPAD"
+            ] call FUNC(createCargoCrate);
+
+            ["Box_NATO_WpsLaunch_F", 
+                GET_CONTAINER("crate_stinger"), 
+                _vehicle, nil, "MANPAD"
+            ] call FUNC(createCargoCrate);
+        };
+        case "rhsusf_M1238A1_socom_d";
+        case "rhsusf_M1238A1_M2_socom_d";
+        case "rhsusf_M1238A1_Mk19_socom_d": {
+            [_vehicle, 15, 38, false, false] call FUNC(setCargoAttributes);
+
+            // Emergency kit in case of tire damage and fuel loss.
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
+
+            // Vehicle Inventory
+            [_vehicle, 
+                GET_CONTAINER("crate_resupply_general")
+            ] call FUNC(setCargo);
+
+            // Supply Crate
+            ["Box_NATO_Wps_F", 
+                GET_CONTAINER("crate_resupply_general"), 
+                _vehicle, nil, "Resupply Crate"
             ] call FUNC(createCargoCrate);
         };
         default {
             [_vehicle, 
-                GET_CONTAINER("vehicle_Wheeled")
+                GET_CONTAINER("vehicle_HMMWV")
             ] call FUNC(setCargo);
-            // missles
-            _vehicle addWeaponWithAttachmentsCargoGlobal [["rhs_weap_M136","","","",[],[],""],2]; 
         };
     };
 };
@@ -244,7 +172,7 @@ if (_vehicle isKindOf "APC_Wheeled_01_base_F") then {
                 GET_CONTAINER("wheeled_medical")
             ] call FUNC(setCargo);
 
-            ["ace_medicalSupplyCrate",
+            ["ACM_MedicalSupplyCrate_Advanced",
                 GET_CONTAINER("crate_medical"),
                 _vehicle
             ] call FUNC(createCargoCrate);
@@ -271,7 +199,7 @@ if (_vehicle isKindOf "Truck_01_base_F") then {
                 GET_CONTAINER("wheeled_medical")
             ] call FUNC(setCargo);
 
-            ["ace_medicalSupplyCrate",
+            ["ACM_MedicalSupplyCrate_Advanced",
                 GET_CONTAINER("crate_medical"),
                 _vehicle
             ] call FUNC(createCargoCrate);
@@ -286,35 +214,16 @@ if (_vehicle isKindOf "Truck_01_base_F") then {
 };
 
 if (_vehicle isKindOf "rhsusf_stryker_base") then {
-    [_vehicle, 6, 38, false, false] call FUNC(setCargoAttributes);
+    [_vehicle, 8, 38, false, false] call FUNC(setCargoAttributes);
 
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
     
-    switch (_vehicleType) do {
-        case "rhsusf_stryker_m1126_m2_d";
-        case "rhsusf_stryker_m1126_m2_wd";
-        case "MED": {
-            [_vehicle, 
-                GET_CONTAINER("wheeled_medical")
-            ] call FUNC(setCargo);
-
-            ["ace_medicalSupplyCrate",
-                GET_CONTAINER("crate_medical"),
-                _vehicle
-            ] call FUNC(createCargoCrate);
-        };
-        default {
-            [_vehicle, 
-                GET_CONTAINER("vehicle_stryker")
-            ] call FUNC(setCargo);
-        };
-    };
-    ["FlexibleTank_01_forest_F", false, _vehicle, 1] call FUNC(createCargoCrate);
+    [_vehicle, GET_CONTAINER("vehicle_stryker")] call FUNC(setCargo);
 };
 
 if (_vehicle isKindOf "RHS_M2A2_Base") then {
-    [_vehicle, 4, -1, false, false] call FUNC(setCargoAttributes);
+    [_vehicle, 6, -1, false, false] call FUNC(setCargoAttributes);
 
     [_vehicle, 
         GET_CONTAINER("vehicle_bradley")
@@ -335,7 +244,6 @@ if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
 if (_vehicle isKindOf "RHS_MELB_base") then {
     [_vehicle, []] call FUNC(setCargo);
 };
-
 
 /* water toys ------------------------------------------------------------------------------------------------------- */
 if (_vehicle isKindOf "Boat_F") then {
@@ -361,7 +269,6 @@ if (_vehicle isKindOf "RHS_TOW_TriPod_base") then {
     [_vehicle, []] call FUNC(setCargo);
 };
 
-
 // Rotary Wing
 if (_vehicle isKindOf "Helicopter_Base_H") then {
     switch (_vehicleType) do {
@@ -382,7 +289,7 @@ if (_vehicle isKindOf "Helicopter_Base_H") then {
                 GET_CONTAINER("helo_medical")
             ] call FUNC(setCargo);
 
-            ["ace_medicalSupplyCrate",
+            ["ACM_MedicalSupplyCrate_Advanced",
                 GET_CONTAINER("crate_medical"),
                 _vehicle
             ] call FUNC(createCargoCrate);
@@ -414,7 +321,7 @@ if (_vehicle isKindOf "Heli_Transport_01_base_F") then {
                 GET_CONTAINER("helo_medical")
             ] call FUNC(setCargo);
 
-            ["ace_medicalSupplyCrate",
+            ["ACM_MedicalSupplyCrate_Advanced",
                 GET_CONTAINER("crate_medical"),
                 _vehicle
             ] call FUNC(createCargoCrate);
@@ -437,7 +344,7 @@ if (_vehicle isKindOf "Heli_Transport_03_base_F") then {
                 GET_CONTAINER("helo_medical")
             ] call FUNC(setCargo);
 
-            ["ace_medicalSupplyCrate",
+            ["ACM_MedicalSupplyCrate_Advanced",
                 GET_CONTAINER("crate_medical"),
                 _vehicle
             ] call FUNC(createCargoCrate);
@@ -457,7 +364,7 @@ if (_vehicle isKindOf "Heli_EC_01_base_RF") then {
                 GET_CONTAINER("helo_medical")
             ] call FUNC(setCargo);
 
-            ["ace_medicalSupplyCrate",
+            ["ACM_MedicalSupplyCrate_Advanced",
                 GET_CONTAINER("crate_medical"),
                 _vehicle
             ] call FUNC(createCargoCrate);
@@ -475,7 +382,6 @@ if (_vehicle isKindOf "Heli_Transport_02_base_F") then {
         GET_CONTAINER("vehicle_heliTransport")
     ] call FUNC(setCargo);
 };
-
 
 if (_vehicle isKindOf "TF373_SOAR_MH47G_Base") then {
     [_vehicle, 

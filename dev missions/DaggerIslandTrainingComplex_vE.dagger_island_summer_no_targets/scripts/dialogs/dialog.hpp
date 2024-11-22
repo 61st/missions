@@ -55,7 +55,6 @@ class YMF_AdminPanel {
 			colorBackground[] = {0,0,0,0.5};
 		};
 
-
 		/* - ---------------------------------------------------------------------------------------------------------------- */
 		class PLAYER_INFO_TITLE: RscADMPStructuredText {
 			idc = IDC_ADMINPANEL_PLAYER_INFO_TITLE;
@@ -85,7 +84,6 @@ class YMF_AdminPanel {
 			sizeEx = 0.8 * GUI_GRID_H;
 		};
 		/* - ---------------------------------------------------------------------------------------------------------------- */
-
 
 		class PLAYER_INFO_VEHICLE_INFO: RscADMPText {
 			idc = IDC_ADMINPANEL_PLAYER_INFO_VEHICLE_INFO;
@@ -135,7 +133,7 @@ class YMF_AdminPanel {
 			idc = IDC_ADMINPANEL_PLAYER_MEDICAL_HEART;
 			text = "Heart Rate: 0"; //--- ToDo: Localize;
 			x = 0.690781 * safezoneW + safezoneX;
-			y = 0.632 * safezoneH + safezoneY;
+			y = 0.631 * safezoneH + safezoneY;
 			w = 0.0825 * safezoneW;
 			h = 0.022 * safezoneH;
 			sizeEx = 0.8 * GUI_GRID_H;
@@ -144,7 +142,7 @@ class YMF_AdminPanel {
 			idc = IDC_ADMINPANEL_PLAYER_MEDICAL_BLDPRES;
 			text = "Blood Pressure: 99/99"; //--- ToDo: Localize;
 			x = 0.690781 * safezoneW + safezoneX;
-			y = 0.654 * safezoneH + safezoneY;
+			y = 0.649 * safezoneH + safezoneY;
 			w = 0.0825 * safezoneW;
 			h = 0.022 * safezoneH;
 			sizeEx = 0.8 * GUI_GRID_H;
@@ -153,7 +151,7 @@ class YMF_AdminPanel {
 			idc = IDC_ADMINPANEL_PLAYER_MEDICAL_BLDVOL;
 			text = "Blood Volume: 6L"; //--- ToDo: Localize;
 			x = 0.690781 * safezoneW + safezoneX;
-			y = 0.676 * safezoneH + safezoneY;
+			y = 0.667 * safezoneH + safezoneY;
 			w = 0.0825 * safezoneW;
 			h = 0.022 * safezoneH;
 			sizeEx = 0.8 * GUI_GRID_H;
@@ -162,7 +160,16 @@ class YMF_AdminPanel {
 			idc = IDC_ADMINPANEL_PLAYER_MEDICAL_PAIN;
 			text = "Pain Level: 1"; //--- ToDo: Localize;
 			x = 0.690781 * safezoneW + safezoneX;
-			y = 0.698 * safezoneH + safezoneY;
+			y = 0.685 * safezoneH + safezoneY;
+			w = 0.0825 * safezoneW;
+			h = 0.022 * safezoneH;
+			sizeEx = 0.8 * GUI_GRID_H;
+		};
+		class PLAYER_MEDICAL_SP02: RscADMPText {
+			idc = IDC_ADMINPANEL_PLAYER_MEDICAL_SP02;
+			text = "SP02 Level: 1"; //--- ToDo: Localize;
+			x = 0.690781 * safezoneW + safezoneX;
+			y = 0.700 * safezoneH + safezoneY;
 			w = 0.0825 * safezoneW;
 			h = 0.022 * safezoneH;
 			sizeEx = 0.8 * GUI_GRID_H;
@@ -609,17 +616,32 @@ class YMF_AdminPanel {
 			h = 0.022 * safezoneH;
 			sizeEx = 0.8 * GUI_GRID_H;
 		};
+
 		class ADMIN_SERVERLOCK: RscADMPButton {
 			idc = IDC_ADMINPANEL_ADMIN_SERVERLOCK;
 			text = "LOCK SERVER"; //--- ToDo: Localize;
 			x = 0.226719 * safezoneW + safezoneX;
-			y = 0.698 * safezoneH + safezoneY;
+			// y = 0.698 * safezoneH + safezoneY;
+			y = 0.797 * safezoneH + safezoneY;
 			w = 0.0979687 * safezoneW;
 			h = 0.022 * safezoneH;
 			tooltip = "Locks/unlocks the server"; //--- ToDo: Localize;
 			sizeEx = 1 * GUI_GRID_H;
 
 			onButtonClick = "[] call admp_fnc_toggleServerLock;";
+		};
+
+		class ADMIN_SERVERHEALALL: RscADMPButton {
+			idc = IDC_ADMINPANEL_ADMIN_SERVERHEALALL;
+			text = "HEAL ALL"; //--- ToDo: Localize;
+			x = 0.226719 * safezoneW + safezoneX;
+			y = 0.753 * safezoneH + safezoneY;
+			w = 0.0979687 * safezoneW;
+			h = 0.022 * safezoneH;
+			tooltip = "Heals Everyone"; //--- ToDo: Localize;
+			sizeEx = 1 * GUI_GRID_H;
+
+			onButtonClick = "[] call admp_fnc_Healall;";
 		};
 		class REMOTEEXEC_EDITBOX: RscADMPEdit {
 			idc = IDC_ADMINPANEL_REMOTEEXEC_EDITBOX;
@@ -659,35 +681,35 @@ class YMF_AdminPanel {
 			
 			onButtonClick = "[0] call admp_fnc_executeOnMachine;";
 		};
-		class MISSION_TITLE: RscADMPStructuredText {
-			idc = IDC_ADMINPANEL_MISSION_TITLE;
-			text = "<t font='PuristaBold', align='center'>MISSION</t>"; //--- ToDo: Localize;
-			x = 0.226719 * safezoneW + safezoneX;
-			y = 0.731 * safezoneH + safezoneY;
-			w = 0.0979687 * safezoneW;
-			h = 0.022 * safezoneH;
-			colorBackground[] = {0,0,0,1};
-		};
-		class MISSION_BACK: RscADMPText {
-			idc = IDC_ADMINPANEL_MISSION_BACK;
-			x = 0.226719 * safezoneW + safezoneX;
-			y = 0.753 * safezoneH + safezoneY;
-			w = 0.0979687 * safezoneW;
-			h = 0.066 * safezoneH;
-			colorBackground[] = {0,0,0,0.5};
-		};
-		class MISSION_ENDBUTTON: RscADMPButton {
-			idc = IDC_ADMINPANEL_MISSION_ENDBUTTON;
-			text = "END MISSION"; //--- ToDo: Localize;
-			x = 0.226719 * safezoneW + safezoneX;
-			y = 0.797 * safezoneH + safezoneY;
-			w = 0.0979687 * safezoneW;
-			h = 0.022 * safezoneH;
-			tooltip = "Ends the mission using the provided ending"; //--- ToDo: Localize;
-			sizeEx = 1 * GUI_GRID_H;
+		// class MISSION_TITLE: RscADMPStructuredText {
+		// 	idc = IDC_ADMINPANEL_MISSION_TITLE;
+		// 	text = "<t font='PuristaBold', align='center'>MISSION</t>"; //--- ToDo: Localize;
+		// 	x = 0.226719 * safezoneW + safezoneX;
+		// 	y = 0.731 * safezoneH + safezoneY;
+		// 	w = 0.0979687 * safezoneW;
+		// 	h = 0.022 * safezoneH;
+		// 	colorBackground[] = {0,0,0,1};
+		// };
+		// class MISSION_BACK: RscADMPText {
+		// 	idc = IDC_ADMINPANEL_MISSION_BACK;
+		// 	x = 0.226719 * safezoneW + safezoneX;
+		// 	y = 0.753 * safezoneH + safezoneY;
+		// 	w = 0.0979687 * safezoneW;
+		// 	h = 0.066 * safezoneH;
+		// 	colorBackground[] = {0,0,0,0.5};
+		// };
+		// class MISSION_ENDBUTTON: RscADMPButton {
+		// 	idc = IDC_ADMINPANEL_MISSION_ENDBUTTON;
+		// 	text = "END MISSION"; //--- ToDo: Localize;
+		// 	x = 0.226719 * safezoneW + safezoneX;
+		// 	y = 0.797 * safezoneH + safezoneY;
+		// 	w = 0.0979687 * safezoneW;
+		// 	h = 0.022 * safezoneH;
+		// 	tooltip = "Ends the mission using the provided ending"; //--- ToDo: Localize;
+		// 	sizeEx = 1 * GUI_GRID_H;
 
-			onButtonClick = "[] spawn admp_fnc_endMission;";
-		};
+		// 	onButtonClick = "[] spawn admp_fnc_endMission;";
+		// };
 		class ADMIN_ZEUS_BACK: RscADMPText {
 			idc = IDC_ADMINPANEL_ADMIN_ZEUS_BACK;
 			text = "";
@@ -710,23 +732,24 @@ class YMF_AdminPanel {
 
 			onButtonClick = "[] call admp_fnc_toggleZeus;";
 		};
-		class MISSION_ENDCOMBO: RscADMPCombo {
-			idc = IDC_ADMINPANEL_MISSION_ENDCOMBO;
-			x = 0.231875 * safezoneW + safezoneX;
-			y = 0.764 * safezoneH + safezoneY;
-			w = 0.0876563 * safezoneW;
-			h = 0.022 * safezoneH;
-			sizeEx = 0.8 * GUI_GRID_H;
-		};
-		class MADEBY: RscADMPText {
-			idc = IDC_ADMINPANEL_MADEBY;
-			text = "By JohnnyShootos & TheTimidShade"; //--- ToDo: Localize;
-			x = 0.665 * safezoneW + safezoneX;
-			y = 0.159 * safezoneH + safezoneY;
-			w = 0.118594 * safezoneW;
-			h = 0.022 * safezoneH;
-			sizeEx = 0.8 * GUI_GRID_H;
-		};
+		// class MISSION_ENDCOMBO: RscADMPCombo {
+		// 	idc = IDC_ADMINPANEL_MISSION_ENDCOMBO;
+		// 	x = 0.231875 * safezoneW + safezoneX;
+		// 	y = 0.764 * safezoneH + safezoneY;
+		// 	w = 0.0876563 * safezoneW;
+		// 	h = 0.022 * safezoneH;
+		// 	sizeEx = 0.8 * GUI_GRID_H;
+		// };
+		// class MADEBY: RscADMPText {
+		// 	idc = IDC_ADMINPANEL_MADEBY;
+		// 	text = "By JohnnyShootos & TheTimidShade Screwed with by YonV"; //--- ToDo: Localize;
+		// 	// x = 0.665 * safezoneW + safezoneX;
+		// 	x = 0.450 * safezoneW + safezoneX;
+		// 	y = 0.159 * safezoneH + safezoneY;
+		// 	w = 0.118594 * safezoneW;
+		// 	h = 0.022 * safezoneH;
+		// 	sizeEx = 0.8 * GUI_GRID_H;
+		// };
 		// TODO: ADMINPANEL EXPANSION
 		// class MADEBY: RscADMPStructuredText
 		// {

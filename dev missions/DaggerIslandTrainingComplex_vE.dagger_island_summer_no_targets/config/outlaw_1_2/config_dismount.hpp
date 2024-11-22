@@ -41,9 +41,14 @@ class dismount12 {
         "1Rnd_HE_Grenade_shell",
         "rhs_mag_M441_HE",
         "rhs_mag_m716_yellow",
-        "rhs_weap_m32",
         "rhs_weap_m240G",
         "rhs_weap_m240B",
-        "rhsusf_acc_ARDEC_M240"
+        "rhsusf_acc_ARDEC_M240",
+        "rhs_weap_fgm148",
+        "rhs_weap_fim92",
+        "rhs_fgm148_magazine_AT",
+        "rhs_mag_maaws_HEAT",
+        "rhs_fim92_mag",
+        "rhs_mag_maaws_HEDP"
     };
 };

@@ -4,7 +4,7 @@ class engineer11 {
     traits[] = {
         {"Engineer",true},
         {"explosiveSpecialist",true}
-    };
+    }; 
     customVariables[] = {
         {"ace_isEngineer",2,true}
     };

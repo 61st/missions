@@ -29,8 +29,8 @@
         ["ACM_Inhaler_Penthrox",8],
         ["ACM_OxygenTank_425",2],
 
-         // Catastrophic Bleeding
-        ["ACM_PressureBandage",60],          
+        // Catastrophic Bleeding
+        ["ACM_PressureBandage",60],
         ["ACM_EmergencyTraumaDressing",30],
         ["ACM_ElasticWrap",60],
         ["ACE_tourniquet",16],
@@ -58,7 +58,7 @@
         ["ACM_IO_FAST",15],
         ["ACM_IO_EZ",15],
         ["ACM_Vial_Epinephrine",10],
-        ["ACM_Vial_Adenosine",10],
+        ["ACM_Vial_Esmolol",10],
         ["ACM_Vial_TXA",10],
         ["ACM_Vial_Amiodarone",10],
         ["ACE_epinephrine",5],
@@ -71,27 +71,33 @@
         ["ACE_salineIV",10],
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
         // Disability
+        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
         ["ACM_Vial_Lidocaine",10],
         ["ACM_Vial_Ondansetron",10],
+        ["ACE_splint",10],
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
+        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
-        ["ACE_suture",60]
+        ["ACE_suture",60],
+        ["ACM_Vial_Ertapenem",10]
     ]],
-
 
     //REQUIRED
     ["crate_resupply_general", [
         // Radios
         ["ACRE_PRC343", 0],
         ["ACRE_PRC152", 0],
-        ["TFAR_anprc152", 0],
+        ["ACRE_PRC117F", 0],
 
         // Rifle Ammo
         ["lxim_sig_25Rnd_Fury",80],
@@ -104,12 +110,15 @@
         ["lxim_sig_150Rnd_Fury_blk",24],
         ["lxim_sig_150Rnd_Fury_RT",24],
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
-        ["rhsusf_100Rnd_762x51",24],
+        ["rhsusf_100Rnd_762x51_m61_ap",12],
+        ["rhsusf_100Rnd_762x51",12],
+        ["rhsusf_100Rnd_762x51_m62_tracer",12],
+        ["rhsusf_100Rnd_762x51_m80a1epr",12],
 
         // AT
         ["rhs_fgm148_magazine_AT",3],
-        ["MRAWS_HEAT_F",6],
-        ["MRAWS_HE_F",3],
+        ["rhs_mag_maaws_HEAT",6],
+        ["rhs_mag_maaws_HE",3],
         ["rhs_weap_M136",8],
         
         // AA
@@ -207,8 +216,8 @@
         ["ACM_Inhaler_Penthrox",8],
         ["ACM_OxygenTank_425",2],
 
-         // Catastrophic Bleeding
-        ["ACM_PressureBandage",60],          
+        // Catastrophic Bleeding
+        ["ACM_PressureBandage",60],
         ["ACM_EmergencyTraumaDressing",30],
         ["ACM_ElasticWrap",60],
         ["ACE_tourniquet",16],
@@ -236,7 +245,7 @@
         ["ACM_IO_FAST",15],
         ["ACM_IO_EZ",15],
         ["ACM_Vial_Epinephrine",10],
-        ["ACM_Vial_Adenosine",10],
+        ["ACM_Vial_Esmolol",10],
         ["ACM_Vial_TXA",10],
         ["ACM_Vial_Amiodarone",10],
         ["ACE_epinephrine",5],
@@ -249,12 +258,17 @@
         ["ACE_salineIV",10],
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
         // Disability
+        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
         ["ACM_Vial_Lidocaine",10],
         ["ACM_Vial_Ondansetron",10],
+        ["ACE_splint",10],
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
@@ -262,6 +276,7 @@
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
+        ["ACM_Vial_Ertapenem",10],
 
         // Tools
         ["ACE_EntrenchingTool",1],
@@ -301,7 +316,7 @@
         ["ACM_OxygenTank_425",2],
 
         // Catastrophic Bleeding
-        ["ACM_PressureBandage",60],          
+        ["ACM_PressureBandage",60],
         ["ACM_EmergencyTraumaDressing",30],
         ["ACM_ElasticWrap",60],
         ["ACE_tourniquet",16],
@@ -329,7 +344,7 @@
         ["ACM_IO_FAST",15],
         ["ACM_IO_EZ",15],
         ["ACM_Vial_Epinephrine",10],
-        ["ACM_Vial_Adenosine",10],
+        ["ACM_Vial_Esmolol",10],
         ["ACM_Vial_TXA",10],
         ["ACM_Vial_Amiodarone",10],
         ["ACE_epinephrine",5],
@@ -342,18 +357,25 @@
         ["ACE_salineIV",10],
         ["ACE_salineIV_500",10],
         ["ACE_salineIV_250",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
         // Disability
+        ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
         ["ACM_Vial_Ketamine",10],
         ["ACM_Vial_Fentanyl",10],
         ["ACM_Vial_Lidocaine",10],
         ["ACM_Vial_Ondansetron",10],
+        ["ACE_splint",10],
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
+        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
+        ["ACM_Vial_Ertapenem",10],
 
         // Smoke Grenades
         ["SmokeShell",16],
@@ -389,7 +411,6 @@
         ["lxim_sig_150Rnd_Fury_RT_blk",24],
         
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -397,28 +418,72 @@
     ]],
 
     ["tracked_medical", [
+        ["ACM_Paracetamol",8],
+        ["ACM_AmmoniaInhalant",8],
+        ["ACM_Inhaler_Penthrox",8],
+        ["ACM_OxygenTank_425",2],
 
-
-        // Tourniquets
-        ["ACE_tourniquet",20],
-
-        // Fluids
-        ["ACE_plasmaIV",30],
-        ["ACE_plasmaIV_500",30],
-        ["ACE_salineIV_250",20],
-
-        // Hemorrhage Control Medication
-        ["ACE_epinephrine",10],
-
-        // Autoinjector & Nasal Spray Medication
-        ["ACE_epinephrine",40],
-
-
-        // Surgical Kits
-        ["ACE_surgicalKit",4],
-
-        // Body Bags
-        ["ACE_bodyBag",10],
+        // Catastrophic Bleeding
+        ["ACM_PressureBandage",60],
+        ["ACM_EmergencyTraumaDressing",30],
+        ["ACM_ElasticWrap",60],
+        ["ACE_tourniquet",16],
+        // Airway
+        ["ACM_IGel",20],
+        ["ACM_ACCUVAC",5],
+        ["ACM_GuedelTube",10],
+        ["ACM_NPA",10],
+        ["ACM_SuctionBag",10],
+        // Breathing
+        ["ACM_ChestSeal",20],
+        ["ACM_BVM",4],
+        ["ACM_NCDKit",10],
+        ["ACM_PulseOximeter",5],
+        ["ACM_ChestTubeKit",5],
+        // Circulation
+        ["ACM_AED",3],
+        ["ACM_PressureCuff",3],
+        ["ACM_IV_16g",25],
+        ["ACM_IV_14g",15],
+        ["ACM_Syringe_1",5],
+        ["ACM_Syringe_3",5],
+        ["ACM_Syringe_5",5],
+        ["ACM_Syringe_10",2],
+        ["ACM_IO_FAST",15],
+        ["ACM_IO_EZ",15],
+        ["ACM_Vial_Epinephrine",10],
+        ["ACM_Vial_Esmolol",10],
+        ["ACM_Vial_TXA",10],
+        ["ACM_Vial_Amiodarone",10],
+        ["ACE_epinephrine",5],
+        ["ACM_BloodBag_ON_1000",10],
+        ["ACM_BloodBag_ON_500",10],
+        ["ACM_BloodBag_ON_250",10],
+        ["ACE_plasmaIV",10],
+        ["ACE_plasmaIV_500",10],
+        ["ACE_plasmaIV_250",10],
+        ["ACE_salineIV",10],
+        ["ACE_salineIV_500",10],
+        ["ACE_salineIV_250",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
+        // Disability
+        ["ACE_morphine",5],
+        ["ACM_Vial_Morphine",10],
+        ["ACM_Vial_Ketamine",10],
+        ["ACM_Vial_Fentanyl",10],
+        ["ACM_Vial_Lidocaine",10],
+        ["ACM_Vial_Ondansetron",10],
+        ["ACE_splint",10],
+        ["ACM_SAMSplint",10],
+        // Other
+        ["ACM_Spray_Naloxone",10],
+        ["ACE_personalAidKit",1],
+        ["ACE_surgicalKit",2],
+        ["ACE_bodyBag",5],
+        ["ACE_suture",60],
+        ["ACM_Vial_Ertapenem",10],
 
         // Smoke Grenades
         ["SmokeShell",16],
@@ -455,7 +520,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -501,7 +565,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -587,7 +650,6 @@
         ["rhsusf_8Rnd_Slug",40],
         ["rhsusf_5Rnd_Slug",40],
 
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -752,7 +814,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -799,7 +860,6 @@
         ["rhsusf_5Rnd_Slug",40],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -928,7 +988,6 @@
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
@@ -958,7 +1017,6 @@
         ["rhsusf_100Rnd_762x51",10],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
-        ["launch_NLAW_F",1],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],

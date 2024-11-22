@@ -128,9 +128,6 @@ if (_vehicle isKindOf "rhsusf_m1a1tank_base") then {
     if (_lable2 != "") then { [_vehicle,[2.03401,-2.82751,-0.455],270.172,_lableTexture2] call FUNC(createVehicleLable); };
 };
 
-
-
-
 // M2/M3 Bradley
 private _vehicleTypeBradly = [
     "RHS_M2A2",
@@ -153,15 +150,15 @@ private _vehicleTypeBradlyBUSK3 = [
 if (typeOf _vehicle in _vehicleTypeBradly) then {
     //Side
     if (_lable1 != "") then { [_vehicle,[-1.61249,-1.0,0],90,_lableTexture1] call FUNC(createVehicleLable); };
-    if (_lable1 != "") then { [_vehicle,[1.62437,-1.0,0],270,_lableTexture1] call FUNC(createVehicleLable); };
+    if (_lable1 != "") then { [_vehicle,[1.62437,-1.0,0],90,_lableTexture1] call FUNC(createVehicleLable); };
 };
 if (typeOf _vehicle in _vehicleTypeBradlyBUSK) then {
     //Side
     if (_lable1 != "") then { [_vehicle,[-1.864,-1.0,0],90,_lableTexture1] call FUNC(createVehicleLable); };
-    if (_lable1 != "") then { [_vehicle,[1.878,-1.0,0],270,_lableTexture1] call FUNC(createVehicleLable); };
+    if (_lable1 != "") then { [_vehicle,[1.878,-1.0,0],90,_lableTexture1] call FUNC(createVehicleLable); };
 };
 if (typeOf _vehicle in _vehicleTypeBradlyBUSK3) then {
     //Side
     if (_lable1 != "") then { [_vehicle,[-1.964,-1.0,0],90,_lableTexture1] call FUNC(createVehicleLable); };
-    if (_lable1 != "") then { [_vehicle,[1.968,-1.0,0],270,_lableTexture1] call FUNC(createVehicleLable); };
+    if (_lable1 != "") then { [_vehicle,[1.968,-1.0,0],90,_lableTexture1] call FUNC(createVehicleLable); };
 };
