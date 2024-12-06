@@ -1,9 +1,9 @@
 private _message = "
-	<t align='center' size='5' shadow='0'><br/>Operation Pacific Storm</t><br/>
-	Welcome to the 61st Main Campaign<br/>
+	<t align='center' size='5' shadow='0'><br/>61st Dagger Island</t><br/>
+	Welcome to the 61st Training Map<br/>
 	To get started, select a role from the group menu and access subsequent menus through ACE Self Interact. You can view more information in the diary.<br/><br/>
 	<br/>
-	DO NOT REPROGRAM your radios they are preprogrammed based on your role/slot in the Platoon
+	Drop and give me 20!!
 	<br/>
 	<br/>
 	There are signs with instructions around the starting base

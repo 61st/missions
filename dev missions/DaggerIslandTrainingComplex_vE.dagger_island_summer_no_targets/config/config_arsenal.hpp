@@ -282,6 +282,7 @@ class Common_Arsenal {
         "lxim_equipment_Vector_Designator",
         "lxim_equipment_Vector_Designator_NVG",
         "lxim_equipment_Wetsuit",
+        "lxim_equipment_moppsuit",
         "lxim_medbags_FirstAid",
         "lxim_medbags_MedicKit",
         "lxim_medbags_mopp",
@@ -344,7 +345,6 @@ class Common_Arsenal {
         "rhs_mag_m714_White",
         "rhs_mag_m715_Green",
         "rhs_mag_m716_yellow",
-        "rhs_optic_maaws",
         "rhsusf_100Rnd_762x51",
         "rhsusf_100Rnd_762x51_m61_ap",
         "rhsusf_100Rnd_762x51_m62_tracer",
@@ -495,7 +495,16 @@ class Common_Arsenal {
         "rhsusf_50Rnd_762x51_m61_ap",
         "rhsusf_50Rnd_762x51_m80a1epr",
         "rhsusf_100Rnd_762x51_m62_tracer",
-        "rhsusf_50Rnd_762x51"
+        "rhsusf_50Rnd_762x51",
+        "bcb_smocks_w",
+        "bcb_smocks_w_gloves",
+        "bcb_smocks_w_mcal",
+        "bcb_smocks_w_gloves_mcal",
+        "bcb_ach_helmet_wht",
+        "bcb_ach_helmet_ess_wht",
+        "bcb_ach_helmet_headset_wht",
+        "bcb_ach_helmet_headset_ess_wht",
+        "bcb_ach_helmet_wht_norotos"
     };
 };
 

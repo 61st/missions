@@ -85,7 +85,6 @@
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
-        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
@@ -119,6 +118,7 @@
         ["rhs_fgm148_magazine_AT",3],
         ["rhs_mag_maaws_HEAT",6],
         ["rhs_mag_maaws_HE",3],
+        ["rhs_mag_maaws_HEDP",3],
         ["rhs_weap_M136",8],
         
         // AA
@@ -272,7 +272,6 @@
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
-        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
@@ -371,7 +370,6 @@
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
-        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
@@ -479,7 +477,6 @@
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
-        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
@@ -549,20 +546,20 @@
         ["ACE_rope36", 2],
         // Ammo
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
+        ["lxim_sig_25Rnd_Fury",24],
+        ["lxim_sig_25Rnd_Fury_RT",12],
+        ["lxim_sig_25Rnd_Fury_blk",24],
+        ["lxim_sig_25Rnd_Fury_RT_blk",12],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",12],
+        ["lxim_sig_150Rnd_Fury_blk",12],
+        ["lxim_sig_150Rnd_Fury_RT",6],
+        ["lxim_sig_150Rnd_Fury_RT_blk",6],
         ["rhsusf_100Rnd_762x51",10],
 
-        ["rhsusf_8Rnd_Slug",40],
-        ["rhsusf_5Rnd_Slug",40],
+        ["rhsusf_8Rnd_Slug",8],
+        ["rhsusf_5Rnd_Slug",8],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["MS_Strobe_Mag_1",2],
@@ -672,7 +669,6 @@
 
     ["vehicle_resupply", [
         // Medical
-
         ["16Rnd_9x21_green_Mag", 0],
         ["16Rnd_9x21_green_Mag_v2", 0],
         ["MHS_21rnd_9MM_124FMJ_M17", 0],
@@ -946,7 +942,6 @@
         ["ACM_SAMSplint",10],
         // Other
         ["ACM_Spray_Naloxone",10],
-        ["ACE_personalAidKit",1],
         ["ACE_surgicalKit",2],
         ["ACE_bodyBag",5],
         ["ACE_suture",60],
@@ -1076,7 +1071,7 @@
         // Medical
         ["ACE_epinephrine",4],
         ["ACE_tourniquet",8],
-        ["ACE_packingBandage",40]
+        ["ACM_PressureBandage",40]
     ]],
 
     ["vehicle_HMMWV_Weapons", [
@@ -1138,8 +1133,8 @@
         // Medical
         ["ACE_epinephrine",4],
         ["ACE_tourniquet",8],
-        ["ACE_quikclot",20],
-        ["ACE_packingBandage",20]
+        ["ACM_EmergencyTraumaDressing",20],
+        ["ACM_PressureBandage",20]
     ]],
     ["vehicle_rooikat", [
         // Ammo
@@ -1168,6 +1163,6 @@
         // Medical
         ["ACE_epinephrine",4],
         ["ACE_tourniquet",8],
-        ["ACE_packingBandage",40]
+        ["ACM_PressureBandage",40]
     ]]
 ];

@@ -18,6 +18,9 @@ class dismount12 {
     };
     // for 1-2
     arsenalitems[] = {
+        "launch_MRAWS_olive_F",
+        "launch_MRAWS_sand_F",
+        "launch_MRAWS_green_F",
         "ACE_HuntIR_M203",
         "ACE_LWAMG_SpareBarrel",
         "ACE_LAMG_SpareBarrel",
@@ -49,6 +52,7 @@ class dismount12 {
         "rhs_fgm148_magazine_AT",
         "rhs_mag_maaws_HEAT",
         "rhs_fim92_mag",
+        "rhs_mag_maaws_HE",
         "rhs_mag_maaws_HEDP"
     };
 };

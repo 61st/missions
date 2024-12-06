@@ -1,0 +1,335 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                    */
+/*                                                Nothing to Edit Here                                                */
+/*                                                                                                                    */
+/*                                You should only edit the files in the Configs folder                                */
+/*                                                                                                                    */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------ */
+class CfgSettings {
+    class CBA {
+        class Caching {
+            compile = 0;
+            xeh = 0;
+            functions = 0;
+        };
+    };
+};
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                            So again nothing to edit here                                           */
+/* ------------------------------------------------------------------------------------------------------------------ */
+// cba_settings_hasSettingsFile = 1;
+
+forceRotorLibSimulation  = 0;
+// 0 - based on player's options
+// 1 - enabled (advanced mode)
+// 2 - disabled (default flight mode)
+
+respawn=3;
+skipLobby = 1;
+
+/* SERVER STUFF ----------------------------------------------------------------------------------------------------- */
+
+enableDebugConsole[] = {"76561198000002705","76561198176590682","76561198068010293"};
+cba_settings_whitelist[] = {"76561198000002705","76561198176590682","76561198068010293"};
+
+enableTargetDebug = 1;
+
+// Server params
+class Params {
+    class FriendlyFaction {
+        title = "Friendly Faction";
+        values[] = {0,1,2,3,4,5};
+        texts[] = {"BLU_F", "OPF_F", "RHSUSAF", "RHSAFRF", "RHSSAF", "RHSGREF"};
+        default = 2;
+    };
+    class EnemyFaction {
+        title = "Enemy Faction";
+        values[] = {0,1,2,3,4,5};
+        texts[] = {"BLU_F", "OPF_F", "RHSUSAF", "RHSAFRF", "RHSSAF", "RHSGREF"};
+        default = 3;
+    };
+    class Time {
+		title = "Time";
+		values[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24};
+		default = 12;
+	};
+    class ViewDistance {
+		title = "View distance (in metres)";
+		values[] = {200,300,500,1000,1500,1600,2000,2500,3000,3500,4000,4500,5000,12000,40000};
+		default = 12000;
+	};
+    class AISkill {
+		title = "AI Skill"; // Param name visible in the list
+		values[] = {0,1,2}; // Values; must be integers; has to have the same number of elements as 'texts'
+		texts[] = {"Recruit","Regular","Veteran"}; // Description of each selectable item
+		default = 2; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+	class NumberFriendlyGroups {
+		title = "Max Friendly Groups"; // Param name visible in the list
+		values[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 17, 20, 25, 30, 40, 50, 100}; // Values; must be integers; has to have the same number of elements as 'texts'
+		default = 0; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+	class NumberEnemyGroups {
+		title = "Max Enemy Groups"; // Param name visible in the list
+		values[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 17, 20, 25, 30, 40, 50, 100}; // Values; must be integers; has to have the same number of elements as 'texts'
+		default = 20; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+	class  NumberEnemySpecialGroups {
+		title = "Max Special Enemy Groups"; // Param name visible in the list
+		values[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 17, 20, 25, 30, 40, 50, 100}; // Values; must be integers; has to have the same number of elements as 'texts'
+		default = 15; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	}
+	class  MinEnemyGroupsForCapture {
+		title = "Minimum Enemy Groups For Zone Capture"; // Param name visible in the list
+		values[] = {0, 1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 40, 50, 100}; // Values; must be integers; has to have the same number of elements as 'texts'
+		default = 3; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	}
+	class  MinAIDistanceForDeleteion {
+		title = "Minimum AI Distance For Deleteion"; // Param name visible in the list
+		values[] = {100, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 5000, 10000, 99999999}; // Values; must be integers; has to have the same number of elements as 'texts'
+		default = 1500; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	}
+	class ZoneRadius {
+		title = "Zone Radius";
+		values[] = {1,5,10,15, 20, 30, 40, 50, 55, 60, 70, 80, 90, 100, 200, 400, 500, 700, 800, 1000};
+		default = 80;
+	};
+	/*class Checks {
+		title = "Number of checks (Finds zones, spawners..)";
+		values[] = {10, 50, 100, 200, 300, 400, 500, 1000};
+		// When 'texts' are missing, values will be displayed directly instead
+		default = 1000;
+	};*/
+	class HQEnabled {
+        title = "HQ Enabled";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+    };
+	class FriendlyAIEnabled {
+        title = "Friendly AI Enabled";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+	class FriendlyMarkEnemy {
+        title = "Friendly Units Mark Enemy Positions?";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+	class ZeusSeesAI {
+		title = "Allow Zeus to see spawned AI";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+	}
+	class Fatigue {
+        title = "Player Fatigue";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+	class Stamina {
+        title = "Player Stamina";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+	class CustomAim {
+        title = "More Steady Aim";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+	class SideObjectives {
+        title = "Enabled Side Objectives";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+    };
+	class RandomMines {
+        title = "Enabled Random Mines";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+    };
+	class NSides {
+        title = "Number of Side Missions";
+        values[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        texts[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        default = 1;
+    };
+	class NGarrisons {
+        title = "Number of Garrisons";
+        values[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        texts[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        default = 8;
+    };
+	class PlaceZoneRandomly {
+        title = "Place Zone Randomly";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+    class RandomSideLocations {
+        title = "Place Side Mission Randomly";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+    };
+	class ZoneSideEnabled {
+        title = "Zone Sides Enabled";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+    };
+    class VirutalSupport {
+        title = "Virutal Support";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+    class FriendliesUseTransport {
+        title = "Friendlies Use Transport";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 0;
+    };
+    class ObjectivesRequireClearedSpace {
+        title = "Objectives Require Cleared Space";
+        values[] = {0,1};
+        texts[] = {"Disabled","Enabled"};
+        default = 1;
+    };
+    class  MaxUserVehicles {
+		title = "Max User Vehicles"; // Param name visible in the list
+		values[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 17, 20, 25, 30, 40, 50, 100}; // Values; must be integers; has to have the same number of elements as 'texts'
+		default = 0; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+    class MaxFriendlyGroupSize {
+        title = "Max Friendly Group Unit Size";
+        values[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        texts[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+        default = 0;
+    };
+};
+
+/* GARBADGE COLLECTIOR ---------------------------------------------------------------------------------------------- */
+
+corpseManagerMode = 3;
+corpseLimit = 25;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 7200;
+minPlayerDistance = 250;
+
+ /* ------------------------------------------------------------------------------------------------------------------ */
+ /*                                                D O   N O T   E D I T  !                                            */
+ /* ------------------------------------------------------------------------------------------------------------------ */
+
+/* RULES ------------------------------------------------------------------------------------------------------------ */
+
+disabledAI              = true;
+
+/* SYSTEMS ---------------------------------------------------------------------------------------------------------- */
+class Extended_PreInit_EventHandlers {
+    preInit = "0 spawn compile preprocessFileLineNumbers 'scripts\preInit.sqf'";
+    class Rev_settings {init = "call compile preprocessFileLineNumbers 'scripts\Rev_teleport\Rev_tp_settings.sqf'";};
+};
+class Extended_PostInit_EventHandlers {
+    postInit = "0 spawn compile preprocessFileLineNumbers 'scripts\postInit.sqf'";
+};
+
+class CfgFunctions {
+    #include "scripts\CfgFunctions.hpp"
+    #include "SBGF\cfgfunctions.hpp"
+};
+
+#include "config\config_groups.hpp"
+
+
+/* gui ------------------------------------------------------------------------------------------------------- */
+#include "scripts\CfgGUI.hpp"
+
+class CfgDebriefingSections {
+    #if __has_include("\z\ace\addons\killtracker\killtracker.inc")
+        #include "\z\ace\addons\killtracker\killtracker.inc"
+    #endif
+};
+
+class CfgSounds {
+	// Definition for each sound
+	class expozie {
+		name = "expozie"; // Name for mission editor
+		sound[] = {\Data\sound\expozie.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};		
+	class bariera_1 {
+		name = "bariera_1"; // Name for mission editor
+		sound[] = {\Data\sound\bariera_1.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};	
+	class bariera_2 {
+		name = "bariera_2"; // Name for mission editor
+		sound[] = {\Data\sound\bariera_2.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};	
+	class bariera_3 {
+		name = "bariera_3"; // Name for mission editor
+		sound[] = {\Data\sound\bariera_3.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};	
+	class bariera_4 {
+		name = "bariera_4"; // Name for mission editor
+		sound[] = {\Data\sound\bariera_4.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};	
+	class bariera_5 {
+		name = "bariera_5"; // Name for mission editor
+		sound[] = {\Data\sound\bariera_5.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};	
+	class ground_air {
+		name = "ground_air"; // Name for mission editor
+		sound[] = {\Data\sound\ground_air.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};
+	class roc_1 {
+		name = "roc_1"; // Name for mission editor
+		sound[] = {\Data\sound\roc_1.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};	
+	class roc_2 {
+		name = "roc_2"; // Name for mission editor
+		sound[] = {\Data\sound\roc_2.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};		
+	class roc_3 {
+		name = "roc_3"; // Name for mission editor
+		sound[] = {\Data\sound\roc_3.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};		
+	class roc_4 {
+		name = "roc_4"; // Name for mission editor
+		sound[] = {\Data\sound\roc_4.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};
+	class alarma_aeriana_scurt {
+		name = "alarma_aeriana_scurt"; // Name for mission editor
+		sound[] = {\Data\sound\alarma_aeriana_scurt.ogg, 2, 1.0};
+		titles[] = {0, ""};	
+	};		
+};
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*                                          WHAT DID I TELL YOU ABOUT EDITING                                         */
+/* ------------------------------------------------------------------------------------------------------------------ */
