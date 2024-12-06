@@ -18,6 +18,9 @@ class teamlead12 {
             {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "launch_MRAWS_olive_F",
+        "launch_MRAWS_sand_F",
+        "launch_MRAWS_green_F",
         "rhs_weap_M320",
         "UGL_FlareGreen_F",
         "rhs_mag_M583A1_white",
@@ -69,6 +72,7 @@ class teamlead12 {
         "rhs_weap_fim92",
         "rhs_fgm148_magazine_AT",
         "rhs_mag_maaws_HEAT",
+        "rhs_mag_maaws_HE",
         "rhs_fim92_mag",
         "rhs_mag_maaws_HEDP",
         "lxim_backpack_Carryall_Solid_White",

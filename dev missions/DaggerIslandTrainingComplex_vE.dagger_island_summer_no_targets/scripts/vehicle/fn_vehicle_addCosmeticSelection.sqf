@@ -1896,6 +1896,29 @@ private _textures = [
         }
     ]],
 
+    ["rhsusf_m113d_usarmy_medical", "Woodland Paint", [
+        "",
+        {
+            [_vehicle,[
+                [0, "rhsusf\addons\rhsusf_m113\data_new\m113a3_01_wd_med_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m113\data_new\m113a3_02_wd_l_co.paa"],
+                [2, "rhsusf\addons\rhsusf_m113\data_new\m113a3_03_wd_co.paa"],
+                [3, "rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+    ["rhsusf_m113d_usarmy_medical", "Desert Paint", [
+        "",
+        {
+            [_vehicle,[
+                [0, "rhsusf\addons\rhsusf_m113\data_new\m113a3_01_d_med_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m113\data_new\m113a3_02_d_l_co.paa"],
+                [2, "rhsusf\addons\rhsusf_m113\data_new\m113a3_03_d_co.paa"],
+                [3, "rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_d_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+        }
+    ]],
+
     ["RHS_M2A3_BUSKIII", "Thunder-6 Olive (War Daddy)", [
         "",
         {

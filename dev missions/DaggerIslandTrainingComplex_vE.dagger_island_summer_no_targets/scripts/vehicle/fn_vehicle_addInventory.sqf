@@ -154,6 +154,17 @@ if (_vehicle iskindOf "MRAP_01_base_F") then {
 
 if (_vehicle isKindOf "APC_Tracked_01_base_F") then {
         switch (_vehicleType) do {
+        case "rhsusf_m113d_usarmy_medical";
+        case "MED": {
+            [_vehicle, 
+                GET_CONTAINER("tracked_medical")
+            ] call FUNC(setCargo);
+
+            ["ACM_MedicalSupplyCrate_Advanced",
+                GET_CONTAINER("crate_medical"),
+                _vehicle
+            ] call FUNC(createCargoCrate);
+        };
         default {
             [_vehicle, 
                 GET_CONTAINER("vehicle_Tracked")
@@ -165,8 +176,6 @@ if (_vehicle isKindOf "APC_Tracked_01_base_F") then {
 if (_vehicle isKindOf "APC_Wheeled_01_base_F") then {
     switch (_vehicleType) do {
         case "B_APC_Wheeled_01_medical_F";
-        case "rhsusf_M1230a1_usarmy_wd";
-        case "rhsusf_M1230a1_usarmy_d";
         case "MED": {
             [_vehicle, 
                 GET_CONTAINER("wheeled_medical")
@@ -187,9 +196,25 @@ if (_vehicle isKindOf "APC_Wheeled_01_base_F") then {
 };
 
 if (_vehicle isKindOf "rhsusf_fmtv_base") then {
-    [_vehicle, 
-        GET_CONTAINER("vehicle_Wheeled")
-    ] call FUNC(setCargo);
+    switch (_vehicleType) do {
+        case "rhsusf_M1230a1_usarmy_wd";
+        case "rhsusf_M1230a1_usarmy_d";
+        case "MED": {
+            [_vehicle, 
+                GET_CONTAINER("wheeled_medical")
+            ] call FUNC(setCargo);
+
+            ["ACM_MedicalSupplyCrate_Advanced",
+                GET_CONTAINER("crate_medical"),
+                _vehicle
+            ] call FUNC(createCargoCrate);
+        };
+        default {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_Wheeled")
+            ] call FUNC(setCargo);
+        };
+    };
 };
 
 if (_vehicle isKindOf "Truck_01_base_F") then {
@@ -211,6 +236,40 @@ if (_vehicle isKindOf "Truck_01_base_F") then {
         };
     };
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+};
+
+if (_vehicle isKindOf "lxim_mk20_base_F") then {
+    [_vehicle, 8, 38, false, false] call FUNC(setCargoAttributes);
+    switch (_vehicleType) do {
+        case "lxim_mev_mk20";
+        case "MED": {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf_med")
+            ] call FUNC(setCargo);
+
+            ["ACM_MedicalSupplyCrate_Advanced",
+                GET_CONTAINER("crate_medical"),
+                _vehicle
+            ] call FUNC(createCargoCrate);
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+        };
+        case "lxim_repair_mk20";
+        case "SUP": {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf_sup")
+            ] call FUNC(setCargo);
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+        };
+        default {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_ampf")
+            ] call FUNC(setCargo);
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+        };
+    };
 };
 
 if (_vehicle isKindOf "rhsusf_stryker_base") then {
