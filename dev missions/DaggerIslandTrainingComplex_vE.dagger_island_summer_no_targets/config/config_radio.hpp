@@ -18,14 +18,14 @@
 
 
     YMF_LR_CHANNELS = [
-        [1, 100, "OUTLAW"],
+        [1, 100, "OUTLAW-PLT"],
         [2, 110, "OUTLAW-1/1"],
         [3, 120, "OUTLAW-1/2"],
         [4, 50, "COMMAND"],
         [5, 33, "MEDNET"],
         [6, 34, "RHINO"],
         [7, 200, "THUNDER"],
-        [8, 300, "PHOENIX"],
+        [8, 150, "PHOENIX"],
         [9, 340, "CAS"],
         [10, 310, "AIR-1"],
         [11, 320, "AIR-2"],
