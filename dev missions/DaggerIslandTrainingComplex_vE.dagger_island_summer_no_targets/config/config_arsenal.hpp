@@ -480,9 +480,6 @@ class Common_Arsenal {
         "rhs_googles_orange",
         "rhs_googles_clear",
         "rhs_googles_black",
-        "MRAWS_HEAT_F",
-        "MRAWS_HEAT55_F",
-        "MRAWS_HE_F",
         "rhs_weap_M136",
         "rhs_weap_M136_hedp",
         "rhs_weap_M136_hp",
@@ -495,16 +492,7 @@ class Common_Arsenal {
         "rhsusf_50Rnd_762x51_m61_ap",
         "rhsusf_50Rnd_762x51_m80a1epr",
         "rhsusf_100Rnd_762x51_m62_tracer",
-        "rhsusf_50Rnd_762x51",
-        "bcb_smocks_w",
-        "bcb_smocks_w_gloves",
-        "bcb_smocks_w_mcal",
-        "bcb_smocks_w_gloves_mcal",
-        "bcb_ach_helmet_wht",
-        "bcb_ach_helmet_ess_wht",
-        "bcb_ach_helmet_headset_wht",
-        "bcb_ach_helmet_headset_ess_wht",
-        "bcb_ach_helmet_wht_norotos"
+        "rhsusf_50Rnd_762x51"
     };
 };
 

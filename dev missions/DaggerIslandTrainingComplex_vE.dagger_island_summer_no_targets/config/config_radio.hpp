@@ -21,7 +21,7 @@
 		[1, 100, "OUTLAW"],
 		[2, 110, "OUTLAW-1/1"],
 		[3, 120, "OUTLAW-1/2"],
-        [4, 120, "COMMAND"],
+        [4, 50, "COMMAND"],
 		[5, 33, "MEDNET"],
 		[6, 34, "RHINO"],
 		[7, 200, "THUNDER"],
