@@ -30,6 +30,25 @@ onPlayerConnected {
     [QEGVAR(log,player), [getPlayerUID player, player]] call CBA_fnc_serverEvent;
 };
 
+// ["ACM_evacuation_createReinforcmentAndSwitch", {
+//     params ["_originalUnit"];
+
+//     if !(hasInterface) exitWith {
+//         [_originalUnit] joinSilent "unassigned";
+//     };
+
+//     private _unit = (createGroup GVAR(playerFaction)) createUnit [(typeOf _originalUnit), (getPosATL GVAR(ReinforcePoint)), [], 0, "FORM"];
+
+
+
+//     [_unit, ([_originalUnit] call CBA_fnc_getLoadout)] call CBA_fnc_setLoadout;
+
+//     [{
+
+//     }, [_unit, _originalUnit], 1] call CBA_fnc_waitAndExecute;
+// }] call CBA_fnc_addEventHandler;
+
+
 //radio
 call EFUNC(gear,setupRadios);
 
