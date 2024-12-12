@@ -1,3 +1,8 @@
+// Outlaw 100
+// Thunder 200
+// Rhino 300
+// Phoenix 400
+   
     YMF_SR_CHANNELS = [
         [1,101, "OUTLAW-HQ"],
         [2,111, "OUTLAW-1/1/A"],
