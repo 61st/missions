@@ -14,7 +14,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"PHOENIX-3/3",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"RECRUITS",{"Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit"},"true"},
         {"STUDENTS",{"jtacs","jtacs","jtacs","jtacs","engineers","engineers","engineers","engineers","medics","medics","medics","medics"},"true"},
-        {"RANGE-CTL",{"Zeus","Zeus","Cadre","Cadre","Cadre","Cadre"},"true"}
+        {"RANGE-CONTROL",{"Zeus","Zeus","Cadre","Cadre","Cadre","Cadre"},"true"}
     };
 };
 
