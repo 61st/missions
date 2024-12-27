@@ -51,6 +51,9 @@ class squadleadr {
         "rhs_weap_M590_8RD",
         "rhs_weap_M590_5RD",
         "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "Rev_Demine",
+        "Rev_UAV_IED",
+        "Rev_Roller"
     };
 };
