@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Updates toggleable button controls for admin panel
+    Description:
+        Updates toggleable button controls for admin panel
 
-	Parameters:
-		0: OJECT - Currently selected player
-		
-	Returns:
-		NONE
+    Parameters:
+        0: OJECT - Currently selected player
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -65,61 +65,61 @@ private _promote_back = _admp_display displayCtrl IDC_ADMINPANEL_ADMIN_PROMOTE_B
 // update status on controls
 private _godmode = _player in admp_utilities_godmode_enabledUnits;
 if (_godmode && !isNull _player) then { // if selected target not found set button to inactive
-	_godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_godmode_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    _godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _godmode_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 } else {
-	_godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_godmode_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _godmode_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 };
 
 private _infammo = _player in admp_utilities_infammo_enabledUnits;
 if (_infammo && !isNull _player) then {
-	_ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_ammo_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    _ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _ammo_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 } else {
-	_ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_ammo_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _ammo_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 };
 
 private _ghost = _player in admp_utilities_ghost_enabledUnits;
 if (_ghost && !isNull _player) then {
-	_ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_ghost_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    _ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _ghost_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 } else {
-	_ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_ghost_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _ghost_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 };
 
 private _hasZeus = !isNull(getAssignedCuratorLogic _player);
 if (_hasZeus && !isNull _player) then {
-	_zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_zeus_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    _zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _zeus_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 } else {
-	_zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_zeus_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _zeus_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 };
 
 private _spectatorActive = !isNull (findDisplay 60492);
 if (_spectatorActive) then {
-	_spectate_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_spectate_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    _spectate_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _spectate_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 } else {
-	_spectate_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_spectate_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _spectate_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _spectate_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 };
 
 if (admp_admin_serverLockState) then {
-	_lock_ctrl ctrlSetText "UNLOCK SERVER";
+    _lock_ctrl ctrlSetText "UNLOCK SERVER";
 } else {
-	_lock_ctrl ctrlSetText "LOCK SERVER";
+    _lock_ctrl ctrlSetText "LOCK SERVER";
 };
 
 if ((getPlayerUID _player) in admp_authorisedIDs) then {
-	_promote_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_promote_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
-	_promote_ctrl ctrlSetText "REVOKE ADMIN";
+    _promote_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _promote_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    _promote_ctrl ctrlSetText "REVOKE ADMIN";
 } else {
-	_promote_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_promote_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
-	_promote_ctrl ctrlSetText "GRANT ADMIN";
+    _promote_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _promote_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _promote_ctrl ctrlSetText "GRANT ADMIN";
 };

@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Gets and formats relevant info for use in admp_fnc_updateMapMarkers
+    Description:
+        Gets and formats relevant info for use in admp_fnc_updateMapMarkers
 
-	Parameters:
-		0: OBJECT - Unit to retrieve marker info for
-		
-	Returns:
-		ARRAY - [playerPos, playerDir, "markerText", "markerType", "markerColour", markerAlpha, _markerSize]
+    Parameters:
+        0: OBJECT - Unit to retrieve marker info for
+        
+    Returns:
+        ARRAY - [playerPos, playerDir, "markerText", "markerType", "markerColour", markerAlpha, _markerSize]
 */
 
 disableSerialization;
@@ -17,12 +17,12 @@ disableSerialization;
 #define IDC_ADMINPANEL_PLAYERLIST_LISTBOX	4825
 
 params [
-	["_unit", objNull, [objNull]]
+    ["_unit", objNull, [objNull]]
 ];
 
 if (isNull _unit) then {
-	private _data = [[0,0,0], 0, "null", false, false];
-	_data
+    private _data = [[0,0,0], 0, "null", false, false];
+    _data
 };
 
 private _markerText = "";
@@ -40,39 +40,39 @@ private _playerCrew = [];
 {if (_x in admp_playerlist_playerArray) then {_playerCrew pushBackUnique _x;};} forEach crew _vehicle;
 
 if (_vehicle == _unit) then {
-	_markerText = name _unit;
+    _markerText = name _unit;
 } else {
-	_inVehicle = true;
+    _inVehicle = true;
 
-	if (driver _vehicle == _unit) then { // if the unit is the driver their name should be used
-		_passengers = ({alive _x} count crew _vehicle)-1; // get number of units in vehicle to display
-		if (_passengers == 0) then { // dont display passenger count if there are none
-			_markerText = name _unit;
-		} else {
-			_markerText = name _unit + format [" +%1", _passengers];
-		};
-		_markerAlpha = 1;
+    if (driver _vehicle == _unit) then { // if the unit is the driver their name should be used
+        _passengers = ({alive _x} count crew _vehicle)-1; // get number of units in vehicle to display
+        if (_passengers == 0) then { // dont display passenger count if there are none
+            _markerText = name _unit;
+        } else {
+            _markerText = name _unit + format [" +%1", _passengers];
+        };
+        _markerAlpha = 1;
 
-	} else {
-		// if the unit is not the driver but the driver is a player, hide their marker
-		if ( driver (vehicle _unit) in admp_playerlist_playerArray) then {
-			_markerAlpha = 0;
+    } else {
+        // if the unit is not the driver but the driver is a player, hide their marker
+        if ( driver (vehicle _unit) in admp_playerlist_playerArray) then {
+            _markerAlpha = 0;
 
-		} else { // if the driver is not a player check if they are the first person in the crew array
-			
-			if (_playerCrew#0 == _unit) then { // display the marker if they are the first in the array
-				_passengers = ({alive _x} count crew _vehicle)-1; // get number of units in vehicle to display
-				if (_passengers == 0) then { // dont display passenger count if there are none
-					_markerText = name _unit;
-				} else {
-					_markerText = name _unit + format [" +%1", _passengers];
-				};
-				_markerAlpha = 1;
-			} else { // hide the marker if they are not the first
-				_markerAlpha = 0;
-			};
-		};
-	};
+        } else { // if the driver is not a player check if they are the first person in the crew array
+            
+            if (_playerCrew#0 == _unit) then { // display the marker if they are the first in the array
+                _passengers = ({alive _x} count crew _vehicle)-1; // get number of units in vehicle to display
+                if (_passengers == 0) then { // dont display passenger count if there are none
+                    _markerText = name _unit;
+                } else {
+                    _markerText = name _unit + format [" +%1", _passengers];
+                };
+                _markerAlpha = 1;
+            } else { // hide the marker if they are not the first
+                _markerAlpha = 0;
+            };
+        };
+    };
 };
 
 private _playerPos = if (_inVehicle) then {getPos _vehicle} else {getPos _unit};

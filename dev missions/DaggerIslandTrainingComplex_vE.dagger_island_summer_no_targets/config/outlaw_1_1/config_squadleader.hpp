@@ -4,8 +4,7 @@ class squadlead11 {
     traits[] = {};
     customVariables[] = {
         {"YMF_ismed", true, true},
-        {"YMF_iscom", true, true},
-        {"YMF_Player_Unit", OUTLAW-1/1, true}
+        {"YMF_iscom", true, true}
     };
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 

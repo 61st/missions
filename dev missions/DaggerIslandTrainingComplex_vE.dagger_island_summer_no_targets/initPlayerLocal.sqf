@@ -25,9 +25,6 @@ enableSentences false;
 CUP_stopLampCheck = true;
 
 /* view other actions ----------------------------------------------------------------------------------------------- */
-[{alive player}, {
-    call FUNC(playerActions);
-}, [], -1] call CBA_fnc_waitUntilAndExecute;
 
 //rank stuff
 [player, 'BIS'] call EFUNC(player,setRank);
@@ -37,7 +34,7 @@ call EFUNC(player,setRankpatch);
 call LXIM_w28fixes_fnc_player_set_name;
 
 /* groups ----------------------------------------------------------------------------------------------------------- */
-player addEventHandler ["Respawn",FUNC(onRespawn)];
+player addEventHandler ["Respawn",{FUNC(removeFromGroup); FUNC(initGroupMenu);} ];
 
 /* welcome ---------------------------------------------------------------------------------------------------------- */
 createDialog ["RscDisplayWelcome",true];

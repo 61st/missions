@@ -22,6 +22,14 @@ class medic12 {
             {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "ACM_FieldBloodTransfusionKit_500",
+        "ACM_FieldBloodTransfusionKit_250",
+        "lxim_medbags_DrugKit",
+        "lxim_medbags_Fluid",
+        "ACM_Vial_Ondansetron",
+        "ACM_Vial_CalciumChloride",
+        "ACM_Vial_Esmolol",
+        "ACM_Vial_Ertapenem",
         "ACE_epinephrine",
         "ACE_suture",
         "ACE_tourniquet",

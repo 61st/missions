@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Enables ghost mode on selected unit (hides model and disables collision)
+    Description:
+        Enables ghost mode on selected unit (hides model and disables collision)
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -40,35 +40,35 @@ private _ghost_back = _admp_display displayCtrl IDC_ADMINPANEL_UTILITIES_GHOST_B
 private _ghost = _player in admp_utilities_ghost_enabledUnits;
 
 if (!_ghost) then {
-	[_player, true] remoteExec ["hideObjectGlobal", 2, false];
-	_player setCaptive true;
-	admp_utilities_ghost_enabledUnits pushBackUnique _player;
-	
-	systemChat format ["Enabled ghosting for %1!", name _player];
-	playSound "3DEN_notificationDefault";
-	
-	_ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_ghost_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    [_player, true] remoteExec ["hideObjectGlobal", 2, false];
+    _player setCaptive true;
+    admp_utilities_ghost_enabledUnits pushBackUnique _player;
+    
+    systemChat format ["Enabled ghosting for %1!", name _player];
+    playSound "3DEN_notificationDefault";
+    
+    _ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _ghost_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 enabled ghosting on you!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 enabled ghosting on you!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 } else {
-	[_player, false] remoteExec ["hideObjectGlobal", 2, false];
-	_player setCaptive false;
-	admp_utilities_ghost_enabledUnits deleteAt (admp_utilities_ghost_enabledUnits find _player);
-	
-	systemChat format ["Disabled ghosting for %1!", name _player];
-	playSound "3DEN_notificationDefault";
-	
-	_ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_ghost_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    [_player, false] remoteExec ["hideObjectGlobal", 2, false];
+    _player setCaptive false;
+    admp_utilities_ghost_enabledUnits deleteAt (admp_utilities_ghost_enabledUnits find _player);
+    
+    systemChat format ["Disabled ghosting for %1!", name _player];
+    playSound "3DEN_notificationDefault";
+    
+    _ghost_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _ghost_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 disabled ghosting on you!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 disabled ghosting on you!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 };
 
 publicVariable "admp_utilities_ghost_enabledUnits";

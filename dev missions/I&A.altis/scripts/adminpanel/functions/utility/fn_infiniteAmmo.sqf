@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Enables infinite ammo on selected unit
+    Description:
+        Enables infinite ammo on selected unit
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -42,27 +42,27 @@ private _ammo_back = _admp_display displayCtrl IDC_ADMINPANEL_UTILITIES_INFAMMO_
 waitUntil {admp_returnValue != -1}; // wait until returnValue has been set
 
 if (admp_returnValue == 1) then { // EH was created
-	systemChat format ["Gave %1 infinite ammo!", name _player];
-	playSound "3DEN_notificationDefault";
-	
-	_ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_ammo_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    systemChat format ["Gave %1 infinite ammo!", name _player];
+    playSound "3DEN_notificationDefault";
+    
+    _ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _ammo_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 enabled infinite ammo on you!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 enabled infinite ammo on you!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 } else {
-	systemChat format ["Removed %1's infinite ammo!", name _player];
-	playSound "3DEN_notificationDefault";
-	
-	_ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_ammo_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    systemChat format ["Removed %1's infinite ammo!", name _player];
+    playSound "3DEN_notificationDefault";
+    
+    _ammo_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _ammo_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 disabled infinite ammo on you!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 disabled infinite ammo on you!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 };
 
 admp_returnValue = -1; // reset return value

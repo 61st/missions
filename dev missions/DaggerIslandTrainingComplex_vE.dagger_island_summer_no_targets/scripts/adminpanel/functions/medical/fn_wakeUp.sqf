@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Wakes up the selected unit if they have stable enough vitals
+    Description:
+        Wakes up the selected unit if they have stable enough vitals
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -32,9 +32,9 @@ if (!(_player getVariable ["ACE_isUnconscious", false])) exitWith {systemChat fo
 sleep 0.1; // small sleep to let state update
 
 if (_player getVariable ["ACE_isUnconscious", false]) then {
-	systemChat format ["Failed to wake %1!", name _player];
-	playSound "addItemFailed";
+    systemChat format ["Failed to wake %1!", name _player];
+    playSound "addItemFailed";
 } else {
-	systemChat format ["Successfully woke %1!", name _player];
-	playSound "3DEN_notificationDefault";
+    systemChat format ["Successfully woke %1!", name _player];
+    playSound "3DEN_notificationDefault";
 };

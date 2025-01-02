@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Enables god mode on selected unit (disables damage)
+    Description:
+        Enables god mode on selected unit (disables damage)
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -41,33 +41,33 @@ private _godmode_back = _admp_display displayCtrl IDC_ADMINPANEL_UTILITIES_GODMO
 private _godmode = _player in admp_utilities_godmode_enabledUnits;
 
 if (!_godmode) then {
-	[_player, false] remoteExec ["allowDamage", 0, false];
-	admp_utilities_godmode_enabledUnits pushBackUnique _player;
-	
-	systemChat format ["Made %1 invulnerable!", name _player];
-	playSound "3DEN_notificationDefault";
-	
-	_godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_godmode_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    [_player, false] remoteExec ["allowDamage", 0, false];
+    admp_utilities_godmode_enabledUnits pushBackUnique _player;
+    
+    systemChat format ["Made %1 invulnerable!", name _player];
+    playSound "3DEN_notificationDefault";
+    
+    _godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _godmode_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 enabled godmode on you!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 enabled godmode on you!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 } else {
-	[_player, true] remoteExec ["allowDamage", 0, false];
-	admp_utilities_godmode_enabledUnits deleteAt (admp_utilities_godmode_enabledUnits find _player);
-	
-	systemChat format ["Disabled invulnerability for %1!", name _player];
-	playSound "3DEN_notificationDefault";
-	
-	_godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_godmode_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    [_player, true] remoteExec ["allowDamage", 0, false];
+    admp_utilities_godmode_enabledUnits deleteAt (admp_utilities_godmode_enabledUnits find _player);
+    
+    systemChat format ["Disabled invulnerability for %1!", name _player];
+    playSound "3DEN_notificationDefault";
+    
+    _godmode_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _godmode_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 disabled godmode on you!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 disabled godmode on you!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 };
 
 publicVariable "admp_utilities_godmode_enabledUnits";

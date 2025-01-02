@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Updates the marker showing the selected player
+    Description:
+        Updates the marker showing the selected player
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -25,15 +25,15 @@ private _player = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection; 
 
 // set up selected marker
 if (isNull _player) then { // if the selected player doesn't exist, set position to origin and hide marker
-	admp_map_selectedMarker setMarkerPosLocal [0,0];
-	admp_map_selectedMarker setMarkerAlphaLocal 0;
+    admp_map_selectedMarker setMarkerPosLocal [0,0];
+    admp_map_selectedMarker setMarkerAlphaLocal 0;
 } else {
-	admp_map_selectedMarker setMarkerAlphaLocal 1;
-	if (vehicle _player == _player) then {
-		admp_map_selectedMarker setMarkerPosLocal (getPos _player);
-		admp_map_selectedMarker setMarkerSizeLocal [0.88,0.88];
-	} else {
-		admp_map_selectedMarker setMarkerPosLocal (getPos vehicle _player);
-		admp_map_selectedMarker setMarkerSizeLocal [1.2,1.2];
-	};
+    admp_map_selectedMarker setMarkerAlphaLocal 1;
+    if (vehicle _player == _player) then {
+        admp_map_selectedMarker setMarkerPosLocal (getPos _player);
+        admp_map_selectedMarker setMarkerSizeLocal [0.88,0.88];
+    } else {
+        admp_map_selectedMarker setMarkerPosLocal (getPos vehicle _player);
+        admp_map_selectedMarker setMarkerSizeLocal [1.2,1.2];
+    };
 };

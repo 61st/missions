@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Creates a zeus module for the selected player unit or deletes it if player already has one
+    Description:
+        Creates a zeus module for the selected player unit or deletes it if player already has one
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -39,29 +39,29 @@ private _zeus_back = _admp_display displayCtrl IDC_ADMINPANEL_ADMIN_ZEUS_BACK;
 private _hasZeus = !isNull(getAssignedCuratorLogic _player);
 
 if (!_hasZeus) then { // player doesn't have zeus, create zeus module
-	[_player] remoteExec ["admp_fnc_createZeusModule", 2, false];
+    [_player] remoteExec ["admp_fnc_createZeusModule", 2, false];
 
-	systemChat format ["Promoted %1 to Zeus!", name _player];
-	playSound "3DEN_notificationDefault";
+    systemChat format ["Promoted %1 to Zeus!", name _player];
+    playSound "3DEN_notificationDefault";
 
-	if (_player != player) then { // show promoted player a message
-		_message = format ["%1 promoted you to Zeus!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
-	
-	_zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
-	_zeus_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
+    if (_player != player) then { // show promoted player a message
+        _message = format ["%1 promoted you to Zeus!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
+    
+    _zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_ACTIVE;
+    _zeus_back ctrlSetBackgroundColor COL_BUTTON_ACTIVE;
 } else {
-	deleteVehicle (getAssignedCuratorLogic _player);
+    deleteVehicle (getAssignedCuratorLogic _player);
 
-	systemChat format ["Removed %1's Zeus access!", name _player];
-	playSound "3DEN_notificationDefault";
+    systemChat format ["Removed %1's Zeus access!", name _player];
+    playSound "3DEN_notificationDefault";
 
-	if (_player != player) then { // show promoted player a message
-		_message = format ["%1 removed your Zeus access!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show promoted player a message
+        _message = format ["%1 removed your Zeus access!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 
-	_zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
-	_zeus_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
+    _zeus_ctrl ctrlSetTextColor COL_BUTTON_TEXT_INACTIVE;
+    _zeus_back ctrlSetBackgroundColor COL_BUTTON_INACTIVE;
 };

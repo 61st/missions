@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Initialises YMF adminpanel
+    Description:
+        Initialises YMF adminpanel
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NOTHING
+    Parameters:
+        NONE
+        
+    Returns:
+        NOTHING
 */
 
 #include "..\..\config\config_adminlist.hpp" // set up admin list
@@ -78,14 +78,14 @@ admp_message_display_history_local = [];
 // Add CBA keybind for admin panel
 // 0xC5 == Pause Break -- https://community.bistudio.com/wiki/DIK_KeyCodes
 if (hasInterface) then {
-	["61st Admin Panel","open_admin_panel", ["Open Admin Panel", "Opens the 61st Admin Panel. If you do not have admin access, this will open the message menu instead."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [false, false, false]]] call CBA_fnc_addKeybind;
-	["61st Admin Panel","open_admin_message", ["Open Admin Message Menu", "Shortcut for opening the 61st Admin Message menu."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [true, false, false]]] call CBA_fnc_addKeybind;
+    ["61st Admin Panel","open_admin_panel", ["Open Admin Panel", "Opens the 61st Admin Panel. If you do not have admin access, this will open the message menu instead."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [false, false, false]]] call CBA_fnc_addKeybind;
+    ["61st Admin Panel","open_admin_message", ["Open Admin Message Menu", "Shortcut for opening the 61st Admin Message menu."], {_this call admp_fnc_panelButtonPressed;}, "", [0xC5, [true, false, false]]] call CBA_fnc_addKeybind;
 };
 
 if (isServer) then { // start tracking server fps
-	[] spawn {while {true} do {
-		admp_admin_serverFPS = round diag_fps;
-		publicVariable "admp_admin_serverFPS";
-		sleep 1;
-	};};
+    [] spawn {while {true} do {
+        admp_admin_serverFPS = round diag_fps;
+        publicVariable "admp_admin_serverFPS";
+        sleep 1;
+    };};
 };

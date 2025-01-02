@@ -1,19 +1,19 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Gets selected player's medical stats
-		Returns N/A if ace is disabled
+    Description:
+        Gets selected player's medical stats
+        Returns N/A if ace is disabled
 
-	Parameters:
-		0: OBJECT - Unit to retrieve stats from
-		
-	Returns:
-		ARRAY - ["conscious", "bpm", "bldpres", "bldvol", "pain", "o2"]
+    Parameters:
+        0: OBJECT - Unit to retrieve stats from
+        
+    Returns:
+        ARRAY - ["conscious", "bpm", "bldpres", "bldvol", "pain", "o2"]
 */
 
 params [
-	["_unit", objNull, [objNull]]
+    ["_unit", objNull, [objNull]]
 ];
 
 // if (!admp_aceEnabled || isNull _unit) then {

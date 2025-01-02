@@ -282,7 +282,7 @@ class Common_Arsenal {
         "lxim_equipment_Vector_Designator",
         "lxim_equipment_Vector_Designator_NVG",
         "lxim_equipment_Wetsuit",
-        "lxim_equipment_moppsuit",
+        "lxim_rhs_moppsuit",
         "lxim_medbags_FirstAid",
         "lxim_medbags_MedicKit",
         "lxim_medbags_mopp",
