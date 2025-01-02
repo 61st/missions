@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Executes actions run when selection is changed for the main playerlist
+    Description:
+        Executes actions run when selection is changed for the main playerlist
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -33,16 +33,16 @@ private _player = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection; 
 [] call admp_fnc_loadPlayerSkills;
 
 if (!isNull _player) then { // update selected player
-	admp_playerlist_selectedPlayer = name _player;
+    admp_playerlist_selectedPlayer = name _player;
 } else {
-	admp_playerlist_selectedPlayer = "none";
+    admp_playerlist_selectedPlayer = "none";
 };
 
 /*
 if (!isNull _groupPlayer) then { // update selected player
-	admp_groupcombo_selectedPlayer = name _player;
+    admp_groupcombo_selectedPlayer = name _player;
 } else {
-	admp_groupcombo_selectedPlayer = "none";
+    admp_groupcombo_selectedPlayer = "none";
 };
 */
 

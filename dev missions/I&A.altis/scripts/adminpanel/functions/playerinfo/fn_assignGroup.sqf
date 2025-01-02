@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Assigns the selected player to the group that the player in the combobox belongs to
+    Description:
+        Assigns the selected player to the group that the player in the combobox belongs to
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -29,20 +29,20 @@ private _playerToJoin = [_admp_player_groupcombo] call admp_fnc_playerFromSelect
 if (isNull _playerJoining || isNull _playerToJoin) exitWith {systemChat "No target found!"; playSound "addItemFailed";}; // if there is no selected target exit
 
 if (group _playerJoining != group _playerToJoin) then {
-	[_playerJoining] joinSilent (group _playerToJoin);
-	systemChat format ["Assigned %1 to %2's group!", name _playerJoining, name _playerToJoin];
-	playSound "3DEN_notificationDefault";
+    [_playerJoining] joinSilent (group _playerToJoin);
+    systemChat format ["Assigned %1 to %2's group!", name _playerJoining, name _playerToJoin];
+    playSound "3DEN_notificationDefault";
 
-	if (_playerJoining != player) then { // show assigned player a message
-		_message = format ["%1 assigned you to %2's group!", name player, name _playerToJoin];
-		[_message] remoteExec ["systemChat", _playerJoining, false];
-	};
+    if (_playerJoining != player) then { // show assigned player a message
+        _message = format ["%1 assigned you to %2's group!", name player, name _playerToJoin];
+        [_message] remoteExec ["systemChat", _playerJoining, false];
+    };
 
-	if (_playerToJoin != player) then { // show player asssigned to a message
-		_message = format ["%1 assigned %2 to your group!", name player, name _playerJoining];
-		[_message] remoteExec ["systemChat", _playerToJoin, false];
-	};
+    if (_playerToJoin != player) then { // show player asssigned to a message
+        _message = format ["%1 assigned %2 to your group!", name player, name _playerJoining];
+        [_message] remoteExec ["systemChat", _playerToJoin, false];
+    };
 } else {
-	systemChat format ["%1 is already in %2's group!", name _playerJoining, name _playerToJoin];
-	playSound "addItemFailed";
+    systemChat format ["%1 is already in %2's group!", name _playerJoining, name _playerToJoin];
+    playSound "addItemFailed";
 };

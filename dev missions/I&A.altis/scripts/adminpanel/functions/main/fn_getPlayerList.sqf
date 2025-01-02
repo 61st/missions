@@ -1,31 +1,31 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Updates admin panels player list.
+    Description:
+        Updates admin panels player list.
 
-	Parameters:
-		NONE
-		
-	Returns:
-		ARRAY - List of player alive player units
+    Parameters:
+        NONE
+        
+    Returns:
+        ARRAY - List of player alive player units
 */
 
 private _playerArray = [];
 
 if (isMultiplayer) then {
-	{
-		if (isPlayer _x && alive _x) then {
-			_playerArray pushBackUnique _x;
-		};
-	} forEach playableUnits;
+    {
+        if (isPlayer _x && alive _x) then {
+            _playerArray pushBackUnique _x;
+        };
+    } forEach playableUnits;
 }
 else {
-	{
-		if (alive _x) then {
-			_playerArray pushBackUnique _x;
-		};
-	} forEach switchableUnits - entities "HeadlessClient_F";
+    {
+        if (alive _x) then {
+            _playerArray pushBackUnique _x;
+        };
+    } forEach switchableUnits - entities "HeadlessClient_F";
 };
 
 _playerArray

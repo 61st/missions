@@ -15,21 +15,21 @@ INFO("InitEventHandlers","Creating Global EventHandlers");
     call FUNC(getAttendance);
 }] call CBA_fnc_addEventHandler;
 
-
 // Player Events
 if (GVAR(isPlayer)) then {
     INFO("InitEventHandlers","Creating Client EventHandlers");
 
-    // TODO: Possibly use in the future 
-    //["ace_zeusCreated", {
-    //    _this params ["_zeus"];
-    //}] call CBA_fnc_addEventHandler;
-    //
-    //["zen_common_createZeus", {
-    //    _this params ["_zeus"];
-    //}] call CBA_fnc_addEventHandler;
-};
+    // ACM Events
+    INFO("InitEventHandlers","Creating ACM Server EventHandlers");
 
+    ["ACM_casualtyEvacuated", {
+        params ["_unit", "_originalUnit"];
+        ["YMF_casualtyEvacuatedserver", [_unit, _originalUnit]] call CBA_fnc_serverEvent;
+        [_originalUnit] call FUNC(removeFromGroup);
+        call EFUNC(init,playerpost);
+        call FUNC(initGroupMenu);
+    }] call CBA_fnc_addEventHandler;
+};
 
 // Server Events
 if (!isServer) exitWith {};
@@ -74,3 +74,16 @@ addMissionEventHandler ["PlayerConnected", {
     params ["_id", "_uid", "_name", "_jip", "_owner", "_idstr"];
     [QEGVAR(log,player), [_uid, _name]] call CBA_fnc_serverEvent;
 }];
+
+// ACM Events
+INFO("InitEventHandlers","Creating ACM Server EventHandlers");
+
+["YMF_casualtyEvacuatedserver", {
+    params ["_unit", "_originalUnit"];
+    systemChat format ["Unit %1 has been evacuated. Original unit: %2", _unit, _originalUnit];
+    [_originalUnit] call FUNC(removeFromGroup);
+}] call CBA_fnc_addEventHandler;
+
+
+
+

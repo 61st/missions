@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Rearms the selected player's vehicle
+    Description:
+        Rearms the selected player's vehicle
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -29,13 +29,13 @@ if (_playerVehicle == _player) exitWith {systemChat format ["%1 is not in a vehi
 
 // Make sure all crew weapons are rearmed
 {
-	[(vehicle _x), 1] remoteExec ["setVehicleAmmo", _x, false];
+    [(vehicle _x), 1] remoteExec ["setVehicleAmmo", _x, false];
 } forEach crew _playerVehicle;
 
 systemChat format ["Fully rearmed %1's vehicle!", name _player];
 playSound "3DEN_notificationDefault";
 
 if (_player != player) then { // show selected player a message
-	_message = format ["%1 rearmed your vehicle!", name player];
-	[_message] remoteExec ["systemChat", _player, false];
+    _message = format ["%1 rearmed your vehicle!", name player];
+    [_message] remoteExec ["systemChat", _player, false];
 };
