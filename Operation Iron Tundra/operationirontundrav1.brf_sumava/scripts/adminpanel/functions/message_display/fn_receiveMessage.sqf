@@ -1,27 +1,27 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Local call to save/display message when player receives a message from another player
+    Description:
+        Local call to save/display message when player receives a message from another player
 
-		Messages are stored in the format:
-		[
-			"SenderID", 	// Steam64 ID
-			"SentAt",		// In game time in format HH:MM
-			"SenderName",
-			"ReceiverName",
-			"Message text"
-		]
+        Messages are stored in the format:
+        [
+            "SenderID", 	// Steam64 ID
+            "SentAt",		// In game time in format HH:MM
+            "SenderName",
+            "ReceiverName",
+            "Message text"
+        ]
 
-	Parameters:
-		0: ARRAY - Message array in above format
-		
-	Returns:
-		NOTHING
+    Parameters:
+        0: ARRAY - Message array in above format
+        
+    Returns:
+        NOTHING
 */
 
 params [
-	["_messageData", [], [[]], [5]]
+    ["_messageData", [], [[]], [5]]
 ];
 
 if (_messageData isEqualTo []) exitWith {};

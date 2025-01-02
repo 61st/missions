@@ -16,9 +16,9 @@
         ["ACM_NCDKit",5],
         // Circulation
         ["ACE_epinephrine",10],
+        ["ACM_FieldBloodTransfusionKit_250",10],
         // Disability
         ["ACM_SAMSplint",10],
-        // Other
         ["ACM_Spray_Naloxone",10]
     ]],
 
@@ -74,6 +74,12 @@
         ["ACM_FieldBloodTransfusionKit_250",5],
         ["ACM_FieldBloodTransfusionKit_500",5],
         ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_500",10],
+        ["ACM_FieldBloodTransfusionKit_250",10],
+        ["ACM_Vial_Ondansetron",10],
+        ["ACM_Vial_Esmolol",10],
+        ["ACM_Vial_Ertapenem",10],
+
         // Disability
         ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
@@ -100,7 +106,7 @@
 
         // Rifle Ammo
         ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_150Rnd_Fury_blk",80],
+        ["lxim_sig_25Rnd_Fury_RT",80],
         ["lxim_sig_25Rnd_Fury_blk",80],
         ["lxim_sig_25Rnd_Fury_RT_blk",80],
         
@@ -160,25 +166,9 @@
         ["ACE_Chemlight_HiBlue",15],
         ["ACE_Chemlight_IR",15],
 
-         // Catastrophic Bleeding
-        ["ACM_PressureBandage",50],
-        ["ACM_EmergencyTraumaDressing",20],
-        ["ACM_ElasticWrap",40],
-        ["ACE_tourniquet",24],
-        // Airway
-        ["ACM_GuedelTube",10],
-        ["ACM_NPA",10],
-        ["ACM_SuctionBag",5],
-        // Breathing
-        ["ACM_ChestSeal",10],
-        ["ACM_PocketBVM",2],
-        ["ACM_NCDKit",5],
-        // Circulation
-        ["ACE_epinephrine",10],
-        // Disability
-        ["ACM_SAMSplint",10],
-        // Other
-        ["ACM_Spray_Naloxone",10]
+         // Medical
+        ["lxim_medbags_MedicKit",10],
+        ["lxim_medbags_FirstAid",40]
     ]],
 
     // Vehicles
@@ -261,6 +251,14 @@
         ["ACM_FieldBloodTransfusionKit_250",5],
         ["ACM_FieldBloodTransfusionKit_500",5],
         ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_500",10],
+        ["ACM_FieldBloodTransfusionKit_250",10],
+        ["ACM_Vial_Ondansetron",10],
+        ["ACM_Vial_Esmolol",10],
+        ["ACM_Vial_Ertapenem",10],
         // Disability
         ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
@@ -359,6 +357,14 @@
         ["ACM_FieldBloodTransfusionKit_250",5],
         ["ACM_FieldBloodTransfusionKit_500",5],
         ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_500",10],
+        ["ACM_FieldBloodTransfusionKit_250",10],
+        ["ACM_Vial_Ondansetron",10],
+        ["ACM_Vial_Esmolol",10],
+        ["ACM_Vial_Ertapenem",10],
         // Disability
         ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
@@ -466,6 +472,14 @@
         ["ACM_FieldBloodTransfusionKit_250",5],
         ["ACM_FieldBloodTransfusionKit_500",5],
         ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_250",5],
+        ["ACM_FieldBloodTransfusionKit_500",5],
+        ["ACM_Vial_CalciumChloride",10],
+        ["ACM_FieldBloodTransfusionKit_500",10],
+        ["ACM_FieldBloodTransfusionKit_250",10],
+        ["ACM_Vial_Ondansetron",10],
+        ["ACM_Vial_Esmolol",10],
+        ["ACM_Vial_Ertapenem",10],
         // Disability
         ["ACE_morphine",5],
         ["ACM_Vial_Morphine",10],
@@ -524,6 +538,16 @@
     ]],
 
     ["droneair_medical", [
+        ["ACM_BloodBag_ON_1000",4],
+        ["ACM_IV_16g",4],
+        ["ACM_IV_14g",4],
+        ["ACM_IO_FAST",1],
+        ["ACM_IO_EZ",1],
+        ["ACM_Vial_TXA",1],
+        ["ACM_Syringe_10",2],
+        ["ACM_Vial_Ertapenem",1],
+        ["ACM_FieldBloodTransfusionKit_250",2]
+        
     ]],
 
     ["droneair_ammo", [
@@ -1106,37 +1130,116 @@
     ]],
 
     ["vehicle_bradley", [
-        ["rhs_weap_fgm148", 1],
-        ["rhs_fgm148_magazine_AT", 2],
-        ["rhs_weap_m32", 1],
-        ["rhsusf_mag_6Rnd_M397_HET", 2],
-        ["rhsusf_mag_6Rnd_M433_HEDP", 3],
-        ["rhsusf_mag_6Rnd_m4009", 3],
-        ["rhsusf_mag_6Rnd_M713_red", 2],
-        ["rhs_weap_M136", 4],
-        ["B_UAV_01_backpack_F", 2],
-        ["B_UavTerminal", 1],
-        ["ACE_UAVBattery", 4],
-        ["ACE_wirecutter", 1]
-    ]],
-    ["vehicle_stryker", [
         // AT
-        ["rhs_weap_fgm148", 1],
-        ["rhs_fgm148_magazine_AT", 2],
+        ["rhs_fgm148_magazine_AT",3],
+        ["rhs_mag_maaws_HEAT",6],
+        ["rhs_mag_maaws_HE",3],
+        ["rhs_mag_maaws_HEDP",3],
+        ["rhs_weap_M136",4],
+        ["rhs_weap_fim92", 1],
+        ["rhs_fim92_mag",1],
 
+        // Rifle Ammo
+        ["lxim_sig_25Rnd_Fury",40],
+        ["lxim_sig_25Rnd_Fury_RT",40],
+        ["lxim_sig_25Rnd_Fury_blk",40],
+        ["lxim_sig_25Rnd_Fury_RT_blk",40],
+        
         // MG Ammo
-        ["rhsusf_100Rnd_762x51_m62_tracer", 10],
+        ["lxim_sig_150Rnd_Fury",12],
+        ["lxim_sig_150Rnd_Fury_blk",12],
+        ["lxim_sig_150Rnd_Fury_RT",12],
+        ["lxim_sig_150Rnd_Fury_RT_blk",12],
+        ["rhsusf_100Rnd_762x51_m61_ap",6],
+        ["rhsusf_100Rnd_762x51",6],
+        ["rhsusf_100Rnd_762x51_m62_tracer",6],
+        ["rhsusf_100Rnd_762x51_m80a1epr",6],
+
+        // M320 Ammo
+        ["rhs_mag_M441_HE",12],
+        ["rhs_mag_M433_HEDP",12],
+        ["rhs_mag_M397_HET",12],
+        ["rhs_mag_m576",8],
+        ["rhs_mag_m4009",8],
+        ["rhs_mag_M663_green_cluster",2],
+        ["rhs_mag_M585_white_cluster",2],
+        ["rhs_mag_M664_red_cluster",2],
+        ["rhs_mag_m714_White",2],
+        ["rhs_mag_m715_Green",2],
+        ["rhs_mag_m713_Red",2],
+        ["rhs_mag_m661_green",2],
+        ["rhs_mag_m716_yellow",2],
+        ["ACE_HUNTIR_M203",2],
+        // Offensive/Defensive Hand Grenades
+        ["HandGrenade",10],
 
         // Tools
         ["ACE_wirecutter", 1],
+        // Chemlights
+        ["ACE_Chemlight_HiRed",15],
+        ["ACE_Chemlight_HiBlue",15],
+        ["ACE_Chemlight_IR",15],
 
         // Medical
-        ["ACE_epinephrine",4],
-        ["ACE_tourniquet",8],
-        ["ACM_EmergencyTraumaDressing",20],
-        ["ACM_PressureBandage",20]
+        ["lxim_medbags_MedicKit",2],
+        ["lxim_medbags_FirstAid",18]
     ]],
-    ["vehicle_rooikat", [
+    ["vehicle_stryker", [
+        // AT
+        ["rhs_fgm148_magazine_AT",3],
+        ["rhs_mag_maaws_HEAT",6],
+        ["rhs_mag_maaws_HE",3],
+        ["rhs_mag_maaws_HEDP",3],
+        ["rhs_weap_M136",4],
+        ["rhs_weap_fim92", 1],
+        ["rhs_fim92_mag",1],
+
+        // Rifle Ammo
+        ["lxim_sig_25Rnd_Fury",40],
+        ["lxim_sig_25Rnd_Fury_RT",40],
+        ["lxim_sig_25Rnd_Fury_blk",40],
+        ["lxim_sig_25Rnd_Fury_RT_blk",40],
+        
+        // MG Ammo
+        ["lxim_sig_150Rnd_Fury",12],
+        ["lxim_sig_150Rnd_Fury_blk",12],
+        ["lxim_sig_150Rnd_Fury_RT",12],
+        ["lxim_sig_150Rnd_Fury_RT_blk",12],
+        ["rhsusf_100Rnd_762x51_m61_ap",6],
+        ["rhsusf_100Rnd_762x51",6],
+        ["rhsusf_100Rnd_762x51_m62_tracer",6],
+        ["rhsusf_100Rnd_762x51_m80a1epr",6],
+
+        // M320 Ammo
+        ["rhs_mag_M441_HE",12],
+        ["rhs_mag_M433_HEDP",12],
+        ["rhs_mag_M397_HET",12],
+        ["rhs_mag_m576",8],
+        ["rhs_mag_m4009",8],
+        ["rhs_mag_M663_green_cluster",2],
+        ["rhs_mag_M585_white_cluster",2],
+        ["rhs_mag_M664_red_cluster",2],
+        ["rhs_mag_m714_White",2],
+        ["rhs_mag_m715_Green",2],
+        ["rhs_mag_m713_Red",2],
+        ["rhs_mag_m661_green",2],
+        ["rhs_mag_m716_yellow",2],
+        ["ACE_HUNTIR_M203",2],
+        // Offensive/Defensive Hand Grenades
+        ["HandGrenade",10],
+
+        // Tools
+        ["ACE_wirecutter", 1],
+        // Chemlights
+        ["ACE_Chemlight_HiRed",15],
+        ["ACE_Chemlight_HiBlue",15],
+        ["ACE_Chemlight_IR",15],
+
+        // Medical
+        ["lxim_medbags_MedicKit",2],
+        ["lxim_medbags_FirstAid",18]
+    ]],
+    ["vehicle_rookat", [
         // Ammo
         ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 16], // M856A1 PMAGs
 

@@ -34,3 +34,6 @@ _unitsInGroup set [_unitIndex,_unit];
 [_selectedGroup,_unit] remoteExecCall ["selectLeader",groupOwner _selectedGroup];
 
 [YMF_dynamicGroups,_oldSelectionPath,_selectionPath,_unit] remoteExecCall ["YMF_fnc_updateGroups",-2,"YMF_DG_JIP"];
+
+player setVariable ["YMF_oldgroup",_selectedGroup,true];
+player setVariable ["YMF_oldrole",_desiredRole,true];

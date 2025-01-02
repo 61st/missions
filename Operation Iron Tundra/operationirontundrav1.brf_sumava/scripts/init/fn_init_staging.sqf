@@ -120,7 +120,7 @@ if EGVAR(patches,usesACE) then {
     ] call ace_interact_menu_fnc_createAction;
     [player,1,_category,_arsenalCategory] call ace_interact_menu_fnc_addActionToObject;
 
-    /* TP ---------------------------------------------------------------------------------------------------------- */
+/* TP ---------------------------------------------------------------------------------------------------------- */
 
     private _tpCategory = [
         "TPCategory",

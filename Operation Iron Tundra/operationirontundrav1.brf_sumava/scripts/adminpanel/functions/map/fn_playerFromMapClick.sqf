@@ -1,15 +1,15 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Finds the nearest player to select based on map click position
-		Returns objNull if no player can be found
+    Description:
+        Finds the nearest player to select based on map click position
+        Returns objNull if no player can be found
 
-	Parameters:
-		0: ARRAY - Map click position [_xPos, _yPos] (map coordinates not world position)
+    Parameters:
+        0: ARRAY - Map click position [_xPos, _yPos] (map coordinates not world position)
 
-	Returns:
-		ARRAY - [_nearestPlayer, _playerArrayIndex] - [objNull, -1] if player cannot be found
+    Returns:
+        ARRAY - [_nearestPlayer, _playerArrayIndex] - [objNull, -1] if player cannot be found
 */
 
 params ["_clickPos"];
@@ -34,37 +34,37 @@ private _closestPlayer = admp_playerlist_playerArray#0; // start with first unit
 private _closestDistance = _worldPos distance2D _closestPlayer;
 private _closestIndex = 0;
 {
-	if (_worldPos distance2D _x < _closestDistance) then {_closestPlayer = _x; _closestDistance = _worldPos distance2D _x; _closestIndex = _forEachIndex;};
+    if (_worldPos distance2D _x < _closestDistance) then {_closestPlayer = _x; _closestDistance = _worldPos distance2D _x; _closestIndex = _forEachIndex;};
 } forEach admp_playerlist_playerArray;
 
 private _deadZone = (15 + 100*(ctrlMapScale _map_ctrl));
 if (_closestDistance > _deadZone) then { // if the click is not close to a player, return objNull
-	[objNull, -1]
+    [objNull, -1]
 } else {
-	// if the player is in a vehicle and is not the driver, select the driver or the first player in the crew
-	private _vehicle = vehicle _closestPlayer;
+    // if the player is in a vehicle and is not the driver, select the driver or the first player in the crew
+    private _vehicle = vehicle _closestPlayer;
 
-	if (_vehicle != _closestPlayer && (driver _vehicle) != _closestPlayer) then { 
-		if ((driver _vehicle) in admp_playerlist_playerArray) then { // driver is a player, select them instead
-			_closestPlayer = driver _vehicle;
-			_closestIndex = admp_playerlist_playerArray find _closestPlayer;
-		} else { // driver is not a player or there is no driver, select first player in crew
-			private _playerCrew = [];
-			{if (_x in admp_playerlist_playerArray) then {_playerCrew pushBackUnique _x;};} forEach crew _vehicle;
-			_closestPlayer = _playerCrew#0;
-			_closestIndex = admp_playerlist_playerArray find _closestPlayer;
-		}
-	};
+    if (_vehicle != _closestPlayer && (driver _vehicle) != _closestPlayer) then { 
+        if ((driver _vehicle) in admp_playerlist_playerArray) then { // driver is a player, select them instead
+            _closestPlayer = driver _vehicle;
+            _closestIndex = admp_playerlist_playerArray find _closestPlayer;
+        } else { // driver is not a player or there is no driver, select first player in crew
+            private _playerCrew = [];
+            {if (_x in admp_playerlist_playerArray) then {_playerCrew pushBackUnique _x;};} forEach crew _vehicle;
+            _closestPlayer = _playerCrew#0;
+            _closestIndex = admp_playerlist_playerArray find _closestPlayer;
+        }
+    };
 
-	// find and select the player in the listbox
-	private _foundPlayer = false;
-	for "_i" from 0 to (admp_playerlist_playerCount - 1) do {
-		if (_admp_playerlist_listbox lbValue (_i) == _closestIndex) then {
-			_admp_playerlist_listbox lbSetCurSel _i; // select the player
-			_foundPlayer = true;
-		};
-	};
+    // find and select the player in the listbox
+    private _foundPlayer = false;
+    for "_i" from 0 to (admp_playerlist_playerCount - 1) do {
+        if (_admp_playerlist_listbox lbValue (_i) == _closestIndex) then {
+            _admp_playerlist_listbox lbSetCurSel _i; // select the player
+            _foundPlayer = true;
+        };
+    };
 
-	[_closestPlayer, _closestIndex]
+    [_closestPlayer, _closestIndex]
 };
 
