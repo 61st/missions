@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Updates admin panel player list and group assignment combo box and reselects selected unit
+    Description:
+        Updates admin panel player list and group assignment combo box and reselects selected unit
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NOTHING
+    Parameters:
+        NONE
+        
+    Returns:
+        NOTHING
 */
 
 disableSerialization;
@@ -30,21 +30,21 @@ admp_playerlist_playerCount = count admp_playerlist_playerArray; // save player 
 lbClear _admp_playerlist_listbox;
 //lbClear _admp_player_groupcombo;
 {
-	_name = name _x;
-	_displayName = name _x;
-	_playerArrayIndex = _forEachIndex;
+    _name = name _x;
+    _displayName = name _x;
+    _playerArrayIndex = _forEachIndex;
 
-	if (_x call admp_fnc_isAdmin) then {_displayName = _displayName + "*"};
+    if (_x call admp_fnc_isAdmin) then {_displayName = _displayName + "*"};
 
-	_entryIndex = _admp_playerlist_listbox lbAdd _displayName;
-	_admp_playerlist_listbox lbSetData [_entryIndex, _name];
-	_admp_playerlist_listbox lbSetValue [_entryIndex, _playerArrayIndex]; // set value to index from player array so unit can be referenced
+    _entryIndex = _admp_playerlist_listbox lbAdd _displayName;
+    _admp_playerlist_listbox lbSetData [_entryIndex, _name];
+    _admp_playerlist_listbox lbSetValue [_entryIndex, _playerArrayIndex]; // set value to index from player array so unit can be referenced
 
-	/*
-	_entryIndex = _admp_player_groupcombo lbAdd _name;
-	_admp_player_groupcombo lbSetData [_entryIndex, _name];
-	_admp_player_groupcombo lbSetValue [_entryIndex, _playerArrayIndex];
-	*/
+    /*
+    _entryIndex = _admp_player_groupcombo lbAdd _name;
+    _admp_player_groupcombo lbSetData [_entryIndex, _name];
+    _admp_player_groupcombo lbSetValue [_entryIndex, _playerArrayIndex];
+    */
 
 } forEach (admp_playerlist_playerArray);
 lbSort _admp_playerlist_listbox;
@@ -54,16 +54,16 @@ private _foundUnitPlayer = false;
 //private _foundUnitGroup = false;
 // if the previosly selected unit can be found in the list, select them
 for "_i" from 0 to (admp_playerlist_playerCount - 1) do {
-	if (_admp_playerlist_listbox lbData (_i) == admp_playerlist_selectedPlayer) then {
-		_admp_playerlist_listbox lbSetCurSel _i; // select the player
-		_foundUnitPlayer = true;
-	};
-	/*
-	if (_admp_player_groupcombo lbData (_i) == admp_groupcombo_selectedPlayer) then {
-		_admp_player_groupcombo lbSetCurSel _i; // select the player
-		_foundUnitGroup = true;
-	};
-	*/
+    if (_admp_playerlist_listbox lbData (_i) == admp_playerlist_selectedPlayer) then {
+        _admp_playerlist_listbox lbSetCurSel _i; // select the player
+        _foundUnitPlayer = true;
+    };
+    /*
+    if (_admp_player_groupcombo lbData (_i) == admp_groupcombo_selectedPlayer) then {
+        _admp_player_groupcombo lbSetCurSel _i; // select the player
+        _foundUnitGroup = true;
+    };
+    */
 };
 
 if (!_foundUnitPlayer) then {_admp_playerlist_listbox lbSetCurSel 0;}; // if can't find the unit, set to first in list

@@ -40,7 +40,6 @@ if (_vehicle isKindOf "RHS_UH60_Base") then {
         case "RHS_UH60M_MEV";
         case "MED": {
             _vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];
-            [_vehicle] call FUNC(addHealall);
             };
         default {};
     };
@@ -56,7 +55,7 @@ if (_vehicle isKindOf "RHS_UH1_Base") then {
 
 if (_vehicle isKindOf "B_UAV_06_medical_F") then {
         _vehicle setVariable ["ace_medical_isMedicalVehicle", true, true];
-        [_vehicle] call FUNC(addHealall);
+
 };
 
 if (_vehicle isKindOf "RHS_Mi24_base") then {

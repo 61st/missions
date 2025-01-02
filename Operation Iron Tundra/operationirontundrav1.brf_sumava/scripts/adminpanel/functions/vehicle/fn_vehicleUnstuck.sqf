@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Finds a safe place to teleport vehicle to and flips it upright
+    Description:
+        Finds a safe place to teleport vehicle to and flips it upright
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -31,8 +31,8 @@ private _admp_usingCursortarget = false;
 if (_vehicle == _player && _player != player) exitWith {systemChat format ["%1 is not in a vehicle!", name _player]; playSound "addItemFailed";};
 // if the player has selected themselves and is not in a vehicle, use their crosshair to find vehicle to unstick
 if (_vehicle == _player) then {
-	_vehicle = cursorTarget;
-	_admp_usingCursortarget = true;
+    _vehicle = cursorTarget;
+    _admp_usingCursortarget = true;
 };
 
 if (isNull _vehicle || !(_vehicle isKindOf "AllVehicles")) exitWith {systemChat format ["No crosshair target found!"]; playSound "addItemFailed";};
@@ -48,20 +48,20 @@ _safePosition = [_safePosition#0, _safePosition#1];
 [_vehicle, _safePosition] remoteExec ["setPos", _vehicle, false];
 
 if (_admp_usingCursortarget) then {
-	systemChat format ["Righted and moved target vehicle to %1!", str _safePosition];
-	playSound "3DEN_notificationDefault";
-	[_player, _vehicle] spawn {
-		params ["_player", "_vehicle"];
-		sleep 0.1; // small sleep to let position update
-		_player setDir (_player getDir _vehicle); // make player face direction of vehicle so they know where it went
-		_player setPosATL (getPosATL _player); // update position so that dir updates
-	};
+    systemChat format ["Righted and moved target vehicle to %1!", str _safePosition];
+    playSound "3DEN_notificationDefault";
+    [_player, _vehicle] spawn {
+        params ["_player", "_vehicle"];
+        sleep 0.1; // small sleep to let position update
+        _player setDir (_player getDir _vehicle); // make player face direction of vehicle so they know where it went
+        _player setPosATL (getPosATL _player); // update position so that dir updates
+    };
 } else {
-	systemChat format ["Righted and moved %1's vehicle to %2!", name _player, str _safePosition];
-	playSound "3DEN_notificationDefault";
+    systemChat format ["Righted and moved %1's vehicle to %2!", name _player, str _safePosition];
+    playSound "3DEN_notificationDefault";
 
-	if (_player != player) then { // show selected player a message
-		_message = format ["%1 attempted to unstick your vehicle!", name player];
-		[_message] remoteExec ["systemChat", _player, false];
-	};
+    if (_player != player) then { // show selected player a message
+        _message = format ["%1 attempted to unstick your vehicle!", name player];
+        [_message] remoteExec ["systemChat", _player, false];
+    };
 };

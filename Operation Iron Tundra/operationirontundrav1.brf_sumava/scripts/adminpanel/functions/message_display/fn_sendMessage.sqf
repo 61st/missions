@@ -1,23 +1,23 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Sends a message out to all receiving players
+    Description:
+        Sends a message out to all receiving players
 
-		Messages are stored in the format:
-		[
-			"SenderID", 	// Steam64 ID
-			"SentAt",		// In game time in format HH:MM
-			"SenderName",
-			"ReceiverName",
-			"Message text"
-		]
+        Messages are stored in the format:
+        [
+            "SenderID", 	// Steam64 ID
+            "SentAt",		// In game time in format HH:MM
+            "SenderName",
+            "ReceiverName",
+            "Message text"
+        ]
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NOTHING
+    Parameters:
+        NONE
+        
+    Returns:
+        NOTHING
 */
 
 disableSerialization;
@@ -40,36 +40,36 @@ private _allRecipients = (allPlayers - entities "HeadlessClient_F");
 
 private _receivingPlayers = [];
 switch (_recipient) do {
-	case "AllPlayers": {
-		_receivingPlayers = _allRecipients - [player];
-	};
-	case "AllAlive": {
-		{
-			if (alive _x && _x != player) then {
-				_receivingPlayers pushBack _x;
-			};
-		} forEach _allRecipients;
-	};
-	case "AllDead": {
-		{
-			if (!alive _x && _x != player) then {
-				_receivingPlayers pushBack _x;
-			};
-		} forEach _allRecipients;
-	};
-	case "AllAdmins": {
-		{
-			if ((_x call admp_fnc_isAdmin) && _x != player) then {
-				_receivingPlayers pushBack _x;
-			};
-		} forEach _allRecipients;
-	};
-	default {
-		private _selectionOptions = uiNamespace getVariable ['admp_messageDisplay_validRecipients', []];
-		if (count _selectionOptions == 0) exitWith {hintSilent "No valid recipient!"; playSound "addItemFailed";};
+    case "AllPlayers": {
+        _receivingPlayers = _allRecipients - [player];
+    };
+    case "AllAlive": {
+        {
+            if (alive _x && _x != player) then {
+                _receivingPlayers pushBack _x;
+            };
+        } forEach _allRecipients;
+    };
+    case "AllDead": {
+        {
+            if (!alive _x && _x != player) then {
+                _receivingPlayers pushBack _x;
+            };
+        } forEach _allRecipients;
+    };
+    case "AllAdmins": {
+        {
+            if ((_x call admp_fnc_isAdmin) && _x != player) then {
+                _receivingPlayers pushBack _x;
+            };
+        } forEach _allRecipients;
+    };
+    default {
+        private _selectionOptions = uiNamespace getVariable ['admp_messageDisplay_validRecipients', []];
+        if (count _selectionOptions == 0) exitWith {hintSilent "No valid recipient!"; playSound "addItemFailed";};
 
-		_receivingPlayers = [_selectionOptions#_playerIndex];
-	};
+        _receivingPlayers = [_selectionOptions#_playerIndex];
+    };
 };
 
 private _senderID = getPlayerUID player;
@@ -86,7 +86,7 @@ if (_messageText == "") exitWith {hintSilent "Cannot send empty message!"; playS
 private _messageData = [_senderID, _sentAt, _senderName, _recipientName, _messageText];
 
 {
-	[_messageData] remoteExecCall ["admp_fnc_receiveMessage", _x, false];
+    [_messageData] remoteExecCall ["admp_fnc_receiveMessage", _x, false];
 } forEach _receivingPlayers;
 
 admp_message_display_history_local pushBack _messageData;

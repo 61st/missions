@@ -1,21 +1,21 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Serverside call to create zeus module using passed player
+    Description:
+        Serverside call to create zeus module using passed player
 
-	Parameters:
-		0: OBJECT - Player to assign curator module to
-		
-	Returns:
-		NONE
+    Parameters:
+        0: OBJECT - Player to assign curator module to
+        
+    Returns:
+        NONE
 */
 
 params ["_player"];
 
 if (isNull admp_admin_zeusLogicGroup) then { // if the logic group doesn't exist, create a new one
-	admp_admin_zeusLogicGroup = createGroup sideLogic;
-	publicVariable "admp_admin_zeusLogicGroup";
+    admp_admin_zeusLogicGroup = createGroup sideLogic;
+    publicVariable "admp_admin_zeusLogicGroup";
 };
 
 // create module and assign player

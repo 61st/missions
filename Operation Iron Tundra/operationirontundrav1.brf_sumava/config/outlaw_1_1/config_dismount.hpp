@@ -2,9 +2,7 @@ class dismount11 {
     name = "dismount";
     description = "Its a grunts life";
     traits[] = {};
-    customVariables[] = {
-        {"YMF_Player_Unit", OUTLAW-1/1, true}
-    };
+    customVariables[] = {};
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
