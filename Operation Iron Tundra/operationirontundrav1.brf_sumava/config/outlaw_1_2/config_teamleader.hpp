@@ -3,8 +3,8 @@ class teamlead12 {
     description = "The one who is to blame";
     traits[] = {};
     customVariables[] = {
-        {"starting_152_channel", 3, true},
-        {"starting_343_channel", 33, true}
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
     };
     icon = "z\LXIM\addons\media\images\Icons\iconmanleader_red.paa";
 

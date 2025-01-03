@@ -50,8 +50,14 @@ if (_isRespawn) then {
         YMF_myCustomVariables pushBack _variable;
     } forEach _customVariables;
 
-    
 
+    if ((player getVariable ["ACE_medical_medicClass", 0]) == 0) then {
+        #include "..\..\config\config_clslist.hpp"
+        if ((getPlayerUID player) in _CLSUID) then {
+            player setVariable ["ace_medical_medicclass", 1, true];
+            systemChat format ["CLS Skills Applied to %1!", name player];
+        };
+    };
     player setVariable ["YMF_role",_desiredRole,true];
 
     if (player call YMF_fnc_player_isCurator) then {

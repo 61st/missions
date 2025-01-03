@@ -3,7 +3,8 @@ class dismount11 {
     description = "Its a grunts life";
     traits[] = {};
     customVariables[] = {
-        {"YMF_Player_Unit", OUTLAW-1/1, true}
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
     };
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 

@@ -7,8 +7,8 @@ class jtac12 {
     customVariables[] = {
         {"YMF_iscom", true, true},
         {"draWhitelisted",TRUE,TRUE},
-        {"starting_152_channel", 2, true},
-        {"starting_343_channel", 33, true}
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
     };
     
     icon = "a3\ui_f\data\map\vehicleicons\iconmanexplosive_ca.paa";

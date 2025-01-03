@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Forces the selected player out of their vehicle
+    Description:
+        Forces the selected player out of their vehicle
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -32,6 +32,6 @@ systemChat format ["Dismounted %1!", name _player];
 playSound "3DEN_notificationDefault";
 
 if (_player != player) then { // show selected player a message
-	_message = format ["%1 dismounted you!", name player];
-	[_message] remoteExec ["systemChat", _player, false];
+    _message = format ["%1 dismounted you!", name player];
+    [_message] remoteExec ["systemChat", _player, false];
 };

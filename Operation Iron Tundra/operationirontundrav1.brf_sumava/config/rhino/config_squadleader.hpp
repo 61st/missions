@@ -7,9 +7,7 @@ class squadleadr {
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},
-        {"starting_148_channel", 15, true},
-        {"starting_343_channel", 49, true},
-        {"starting_152_channel", "5", true}
+        {"ace_medical_medicClass",0,true}
 
         };
 

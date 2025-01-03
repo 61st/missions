@@ -7,8 +7,7 @@ class zeus {
     };
     customVariables[] = {
         {"ace_isEngineer",1,true},
-        {"starting_343_channel", 81, true},
-        {"starting_148_channel", 25, true},
+        {"ace_medical_medicClass",2,true},
         {"YMF_Player_Unit","ZEUS",true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmanvirtual_ca.paa";

@@ -6,7 +6,8 @@ class engineer11 {
         {"explosiveSpecialist",true}
     }; 
     customVariables[] = {
-        {"ace_isEngineer",2,true}
+        {"ace_isEngineer",2,true},
+        {"ace_medical_medicClass",0,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 

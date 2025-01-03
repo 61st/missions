@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Updates player skill combo boxes when a player is selected
+    Description:
+        Updates player skill combo boxes when a player is selected
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -37,10 +37,10 @@ private _eodSkill = _player getVariable ["ACE_isEOD", _player getUnitTrait "Expl
 private _comSkill = _player getVariable ["YMF_iscom", false];
 
 if (isNull _player) then {
-	_medicSkill = 0;
-	_engineerSkill = 0;
-	_eodSkill = false;
-	_comSkill = false;
+    _medicSkill = 0;
+    _engineerSkill = 0;
+    _eodSkill = false;
+    _comSkill = false;
 };
 
 _medic_combo lbSetCurSel _medicSkill;

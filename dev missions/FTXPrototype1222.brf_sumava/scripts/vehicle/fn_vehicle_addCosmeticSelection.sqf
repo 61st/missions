@@ -483,7 +483,7 @@ private _textures = [
         }
     ]],
 
-    ["LXIM_vehicles_m1132_m2_wd", "Rhino Desert", [
+    ["lxim_rhs_vehicles_m1132_m2_wd", "Rhino Desert", [
         "",
         {
             [_vehicle, [
@@ -509,7 +509,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["LXIM_vehicles_m1132_m2_wd", "Rhino Olive ", [
+    ["lxim_rhs_vehicles_m1132_m2_wd", "Rhino Olive ", [
         "",
         {
             [_vehicle, [
@@ -2078,7 +2078,7 @@ private _textures = [
     ]],
 
 
-    ["lxim_mk20_base_F", "Toggle Camo Net", [
+    ["lxim_rhs_mk20_base_F", "Toggle Camo Net", [
         "",
         {
             private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
@@ -2089,7 +2089,7 @@ private _textures = [
             };
         }
     ]],
-    ["lxim_mk20_base_F", "Toggle Slats", [
+    ["lxim_rhs_mk20_base_F", "Toggle Slats", [
         "",
         {
             private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
@@ -2100,7 +2100,7 @@ private _textures = [
             };
         }
     ]],
-    ["lxim_mk20", "M20A2 Olive", [
+    ["lxim_rhs_mk20", "M20A2 Olive", [
         "",
         {
             [_vehicle, [
@@ -2114,7 +2114,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Desert", [
+    ["lxim_rhs_mk20", "M20A2 Desert", [
         "",
         {
             [_vehicle, [
@@ -2128,7 +2128,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Olive (War Daddy)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (War Daddy)", [
         "",
         {
             [_vehicle, [
@@ -2142,7 +2142,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Desert (War Daddy)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (War Daddy)", [
         "",
         {
             [_vehicle, [
@@ -2156,7 +2156,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Olive (War Mommy)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (War Mommy)", [
         "",
         {
             [_vehicle, [
@@ -2170,7 +2170,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Desert (War Mommy)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (War Mommy)", [
         "",
         {
             [_vehicle, [
@@ -2184,7 +2184,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Olive (War Child)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (War Child)", [
         "",
         {
             [_vehicle, [
@@ -2198,7 +2198,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Desert (War Child)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (War Child)", [
         "",
         {
             [_vehicle, [
@@ -2212,7 +2212,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Olive (HQ)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (HQ)", [
         "",
         {
             [_vehicle, [
@@ -2226,7 +2226,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mk20", "M20A2 Desert (HQ)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (HQ)", [
         "",
         {
             [_vehicle, [
@@ -2241,7 +2241,7 @@ private _textures = [
         }
     ]],
 
-    ["lxim_mev_mk20", "M20A2 Olive", [
+    ["lxim_rhs_mev_mk20", "M20A2 Olive", [
         "",
         {
             [_vehicle, [
@@ -2255,7 +2255,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mev_mk20", "M20A2 Desert", [
+    ["lxim_rhs_mev_mk20", "M20A2 Desert", [
         "",
         {
             [_vehicle, [
@@ -2269,7 +2269,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_mev_mk20", "Toggle Camo Net", [
+    ["lxim_rhs_mev_mk20", "Toggle Camo Net", [
         "",
         {
             private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
@@ -2280,7 +2280,7 @@ private _textures = [
             };
         }
     ]],
-    ["lxim_mev_mk20", "Toggle Slats", [
+    ["lxim_rhs_mev_mk20", "Toggle Slats", [
         "",
         {
             private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
@@ -2292,7 +2292,7 @@ private _textures = [
         }
     ]],
 
-    ["lxim_repair_mk20", "Toggle Camo Net", [
+    ["lxim_rhs_repair_mk20", "Toggle Camo Net", [
         "",
         {
             private _camoNetMounted = _vehicle animationSourcePhase "showCamonetHull";
@@ -2303,7 +2303,7 @@ private _textures = [
             };
         }
     ]],
-    ["lxim_repair_mk20", "Toggle Slats", [
+    ["lxim_rhs_repair_mk20", "Toggle Slats", [
         "",
         {
             private _slatsAreAttached = _vehicle animationSourcePhase "showSLATHull";
@@ -2314,7 +2314,7 @@ private _textures = [
             };
         }
     ]],
-    ["lxim_repair_mk20", "M20A2 Olive", [
+    ["lxim_rhs_repair_mk20", "M20A2 Olive", [
         "",
         {
             [_vehicle, [
@@ -2328,7 +2328,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_repair_mk20", "M20A2 Desert", [
+    ["lxim_rhs_repair_mk20", "M20A2 Desert", [
         "",
         {
             [_vehicle, [

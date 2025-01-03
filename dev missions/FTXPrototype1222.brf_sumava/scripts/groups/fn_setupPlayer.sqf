@@ -50,6 +50,14 @@ if (_isRespawn) then {
         YMF_myCustomVariables pushBack _variable;
     } forEach _customVariables;
 
+
+    if ((player getVariable ["ACE_medical_medicClass", 0]) == 0) then {
+        #include "..\..\config\config_clslist.hpp"
+        if ((getPlayerUID player) in _CLSUID) then {
+            player setVariable ["ace_medical_medicclass", 1, true];
+            systemChat format ["Healed %1!", name player];
+        };
+    };
     player setVariable ["YMF_role",_desiredRole,true];
 
     if (player call YMF_fnc_player_isCurator) then {
@@ -71,7 +79,7 @@ if (_isRespawn) then {
     /*  ----------------------------------------------------------------------------------------------------------- */
     [{[] call acre_api_fnc_isInitialized}, {
                 INFO_1("GearRadio" "Setting up ACRE primary radio and channels for %1...", player);
-                hint "GearRadio Setting up ACRE primary radio and channels";
+                systemChat  "Setting up ACRE primary radio and channels";
                 [player] call FUNC(setRadioChannel);
                 ["ACRE_PRC148"] call FUNC(setActiveRadio);
             }, []] call CBA_fnc_waitUntilAndExecute;

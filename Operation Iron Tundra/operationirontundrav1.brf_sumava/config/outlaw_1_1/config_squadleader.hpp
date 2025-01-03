@@ -3,7 +3,8 @@ class squadlead11 {
     description = "The one who looks for who to blame";
     traits[] = {};
     customVariables[] = {
-        {"YMF_ismed", true, true},
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true},
         {"YMF_iscom", true, true}
     };
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
