@@ -1,4 +1,4 @@
-class gunner1 {
+class gunner {
     name = "Crew Gunner";
     description = "Send HE down range to cuddle the enemy";
     traits[] = {
@@ -6,7 +6,7 @@ class gunner1 {
     };
     customVariables[] = {
         {"ace_isEngineer",1,true},
-        {"starting_343_channel", 65, true}
+        {"ace_medical_medicClass",0,true}
     };
     icon = "z\LXIM\addons\media\images\Icons\gunner.paa";
 

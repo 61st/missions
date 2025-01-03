@@ -6,9 +6,7 @@ class medic12 {
     };
     customVariables[] = {
         {"ace_medical_medicClass",2,true},
-        {"YMF_ismed", true, true},
-        {"starting_148_channel", 16, true},
-        {"starting_343_channel", 33, true}
+        {"YMF_ismed", true, true}
     };
     icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
 

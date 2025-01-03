@@ -1,14 +1,14 @@
-class driver1 {
-    name = "Crew Driver";
-    description = "vroom vroom";
+class cmd {
+    name = "Vehicle CMD";
+    description = "Never fear War Mommy is here";
     traits[] = {
         {"Engineer",true}
     };
     customVariables[] = {
-        {"ace_isEngineer",1,true},
-        {"starting_343_channel", 65, true}
+        {"ace_isEngineer",2,true},
+        {"ace_medical_medicClass",0,true}
     };
-    icon = "z\LXIM\addons\media\images\Icons\driver.paa";
+    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
             {"lxim_sig_XM7","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
@@ -26,6 +26,8 @@ class driver1 {
         "B_simc_US_Molle_sturm_OCP_RTO",
         "H_HelmetCrew_I",
         "ToolKit",
-        "SatchelCharge_Remote_Mag"
+        "SatchelCharge_Remote_Mag",
+        "lxim_sig_M250",
+        "lxim_sig_M250_BLK"
     };
 };

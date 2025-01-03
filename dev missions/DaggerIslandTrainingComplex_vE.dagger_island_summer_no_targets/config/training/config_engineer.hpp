@@ -7,8 +7,7 @@ class engineers {
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},
-        {"starting_343_channel", 81, true},
-        {"starting_148_channel", 15, true},
+        {"ace_medical_medicClass",0,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 

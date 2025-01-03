@@ -1,4 +1,4 @@
-class engineer {
+class engineerr {
     name = "Combat Engineer";
     description = "Makes things go boom or not to go boom";
     traits[] = {
@@ -7,8 +7,7 @@ class engineer {
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},
-        {"starting_148_channel", 15, true},
-        {"starting_343_channel", 49, true}
+        {"ace_medical_medicClass",0,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
 
