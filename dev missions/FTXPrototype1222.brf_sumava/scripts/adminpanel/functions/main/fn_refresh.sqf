@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Refreshes status of admin panel controls
+    Description:
+        Refreshes status of admin panel controls
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 // elements from ui\elements.hpp
@@ -21,30 +21,30 @@ private _admp_playerlist_listbox = _admp_display displayCtrl IDC_ADMINPANEL_PLAY
 
 // only update the display while it is open
 while {!isNull _admp_display} do {
-	// if the number of players has changed, update the player list and reselect selected unit
-	if (count ([] call admp_fnc_getPlayerList) != admp_playerlist_playerCount) then {
-		[] call admp_fnc_updatePlayerList;
-	};
-	
-	// get selected player from player list
-	private _selectedPlayer = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection;
-	
-	// update map markers
-	[] call admp_fnc_updateMapMarkers;
+    // if the number of players has changed, update the player list and reselect selected unit
+    if (count ([] call admp_fnc_getPlayerList) != admp_playerlist_playerCount) then {
+        [] call admp_fnc_updatePlayerList;
+    };
+    
+    // get selected player from player list
+    private _selectedPlayer = [_admp_playerlist_listbox] call admp_fnc_playerFromSelection;
+    
+    // update map markers
+    [] call admp_fnc_updateMapMarkers;
 
-	// update player info
-	private _playerInfo = [_selectedPlayer] call admp_fnc_getPlayerInfo;
-	[_playerInfo] call admp_fnc_updatePlayerInfo;
+    // update player info
+    private _playerInfo = [_selectedPlayer] call admp_fnc_getPlayerInfo;
+    [_playerInfo] call admp_fnc_updatePlayerInfo;
 
-	// update medical info
-	private _medicalInfo = [_selectedPlayer] call admp_fnc_getPlayerMedicalInfo;
-	[_medicalInfo] call admp_fnc_updatePlayerMedicalInfo;
+    // update medical info
+    private _medicalInfo = [_selectedPlayer] call admp_fnc_getPlayerMedicalInfo;
+    [_medicalInfo] call admp_fnc_updatePlayerMedicalInfo;
 
-	[_selectedPlayer] call admp_fnc_updateToggleControls;
+    [_selectedPlayer] call admp_fnc_updateToggleControls;
 
-	[] call admp_fnc_updateServerStats;
+    [] call admp_fnc_updateServerStats;
 
-	sleep 0.1;
+    sleep 0.1;
 };
 
 // clear get rid of map markers once display is closed

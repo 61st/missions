@@ -3,10 +3,9 @@ class co {
     description = "Head mofo";
     traits[] = {};
     customVariables[] = {
-        {"starting_152_channel", 1, true},
-        {"starting_343_channel", 1, true},
         {"YMF_iscom", true, true},
-        {"YMF_ismed", true, true}
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 

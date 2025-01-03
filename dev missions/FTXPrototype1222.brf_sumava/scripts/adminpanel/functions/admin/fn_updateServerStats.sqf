@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Server stat displays for admin panel
+    Description:
+        Server stat displays for admin panel
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -27,18 +27,18 @@ private _sfps = admp_admin_serverFPS;
 private _sfpsColour = "";
 
 if (_sfps > 40) then {
-	_sfpsColour = "#47ed00"; // green
+    _sfpsColour = "#47ed00"; // green
 } else {
-	if (_sfps > 30) then {
-		_sfpsColour = "#ffd92e"; // yellow
-	} else {
-		if (_sfps > 20) then {
-			_sfpsColour = "#ff972e"; // orange
-		}
-		else {
-			_sfpsColour = "#ff0000"; // red
-		};
-	};
+    if (_sfps > 30) then {
+        _sfpsColour = "#ffd92e"; // yellow
+    } else {
+        if (_sfps > 20) then {
+            _sfpsColour = "#ff972e"; // orange
+        }
+        else {
+            _sfpsColour = "#ff0000"; // red
+        };
+    };
 };
 private _sfpsStr = format ["<t color='%1'>%2</t>", _sfpsColour, _sfps];
 
@@ -46,18 +46,18 @@ private _ai = ({!isPlayer _x} count allUnits);
 private _aiColour = "";
 
 if (_ai < 110) then {
-	_aiColour = "#47ed00"; // green
+    _aiColour = "#47ed00"; // green
 } else {
-	if (_ai < 140) then {
-		_aiColour = "#ffd92e"; // yellow
-	} else {
-		if (_ai < 170) then {
-			_aiColour = "#ff972e"; // orange
-		}
-		else {
-			_aiColour = "#ff0000"; // red
-		};
-	};
+    if (_ai < 140) then {
+        _aiColour = "#ffd92e"; // yellow
+    } else {
+        if (_ai < 170) then {
+            _aiColour = "#ff972e"; // orange
+        }
+        else {
+            _aiColour = "#ff0000"; // red
+        };
+    };
 };
 private _aiStr = format ["<t color='%1'>%2</t>", _aiColour, _ai];
 

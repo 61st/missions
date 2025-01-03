@@ -1,14 +1,14 @@
 /*
-	Author: JohnnyShootos (Edited by TheTimidShade)
+    Author: JohnnyShootos (Edited by TheTimidShade)
 
-	Description:
-		Prompts the player for confirmation then bans the selected target
+    Description:
+        Prompts the player for confirmation then bans the selected target
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -33,6 +33,6 @@ private _message = format ["Are you sure you want to ban %1?", name _player];
 private _confirm = [_message, "CONFIRM BAN", "BAN", "CANCEL"] call BIS_fnc_guiMessage;
 
 if (_confirm) then {
-	private _command = format["#ban %1", name _player];
-	serverCommand _command;
+    private _command = format["#ban %1", name _player];
+    serverCommand _command;
 };

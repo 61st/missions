@@ -7,8 +7,7 @@ class medicp {
     customVariables[] = {
         {"ace_medical_medicClass",2,true},
         {"YMF_ismed", true, true},
-        {"starting_152_channel", 21, true},
-        {"starting_148_channel", 16, true}
+        {"ace_isEngineer",0,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa";
 

@@ -55,7 +55,7 @@ if (_isRespawn) then {
         #include "..\..\config\config_clslist.hpp"
         if ((getPlayerUID player) in _CLSUID) then {
             player setVariable ["ace_medical_medicclass", 1, true];
-            systemChat format ["Healed %1!", name player];
+            systemChat format ["CLS Skills Applied to %1!", name player];
         };
     };
     player setVariable ["YMF_role",_desiredRole,true];

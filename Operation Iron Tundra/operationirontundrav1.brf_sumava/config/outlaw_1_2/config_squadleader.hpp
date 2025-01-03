@@ -4,9 +4,8 @@ class squadlead12 {
     traits[] = {};
     customVariables[] = {
         {"YMF_iscom", true, true},
-        {"YMF_ismed", true, true},
-        {"starting_152_channel", 3, true},
-        {"starting_343_channel", 33, true}
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
     };
 
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";

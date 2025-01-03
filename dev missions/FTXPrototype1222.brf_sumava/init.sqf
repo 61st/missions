@@ -41,12 +41,12 @@ if(isServer) then {
 };
 
 // Some misc configuration
-0 enableChannel [true, false]; 	// GLOBAL
-1 enableChannel [true, false]; 	// SIDE
-2 enableChannel [true, false]; 	// COMMAND
-3 enableChannel [true, false]; 	// GROUP
-4 enableChannel [true, false];	// VEHICLE
-5 enableChannel [true, false];	// DIRECT
+0 enableChannel [true, false];  // GLOBAL
+1 enableChannel [true, false];  // SIDE
+2 enableChannel [true, false];  // COMMAND
+3 enableChannel [true, false];  // GROUP
+4 enableChannel [true, false]; // VEHICLE
+5 enableChannel [true, false]; // DIRECT
 
 // /* Start times selected randomly throughout the daylight hours between sunrise and one hour before sunset ----------- */
 // if (isServer) then {

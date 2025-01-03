@@ -10,8 +10,6 @@ class Cadre {
         {"draWhitelisted",TRUE,TRUE},
         {"ace_medical_medicClass",2,true},
         {"ace_isEngineer",2,true},
-        {"starting_343_channel", 81, true},
-        {"starting_148_channel", 25, true},
         {"YMF_Player_Unit","ZEUS",true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmanvirtual_ca.paa";

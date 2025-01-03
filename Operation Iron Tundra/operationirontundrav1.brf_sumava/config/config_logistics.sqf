@@ -167,12 +167,12 @@
         ["ACE_Chemlight_IR",15],
 
          // Medical
-        ["lxim_medbags_MedicKit",10],
+        ["lxim_medbags_MedicKit",16],
+        ["lxim_medbags_cls",10],
         ["lxim_medbags_FirstAid",40]
     ]],
 
     // Vehicles
-
     ["vehicle_heliTransport", [
         ["ToolKit", 1],
         ["ACE_rope18", 4],
@@ -303,7 +303,12 @@
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
-        ["1Rnd_HE_Grenade_shell",4]
+        ["1Rnd_HE_Grenade_shell",4],
+
+         // Medical
+        ["lxim_medbags_MedicKit",10],
+        ["lxim_medbags_cls",10],
+        ["lxim_medbags_FirstAid",40]
     ]],
 
     ["wheeled_medical", [
@@ -418,7 +423,12 @@
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
-        ["1Rnd_HE_Grenade_shell",4]
+        ["1Rnd_HE_Grenade_shell",4],
+
+         // Medical
+        ["lxim_medbags_MedicKit",10],
+        ["lxim_medbags_cls",10],
+        ["lxim_medbags_FirstAid",40]
     ]],
 
     ["tracked_medical", [
@@ -534,7 +544,12 @@
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
-        ["1Rnd_HE_Grenade_shell",4]
+        ["1Rnd_HE_Grenade_shell",4],
+
+         // Medical
+        ["lxim_medbags_MedicKit",10],
+        ["lxim_medbags_cls",10],
+        ["lxim_medbags_FirstAid",40]
     ]],
 
     ["droneair_medical", [
@@ -1010,7 +1025,12 @@
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
         ["ACE_IR_Strobe_Item",2],
-        ["1Rnd_HE_Grenade_shell",4]
+        ["1Rnd_HE_Grenade_shell",4],
+
+         // Medical
+        ["lxim_medbags_MedicKit",10],
+        ["lxim_medbags_cls",10],
+        ["lxim_medbags_FirstAid",40]
     ]],
 
     ["vehicle_ampf_sup", [
@@ -1055,7 +1075,7 @@
         ["ACE_Chemlight_HiRed",2],
         ["ACE_Chemlight_IR",4]
     ]],
-    
+
     ["crate_stinger",[
             ["rhs_weap_fim92", 1],
             ["rhs_fim92_mag",2]
@@ -1184,6 +1204,7 @@
         ["lxim_medbags_MedicKit",2],
         ["lxim_medbags_FirstAid",18]
     ]],
+
     ["vehicle_stryker", [
         // AT
         ["rhs_fgm148_magazine_AT",3],
@@ -1239,6 +1260,7 @@
         ["lxim_medbags_MedicKit",2],
         ["lxim_medbags_FirstAid",18]
     ]],
+
     ["vehicle_rookat", [
         // Ammo
         ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 16], // M856A1 PMAGs

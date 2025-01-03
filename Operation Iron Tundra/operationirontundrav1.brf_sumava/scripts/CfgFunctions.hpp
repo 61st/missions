@@ -30,7 +30,6 @@ class YMF {
         file = "scripts\documents";
         class DOC_mission_Info  {};
         class Doc_mission_map  {};
-        // class Doc_Radio {};
     };
     class systems {
         file = "scripts\systems";
@@ -187,6 +186,14 @@ class YMF {
         class gear_postInit {};
         class gear_setupRadios {};
 
+    };
+    class training {
+        file = "scripts\training";
+        class initMOUT;
+        class range40mmTargetGroups;
+        class rangeMachineGunTargetGroups;
+        class rangeMarksmanTargetGroups;
+        class resetDamagedObjects;
     };
 };
 

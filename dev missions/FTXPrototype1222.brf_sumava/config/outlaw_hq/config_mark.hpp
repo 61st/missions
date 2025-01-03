@@ -5,8 +5,8 @@ class mark {
 
     };
     customVariables[] = {
-        {"starting_152_channel", 1, true},
-        {"starting_343_channel", 1, true}
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
     };
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 

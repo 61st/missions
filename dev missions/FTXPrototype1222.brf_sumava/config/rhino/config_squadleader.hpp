@@ -7,9 +7,7 @@ class squadleadr {
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},
-        {"starting_148_channel", 15, true},
-        {"starting_343_channel", 49, true},
-        {"starting_152_channel", "5", true}
+        {"ace_medical_medicClass",0,true}
 
         };
 
@@ -51,6 +49,9 @@ class squadleadr {
         "rhs_weap_M590_8RD",
         "rhs_weap_M590_5RD",
         "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "Rev_Demine",
+        "Rev_UAV_IED",
+        "Rev_Roller"
     };
 };

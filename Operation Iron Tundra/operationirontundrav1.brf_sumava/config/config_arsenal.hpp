@@ -284,6 +284,7 @@ class Common_Arsenal {
         "lxim_equipment_Wetsuit",
         "lxim_rhs_moppsuit",
         "lxim_medbags_FirstAid",
+        "lxim_medbags_cls",
         "lxim_medbags_MedicKit",
         "lxim_medbags_mopp",
         "lxim_medbags_Trauma",

@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Populates mission ending drop down/combo box with endings when panel is opened
+    Description:
+        Populates mission ending drop down/combo box with endings when panel is opened
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NOTHING
+    Parameters:
+        NONE
+        
+    Returns:
+        NOTHING
 */
 
 disableSerialization;
@@ -24,9 +24,9 @@ private _ending_combo = _admp_display displayCtrl IDC_ADMINPANEL_MISSION_ENDCOMB
 
 lbClear _ending_combo;
 {
-	_endType = _x;
+    _endType = _x;
 
-	_entryIndex = _ending_combo lbAdd _endType;
-	_ending_combo lbSetData [_entryIndex, _endType];
+    _entryIndex = _ending_combo lbAdd _endType;
+    _ending_combo lbSetData [_entryIndex, _endType];
 } forEach (admp_mission_endTypes);
 _ending_combo lbSetCurSel 0;

@@ -1,14 +1,14 @@
 /*
-	Author: TheTimidShade
+    Author: TheTimidShade
 
-	Description:
-		Refuels the selected player's vehicle
+    Description:
+        Refuels the selected player's vehicle
 
-	Parameters:
-		NONE
-		
-	Returns:
-		NONE
+    Parameters:
+        NONE
+        
+    Returns:
+        NONE
 */
 
 disableSerialization;
@@ -33,6 +33,6 @@ systemChat format ["Fully refueled %1's vehicle!", name _player];
 playSound "3DEN_notificationDefault";
 
 if (_player != player) then { // show selected player a message
-	_message = format ["%1 refueled your vehicle!", name player];
-	[_message] remoteExec ["systemChat", _player, false];
+    _message = format ["%1 refueled your vehicle!", name player];
+    [_message] remoteExec ["systemChat", _player, false];
 };
