@@ -3,7 +3,8 @@ class pilot {
         description = "Weeeeeeeeeeeee";
         traits[] = {};
         customVariables[] = {
-        {"starting_152_channel", 21, true}
+                {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",0,true}
         };
         icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 

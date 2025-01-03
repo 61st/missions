@@ -6,8 +6,7 @@ class crewchief {
     };
     customVariables[] = {
       {"ace_isEngineer",2,true},
-      {"YMF_152", true, true},
-      {"starting_152_channel", 21, true}
+      {"ace_medical_medicClass",0,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconman_ca.paa";
 

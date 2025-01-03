@@ -30,7 +30,6 @@ class YMF {
         file = "scripts\documents";
         class DOC_mission_Info  {};
         class Doc_mission_map  {};
-        // class Doc_Radio {};
     };
     class systems {
         file = "scripts\systems";
