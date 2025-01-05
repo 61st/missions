@@ -114,6 +114,19 @@ class squadlead12 {
         "rhsusf_acc_ARDEC_M240",
         "ACRE_VHF30108SPIKE",
         "ACRE_VHF30108",
-        "ACRE_VHF30108MAST"
+        "ACRE_VHF30108MAST",
+        "rhs_weap_fgm148",
+        "rhs_weap_fim92",
+        "RHS_M2_Tripod_Bag",
+        "RHS_M2_Gun_Bag",
+        "rhs_M252_Bipod_Bag",
+        "rhs_M252_Gun_Bag",
+        "RHS_Mk19_Gun_Bag",
+        "RHS_Mk19_Tripod_Bag",
+        "rhs_TOW_Tripod_Bag",
+        "rhs_Tow_Gun_Bag",
+        "RHS_M2_MiniTripod_Bag",
+        "B_Mortar_01_weapon_F",
+        "B_Mortar_01_support_F"
     };
 };
