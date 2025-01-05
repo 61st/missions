@@ -34,7 +34,7 @@ call EFUNC(player,setRankpatch);
 call LXIM_w28fixes_fnc_player_set_name;
 
 /* groups ----------------------------------------------------------------------------------------------------------- */
-player addEventHandler ["Respawn",{FUNC(removeFromGroup); FUNC(initGroupMenu);} ];
+player addEventHandler ["Respawn",FUNC(onRespawn)];
 
 /* welcome ---------------------------------------------------------------------------------------------------------- */
 createDialog ["RscDisplayWelcome",true];
