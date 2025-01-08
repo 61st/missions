@@ -30,6 +30,7 @@ class engineerr {
         "ToolKit",
         "lxim_breaching_BreachingCharge_Mag",
         "ACE_VMH3",
+        "B_UavTerminal",
         "ACE_VMM3",
         "DemoCharge_Remote_Mag",
         "ATMine_Range_Mag",

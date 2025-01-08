@@ -106,10 +106,6 @@ if (_vehicle iskindOf "MRAP_01_base_F") then {
             // Emergency kit in case of tire damage and fuel loss.
             ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
             ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
-            ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
             ["FlexibleTank_01_forest_F", _vehicle, true] call ace_cargo_fnc_loadItem; // Emergency Fuel Tank
             // Vehicle Inventory
             [_vehicle, 

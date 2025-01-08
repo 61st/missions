@@ -34,6 +34,7 @@ class squadleadr {
         "ACE_VMH3",
         "ACE_VMM3",
         "DemoCharge_Remote_Mag",
+        "B_UavTerminal",
         "ATMine_Range_Mag",
         "SatchelCharge_Remote_Mag",
         "ClaymoreDirectionalMine_Remote_Mag",
