@@ -69,6 +69,8 @@ class crewchief {
       "ACE_NVG_Wide_Black_WP",
       "B_simc_US_Molle_sturm_OCP_RTO",
       "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-      "U_B_HeliPilotCoveralls"
+      "U_B_HeliPilotCoveralls",
+      "rhsusf_ihadss",
+      "RHS_jetpilot_usaf"
     };
 };
