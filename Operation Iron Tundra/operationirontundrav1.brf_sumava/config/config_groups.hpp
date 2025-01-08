@@ -7,14 +7,14 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"WARCHILD-2/2",{"cmd","driver","gunner"},"true"},
         {"WARDADDY-2/6",{"cmd","driver","gunner"},"true"},
         {"OUTLAW-HQ",{"co","xo","jtac","medic","engineer","mark","mark"},"true"},
+        {"RRR",{"squadleadr","engineerr"},"true"},
         {"RHINO",{"squadleadr","engineerr","engineerr","engineerr","engineerr","engineerr","engineerr"},"true"},
         {"PHOENIX",{"pilot","pilot","fac"},"true"},
         {"PHOENIX-3/1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"PHOENIX-3/2",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"PHOENIX-3/3",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"RECRUITS",{"Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit"},"true"},
-        {"STUDENTS",{"jtacs","jtacs","jtacs","jtacs","engineers","engineers","engineers","engineers",,"engineers","engineers","medics","medics","medics","medics","medics","medics"},"true"},
-        {"RANGE-CTL",{"Zeus","Zeus","Cadre","Cadre","Cadre","Cadre"},"true"}
+        {"RANGE-CTL",{"Zeus","Zeus"},"true"}
     };
 };
 

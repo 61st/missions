@@ -153,12 +153,6 @@ class YMF {
         // class zenModule_RekitVehicle {};
         class zenModule_ResetPlayerRadio {};
     };
-    class civ {
-        file = "scripts\civ";
-        class civ_init {};
-        class civ_checkProjectile {};
-        class civ_damage {};
-    };
     class players {
         file = "scripts\players";
 

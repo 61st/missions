@@ -27,6 +27,7 @@ class engineerr {
         "ACE_M26_Clacker",
         "ACE_Clacker",
         "ACE_DefusalKit",
+        "B_UavTerminal",
         "ToolKit",
         "lxim_breaching_BreachingCharge_Mag",
         "ACE_VMH3",

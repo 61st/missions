@@ -78,7 +78,9 @@ class Cadre {
         "rhs_weap_M590_5RD",
         "rhs_weap_m240G",
         "rhs_weap_m240B",
-        "rhsusf_acc_ARDEC_M240"
+        "rhsusf_acc_ARDEC_M240",
+        "lxim_headgear_Cap_BlackLogo",
+        "lxim_headgear_Cap_Headphones_BlackLogo"
     };
 };
 

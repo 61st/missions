@@ -25,6 +25,7 @@ class engineer12 {
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
+        "B_UavTerminal",
         "ACE_Clacker",
         "ACE_DefusalKit",
         "ToolKit",

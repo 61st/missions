@@ -26,6 +26,7 @@ class engineer12 {
         "Rev_Roller",
         "ACE_M26_Clacker",
         "ACE_Clacker",
+        "B_UavTerminal",
         "ACE_DefusalKit",
         "ToolKit",
         "lxim_breaching_BreachingCharge_Mag",
