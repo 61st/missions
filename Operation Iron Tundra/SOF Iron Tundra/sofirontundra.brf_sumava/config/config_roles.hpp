@@ -29,4 +29,6 @@ class Dynamic_Roles {
     #include "training\config_medic.hpp"
     #include "training\config_zeus.hpp"
 
+    #include "operator\config_operator.hpp"
+    #include "operator\config_operatormedic.hpp"
 };

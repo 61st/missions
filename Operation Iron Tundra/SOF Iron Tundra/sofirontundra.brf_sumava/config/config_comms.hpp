@@ -5,6 +5,9 @@ private _srHashMap = [
     ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
     ["OUTLAW-1/2",          [["ACRE", 4], ["TFAR", 121.2]]],
 
+    ["Team-1",              [["ACRE", 2], ["TFAR", 121.1]]],
+    ["Team-2",              [["ACRE", 4], ["TFAR", 121.2]]],
+
     ["RECRUITS",            [["ACRE", 8], ["TFAR", 52]]],
     ["STUDENTS",            [["ACRE", 8], ["TFAR", 52]]],
 
@@ -24,6 +27,9 @@ private _mrHashMap = [
     ["OUTLAW-HQ",           [["ACRE", 1], ["TFAR", 50]]],
     ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
     ["OUTLAW-1/2",          [["ACRE", 3], ["TFAR", 121.2]]],
+
+    ["Team-1",              [["ACRE", 2], ["TFAR", 121.1]]],
+    ["Team-2",              [["ACRE", 3], ["TFAR", 121.2]]],
 
     ["RECRUITS",            [["ACRE", 14], ["TFAR", 52]]],
     ["STUDENTS",            [["ACRE", 15], ["TFAR", 52]]],
@@ -47,6 +53,9 @@ private _lrHashMap = [
     ["OUTLAW-HQ",           [["ACRE", 4], ["TFAR", 50]]],
     ["OUTLAW-1/1",          [["ACRE", 1], ["TFAR", 121.1]]],
     ["OUTLAW-1/2",          [["ACRE", 1], ["TFAR", 121.2]]],
+
+    ["Team-1",              [["ACRE", 1], ["TFAR", 121.1]]],
+    ["Team-2",              [["ACRE", 1], ["TFAR", 121.2]]],
 
     ["RECRUITS",            [["ACRE", 6], ["TFAR", 52]]],
     ["STUDENTS",            [["ACRE", 6], ["TFAR", 52]]],
