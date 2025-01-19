@@ -301,7 +301,7 @@ if (_vehicle isKindOf "lxim_rhs_mk20_base_F") then {
 };
 
 if (_vehicle isKindOf "rhsusf_stryker_base") then {
-    [_vehicle, 8, 38, false, false] call FUNC(setCargoAttributes);
+    [_vehicle, 10, 40, false, false] call FUNC(setCargoAttributes);
 
     switch (_vehicleType) do {
         case "rhsusf_stryker_m1132_m2_wd";

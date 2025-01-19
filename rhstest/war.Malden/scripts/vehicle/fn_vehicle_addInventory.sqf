@@ -214,7 +214,7 @@ if (_vehicle isKindOf "Truck_01_base_F") then {
 };
 
 if (_vehicle isKindOf "rhsusf_stryker_base") then {
-    [_vehicle, 8, 38, false, false] call FUNC(setCargoAttributes);
+    [_vehicle, 10, 40, false, false] call FUNC(setCargoAttributes);
 
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
     ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
