@@ -20,6 +20,7 @@ class medic {
             {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "ACM_ThoracostomyKit",
         "ACE_epinephrine",
         "ACE_suture",
         "ACE_tourniquet",

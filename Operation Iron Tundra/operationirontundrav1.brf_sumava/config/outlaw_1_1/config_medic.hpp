@@ -21,6 +21,7 @@ class medic11 {
             {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "ACM_ThoracostomyKit",
         "ACM_FieldBloodTransfusionKit_500",
         "ACM_FieldBloodTransfusionKit_250",
         "lxim_medbags_DrugKit",
