@@ -4,7 +4,7 @@
  * This function add diary records.
  *
  * Example:
- * call cScripts_fnc_init_diary
+ * call YMF_fnc_init_diary
  *
  * Public: No
  */

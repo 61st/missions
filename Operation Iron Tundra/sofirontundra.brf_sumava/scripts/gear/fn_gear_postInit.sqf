@@ -36,12 +36,6 @@ if (hasInterface) then {
             } else { 
                 if !([player, "ItemAndroid"] call ace_common_fnc_hasItem) then {player linkItem "ItemAndroid"}; 
         };
-        YMF_savedLoadout = [player] call CBA_fnc_getLoadout;
-        [
-            [],
-            ["Loadout saved."],
-            [""],
-            [""]
-        ] call CBA_fnc_notify;
+        player call EFUNC(gear,saveLoadout);
     }] call CBA_fnc_addEventHandler;
 };

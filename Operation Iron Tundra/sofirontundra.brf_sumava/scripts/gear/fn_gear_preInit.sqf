@@ -37,12 +37,18 @@ if (isClass (missionConfigFile >> "CfgLoadouts")) then {
     }] call CBA_fnc_addClassEventHandler;
 
     ["CAManBase", "Respawn", {
-        //rank stuff
-        [player, 'BIS'] call EFUNC(player,setRank);
-        call EFUNC(player,setRankpatch);
+        params ["_unit"];
+        if (_unit == player) then {
+            //rank stuff
+            [player, 'BIS'] call EFUNC(player,setRank);
+            call EFUNC(_unit,setRankpatch);
 
-        //Name Stuff
-        call LXIM_w28fixes_fnc_player_set_name;
+            //Name Stuff
+            call LXIM_w28fixes_fnc_player_set_name;
+
+            //groups
+            call FUNC(onRespawn);
+        };
     }] call CBA_fnc_addClassEventHandler;
 
     ["CAManBase", "Local", {

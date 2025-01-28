@@ -40,6 +40,7 @@ class YMF {
         class getServerMetrics {};
         class isValidFaction {};
         class checkStagingZone {};
+        class filterUnitLoadout {};
 
         class getChannelName {};
         class clearRadioIds {}
@@ -153,6 +154,12 @@ class YMF {
         // class zenModule_RekitVehicle {};
         class zenModule_ResetPlayerRadio {};
     };
+    // class civ {
+    //     file = "scripts\civ";
+    //     class civ_init {};
+    //     class civ_checkProjectile {};
+    //     class civ_damage {};
+    // };
     class players {
         file = "scripts\players";
 
@@ -179,6 +186,12 @@ class YMF {
         class gear_postInitProxy { postInit = 1; };
         class gear_postInit {};
         class gear_setupRadios {};
+        // Save and Load
+        class gear_applyLoadout {};
+        class gear_saveLoadout {};
+        class gear_loadLoadout {};
+        class gear_removeLoadout {};
+        class gear_hasSavedLoadout {};
 
     };
     // class training {
