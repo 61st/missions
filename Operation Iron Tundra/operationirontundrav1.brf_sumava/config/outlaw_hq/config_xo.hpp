@@ -5,7 +5,7 @@ class xo {
     customVariables[] = {
         {"YMF_iscom", true, true},
         {"ace_medical_medicClass",0,true},
-        {"ace_isEngineer",0,true}
+        {"ace_isEngineer",2,true}
     };
     icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
