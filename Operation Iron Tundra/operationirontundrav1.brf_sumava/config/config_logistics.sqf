@@ -24,6 +24,7 @@
 
     //REQUIRED
     ["crate_medical", [
+        ["ACM_ThoracostomyKit",4],
         ["ACM_Paracetamol",8],
         ["ACM_AmmoniaInhalant",8],
         ["ACM_Inhaler_Penthrox",8],
@@ -132,6 +133,7 @@
         
         // M320 Ammo
         ["rhs_mag_M441_HE",20],
+        ["ACE_40mm_Pike",10],
         ["rhs_mag_M433_HEDP",20],
         ["rhs_mag_M397_HET",20],
         ["rhs_mag_m576",10],
@@ -201,6 +203,7 @@
     ]],
 
     ["helo_medical", [
+        ["ACM_ThoracostomyKit",8],
         ["ACM_Paracetamol",8],
         ["ACM_AmmoniaInhalant",8],
         ["ACM_Inhaler_Penthrox",8],

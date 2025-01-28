@@ -1,5 +1,6 @@
 class Common_Arsenal {
     items[] = {
+        "ACE_40mm_Pike",
         "ACE_Altimeter",
         "ACE_bodyBag",
         "ACE_CableTie",

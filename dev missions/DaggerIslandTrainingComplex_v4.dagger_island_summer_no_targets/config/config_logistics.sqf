@@ -26,6 +26,7 @@
 
     //REQUIRED
     ["crate_medical", [
+        ["ACM_ThoracostomyKit",4],
         ["ACM_Paracetamol",8],
         ["ACM_AmmoniaInhalant",8],
         ["ACM_Inhaler_Penthrox",8],
@@ -216,6 +217,7 @@
     ]],
 
     ["helo_medical", [
+        ["ACM_ThoracostomyKit",8],
         ["ACM_Paracetamol",8],
         ["ACM_AmmoniaInhalant",8],
         ["ACM_Inhaler_Penthrox",8],
