@@ -7,7 +7,7 @@
  * None
  *
  * Example:
- * call cScripts_fnc_Doc_Info
+ * call YMF_fnc_Doc_Info
  */
 
 if !(player diarySubjectExists "trainmap") then {

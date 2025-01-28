@@ -8,9 +8,17 @@ private _roleConfig = missionConfigFile >> "Dynamic_Roles" >> _desiredRole;
 private _defaultLoadout = getArray(_roleConfig >> "defaultLoadout");
 
 if (_isRespawn) then {
-    player setUnitLoadout (missionNamespace getVariable ["YMF_savedLoadout",_defaultLoadout]);
+        private _loadout = [player] call EFUNC(gear,loadLoadout);
+        [player, _loadout] call EFUNC(gear,applyLoadout);
+        if (player call YMF_fnc_player_isCurator) then {
+            [player,true] call lxim_curator_fnc_assignZeus;
+            [true, true] call acre_api_fnc_godModeConfigureAccess;
+            [player,true] call admp_fnc_grantAdminAccess;
+        } else {
+            [player,false] call lxim_curator_fnc_assignZeus;
+            [false, false] call acre_api_fnc_godModeConfigureAccess;
+        };  
 } else {
-    YMF_savedLoadout = _defaultLoadout;
     player setUnitLoadout _defaultLoadout;
     
     private _items = getArray(_roleConfig >> "arsenalItems");
@@ -82,5 +90,7 @@ if (_isRespawn) then {
                 systemChat  "Setting up ACRE primary radio and channels";
                 [player] call FUNC(setRadioChannel);
                 ["ACRE_PRC148"] call FUNC(setActiveRadio);
-            }, []] call CBA_fnc_waitUntilAndExecute;
+    }, []] call CBA_fnc_waitUntilAndExecute;
+
+    player call EFUNC(gear,saveLoadout);
 };

@@ -20,7 +20,8 @@ private _srHashMap = [
     ["PHOENIX",             [["ACRE", 12], ["TFAR", 52]]],
     ["PHOENIX-3/1",         [["ACRE", 13], ["TFAR", 52]]],
     ["PHOENIX-3/2",         [["ACRE", 14], ["TFAR", 52]]],
-    ["PHOENIX-3/3",         [["ACRE", 15], ["TFAR", 52]]]
+    ["PHOENIX-3/3",         [["ACRE", 15], ["TFAR", 52]]],
+    ["RANGE-CONTROL",       [["ACRE", 16], ["TFAR", 50]]]
 ];
 
 private _mrHashMap = [
