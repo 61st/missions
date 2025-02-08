@@ -8,4 +8,8 @@ class Dynamic_Roles {
 
     #include "operator\config_operator.hpp"
     #include "operator\config_operatormedic.hpp"
+
+    #include "belvariansf\config_operator.hpp"
+    #include "belvariansf\config_operatormedic.hpp"
+
 };

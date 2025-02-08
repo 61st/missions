@@ -1,5 +1,5 @@
-class operatormed {
-    name = "operator-medic";
+class boperatormed {
+    name = "boperator-medic";
     description = "Its a grunts life";
     traits[] = {};
     customVariables[] = {
@@ -11,14 +11,12 @@ class operatormed {
 
     defaultLoadout[] = {
 
-            {"lxim_sig_XM7_BLK_G","KAR_XM250_SUP_BLK","rhsusf_acc_anpeq15_bk","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury_blk",25},{},""},{},
-            {"rhsusf_weap_glock17g4","","","",{"rhsusf_mag_17Rnd_9x19_JHP",17},{},""},
-            {"rhs_uniform_g3_mc",{{"FirstAidKit",1},{"rhsusf_ANPVS_14",1},{"rhsusf_patrolcap_ocp",1},{"ACE_EarPlugs",1},{"ACE_IR_Strobe_Item",1},{"ItemcTabHCam",1}}},
-            {"V_tweed_msv_mk2_cell_4cm_1",{{"rhs_mag_an_m14_th3",1,1},{"rhs_mag_mk84",5,1},{"rhs_mag_m67",1,1},{"lxim_sig_25Rnd_Fury_blk",12,25},{"rhsusf_mag_17Rnd_9x19_FMJ",3,17}}},
-            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
-            "H_HelmetSpecB_paint2","G_Bandanna_aviator",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemAndroid","ItemRadio","ItemCompass","ACE_Altimeter","psq42_od3"}
-            
+{"rhs_weap_ak104_zenitco01_b33","rhs_acc_pbs1","rhs_acc_perst3_2dp_h","rhs_acc_rakursPM",{"rhs_30Rnd_762x39mm_polymer",30},{},"rhs_acc_grip_rk6"},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
+{"rhssaf_uniform_m93_oakleaf_summer",{{"FirstAidKit",1},{"ACRE_PRC148",1},{"ACE_CableTie",4},{"ACE_SpraypaintGreen",1},{"lxim_medbags_FirstAid",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_Clacker",1},{"ACE_Fortify",1}}},
+{"rhssaf_vest_md99_woodland_rifleman_radio",{{"rhs_30Rnd_762x39mm_polymer",7,30},{"rhs_mag_9x19_17",1,17}}},
+{"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
+"LOP_H_Beanie_dpmw","G_Balaclava_TI_tna_F",{"rhs_pdu4","","","",{},{},""},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch","ACE_NVG_Gen4_Green"}
+
     };
     // for 1-1
     arsenalitems[] = {
