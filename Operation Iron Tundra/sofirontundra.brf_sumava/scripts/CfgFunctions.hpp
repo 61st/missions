@@ -194,14 +194,14 @@ class YMF {
         class gear_hasSavedLoadout {};
 
     };
-    // class training {
-    //     file = "scripts\training";
-    //     class initMOUT;
-    //     class range40mmTargetGroups;
-    //     class rangeMachineGunTargetGroups;
-    //     class rangeMarksmanTargetGroups;
-    //     class resetDamagedObjects;
-    // };
+    class training {
+        file = "scripts\training";
+        class initMOUT;
+        class range40mmTargetGroups;
+        class rangeMachineGunTargetGroups;
+        class rangeMarksmanTargetGroups;
+        class resetDamagedObjects;
+    };
 };
 
 class admp {
