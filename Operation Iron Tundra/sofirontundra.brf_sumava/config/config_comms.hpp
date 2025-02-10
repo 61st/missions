@@ -8,6 +8,9 @@ PRIVATE _SRHASHMAP = [
     ["TEAM-1",              [["ACRE", 2], ["TFAR", 121.1]]],
     ["TEAM-2",              [["ACRE", 4], ["TFAR", 121.2]]],
 
+    ["Belvarian-SF1",       [["ACRE", 2], ["TFAR", 121.1]]],
+    ["Belvarian-SF2",       [["ACRE", 4], ["TFAR", 121.2]]],
+
     ["RECRUITS",            [["ACRE", 8], ["TFAR", 52]]],
     ["STUDENTS",            [["ACRE", 8], ["TFAR", 52]]],
 
