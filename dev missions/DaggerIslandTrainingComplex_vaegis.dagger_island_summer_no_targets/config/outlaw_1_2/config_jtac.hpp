@@ -33,12 +33,13 @@ class jtac12 {
         "ACE_PlottingBoard",
         "acex_intelitems_notepad",
         "B_UavTerminal",
-        // "ItemGPSMisc",
         "ACE_RangeCard",
         "uh60_jvmf_tablet",
         "lxim_vs17_vs17",
         "ACRE_VHF30108SPIKE",
         "ACRE_VHF30108",
-        "ACRE_VHF30108MAST"
+        "ACRE_VHF30108MAST",
+        "ItemcTabMisc",
+        "ItemAndroidMisc"
     };
 };

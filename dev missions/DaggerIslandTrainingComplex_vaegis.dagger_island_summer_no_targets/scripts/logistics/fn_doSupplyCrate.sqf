@@ -30,8 +30,35 @@ switch (_crateType) do {
     case "crate_medicalInfantry": {
         _crateModel = "Box_B_UAV_06_medical_F";
     };
+    case "crate_resupply_general": {
+        _crateModel = "lxim_equipment_outlawHQ";
+    };
+    case "crate_outlaw_1-1": {
+        _crateModel = "lxim_equipment_outlaw11";
+    };
+    case "crate_outlaw_1-2": {
+        _crateModel = "lxim_equipment_outlaw12";
+    };
     case "crate_stinger": {
-        _crateModel = "Box_NATO_WpsLaunch_F";
+        _crateModel = "lxim_equipment_AA";
+    };
+    case "crate_javelin": {
+        _crateModel = "lxim_equipment_javlen";
+    };
+    case "crate_eng": {
+        _crateModel = "lxim_equipment_eng";
+    };
+    case "crate_m2": {
+        _crateModel = "lxim_equipment_50cal";
+    };
+    case "crate_mo": {
+        _crateModel = "lxim_equipment_252";
+    };
+    case "crate_mopp": {
+        _crateModel = "lxim_equipment_MOPP";
+    };
+    case "crate_tow": {
+        _crateModel = "lxim_equipment_TOW";
     };
     default {
         _crateModel = "B_CargoNet_01_ammo_F";

@@ -87,6 +87,12 @@ class medic11 {
         "lxim_backpack_Backpack_Kitbag_Medic_RGR",
         "lxim_backpack_Backpack_Kitbag_Medic_Sage",
         "lxim_backpack_Backpack_Kitbag_Medic_Tan",
-        "lxim_backpack_Backpack_Kitbag_Medic_White"
+        "lxim_backpack_Backpack_Kitbag_Medic_White",
+        "ACE_bodyBag",
+        "lxim_medbags_CLS",
+        "ACE_EarPlugs",
+        "ACE_EHP",
+        "ACM_Vial_Fentanyl",
+        "ACE_SpraypaintGreen"
     };
 };

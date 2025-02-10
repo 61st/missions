@@ -18,8 +18,8 @@
 params [["_vehicle", objNull, [objNull]]];
 
 private _textures = [
-    ["rhsusf_m1a2sep2_base", "Thunder-1 Desert (War Daddy)", [
-        "z\lxim\addons\media\images\vehicles\abrams\wardaddy_br.paa",
+    ["rhsusf_m1a2sep2_base", "Thunder-2/6 Desert (Storm King)", [
+        "z\lxim\addons\media\images\vehicles\abrams\stormking_l.paa",
         {
             [_vehicle, [
                 [0, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
@@ -31,14 +31,14 @@ private _textures = [
                 [6, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_co.paa"],
                 [7, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_crows_co.paa"],
                 [11, "\z\lxim\addons\media\images\vehicles\abrams\th_d_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\wardaddy_br.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\stormking_l.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
         }
     ]],
-    ["rhsusf_m1a2sep2_base", "Thunder-2 Desert (War Mommy)", [
-        "z\lxim\addons\media\images\vehicles\abrams\warmommy_br.paa",
+    ["rhsusf_m1a2sep2_base", "Thunder-2/1 Desert (Iron Rain)", [
+        "z\lxim\addons\media\images\vehicles\abrams\ironrain_l.paa",
         {
             [_vehicle, [
                 [0, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
@@ -50,14 +50,14 @@ private _textures = [
                 [6, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_co.paa"],
                 [7, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_crows_co.paa"],
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\5_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\warmommy_br.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\ironrain_l.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
         }
     ]],
-    ["rhsusf_m1a2sep2_base", "Thunder-3 Desert (War Child)", [
-        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warchild_ca.paa",
+    ["rhsusf_m1a2sep2_base", "Thunder-2/2 Desert (Tempest)", [
+        "z\lxim\addons\media\images\vehicles\abrams\tempest_l.paa",
         {
             [_vehicle, [
                 [0, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
@@ -69,65 +69,65 @@ private _textures = [
                 [6, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_co.paa"],
                 [7, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_crows_co.paa"],
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_D\6_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\warchild_br.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\tempest_l.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
         }
     ]],
 
-    ["rhsusf_m1a2sep2_base", "Thunder-1 (War Daddy)", [
-        "z\lxim\addons\media\images\vehicles\abrams\wardaddy_br.paa",
+    ["rhsusf_m1a2sep2_base", "Thunder-2/6 (Storm King)", [
+        "z\lxim\addons\media\images\vehicles\abrams\stormking_b.paa",
         {
             [_vehicle, [
                 [0, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_wd_03_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskia2_wd_co.paa"],
                 [5, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1slat_wd_co.paa"],
                 [6, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_wd_co.paa"],
                 [7, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_crows_co.paa"],
                 [11, "\z\lxim\addons\media\images\vehicles\abrams\th_ca.paa"],
-                [12, "\z\lxim\addons\media\images\vehicles\abrams\wardaddy_br.paa"]
+                [12, "\z\lxim\addons\media\images\vehicles\abrams\stormking_b.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 2, true];
         }
     ]],
-    ["rhsusf_m1a2sep2_base", "Thunder-2 (War Mommy)", [
-        "z\lxim\addons\media\images\vehicles\abrams\warmommy_br.paa",
+    ["rhsusf_m1a2sep2_base", "Thunder-2/1 (Iron Rain)", [
+        "z\lxim\addons\media\images\vehicles\abrams\ironrain_b.paa",
         {
             [_vehicle, [
                 [0, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_wd_03_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskia2_wd_co.paa"],
                 [5, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1slat_wd_co.paa"],
                 [6, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_wd_co.paa"],
                 [7, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_crows_co.paa"],
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_WD\5_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\warmommy_br.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\ironrain_b.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
         }
     ]],
-    ["rhsusf_m1a2sep2_base", "Thunder-3 (War Child)", [
-        "z\lxim\addons\media\images\vehicles\abrams\BarrelArt_warchild_ca.paa",
+    ["rhsusf_m1a2sep2_base", "Thunder-2/2 (Tempest)", [
+        "z\lxim\addons\media\images\vehicles\abrams\tempest_b.paa",
         {
             [_vehicle, [
                 [0, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_wd_03_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_wd_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskia2_wd_co.paa"],
                 [5, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1slat_wd_co.paa"],
                 [6, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_wd_co.paa"],
                 [7, "\rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv2_crows_co.paa"],
                 [11, "\rhsusf\addons\RHSUSF_Decals\Data\Labels\ArmyPlt_Abrams_WD\6_ca.paa"],
-                [12, "z\lxim\addons\media\images\vehicles\abrams\warchild_br.paa"]
+                [12, "z\lxim\addons\media\images\vehicles\abrams\tempest_b.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
             _vehicle setVariable [QEGVAR(Vehicle,Callsign), 3, true];
@@ -1919,11 +1919,11 @@ private _textures = [
         }
     ]],
 
-    ["RHS_M2A3_BUSKIII", "Thunder-6 Olive (War Daddy)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-6 Olive (Storm King)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_wardaddy_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_wd.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
@@ -1932,11 +1932,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-1 Olive (War Mommy)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-1 Olive (Iron Rain)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warmommy_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_wd.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
@@ -1945,11 +1945,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-2 Olive (War Child)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-2 Olive (Tempest)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warchild_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_wd.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
@@ -1958,11 +1958,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-6 Desert (War Daddy)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-6 Desert (Storm King)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_wardaddy_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
@@ -1971,11 +1971,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-1 Desert (War Mommy)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-1 Desert (Iron Rain)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warmommy_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
@@ -1984,11 +1984,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-2 Desert (War Child)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-2 Desert (Tempest)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warchild_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
@@ -1998,11 +1998,11 @@ private _textures = [
         }
     ]],
 
-    ["RHS_M6", "Thunder-6 Olive (War Daddy)", [
+    ["RHS_M6", "Thunder-6 Olive (Storm King)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_wardaddy_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_wd_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
@@ -2011,11 +2011,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M6", "Thunder-1 Olive (War Mommy)", [
+    ["RHS_M6", "Thunder-1 Olive (Iron Rain)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warmommy_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_wd_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
@@ -2024,11 +2024,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M6", "Thunder-2 Olive (War Child)", [
+    ["RHS_M6", "Thunder-2 Olive (Tempest)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warchild_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_wd_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
@@ -2037,11 +2037,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M6", "Thunder-6 Desert (War Daddy)", [
+    ["RHS_M6", "Thunder-6 Desert (Storm King)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_wardaddy_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
@@ -2050,11 +2050,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M6", "Thunder-1 Desert (War Mommy)", [
+    ["RHS_M6", "Thunder-1 Desert (Iron Rain)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warmommy_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
@@ -2063,11 +2063,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M6", "Thunder-2 Desert (War Child)", [
+    ["RHS_M6", "Thunder-2 Desert (Tempest)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_warchild_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
@@ -2128,7 +2128,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_rhs_mk20", "M20A2 Olive (War Daddy)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (Storm King)", [
         "",
         {
             [_vehicle, [
@@ -2142,7 +2142,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_rhs_mk20", "M20A2 Desert (War Daddy)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (Storm King)", [
         "",
         {
             [_vehicle, [
@@ -2156,7 +2156,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_rhs_mk20", "M20A2 Olive (War Mommy)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (Iron Rain)", [
         "",
         {
             [_vehicle, [
@@ -2170,7 +2170,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_rhs_mk20", "M20A2 Desert (War Mommy)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (Iron Rain)", [
         "",
         {
             [_vehicle, [
@@ -2184,7 +2184,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_rhs_mk20", "M20A2 Olive (War Child)", [
+    ["lxim_rhs_mk20", "M20A2 Olive (Tempest)", [
         "",
         {
             [_vehicle, [
@@ -2198,7 +2198,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["lxim_rhs_mk20", "M20A2 Desert (War Child)", [
+    ["lxim_rhs_mk20", "M20A2 Desert (Tempest)", [
         "",
         {
             [_vehicle, [
