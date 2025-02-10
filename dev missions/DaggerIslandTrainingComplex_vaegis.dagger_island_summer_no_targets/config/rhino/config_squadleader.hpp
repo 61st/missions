@@ -14,7 +14,7 @@ class squadleadr {
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
+            {"lxim_sig_XM7","KAR_XM250_SUP","rhsusf_acc_anpeq15","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{"tsp_meleeWeapon_halligan"},
             {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
             {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"lxim_medbags_mopp",1},{"lxim_medbags_FirstAid",1},{"ACE_MapTools",1},{"ACRE_PRC148",1},{"ACRE_PRC152",1},{"",1,0}}},
             {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
@@ -27,14 +27,13 @@ class squadleadr {
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
+        "B_UavTerminal",
         "ACE_Clacker",
         "ACE_DefusalKit",
         "ToolKit",
-        "lxim_breaching_BreachingCharge_Mag",
         "ACE_VMH3",
         "ACE_VMM3",
         "DemoCharge_Remote_Mag",
-        "B_UavTerminal",
         "ATMine_Range_Mag",
         "SatchelCharge_Remote_Mag",
         "ClaymoreDirectionalMine_Remote_Mag",
@@ -47,12 +46,15 @@ class squadleadr {
         "tsp_breach_linear_mag",
         "tsp_breach_block_auto_mag",
         "tsp_breach_block_mag",
-        "rhs_weap_M590_8RD",
-        "rhs_weap_M590_5RD",
-        "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "Rev_Demine",
         "Rev_UAV_IED",
-        "Rev_Roller"
+        "Rev_Roller",
+        "tsp_meleeWeapon_sledge_black",
+        "tsp_meleeWeapon_halligan",
+        "tsp_breach_silhouette_mag",
+        "tsp_breach_stick_mag",
+        "ACE_FlareTripMine_Mag",
+        "ACE_wirecutter",
+        "tsp_breach_shock"
     };
 };

@@ -20,19 +20,24 @@ class mark {
             {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
-        "LXIM_equipment_optic_AMS",
-        "LXIM_equipment_optic_AMS_khk",
-        "LXIM_equipment_optic_AMS_snd",
-        "LXIM_equipment_optic_AMSTI",
-        "LXIM_equipment_optic_AMSTI_khk",
-        "LXIM_equipment_optic_AMSTI_snd",
-        "LXIM_equipment_optic_DMS",
-        "LXIM_equipment_optic_Nightstalker",
+        "lxim_equipment_optic_AMS",
+        "lxim_equipment_optic_AMS_khk",
+        "lxim_equipment_optic_AMS_snd",
+        "lxim_equipment_optic_AMSTI",
+        "lxim_equipment_optic_AMSTI_khk",
+        "lxim_equipment_optic_AMSTI_snd",
+        "lxim_equipment_optic_DMS",
+        "lxim_equipment_optic_Nightstalker",
         "ACE_Kestrel4500",
         "ACE_HuntIR_monitor",
         "ACE_ATragMX",
         "ACE_RangeCard",
         "lxim_equipment_optic_AMS",
-        "lxim_equipment_optic_AMS_snd"
+        "lxim_equipment_optic_AMS_snd",
+        "Aegis_srifle_LRR_sand_F",
+        "Aegis_srifle_LRR_olive_F",
+        "Aegis_srifle_GM6B_sand_F",
+        "Aegis_srifle_GM6B_khaki_F",
+        "Aegis_srifle_GM6B_F"
     };
 };

@@ -23,6 +23,7 @@ class fac {
             {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "tun_tablet",
         "Rev_Pelican",
         "Rev_darter",
         "Rev_Designator",
@@ -32,9 +33,13 @@ class fac {
         "ACE_PlottingBoard",
         "acex_intelitems_notepad",
         "B_UavTerminal",
-        // "ItemGPSMisc",
         "ACE_RangeCard",
         "uh60_jvmf_tablet",
-        "lxim_vs17_vs17"
+        "lxim_vs17_vs17",
+        "ACRE_VHF30108SPIKE",
+        "ACRE_VHF30108",
+        "ACRE_VHF30108MAST",
+        "ItemcTabMisc",
+        "ItemAndroidMisc"
     };
 };

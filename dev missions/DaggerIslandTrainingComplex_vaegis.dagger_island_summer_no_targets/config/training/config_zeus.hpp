@@ -54,7 +54,6 @@ class zeus {
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "uh60_jvmf_tablet",
         "lxim_vs17_vs17",
-        // "ItemGPSMisc",
         "lxim_headgear_Cap_BlackLogo",
         "lxim_headgear_Cap_Headphones_BlackLogo"
     };
