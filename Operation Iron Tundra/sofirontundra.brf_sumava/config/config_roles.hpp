@@ -12,4 +12,7 @@ class Dynamic_Roles {
     #include "belvariansf\config_operator.hpp"
     #include "belvariansf\config_operatormedic.hpp"
 
+    #include "ciaoperator\config_ciaoperator.hpp"
+    #include "ciaoperator\config_ciaoperatormedic.hpp"
+
 };
