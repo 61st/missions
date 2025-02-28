@@ -14,7 +14,7 @@ private _YMFsettings = "61st - Mission Settings";
 [ // Ai setting
     QEGVAR(Settings,setAiSystemDifficulty),
     "LIST",
-    ["AI Setting", "This adjustes the ai and make them less godlike and more arcade to play against."],
+    ["AI Setting", "This adjusts the ai and make them less godlike and more arcade to play against."],
     [_YMFsettings, "Mission"],
     [[0,1,2], ["Arma Default", "Adjusted", "Faction Based"], 2],
     true,

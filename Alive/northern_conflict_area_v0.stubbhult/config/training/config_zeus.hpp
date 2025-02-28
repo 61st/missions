@@ -18,7 +18,7 @@ class zeus {
             {"U_tweed_acu_summer_ocp_unbl_trop",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"ACE_MapTools",1},{"ACRE_PRC148",1}}},{},
             {"B_tweed_pack_wasser_molle_ocp",{{"ACRE_PRC117F",1}}},
             "lxim_headgear_Cap_Headphones_BlackLogo","G_oak_2_cut",{},
-            {"ItemMap","ItemAndroid","","ItemCompass","ACE_Altimeter",""}
+            {"ItemMap","ItemAndroid","ItemGPS","ItemCompass","ACE_Altimeter",""}
     };
 
     arsenalitems[] = {
