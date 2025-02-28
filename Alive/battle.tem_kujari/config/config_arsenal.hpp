@@ -1,5 +1,6 @@
 class Common_Arsenal {
     items[] = {
+        "ItemGPS",
         "vtf_MK13",
         "UGL_FlareGreen_F",
         "UGL_FlareYellow_F",

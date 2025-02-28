@@ -123,14 +123,14 @@
         ["SatchelCharge_Remote_Mag", 10]
     ]],  
 
-    ["crate_m2", [
-        ["ace_csw_100Rnd_127x99_mag_red", 12],
-        ["ace_csw_100Rnd_127x99_mag", 12]
+    ["crate_bmg", [
+        ["ace_csw_100Rnd_127x99_mag", 12],
+        ["ace_csw_20Rnd_20mm_G_belt", 8],
+        ["ace_csw_100Rnd_127x99_mag_red", 8]
     ]],  
 
     ["crate_titan", [
         ["Titan_AT", 8],
-        ["ace_missile_manpad_stinger_man", 4],
         ["Titan_AP", 4],
         ["Titan_AA", 4]
     ]],  

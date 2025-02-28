@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=19142;
+		nextID=19156;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=28875;
+		nextID=28897;
 	};
 	class Camera
 	{
-		pos[]={11986.238,34.677158,15090.926};
-		dir[]={0.98686582,-0.15448548,0.049409479};
-		up[]={0.15432435,0.98798937,0.0077265198};
-		aside[]={0.050008439,-7.2569856e-07,-0.99885672};
+		pos[]={11981.439,32.77401,15095.79};
+		dir[]={0.91687822,-0.36840248,0.15366834};
+		up[]={0.36333483,0.9296664,0.060894743};
+		aside[]={0.16529407,0,-0.98624432};
 	};
 };
 binarizationWanted=0;
@@ -405,7 +405,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -418,7 +418,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -431,7 +431,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -3527,7 +3527,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[      " \n " [""#V Rotary"",[    " \n "    [""B_Heli_Light_01_F"","""",{},[],1,-1,99],     " \n "    [""B_Heli_Attack_01_dynamicLoadout_F"","""",{},[],1,-1,99],     " \n "    [""B_Heli_Light_01_dynamicLoadout_F"","""",{},[],1,-1,99],     " \n "    [""E22_B_JTF_D_Heli_Transport_01_F"","""",{},[],1,-1,99],     " \n "    [""RHS_UH60M_MEV2_d"","""",{},[],1,-1,99],     " \n "    [""E22_B_JTF_D_Heli_Transport_03_F"","""",{},[],1,-1,99],     " \n "    [""E22_B_JTF_D_Heli_Attack_03_F"","""",{},[],1,-1,99] " \n " ]],   " \n "[""#Hatchet Rotary"",[    " \n "    [""vtx_UH60M"","""",{},[],1,-1,99],     " \n "    [""vtx_HH60"","""",{},[],1,-1,99],     " \n "    [""vtx_MH60M"","""",{},[],1,-1,99],     " \n "    [""vtx_MH60M_DAP"","""",{},[],1,-1,99],     " \n "    [""vtx_MH60M_DAP_MLASS"","""",{},[],1,-1,99],     " \n "    [""RHS_UH60M_MEV2_d"","""",{},[],1,-1,99],     " \n "    [""vtx_UH60M_MEDEVAC"","""",{},[],1,-1,99],     " \n "    [""vtx_UH60M_SLICK"", """",{},[],1,-1,99]   " \n " ]],      " \n " [""#V Fixed Wing"",[   " \n "    [""B_Plane_CAS_01_dynamicLoadout_F"","""",{},[],1,-1,99]   " \n " ]],    " \n " [""#USAF Fixed Wing"",[   " \n "    [""USAF_A10"","""",{},[],1,-1,99],      " \n "    [""USAF_F22"","""",{},[],1,-1,99],      " \n "    [""USAF_F22_EWP_AA"","""",{},[],1,-1,99],      " \n "    [""USAF_F22_EWP_AG"","""",{},[],1,-1,99],      " \n "    [""USAF_F22_Heavy"","""",{},[],1,-1,99],      " \n "    [""USAF_F35A"","""",{},[],1,-1,99],      " \n "    [""USAF_F35A_STEALTH"","""",{},[],1,-1,99]      " \n " ]],      " \n " [""#BIG Fixed Wing"",[   " \n "    [""USAF_AC130U"","""",{},[],1,-1,99],      " \n "    [""USAF_C17"","""",{},[],1,-1,99],      " \n "    [""usaf_kc135"","""",{},[],1,-1,99],      " \n "    [""USAF_C130J_Cargo"", """",{},[],1,-1,99],   " \n "    [""USAF_C130J"", """",{},[],1,-1,99]   " \n " ]],    " \n " [""#Crew"",[    " \n "     [""E22_B_JTF_D_Helipilot_F"","""",{},[],1,-1,99],      " \n "     [""E22_B_JTF_D_Helicrew_F"", """",{},[],1,-1,99],   " \n "     [""E22_B_JTF_Cargo_Pilot_F"", """",{},[],1,-1,99]    " \n "    " \n " ]],     " \n " [""#Support"",[                  " \n "        [""B_Truck_01_Repair_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],                " \n "        [""B_Truck_01_fuel_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],           " \n "        [""B_Truck_01_ammo_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]          " \n "  ]],     " \n " [""#Supplies"",[             " \n "        [""Land_PortableCabinet_01_medical_F"",[""Medical Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;        " \n "        },[],1,1],             " \n "        [""lxim_equipment_outlawHQ"",[""Outlaw Common Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_resupply_general""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "    " \n "        [""lxim_equipment_outlaw11"",[""Outlaw 1-1 Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_outlaw_1-1""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""lxim_equipment_outlaw12"",[""Outlaw 1-2 Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_outlaw_1-2""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_TOW"",[""Outlaw TOW Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_tow""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""lxim_equipment_50cal"",[""Outlaw 50cal Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_m2""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_252"",[""Outlaw M252 Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_mo""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_eng"",[""Outlaw Eng Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_eng""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_javelin"",[""Outlaw Javelin Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_javelin""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""B_supplyCrate_F"",[""FOB Alpha"",""@resupply""],{       " \n "            [_this,true,true] call YMF_fnc_doStarterCrate;     " \n "            [_this,""FOB Alpha, Check Before Use"",west] call Rev_tp_fnc_addPoint;      " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""B_CargoNet_01_ammo_F"",[""FOB Build kit"",""@resupply""],{},[],1,99],             " \n "        [""Box_NATO_WpsSpecial_F"",[""Empty Box"",""@resupply""],{          " \n "             clearWeaponCargoGlobal _this;     " \n "             clearMagazineCargoGlobal _this;     " \n "             clearItemCargoGlobal _this;     " \n "             clearBackpackCargoGlobal _this;       " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1]      " \n "    ]]      " \n "]  ";
+									value="[      " \n " [""#V Rotary"",[    " \n "    [""B_Heli_Light_01_F"","""",{},[],1,-1,99],     " \n "    [""B_Heli_Attack_01_dynamicLoadout_F"","""",{},[],1,-1,99],     " \n "    [""B_Heli_Light_01_dynamicLoadout_F"","""",{},[],1,-1,99],     " \n "    [""E22_B_JTF_D_Heli_Transport_01_F"","""",{},[],1,-1,99],     " \n "    [""RHS_UH60M_MEV2_d"","""",{},[],1,-1,99],     " \n "    [""E22_B_JTF_D_Heli_Transport_03_F"","""",{},[],1,-1,99],     " \n "    [""E22_B_JTF_D_Heli_Attack_03_F"","""",{},[],1,-1,99] " \n " ]],   " \n "[""#Hatchet Rotary"",[    " \n "    [""vtx_UH60M"","""",{},[],1,-1,99],     " \n "    [""vtx_HH60"","""",{},[],1,-1,99],     " \n "    [""vtx_MH60M"","""",{},[],1,-1,99],     " \n "    [""vtx_MH60M_DAP"","""",{},[],1,-1,99],     " \n "    [""vtx_MH60M_DAP_MLASS"","""",{},[],1,-1,99],     " \n "    [""RHS_UH60M_MEV2_d"","""",{},[],1,-1,99],     " \n "    [""vtx_UH60M_MEDEVAC"","""",{},[],1,-1,99],     " \n "    [""vtx_UH60M_SLICK"", """",{},[],1,-1,99]   " \n " ]],      " \n " [""#V Fixed Wing"",[   " \n "    [""B_Plane_CAS_01_dynamicLoadout_F"","""",{},[],1,-1,99]   " \n " ]],    " \n " [""#USAF Fixed Wing"",[   " \n "    [""USAF_A10"","""",{},[],1,-1,99],      " \n "    [""USAF_F22"","""",{},[],1,-1,99],      " \n "    [""USAF_F22_EWP_AA"","""",{},[],1,-1,99],      " \n "    [""USAF_F22_EWP_AG"","""",{},[],1,-1,99],      " \n "    [""USAF_F22_Heavy"","""",{},[],1,-1,99],      " \n "    [""USAF_F35A"","""",{},[],1,-1,99],      " \n "    [""USAF_F35A_STEALTH"","""",{},[],1,-1,99]      " \n " ]],      " \n " [""#BIG Fixed Wing"",[   " \n "    [""USAF_AC130U"","""",{},[],1,-1,99],      " \n "    [""USAF_C17"","""",{},[],1,-1,99],      " \n "    [""usaf_kc135"","""",{},[],1,-1,99],      " \n "    [""USAF_C130J_Cargo"", """",{},[],1,-1,99],   " \n "    [""USAF_C130J"", """",{},[],1,-1,99]   " \n " ]],    " \n " [""#Crew"",[    " \n "     [""E22_B_JTF_D_Helipilot_F"","""",{},[],1,-1,99],      " \n "     [""E22_B_JTF_D_Helicrew_F"", """",{},[],1,-1,99],   " \n "     [""E22_B_JTF_Cargo_Pilot_F"", """",{},[],1,-1,99]      " \n " ]]" \n "]  ";
 								};
 							};
 						};
@@ -4063,7 +4063,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[            " \n "    [""#APC's"",[             " \n "        [""B_APC_Tracked_01_CRV_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],           " \n "        [""B_APC_Tracked_01_rcws_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]          " \n "     ]],         " \n "    [""#MRAP's"",[             " \n "        [""B_MRAP_01_gmg_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],           " \n "        [""B_MRAP_01_hmg_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],           " \n "        [""B_Quadbike_01_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]     " \n "     ]],   " \n "     [""#EF-MRAP's"",[             " \n "        [""EF_B_MRAP_01_FSV_MJTF_Des"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],           " \n "        [""EF_B_MRAP_01_AT_MJTF_Des"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],           " \n "        [""EF_B_MRAP_01_LAAD_NATO"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]      " \n "     ]],        " \n "     [""#HEMTT's"",[             " \n "        [""B_Truck_01_transport_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],             " \n "        [""B_Truck_01_Repair_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],        " \n "        [""B_Truck_01_medical_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],             " \n "        [""B_Truck_01_fuel_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],        " \n "        [""B_Truck_01_flatbed_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99] ,             " \n "        [""B_Truck_01_cargo_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],        " \n "        [""B_Truck_01_ammo_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]        " \n "     ]],            " \n "     [""#M20's"",[          " \n "        [""lxim_vanilla_mk20"",""M20A2"",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],       " \n "        [""lxim_vanilla_mev_mk20"",""M20 MEV"",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],           " \n "        [""lxim_vanilla_repair_mk20"",""M20 Support"",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]        " \n "     ]],         " \n "     [""#M-1X's"",[             " \n "            [""B_abramsx"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]           " \n "     ]],            " \n "    [""#Crew"",[             " \n "          ""B_crew_F""             " \n "    ]],                        " \n "    [""#Supplies"",[             " \n "        [""Land_PortableCabinet_01_medical_F"",[""Medical Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;        " \n "        },[],1,1],             " \n "        [""lxim_equipment_outlawHQ"",[""Outlaw Common Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_resupply_general""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "    " \n "        [""lxim_equipment_outlaw11"",[""Outlaw 1-1 Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_outlaw_1-1""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""lxim_equipment_outlaw12"",[""Outlaw 1-2 Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_outlaw_1-2""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_TOW"",[""Outlaw TOW Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_tow""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""lxim_equipment_50cal"",[""Outlaw 50cal Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_m2""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_252"",[""Outlaw M252 Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_mo""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_eng"",[""Outlaw Eng Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_eng""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_javelin"",[""Outlaw Javelin Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_javelin""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""B_supplyCrate_F"",[""FOB Alpha"",""@resupply""],{       " \n "            [_this,true,true] call YMF_fnc_doStarterCrate;     " \n "            [_this,""FOB Alpha, Check Before Use"",west] call Rev_tp_fnc_addPoint;      " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""B_CargoNet_01_ammo_F"",[""FOB Build kit"",""@resupply""],{},[],1,99],             " \n "        [""Box_NATO_WpsSpecial_F"",[""Empty Box"",""@resupply""],{          " \n "             clearWeaponCargoGlobal _this;     " \n "             clearMagazineCargoGlobal _this;     " \n "             clearItemCargoGlobal _this;     " \n "             clearBackpackCargoGlobal _this;       " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1]      " \n "    ]],       " \n "     [""#Crew Served"",[             " \n "        [""B_GMG_01_F"","""",{           " \n "            [_this, 1] call ace_cargo_fnc_setSize;        " \n "        },[],1,1],             " \n "        [""B_HMG_01_F"","""",{          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""B_Mortar_01_F"",""MK6"",{          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1]     " \n "    ]]           " \n "] ";
+									value="[             " \n "    [""#APC's"",[              " \n "        [""B_APC_Tracked_01_CRV_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],            " \n "        [""B_APC_Tracked_01_rcws_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]           " \n "     ]],          " \n "    [""#MRAP's"",[              " \n "        [""B_MRAP_01_gmg_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],            " \n "        [""B_MRAP_01_hmg_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],            " \n "        [""B_Quadbike_01_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]      " \n "     ]],    " \n "     [""#EF-MRAP's"",[              " \n "        [""EF_B_MRAP_01_FSV_MJTF_Des"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],            " \n "        [""EF_B_MRAP_01_AT_MJTF_Des"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],            " \n "        [""EF_B_MRAP_01_LAAD_NATO"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]       " \n "     ]],         " \n "     [""#HEMTT's"",[              " \n "        [""B_Truck_01_transport_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],              " \n "        [""B_Truck_01_Repair_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],         " \n "        [""B_Truck_01_medical_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],              " \n "        [""B_Truck_01_fuel_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],         " \n "        [""B_Truck_01_flatbed_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99] ,              " \n "        [""B_Truck_01_cargo_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],         " \n "        [""B_Truck_01_ammo_F"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]         " \n "     ]],             " \n "     [""#M20's"",[           " \n "        [""lxim_vanilla_mk20"",""M20A2"",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],        " \n "        [""lxim_vanilla_mev_mk20"",""M20 MEV"",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99],            " \n "        [""lxim_vanilla_repair_mk20"",""M20 Support"",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]         " \n "     ]],          " \n "     [""#M-1X's"",[              " \n "            [""B_abramsx"","""",{_this call YMF_fnc_vehicle_addInventory;_this call YMF_fnc_init_vehicle;},[],1,-1,99]            " \n "     ]],             " \n "    [""#Crew"",[              " \n "          ""B_crew_F""              " \n "    ]],                         " \n "    [""#Supplies"",[              " \n "        [""Land_PortableCabinet_01_medical_F"",[""Medical Resupply"",""@resupply""],{           " \n "             private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],              " \n "        [""lxim_equipment_outlawHQ"",[""Outlaw Common Resupply "",""@resupply""],{           " \n "             private _crateContent = [""crate_resupply_general""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""lxim_equipment_outlaw11"",[""Outlaw 1-1 Resupply "",""@resupply""],{           " \n "             private _crateContent = [""crate_outlaw_1-1""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""lxim_equipment_outlaw12"",[""Outlaw 1-2 Resupply"",""@resupply""],{           " \n "             private _crateContent = [""crate_outlaw_1-2""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],          " \n "        [""lxim_equipment_50cal"",[""Outlaw BMG Resupply"",""@resupply""],{           " \n "             private _crateContent = [""crate_bmg""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_252"",[""Outlaw M252 Resupply"",""@resupply""],{           " \n "             private _crateContent = [""crate_mo""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_eng"",[""Outlaw Eng Resupply"",""@resupply""],{           " \n "             private _crateContent = [""crate_eng""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_javelin"",[""Outlaw Titan Resupply"",""@resupply""],{           " \n "             private _crateContent = [""crate_titan""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""B_supplyCrate_F"",[""FOB Alpha"",""@resupply""],{        " \n "            [_this,true,true] call YMF_fnc_doStarterCrate;      " \n "            [_this,""FOB Alpha, Check Before Use"",west] call Rev_tp_fnc_addPoint;       " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""B_CargoNet_01_ammo_F"",[""FOB Build kit"",""@resupply""],{},[],1,99],              " \n "        [""Box_NATO_WpsSpecial_F"",[""Empty Box"",""@resupply""],{           " \n "             clearWeaponCargoGlobal _this;      " \n "             clearMagazineCargoGlobal _this;      " \n "             clearItemCargoGlobal _this;      " \n "             clearBackpackCargoGlobal _this;        " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1]       " \n "    ]],        " \n "     [""#Crew Served"",[              " \n "        [""B_GMG_01_F"","""",{            " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],              " \n "        [""B_HMG_01_F"","""",{           " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""B_Mortar_01_F"",""MK6"",{           " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1]      " \n "    ]]            " \n "] ";
 								};
 							};
 						};
@@ -11824,12 +11824,12 @@ class Mission
 								position[]={11883.5,24.10581,15082.619};
 							};
 							side="West";
-							flags=4;
 							class Attributes
 							{
 							};
 							id=18920;
 							type="E22_B_JTF_D_Helipilot_F";
+							atlOffset=3.3443718;
 						};
 						class Item2
 						{
@@ -11839,12 +11839,12 @@ class Mission
 								position[]={11883.5,24.10581,15082.619};
 							};
 							side="West";
-							flags=4;
 							class Attributes
 							{
 							};
 							id=18921;
 							type="E22_B_JTF_D_Helicrew_F";
+							atlOffset=3.3443718;
 						};
 						class Item3
 						{
@@ -11854,12 +11854,12 @@ class Mission
 								position[]={11883.5,24.10581,15082.619};
 							};
 							side="West";
-							flags=4;
 							class Attributes
 							{
 							};
 							id=18922;
 							type="E22_B_JTF_D_Helicrew_F";
+							atlOffset=3.3443718;
 						};
 					};
 					class Attributes
@@ -12023,7 +12023,7 @@ class Mission
 				};
 			};
 			id=773;
-			atlOffset=0.74102974;
+			atlOffset=5.8880711;
 		};
 		class Item6
 		{
@@ -16618,12 +16618,12 @@ class Mission
 						position[]={11934.411,22.900698,15104.311};
 					};
 					side="West";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=19134;
 					type="B_helicrew_F";
+					atlOffset=2.1392593;
 				};
 				class Item3
 				{
@@ -16633,12 +16633,12 @@ class Mission
 						position[]={11934.411,22.900698,15104.311};
 					};
 					side="West";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=19135;
 					type="B_helicrew_F";
+					atlOffset=2.1392593;
 				};
 			};
 			class Attributes
@@ -16832,12 +16832,12 @@ class Mission
 						position[]={11911.702,22.900698,15107.377};
 					};
 					side="West";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=19139;
 					type="B_helicrew_F";
+					atlOffset=2.1392593;
 				};
 				class Item3
 				{
@@ -16847,12 +16847,12 @@ class Mission
 						position[]={11911.702,22.900698,15107.377};
 					};
 					side="West";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=19140;
 					type="B_helicrew_F";
+					atlOffset=2.1392593;
 				};
 			};
 			class Attributes
