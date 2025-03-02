@@ -5,7 +5,8 @@ class squadlead12 {
     customVariables[] = {
         {"YMF_iscom", true, true},
         {"ace_medical_medicClass",0,true},
-        {"ace_isEngineer",0,true}
+        {"ace_isEngineer",0,true},
+        {"YMF_is12", true, true}
     };
 
     icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
