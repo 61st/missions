@@ -4,7 +4,8 @@ class teamlead11 {
     traits[] = {};
     customVariables[] = {
         {"ace_medical_medicClass",0,true},
-        {"ace_isEngineer",0,true}
+        {"ace_isEngineer",0,true},
+        {"YMF_is11", true, true}
     };
     icon = "z\LXIM\addons\media\images\Icons\iconmanleader_red.paa";
 

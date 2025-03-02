@@ -7,7 +7,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"TEMPEST-2/2",{"cmd","driver","gunner"},"true"},
         {"STORM-KING-2/6",{"cmd","driver","gunner"},"true"},
         {"OUTLAW-HQ",{"co","xo","jtac","medic","engineer","mark","mark"},"true"},
-        {"RRR",{"squadleadr","engineerr"},"true"},
+        {"RRR",{"squadleadr","engineerr","medict"},"true"},
         {"RHINO",{"squadleadr","engineerr","engineerr","engineerr","engineerr","engineerr","engineerr"},"true"},
         {"PHOENIX",{"pilot","pilot","fac"},"true"},
         {"PHOENIX-3/1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
