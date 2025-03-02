@@ -9,6 +9,7 @@ class Dynamic_Roles {
     #include "thunder\config_cmd.hpp"
     #include "thunder\config_driver.hpp"
     #include "thunder\config_gunner.hpp"
+    #include "thunder\config_medic.hpp"
 
     #include "outlaw_1_1\config_engineer.hpp"
     #include "outlaw_1_1\config_squadleader.hpp"
