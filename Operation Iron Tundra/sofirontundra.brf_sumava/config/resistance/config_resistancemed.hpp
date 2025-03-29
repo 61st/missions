@@ -11,11 +11,13 @@ class resistancemed {
 
     defaultLoadout[] = {
 
-        {"rhs_weap_pb_6p9","","","",{"rhs_mag_9x18_8_57N181S",8},{},""},
-        {"LOP_U_CHR_Woodlander_04",{{"FirstAidKit",1}}},{"rhs_vest_pistol_holster",{{"rhs_mag_9x18_8_57N181S",4,8}}},
-        {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
-        "LOP_H_Beanie_tan","G_Bandanna_blk",{"Binocular","","","",{},{},""},
-        {"ItemMap","","","ItemCompass","ItemWatch",""}
+            {},{},
+            {"rhs_weap_pb_6p9","","","",{"rhs_mag_9x18_8_57N181S",8},{},""},
+            {"LOP_U_CHR_Woodlander_04",{{"FirstAidKit",1}}},
+            {"rhs_vest_pistol_holster",{{"rhs_mag_9x18_8_57N181S",4,8}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
+            "LOP_H_Beanie_tan","G_Bandanna_blk",{"Binocular","","","",{},{},""},
+            {"ItemMap","","","ItemCompass","ItemWatch",""}
 
     };
     // for 1-1
