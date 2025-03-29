@@ -11,11 +11,13 @@ class resistance {
 
     defaultLoadout[] = {
 
-        {"rhs_weap_pb_6p9","","","",{"rhs_mag_9x18_8_57N181S",8},{},""},
-        {"LOP_U_CHR_Woodlander_04",{{"FirstAidKit",1}}},{"rhs_vest_pistol_holster",{{"rhs_mag_9x18_8_57N181S",4,8}}},
-        {"PRACS_SLA_bandolier",{{"ACE_Clacker",1},{"lxim_medbags_FirstAid",1},{"rhs_acc_6p9_suppressor",1},{"DemoCharge_Remote_Mag",2,1},{"rhssaf_mag_brd_m83_white",2,1},{"rhs_mag_9x18_8_57N181S",2,8}}},
-        "LOP_H_Beanie_tan","G_Bandanna_blk",{"Binocular","","","",{},{},""},
-        {"ItemMap","","","ItemCompass","ItemWatch",""}
+            {},{},
+            {"rhs_weap_pb_6p9","","","",{"rhs_mag_9x18_8_57N181S",8},{},""},
+            {"LOP_U_CHR_Woodlander_04",{{"FirstAidKit",1}}},
+            {"rhs_vest_pistol_holster",{{"rhs_mag_9x18_8_57N181S",4,8}}},
+            {"PRACS_SLA_bandolier",{{"ACE_Clacker",1},{"lxim_medbags_FirstAid",1},{"rhs_acc_6p9_suppressor",1},{"DemoCharge_Remote_Mag",2,1},{"rhssaf_mag_brd_m83_white",2,1},{"rhs_mag_9x18_8_57N181S",2,8}}},
+            "LOP_H_Beanie_tan","G_Bandanna_blk",{"Binocular","","","",{},{},""},
+            {"ItemMap","","","ItemCompass","ItemWatch",""}
 
     };
     // for 1-1
