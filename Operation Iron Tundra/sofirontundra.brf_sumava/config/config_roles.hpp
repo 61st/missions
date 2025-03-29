@@ -16,6 +16,6 @@ class Dynamic_Roles {
     #include "ciaoperator\config_ciaoperatormedic.hpp"
 
     #include "resistance\config_resistance.hpp"
-    #include "resistancemed\config_resistancemed.hpp"
+    #include "resistance\config_resistancemed.hpp"
 
 };
