@@ -1,4 +1,4 @@
-class resistancemed {
+class resistancem {
     name = "Resistance-medic";
     description = "Its a medic resistance life";
     traits[] = {};
