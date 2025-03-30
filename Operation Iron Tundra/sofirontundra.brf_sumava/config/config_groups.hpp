@@ -7,7 +7,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"CIA-Team-2",{"ciaoperator","ciaoperator","ciaoperator","ciaoperator","ciaoperator","ciaoperator","ciaoperator","ciaoperator","ciaoperator","ciaoperatormed",},"true"},
         {"Belvarian-SF1",{"boperator","boperator","boperator","boperator","boperator","boperator","boperator","boperator","boperator","boperatormed",},"true"},
         {"Belvarian-SF2",{"boperator","boperator","boperator","boperator","boperator","boperator","boperator","boperator","boperator","boperatormed",},"true"},
-        {"PHOENIX",{"pilot","pilot","fac"},"true"},
+        {"PHOENIX-3/6",{"pilot","pilot","fac"},"true"},
         {"PHOENIX-3/1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"RANGE-CTL",{"Zeus","Zeus"},"true"},
         {"Resistance-Team-1",{"resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistancemed",},"true"},

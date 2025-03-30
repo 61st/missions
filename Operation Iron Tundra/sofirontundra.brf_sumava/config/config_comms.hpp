@@ -1,7 +1,7 @@
 PRIVATE _SRHASHMAP = [
     
     ["UNASSIGNED",          [["ACRE", 7], ["TFAR", 50]]],
-    ["OUTLAW-HQ",           [["ACRE", 1], ["TFAR", 50]]],
+    ["OUTLAW-1/6",           [["ACRE", 1], ["TFAR", 50]]],
     ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
     ["OUTLAW-1/2",          [["ACRE", 4], ["TFAR", 121.2]]],
 
@@ -23,11 +23,11 @@ PRIVATE _SRHASHMAP = [
     ["RHINO",               [["ACRE", 7], ["TFAR", 52]]],
     ["RRR",               [["ACRE", 7], ["TFAR", 52]]],
 
-    ["IRON-RAIN-2/1",        [["ACRE", 9], ["TFAR", 52.1]]],
-    ["TEMPEST-2/2",        [["ACRE", 10], ["TFAR", 52.1]]],
-    ["STORM-KING-2/6",        [["ACRE", 11], ["TFAR", 52.1]]],
+    ["THUNDER-2/1",        [["ACRE", 9], ["TFAR", 52.1]]],
+    ["THUNDER-2/2",        [["ACRE", 10], ["TFAR", 52.1]]],
+    ["THUNDER-2/6",        [["ACRE", 11], ["TFAR", 52.1]]],
 
-    ["PHOENIX",             [["ACRE", 12], ["TFAR", 52]]],
+    ["PHOENIX-3/6",             [["ACRE", 12], ["TFAR", 52]]],
     ["PHOENIX-3/1",         [["ACRE", 13], ["TFAR", 52]]],
     ["PHOENIX-3/2",         [["ACRE", 14], ["TFAR", 52]]],
     ["PHOENIX-3/3",         [["ACRE", 15], ["TFAR", 52]]],
@@ -35,7 +35,7 @@ PRIVATE _SRHASHMAP = [
 ];
 
 PRIVATE _MRHASHMAP = [
-    ["OUTLAW-HQ",           [["ACRE", 1], ["TFAR", 50]]],
+    ["OUTLAW-1/6",           [["ACRE", 1], ["TFAR", 50]]],
     ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
     ["OUTLAW-1/2",          [["ACRE", 3], ["TFAR", 121.2]]],
 
@@ -46,7 +46,7 @@ PRIVATE _MRHASHMAP = [
     ["STUDENTS",            [["ACRE", 15], ["TFAR", 52]]],
 
     //AIR   
-    ["PHOENIX",             [["ACRE", 7], ["TFAR", 52]]],
+    ["PHOENIX-3/6",             [["ACRE", 7], ["TFAR", 52]]],
     ["PHOENIX-3/1",         [["ACRE", 7], ["TFAR", 52]]],
     ["PHOENIX-3/2",         [["ACRE", 7], ["TFAR", 52]]],
     ["PHOENIX-3/3",         [["ACRE", 7], ["TFAR", 52]]],
@@ -54,15 +54,15 @@ PRIVATE _MRHASHMAP = [
     ["RHINO",               [["ACRE", 6], ["TFAR", 52]]],
     ["RRR",               [["ACRE", 6], ["TFAR", 52]]],
 
-    ["IRON-RAIN-2/1",        [["ACRE", 6], ["TFAR", 52.1]]],
-    ["TEMPEST-2/2",        [["ACRE", 6], ["TFAR", 52.1]]],
-    ["STORM-KING-2/6",        [["ACRE", 6], ["TFAR", 52.1]]],
+    ["THUNDER-2/1",        [["ACRE", 6], ["TFAR", 52.1]]],
+    ["THUNDER-2/2",        [["ACRE", 6], ["TFAR", 52.1]]],
+    ["THUNDER-2/6",        [["ACRE", 6], ["TFAR", 52.1]]],
 
     ["RANGE-CTL",       [["ACRE", 18], ["TFAR", 50]]]
 ];
 
 PRIVATE _LRHASHMAP = [
-    ["OUTLAW-HQ",           [["ACRE", 4], ["TFAR", 50]]],
+    ["OUTLAW-1/6",           [["ACRE", 4], ["TFAR", 50]]],
     ["OUTLAW-1/1",          [["ACRE", 1], ["TFAR", 121.1]]],
     ["OUTLAW-1/2",          [["ACRE", 1], ["TFAR", 121.2]]],
 
@@ -73,7 +73,7 @@ PRIVATE _LRHASHMAP = [
     ["STUDENTS",            [["ACRE", 6], ["TFAR", 52]]],
 
     //AIR   
-    ["PHOENIX",             [["ACRE", 4], ["TFAR", 52]]],
+    ["PHOENIX-3/6",             [["ACRE", 4], ["TFAR", 52]]],
     ["PHOENIX-3/1",         [["ACRE", 10], ["TFAR", 52]]],
     ["PHOENIX-3/2",         [["ACRE", 10], ["TFAR", 52]]],
     ["PHOENIX-3/3",         [["ACRE", 10], ["TFAR", 52]]],
@@ -81,9 +81,10 @@ PRIVATE _LRHASHMAP = [
     ["RHINO",               [["ACRE", 4], ["TFAR", 52]]],
     ["RRR",               [["ACRE", 4], ["TFAR", 52]]],
 
-    ["IRON-RAIN-2/1",        [["ACRE", 2], ["TFAR", 52.1]]],
-    ["TEMPEST-2/2",        [["ACRE", 3], ["TFAR", 52.1]]],
-    ["STORM-KING-2/6",        [["ACRE", 4], ["TFAR", 52.1]]],
+    ["THUNDER-2/1",        [["ACRE", 7], ["TFAR", 52.1]]],
+    ["THUNDER-2/2",        [["ACRE", 7], ["TFAR", 52.1]]],
+    ["THUNDER-2/3",        [["ACRE", 7], ["TFAR", 52.1]]],
+    ["THUNDER-2/6",        [["ACRE", 7], ["TFAR", 52.1]]],
 
     ["RANGE-CTL",       [["ACRE", 4], ["TFAR", 50]]]
 ];

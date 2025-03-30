@@ -8,7 +8,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"War Daddy 2-6",{"cmd6","driver6","gunner6"},"true"},
         {"Outlaw HQ",{"co","xo","jtac","medic","engineer","mark"},"true"},
         {"Rhino",{"squadleadr","engineer","engineer","engineer","engineer"},"true"},
-        {"Phoenix",{"pilot","pilot","fac"},"true"},
+        {"PHOENIX-3/6",{"pilot","pilot","fac"},"true"},
         {"Phoenix 1-1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"Phoenix 1-2",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"Phoenix 1-3",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
