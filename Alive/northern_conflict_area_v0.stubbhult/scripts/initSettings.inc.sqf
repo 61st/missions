@@ -38,7 +38,7 @@ private _YMFsettings = "61st - Mission Settings";
 //     "EDITBOX",
 //     ["Long Range Radio Channels (ACRE)","Array of radio channels used for ACRE the index of the array translate to channel."],
 //     [_YMFsettings, "Radios"],
-//     '["COMMAND","OUTLAW","THUNDER","PHOENIX","RHINO","TRAINING","FIRES","CAS-1","CAS-2","AIR-1","AIR-2","GROUND-TO-AIR","CONVOY","AUX-1","AUX-2","ZEUS"]',
+//     '["COMMAND","OUTLAW","THUNDER","PHOENIX-3/6","RHINO","TRAINING","FIRES","CAS-1","CAS-2","AIR-1","AIR-2","GROUND-TO-AIR","CONVOY","AUX-1","AUX-2","ZEUS"]',
 //     true,
 //     {},
 //     true
@@ -48,7 +48,7 @@ private _YMFsettings = "61st - Mission Settings";
 //     "EDITBOX",
 //     ["Mid Range Radio Channels (ACRE)","Array of radio channels used for ACRE the index of the array translate to channel."],
 //     [_YMFsettings, "Radios"],
-//     '["OUTLAW-HQ","OUTLAW-1/1","OUTLAW-1/2","OUTLAW-1/3","MED-NET","ENG-NET","WHYAREUHERE"]',
+//     '["OUTLAW-1/6","OUTLAW-1/1","OUTLAW-1/2","OUTLAW-1/3","MED-NET","ENG-NET","WHYAREUHERE"]',
 //     true,
 //     {},
 //     true
