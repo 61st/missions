@@ -1039,7 +1039,12 @@ class Common_Arsenal {
         "Binocular",
         "G_Bandanna_Skull1",
         "G_Bandanna_shades",
-        "G_Bandanna_blk"
+        "G_Bandanna_blk",
+        "B_SCBA_01_F",
+        "ACE_TacticalLadder_Pack",
+        "G_B_Diving",
+        "lxim_equipment_Wetsuit",
+        "G_Diving"
     };
 };
 
