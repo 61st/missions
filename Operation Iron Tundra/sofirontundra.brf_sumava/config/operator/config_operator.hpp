@@ -44,7 +44,6 @@ class operator {
         "1Rnd_HE_Grenade_shell",
         "rhs_mag_M441_HE",
         "rhs_mag_m716_yellow",
-        "rhs_weap_m32",
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
