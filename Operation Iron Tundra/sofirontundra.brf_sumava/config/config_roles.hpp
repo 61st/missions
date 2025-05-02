@@ -18,4 +18,7 @@ class Dynamic_Roles {
     #include "resistance\config_resistance.hpp"
     #include "resistance\config_resistancemed.hpp"
 
+    #include "marsoc\config_marsoc.hpp"
+    #include "marsoc\config_marsocmed.hpp"
+
 };

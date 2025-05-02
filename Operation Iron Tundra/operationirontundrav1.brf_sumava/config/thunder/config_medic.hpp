@@ -86,6 +86,10 @@ class medict {
         "B_simc_US_Molle_sturm_OCP_RTO",
         "lxim_backpack_Backpack_Kitbag_Medic_Black",
         "lxim_backpack_Backpack_Kitbag_Medic_Sage",
-        "lxim_backpack_Backpack_Kitbag_Medic_White"
+        "lxim_backpack_Backpack_Kitbag_Medic_White",
+        "ACM_Vial_Fentanyl",
+        "ACM_FieldBloodTransfusionKit_250",
+        "ACM_FieldBloodTransfusionKit_500",
+        "ACM_Vial_CalciumChloride"
     };
 };

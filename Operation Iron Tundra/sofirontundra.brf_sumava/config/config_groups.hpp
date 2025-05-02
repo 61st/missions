@@ -11,7 +11,9 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"PHOENIX-3/1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         {"RANGE-CTL",{"Zeus","Zeus"},"true"},
         {"Resistance-Team-1",{"resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistancemed",},"true"},
-        {"Resistance-Team-2",{"resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistancemed",},"true"}
+        {"Resistance-Team-2",{"resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistance","resistancemed",},"true"},
+        {"Marsoc-Team-1",{"marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsocmed",},"true"},
+        {"Marsoc-Team-2",{"marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsoc","marsocmed",},"true"}
     };
 };
 

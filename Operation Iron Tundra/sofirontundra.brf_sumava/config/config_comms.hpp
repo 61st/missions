@@ -14,6 +14,9 @@ PRIVATE _SRHASHMAP = [
     ["Resistance-Team-1",   [["ACRE", 2], ["TFAR", 121.1]]],
     ["Resistance-Team-2",   [["ACRE", 4], ["TFAR", 121.2]]],
 
+    ["Marsoc-Team-1",       [["ACRE", 2], ["TFAR", 121.1]]],
+    ["Marsoc-Team-2",       [["ACRE", 4], ["TFAR", 121.2]]],
+
     ["Belvarian-SF1",       [["ACRE", 2], ["TFAR", 121.1]]],
     ["Belvarian-SF2",       [["ACRE", 4], ["TFAR", 121.2]]],
 
@@ -21,7 +24,7 @@ PRIVATE _SRHASHMAP = [
     ["STUDENTS",            [["ACRE", 8], ["TFAR", 52]]],
 
     ["RHINO",               [["ACRE", 7], ["TFAR", 52]]],
-    ["RRR",               [["ACRE", 7], ["TFAR", 52]]],
+    ["RRR",                 [["ACRE", 7], ["TFAR", 52]]],
 
     ["THUNDER-2/1",        [["ACRE", 9], ["TFAR", 52.1]]],
     ["THUNDER-2/2",        [["ACRE", 10], ["TFAR", 52.1]]],
