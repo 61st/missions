@@ -70,6 +70,13 @@ class pilot {
                 "U_I_pilotCoveralls",
                 "U_B_HeliPilotCoveralls",
                 "rhsusf_ihadss",
-                "RHS_jetpilot_usaf"
+                "RHS_jetpilot_usaf",
+                "rhs_weap_m4_carryhandle",
+                "rhs_weap_m4",
+                "rhs_mag_30Rnd_556x45_M855_Stanag_Pull",
+                "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",
+                "H_PilotHelmetFighter_B",
+                "RHS_jetpilot_usaf",
+                "H_PilotHelmetHeli_B"
         };
 };

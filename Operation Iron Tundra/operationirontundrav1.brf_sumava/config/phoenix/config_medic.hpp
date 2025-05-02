@@ -132,6 +132,17 @@ class medicp {
         "rhsusf_hgu56p_visor_usa",
         "rhsusf_hgu56p_visor_white",
         "rhsusf_hgu56p_white",
-        "U_B_HeliPilotCoveralls"
+        "U_B_HeliPilotCoveralls",
+        "rhs_weap_m4_carryhandle",
+        "rhs_weap_m4",
+        "rhs_mag_30Rnd_556x45_M855_Stanag_Pull",
+        "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",
+        "H_PilotHelmetFighter_B",
+        "RHS_jetpilot_usaf",
+        "H_PilotHelmetHeli_B",
+        "ACM_Vial_Fentanyl",
+        "ACM_FieldBloodTransfusionKit_250",
+        "ACM_FieldBloodTransfusionKit_500",
+        "ACM_Vial_CalciumChloride"
     };
 };
