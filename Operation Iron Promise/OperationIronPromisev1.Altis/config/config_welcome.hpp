@@ -1,6 +1,6 @@
 private _message = "
-	<t align='center' size='5' shadow='0'><br/>61st Special Ops</t><br/>
-	Welcome to the 61st Operation Iron Tundra<br/>
+	<t align='center' size='5' shadow='0'><br/>61st Main Ops</t><br/>
+	Welcome to the 61st Operation Iron Promise<br/>
 	To get started, select a role from the group menu and access subsequent menus through ACE Self Interact. You can view more information in the diary.<br/><br/>
 	<br/>
 	If you are new and have not been assigned to a squad or a sections, Please stand behind the formation, 
