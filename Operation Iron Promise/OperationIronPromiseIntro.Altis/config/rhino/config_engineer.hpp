@@ -49,6 +49,7 @@ class engineerr {
         "rhs_weap_M590_5RD",
         "Rev_Demine",
         "Rev_UAV_IED",
-        "Rev_Roller"
+        "Rev_Roller",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
     };
 };
