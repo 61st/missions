@@ -1,6 +1,6 @@
 class dismount11 {
-    name = "Embassy Guard";
-    description = "Its a grunts life";
+    name = "Marine";
+    description = "Its a crayon eaters life";
     traits[] = {};
     customVariables[] = {
         {"ace_medical_medicClass",0,true},
