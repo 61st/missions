@@ -1,5 +1,5 @@
 class dismount12 {
-    name = "Embassy Guard";
+    name = "Marine";
     description = "Its a grunts life";
     traits[] = {};
     customVariables[] = {
