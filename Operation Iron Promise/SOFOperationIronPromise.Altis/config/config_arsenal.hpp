@@ -540,7 +540,14 @@ class Common_Arsenal {
         "rhs_mag_m661_green",
         "1Rnd_HE_Grenade_shell",
         "rhs_mag_M441_HE",
-        "rhs_mag_m716_yellow"
+        "rhs_mag_m716_yellow",
+        "ACM_SAMSplint",
+        "ACM_ChestSeal",
+        "cigs_morley_cigpack",
+        "cigs_lighter",
+        "cigs_cigars_cigarbox_5",
+        "cigs_lucky_strike_cigpack",
+        "cigs_crayons_crayonpack"
     };
 };
 

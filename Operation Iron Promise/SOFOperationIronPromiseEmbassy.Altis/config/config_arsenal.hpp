@@ -200,7 +200,14 @@ class Common_Arsenal {
         "rhsusf_mich_helmet_marpatwd_headset",
         "rhsusf_mich_helmet_marpatwd_norotos",
         "rhsusf_100Rnd_762x51_m61_ap",
-        "rhsusf_100Rnd_762x51_m62_tracer"
+        "rhsusf_100Rnd_762x51_m62_tracer",
+        "ACM_SAMSplint",
+        "ACM_ChestSeal",
+        "cigs_morley_cigpack",
+        "cigs_lighter",
+        "cigs_cigars_cigarbox_5",
+        "cigs_lucky_strike_cigpack",
+        "cigs_crayons_crayonpack"
     };
 };
 

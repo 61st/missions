@@ -71,6 +71,16 @@ class pilot {
                 "U_B_HeliPilotCoveralls",
                 "rhsusf_ihadss",
                 "RHS_jetpilot_usaf",
-                "rhs_weap_m4"
+                "rhs_weap_m4",
+                "FIR_JHMCS_Type2",
+                "FIR_JHMCS_II",
+                "FIR_JHMCS",
+                "FIR_Fighter_Pilot_JASDF_Nomex",
+                "FIR_Fighter_Pilot_JASDF_Nomex2",
+                "FIR_Fighter_Pilot_JASDF_Nomex3",
+                "FIR_Fighter_Pilot_JASDF_Nomex4",
+                "FIR_Fighter_Pilot_JASDF_Nomex5",
+                "FIR_Fighter_Pilot_JASDF_Nomex6",
+                "FIR_Fighter_Pilot_JASDF_Nomex7"
         };
 };

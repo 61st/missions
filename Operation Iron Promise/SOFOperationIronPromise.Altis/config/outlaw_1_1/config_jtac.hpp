@@ -39,6 +39,7 @@ class jtac11 {
         "lxim_vs17_vs17",
         "ACRE_VHF30108SPIKE",
         "ACRE_VHF30108",
-        "ACRE_VHF30108MAST"
+        "ACRE_VHF30108MAST",
+        "rhs_weap_M320"
     };
 };

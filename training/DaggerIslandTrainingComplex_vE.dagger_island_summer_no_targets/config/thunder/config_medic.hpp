@@ -87,6 +87,7 @@ class medict {
         "lxim_backpack_Backpack_Kitbag_Medic_Black",
         "lxim_backpack_Backpack_Kitbag_Medic_Sage",
         "lxim_backpack_Backpack_Kitbag_Medic_White",
-        "rhs_weap_m4"
+        "rhs_weap_m4",
+        "ToolKit",
     };
 };
