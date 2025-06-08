@@ -17,6 +17,7 @@ class Dynamic_Roles {
     #include "outlaw_1_1\config_medic.hpp"
     #include "outlaw_1_1\config_jtac.hpp"
     #include "outlaw_1_1\config_dismount.hpp"
+    #include "outlaw_1_1\config_marksman.hpp"
 
     #include "outlaw_1_2\config_engineer.hpp"
     #include "outlaw_1_2\config_squadleader.hpp"
@@ -24,6 +25,7 @@ class Dynamic_Roles {
     #include "outlaw_1_2\config_medic.hpp"
     #include "outlaw_1_2\config_jtac.hpp"
     #include "outlaw_1_2\config_dismount.hpp"
+    #include "outlaw_1_2\config_marksman.hpp"
 
     #include "rhino\config_squadleader.hpp"
     #include "rhino\config_engineer.hpp"
