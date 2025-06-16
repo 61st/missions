@@ -10,13 +10,13 @@ class sealteam1 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"rhs_weap_hk416d10_LMT_d","rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15","rhsusf_acc_eotech_552",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},"rhsusf_acc_grip2_tan"},{},
-            {"rhsusf_weap_glock17g4","rhsusf_acc_omega9k","acc_flashlight_pistol","",{"rhsusf_mag_17Rnd_9x19_JHP",17},{},""},
-            {"rhs_uniform_FROG01_wd",{{"lxim_medbags_FirstAid",1}}},
-            {"V_CarrierRigKBT_01_light_EAF_F",{{"rhs_mag_30Rnd_556x45_M855_PMAG",12,30},{"rhsusf_mag_17Rnd_9x19_JHP",2,17}}},
-            {"lxim_backpack_TacticalPack_Multicam_Woodland",{{"ACE_EntrenchingTool",1},{"ItemcTabMisc",1},{"ChemicalDetector_01_black_F",1},{"ACE_DefusalKit",1},{"tsp_lockpick",1},{"ACE_Clacker",1},{"ACE_Flashlight_XL50",1},{"rhs_mag_m67",2,1},{"rhs_grenade_anm8_mag",2,1},{"ACE_M84",2,1},{"MS_Strobe_Mag_1",2,1},{"DemoCharge_Remote_Mag",2,1}}},
-            "H_HelmetB_light_snakeskin","G_Bandanna_sport",{"lxim_equipment_Vector_Designator_NVG","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ACE_Altimeter","psq42_blk"}
+        {"rhs_weap_hk416d10_LMT_d","rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15","rhsusf_acc_eotech_552",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},"rhsusf_acc_grip2_tan"},{},
+        {"rhsusf_weap_glock17g4","rhsusf_acc_omega9k","acc_flashlight_pistol","",{"rhsusf_mag_17Rnd_9x19_JHP",17},{},""},
+        {"rhs_uniform_FROG01_wd",{{"lxim_medbags_FirstAid",1}}},
+        {"V_CarrierRigKBT_01_light_EAF_F",{{"rhs_mag_30Rnd_556x45_M855_PMAG",12,30},{"rhsusf_mag_17Rnd_9x19_JHP",2,17}}},
+        {"lxim_backpack_TacticalPack_Multicam_Woodland",{{"ACE_EntrenchingTool",1},{"ItemcTabMisc",1},{"ChemicalDetector_01_black_F",1},{"ACE_DefusalKit",1},{"tsp_lockpick",1},{"ACE_Clacker",1},{"ACE_Flashlight_XL50",1},{"rhs_mag_m67",2,1},{"rhs_grenade_anm8_mag",2,1},{"ACE_M84",2,1},{"MS_Strobe_Mag_1",2,1},{"DemoCharge_Remote_Mag",2,1}}},
+        "H_HelmetB_light_snakeskin","G_Bandanna_sport",{"lxim_equipment_Vector_Designator_NVG","","","",{"Laserbatteries",1},{},""},
+        {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ACE_Altimeter","psq42_blk"}
     };
     // for 1-1
     arsenalitems[] = {
