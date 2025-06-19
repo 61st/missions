@@ -12,13 +12,13 @@ class banshiringmed {
     icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
 
     defaultLoadout[] = {
-        {"rhs_weap_ak103_npz","rhs_acc_dtk1","rhs_acc_2dpZenit","rhs_acc_ekp8_18",{"rhs_30Rnd_762x39mm_polymer",30},{},""},{},
-        {"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
-        {"PRACS_SLA_M88_uniform",{{"ACE_EarPlugs",1},{"ACE_CableTie",6},{"ItemcTabHCam",1},{"lxim_medbags_FirstAid",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_DefusalKit",1},{"cigs_morley_cigpack",1,20},{"cigs_lighter",1,100}}},{"LOP_V_6B23_6Sh92_IDPM_OLV",{{"rhs_mag_rgd5",1,1},{"rhs_30Rnd_762x39mm_polymer",8,30}}},
-        {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
-        {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
-        "rhs_6b7_1m_ess_bala","G_Balaclava_blk",{"Binocular","","","",{},{},""},
-        {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch","rhs_1PN138"}
+            {"rhs_weap_ak103_npz","rhs_acc_dtk1","rhs_acc_2dpZenit","rhs_acc_ekp8_18",{"rhs_30Rnd_762x39mm_polymer",30},{},""},{},
+            {"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
+            {"PRACS_SLA_M88_uniform",{{"ACE_EarPlugs",1},{"ACE_CableTie",6},{"ItemcTabHCam",1},{"lxim_medbags_FirstAid",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_DefusalKit",1},{"cigs_morley_cigpack",1,20},{"cigs_lighter",1,100}}},
+            {"PRACS_SLA_6B23_6sh92",{{"rhs_mag_rgd5",1,1},{"rhs_30Rnd_762x39mm_polymer",8,30}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
+            "PRACS_SLA_6B27M","G_Balaclava_blk",{"rhsusf_bino_m24_ARD","","","",{},{},""},
+            {"ItemMap","","TFAR_anprc152","ItemCompass","","rhs_1PN138"}
     };
     arsenalitems[] = {
         "ACM_ThoracostomyKit",
@@ -146,7 +146,6 @@ class banshiringmed {
         "rhs_30Rnd_762x39mm_polymer_89",
         "rhs_6b7_1m_ess_bala",
         "PRACS_SLA_M88_uniform",
-        "V_tweed_msv_mk2_1",
         "rhs_rd54_vest",
         "rhs_rd54_vest_emr1",
         "rhs_rd54_vest_flora2",

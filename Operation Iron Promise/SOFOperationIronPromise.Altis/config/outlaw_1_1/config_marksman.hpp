@@ -63,6 +63,9 @@ class marksman11 {
         "ACE_10Rnd_762x51_Mk319_Mod_0_Mag",
         "ACE_10Rnd_762x51_M118LR_Mag",
         "ACE_20Rnd_762x51_M118LR_Mag",
-        "rhsusf_5Rnd_762x51_m993_Mag"
+        "rhsusf_5Rnd_762x51_m993_Mag",
+        "lxim_sig_XM7",
+        "lxim_sig_XM7_BLK",
+        "lxim_sig_XM7_KHK"
     };
 };

@@ -49,6 +49,9 @@ class engineer11 {
         "rhs_weap_M590_5RD",
         "Rev_Demine",
         "Rev_UAV_IED",
-        "Rev_Roller"
+        "Rev_Roller",
+        "lxim_sig_XM7",
+        "lxim_sig_XM7_BLK",
+        "lxim_sig_XM7_KHK"
     };
 };

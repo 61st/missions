@@ -10,13 +10,13 @@ class banshiring {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-        {"rhs_weap_ak103_npz","rhs_acc_dtk1","rhs_acc_2dpZenit","rhs_acc_ekp8_18",{"rhs_30Rnd_762x39mm_polymer",30},{},""},{},
-        {"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
-        {"PRACS_SLA_M88_uniform",{{"ACE_EarPlugs",1},{"ACE_CableTie",6},{"ItemcTabHCam",1},{"lxim_medbags_FirstAid",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_DefusalKit",1},{"cigs_morley_cigpack",1,20},{"cigs_lighter",1,100}}},{"LOP_V_6B23_6Sh92_IDPM_OLV",{{"rhs_mag_rgd5",1,1},{"rhs_30Rnd_762x39mm_polymer",8,30}}},
-        {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
-        {"rhs_rd54_vest",{{"rhs_30Rnd_762x39mm_polymer",2,30},{"rhs_mag_rgn",2,1},{"tsp_flashbang_m84",2,1},{"SmokeShell",2,1},{"tsp_breach_block_auto_mag",6,1},{"rhs_mag_9x19_17",2,17}}},
-        "rhs_6b7_1m_ess_bala","G_Balaclava_blk",{"Binocular","","","",{},{},""},
-        {"ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch","rhs_1PN138"}
+            {"rhs_weap_ak103_npz","rhs_acc_dtk1","rhs_acc_2dpZenit","rhs_acc_ekp8_18",{"rhs_30Rnd_762x39mm_polymer",30},{},""},{},
+            {"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
+            {"PRACS_SLA_M88_uniform",{{"ACE_EarPlugs",1},{"ACE_CableTie",6},{"ItemcTabHCam",1},{"lxim_medbags_FirstAid",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_DefusalKit",1},{"cigs_morley_cigpack",1,20},{"cigs_lighter",1,100}}},
+            {"PRACS_SLA_6B23_6sh92",{{"rhs_mag_rgd5",1,1},{"rhs_30Rnd_762x39mm_polymer",8,30}}},
+            {"PRACS_SLA_RD54",{{"rhs_30Rnd_762x39mm_polymer",2,30},{"rhs_mag_rgn",2,1},{"tsp_flashbang_m84",2,1},{"SmokeShell",2,1},{"tsp_breach_block_auto_mag",6,1},{"rhs_mag_9x19_17",2,17}}},
+            "PRACS_SLA_6B27M","G_Balaclava_blk",{"rhsusf_bino_m24_ARD","","","",{},{},""},
+            {"ItemMap","","TFAR_anprc152","ItemCompass","","rhs_1PN138"}
     };
     // for 1-1
     arsenalitems[] = {
@@ -96,7 +96,6 @@ class banshiring {
         "rhs_30Rnd_762x39mm_polymer_89",
         "rhs_6b7_1m_ess_bala",
         "PRACS_SLA_M88_uniform",
-        "V_tweed_msv_mk2_1",
         "rhs_rd54_vest",
         "rhs_rd54_vest_emr1",
         "rhs_rd54_vest_flora2",
@@ -122,6 +121,7 @@ class banshiring {
         "ItemWatch",
         "ItemGPS",
         "rhs_mag_rgn",
+        "rhs_6b28_green_bala",
         "tsp_breach_block_auto_mag"
     };
 };

@@ -78,6 +78,9 @@ class teamlead11 {
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F",
-        "uh60_jvmf_tablet"
+        "uh60_jvmf_tablet",
+        "lxim_sig_XM7",
+        "lxim_sig_XM7_BLK",
+        "lxim_sig_XM7_KHK"
     };
 };
