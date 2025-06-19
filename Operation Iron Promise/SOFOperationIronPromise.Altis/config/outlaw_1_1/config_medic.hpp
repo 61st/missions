@@ -87,6 +87,9 @@ class medic11 {
         "lxim_backpack_Backpack_Kitbag_Medic_RGR",
         "lxim_backpack_Backpack_Kitbag_Medic_Sage",
         "lxim_backpack_Backpack_Kitbag_Medic_Tan",
-        "lxim_backpack_Backpack_Kitbag_Medic_White"
+        "lxim_backpack_Backpack_Kitbag_Medic_White",
+        "lxim_sig_XM7",
+        "lxim_sig_XM7_BLK",
+        "lxim_sig_XM7_KHK"
     };
 };

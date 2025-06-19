@@ -50,6 +50,9 @@ class dismount11 {
         "rhs_weap_m32",
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
-        "UGL_FlareGreen_F"
+        "UGL_FlareGreen_F",
+        "lxim_sig_XM7",
+        "lxim_sig_XM7_BLK",
+        "lxim_sig_XM7_KHK"
     };
 };
