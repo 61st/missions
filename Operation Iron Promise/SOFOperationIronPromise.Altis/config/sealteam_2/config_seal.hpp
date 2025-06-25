@@ -354,6 +354,8 @@ class sealteam2 {
         "optic_Arco_blk_F",
         "optic_Arco_AK_blk_F",
         "optic_Arco_AK_arid_F",
-        "acc_flashlight_pistol"
+        "acc_flashlight_pistol",
+        "B_simc_US_Molle_sturm_OCP",
+        "lxim_backpack_TacticalPack_Multicam_Woodland"
     };
 };
