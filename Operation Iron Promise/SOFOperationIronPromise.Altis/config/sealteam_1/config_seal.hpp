@@ -511,6 +511,8 @@ class sealteam1 {
         "psq42_blk_lenscap",
         "psq42_od3",
         "psq42_od3_icup",
-        "psq42_od3_lenscap"
+        "psq42_od3_lenscap",
+        "B_simc_US_Molle_sturm_OCP",
+        "lxim_backpack_TacticalPack_Multicam_Woodland"
     };
 };
