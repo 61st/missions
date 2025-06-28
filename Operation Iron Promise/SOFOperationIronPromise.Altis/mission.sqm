@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=513;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=4577;
+		nextID=4584;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1052;
+		nextID=1089;
 	};
 	class Camera
 	{
-		pos[]={14248.897,23.4151,16263.655};
-		dir[]={0.8075071,-0.5493505,-0.21481696};
-		up[]={0.53088635,0.83559197,-0.14122896};
-		aside[]={-0.25708354,7.4505806e-09,-0.96638918};
+		pos[]={14171.613,47.078857,16300.313};
+		dir[]={0.63753963,-0.4929536,-0.59209675};
+		up[]={0.36121625,0.87004423,-0.3354688};
+		aside[]={-0.68052268,1.4714897e-07,-0.73275632};
 	};
 };
 binarizationWanted=0;
@@ -641,7 +641,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -693,7 +693,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -1808,7 +1808,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=113;
+		items=114;
 		class Item0
 		{
 			dataType="Layer";
@@ -13025,7 +13025,7 @@ class Mission
 			name="halo";
 			class Entities
 			{
-				items=3;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -13073,7 +13073,6 @@ class Mission
 					class Attributes
 					{
 						init=" this addAction [""<t color='#ff9900'>HALO C130</t>"",{params [""_target"", ""_caller""]; [_caller, C130] execVM ""scripts\ROS_GroupHalo\ROS_GroupHalo.sqf""},[],1.5,false,false,"""",""player distance _target <3 && count (((position C130) nearObjects ['CAManBase', 10]) select {alive _x}) ==0""]; " \n "this addAction [""<t color='#b2ff66'>Move C130</t>"",{[C130] execVM ""scripts\ROS_GroupHalo\ROS_MoveHaloPlane.sqf""},[],1.4,false,false,"""",""player distance _target <3 && count (((position C130) nearObjects ['CAManBase', 10]) select {alive _x}) ==0""]; " \n " " \n "";
-						createAsSimpleObject=1;
 					};
 					id=1440;
 					type="Land_Laptop_03_sand_F";
@@ -13096,26 +13095,9 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13694.01,4021.7532,17002.33};
-					};
-					side="Empty";
-					class Attributes
-					{
-						init="[this] execvm ""scripts\ROS_GroupHalo\c130LightsandEngine.sqf"";";
-						name="c130";
-					};
-					id=1441;
-					type="C130J_static_EP1";
-					atlOffset=3999.1521;
-				};
 			};
 			id=1438;
-			atlOffset=2003.9706;
+			atlOffset=0.40648651;
 		};
 		class Item12
 		{
@@ -21880,7 +21862,7 @@ class Mission
 								{
 									dataType="Trigger";
 									position[]={14218.91,19.610699,16268.415};
-									angle=5.4415498;
+									angle=5.4415526;
 									class Attributes
 									{
 										text="Gate 1 Trigger";
@@ -21888,7 +21870,7 @@ class Mission
 										onActivation="call{gate_1 animate [""Door_1_rot"", 1]}";
 										onDeactivation="call{gate_1 animate [""Door_1_rot"", 0]}";
 										sizeA=5;
-										sizeB=12.890381;
+										sizeB=12.89;
 										sizeC=4;
 										repeatable=1;
 										activationBy="ANYPLAYER";
@@ -30688,16 +30670,33 @@ class Mission
 			type="ClutterCutter";
 			atlOffset=-3.8146973e-06;
 		};
+		class Item113
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13641.2,4022.0977,16994.83};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="[this] execvm ""scripts\ROS_GroupHalo\c130LightsandEngine.sqf"";";
+				name="c130";
+			};
+			id=4583;
+			type="C130J_static_EP1";
+			atlOffset=3998.542;
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=21;
+			nextID=23;
 		};
 		class Links
 		{
-			items=21;
+			items=23;
 			class Item0
 			{
 				linkID=0;
@@ -30903,6 +30902,26 @@ class Mission
 				linkID=20;
 				item0=1374;
 				item1=2033;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item21
+			{
+				linkID=21;
+				item0=2073;
+				item1=2072;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item22
+			{
+				linkID=22;
+				item0=2042;
+				item1=2041;
 				class CustomData
 				{
 					type="Sync";
