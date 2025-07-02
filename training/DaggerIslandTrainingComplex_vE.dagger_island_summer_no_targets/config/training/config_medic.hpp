@@ -132,6 +132,7 @@ class medics {
         "rhsusf_hgu56p_visor_usa",
         "rhsusf_hgu56p_visor_white",
         "rhsusf_hgu56p_white",
-        "U_B_HeliPilotCoveralls"
+        "U_B_HeliPilotCoveralls",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };

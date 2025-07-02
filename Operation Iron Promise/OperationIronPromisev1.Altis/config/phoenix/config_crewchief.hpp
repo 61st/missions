@@ -72,6 +72,8 @@ class crewchief {
       "U_B_HeliPilotCoveralls",
       "rhsusf_ihadss",
       "RHS_jetpilot_usaf",
-      "rhs_weap_m4"
+      "rhs_weap_m4",
+      "B_UavTerminal",
+      "ToolKit"
     };
 };

@@ -36,6 +36,7 @@ class fac {
         "ACE_RangeCard",
         "uh60_jvmf_tablet",
         "lxim_vs17_vs17",
-        "rhs_weap_m4"
+        "rhs_weap_m4",
+        "B_UavTerminal"
     };
 };

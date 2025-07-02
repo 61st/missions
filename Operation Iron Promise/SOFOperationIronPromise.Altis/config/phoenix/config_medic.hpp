@@ -133,6 +133,7 @@ class medicp {
         "rhsusf_hgu56p_visor_white",
         "rhsusf_hgu56p_white",
         "U_B_HeliPilotCoveralls",
-        "rhs_weap_m4"
+        "rhs_weap_m4",
+        "B_UavTerminal"
     };
 };
