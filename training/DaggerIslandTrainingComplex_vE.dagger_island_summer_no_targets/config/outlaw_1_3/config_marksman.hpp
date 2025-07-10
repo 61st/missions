@@ -1,6 +1,6 @@
-class dismount12 {
-    name = "dismount";
-    description = "Its a grunts life";
+class marksman13 {
+    name = "Marksman";
+    description = "Kinda pointless with the M7";
     traits[] = {};
     customVariables[] = {
         {"ace_medical_medicClass",0,true},
@@ -17,17 +17,12 @@ class dismount12 {
             "H_tweed_ihps_g_tasc_rail","G_oak_2_cut",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
-    // for 1-2
+    // for 1-1
     arsenalitems[] = {
         "1Rnd_HE_Grenade_shell",
         "ACE_HuntIR_M203",
         "ACE_LAMG_SpareBarrel",
         "ACE_LWAMG_SpareBarrel",
-        "launch_MRAWS_green_F",
-        "launch_MRAWS_olive_F",
-        "launch_MRAWS_sand_F",
-        "lxim_sig_M250",
-        "lxim_sig_M250_BLK",
         "rhs_mag_M397_HET",
         "rhs_mag_m4009",
         "rhs_mag_M433_HEDP",
@@ -45,12 +40,29 @@ class dismount12 {
         "rhs_mag_m716_yellow",
         "rhs_weap_fgm148",
         "rhs_weap_fim92",
-        "rhs_weap_m240B",
-        "rhs_weap_m240G",
-        "rhs_weap_M320",
-        "rhsusf_acc_ARDEC_M240",
-        "UGL_FlareGreen_F"
+        "UGL_FlareGreen_F",
+        "rhs_weap_m24sws",
+        "rhs_weap_m24sws_d",
+        "rhs_weap_m24sws_wd",
+        "arifle_SPAR_03_blk_F",
+        "arifle_SPAR_03_khk_F",
+        "arifle_SPAR_03_snd_F",
+        "rhs_weap_sr25",
+        "rhs_weap_sr25_d",
+        "rhs_weap_sr25_ec",
+        "ACE_20Rnd_762x51_Mk316_Mod_0_Mag",
+        "rhsusf_20Rnd_762x51_SR25_m993_Mag",
+        "ACE_10Rnd_762x51_M993_AP_Mag",
+        "ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
+        "rhsusf_5Rnd_762x51_m118_special_Mag",
+        "ACE_20Rnd_762x51_M993_AP_Mag",
+        "rhsusf_20Rnd_762x51_SR25_m118_special_Mag",
+        "ACE_10Rnd_762x51_Mk316_Mod_0_Mag",
+        "20Rnd_762x51_Mag",
+        "rhsusf_20Rnd_762x51_SR25_mk316_special_Mag",
+        "ACE_10Rnd_762x51_Mk319_Mod_0_Mag",
+        "ACE_10Rnd_762x51_M118LR_Mag",
+        "ACE_20Rnd_762x51_M118LR_Mag",
+        "rhsusf_5Rnd_762x51_m993_Mag"
     };
 };
-
-        

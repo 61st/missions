@@ -1,22 +1,24 @@
-class teamlead11 {
-    name = "Team Leader";
-    description = "The one who is to blame";
+class squadlead13 {
+    name = "Squad Leader";
+    description = "The one who looks for who to blame";
     traits[] = {};
     customVariables[] = {
+        {"YMF_iscom", true, true},
         {"ace_medical_medicClass",0,true},
         {"ace_isEngineer",0,true},
-        {"YMF_is11", true, true}
+        {"YMF_is12", true, true}
     };
-    icon = "z\LXIM\addons\media\images\Icons\iconmanleader_red.paa";
+
+    icon = "\A3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{"rhs_weap_M136","","","",{},{},""},
-            {"MHS_M17","","MHS_X300U","MHS_RomeoM17",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ItemcTabMisc",1},{"ACE_EarPlugs",2},{"ACE_CableTie",5}}},
-            {"V_tweed_iotv_mk4_cell_45_2",{{"ItemcTabHCam",1},{"lxim_sig_25Rnd_Fury",8,25},{"rhs_mag_m67",2,1},{"SmokeShellRed",3,1},{"SmokeShellGreen",3,1},{"SmokeShell",3,1}}},
-            {"B_simc_US_Molle_sturm_OCP",{{"ACE_EntrenchingTool",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"psq42_blk",1},{"lxim_medbags_FirstAid",2},{"ACM_ChestSeal",2},{"ACM_SAMSplint",2},{"JCA_G_AirPurifyingRespirator_03_black_clear_F",1},{"ACE_SpraypaintBlue",1},{"ACE_IR_Strobe_Item",1}}},
-            "H_tweed_ihps_g_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemAndroid","TFAR_anprc152_2","ItemCompass","ACE_Altimeter",""}
+            {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
+            {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
+            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"lxim_medbags_mopp",1},{"lxim_medbags_FirstAid",1},{"ACE_MapTools",1},{"",1,0}}},
+            {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"tun_tablet",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
+            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACRE_PRC117F",1},{"ACE_EntrenchingTool",1},{"MS_Strobe_Mag_1",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_CableTie",5},{"psq42_blk",1}}},
+            "H_tweed_ihps_g_tasc_rail","G_oak_2_cut",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
         "1Rnd_HE_Grenade_shell",
@@ -78,8 +80,6 @@ class teamlead11 {
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F",
-        "uh60_jvmf_tablet",
-        "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+        "uh60_jvmf_tablet"
     };
 };

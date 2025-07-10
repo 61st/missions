@@ -47,7 +47,6 @@ class dismount12 {
         "rhs_weap_fim92",
         "rhs_weap_m240B",
         "rhs_weap_m240G",
-        "rhs_weap_m32",
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F"
