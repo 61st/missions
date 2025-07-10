@@ -1,6 +1,6 @@
-class dismount12 {
-    name = "dismount";
-    description = "Its a grunts life";
+class heavyat11 {
+    name = "Heavy AT";
+    description = "Its a BOOOM!!!!! life";
     traits[] = {};
     customVariables[] = {
         {"ace_medical_medicClass",0,true},
@@ -9,15 +9,15 @@ class dismount12 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
-            {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"lxim_medbags_mopp",1},{"lxim_medbags_FirstAid",1},{"ACE_MapTools",1},{"",1,0}}},
-            {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
-            {"B_simc_US_Molle_sturm_OCP",{{"ACE_EntrenchingTool",1},{"MS_Strobe_Mag_1",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_CableTie",5},{"psq42_blk",1}}},
-            "H_tweed_ihps_g_tasc_rail","G_oak_2_cut",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{"launch_MRAWS_green_F","","","",{"MRAWS_HEAT_F",1},{},""},
+            {"MHS_M17","","MHS_X300U","MHS_RomeoM17",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
+            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",2},{"ACE_CableTie",3}}},
+            {"V_tweed_msv_mk2_1",{{"ItemcTabHCam",1},{"lxim_sig_25Rnd_Fury",8,25},{"MHS_21rnd_9MM_124FMJ_M17",1,21},{"rhs_mag_m67",2,1},{"SmokeShell",3,1}}},
+            {"B_simc_US_Molle_sturm_OCP",{{"psq42_blk",1},{"lxim_medbags_FirstAid",2},{"ACM_ChestSeal",2},{"ACM_SAMSplint",2},{"ACE_EntrenchingTool",1},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintBlue",1},{"JCA_G_AirPurifyingRespirator_03_black_clear_F",1},{"MRAWS_HEAT_F",3,1}}},
+            "H_tweed_ihps_g_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
-    // for 1-2
+    // for 1-1
     arsenalitems[] = {
         "1Rnd_HE_Grenade_shell",
         "ACE_HuntIR_M203",
@@ -47,10 +47,7 @@ class dismount12 {
         "rhs_weap_fim92",
         "rhs_weap_m240B",
         "rhs_weap_m240G",
-        "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F"
     };
 };
-
-        

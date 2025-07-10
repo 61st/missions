@@ -243,6 +243,29 @@ if (_vehicle isKindOf "rhsusf_fmtv_base") then {
     };
 };
 
+if (_vehicle isKindOf "rhsusf_hmmwe_base") then {
+    switch (_vehicleType) do {
+        case "rhsusf_m998_d_2dr_fulltop";
+        case "rhsusf_m998_w_2dr_fulltop";
+        case "MED": {
+            [_vehicle, 
+                GET_CONTAINER("wheeled_medical")
+            ] call FUNC(setCargo);
+
+            ["ACM_MedicalSupplyCrate_Advanced",
+                GET_CONTAINER("crate_medical"),
+                _vehicle
+            ] call FUNC(createCargoCrate);
+        };
+        default {
+            [_vehicle, 
+                GET_CONTAINER("vehicle_Wheeled")
+            ] call FUNC(setCargo);
+        };
+    };
+    ["ACE_Wheel", _vehicle, true] call ace_cargo_fnc_loadItem;
+};
+
 if (_vehicle isKindOf "Truck_01_base_F") then {
     switch (_vehicleType) do {
         case "rhsusf_M1230a1_usarmy_d";

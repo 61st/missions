@@ -1,8 +1,9 @@
 class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the group to be shown"}
     faction_name = "61st";
     group_setup[] = {
-        {"OUTLAW-1/1",{"squadlead11","jtac11","engineer11","marksman11","medic11","medic11","teamlead11","teamlead11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11"},"true"},
-        {"OUTLAW-1/2",{"squadlead12","jtac12","engineer12","marksman12","medic12","medic12","teamlead12","teamlead12","dismount12","dismount12","dismount12","dismount12","dismount12","dismount12"},"true"},
+        {"OUTLAW-1/1",{"squadlead11","jtac11","engineer11","marksman11","medic11","medic11","teamlead11","teamlead11","grenadier11","grenadier11","machine11","machine11","heavyat11","dismount11"},"true"},
+        {"OUTLAW-1/2",{"squadlead12","jtac12","engineer12","marksman12","medic12","medic12","teamlead12","teamlead12","grenadier12","grenadier12","machine12","machine12","heavyat12","dismount12"},"true"},
+        //CLOSED {"OUTLAW-1/3",{"squadlead13","jtac13","engineer13","marksman13","medic13","medic13","teamlead13","teamlead13","grenadier13","grenadier13","machine13","machine13","heavyat13","dismount13"},"true"},
         {"THUNDER-2/1",{"cmd","driver","gunner"},"true"},
         {"THUNDER-2/2",{"cmd","driver","gunner"},"true"},
         {"THUNDER-2/3",{"cmd","driver","gunner"},"true"},

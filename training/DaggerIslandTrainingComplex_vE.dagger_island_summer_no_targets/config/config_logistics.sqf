@@ -168,9 +168,9 @@
 
         // AT
         ["rhs_fgm148_magazine_AT",3],
-        ["rhs_mag_maaws_HEAT",6],
-        ["rhs_mag_maaws_HE",3],
-        ["rhs_mag_maaws_HEDP",3],
+        ["MRAWS_HE_F",6],
+        ["MRAWS_HEAT_F",3],
+        ["rMRAWS_HEAT55_F",3],
         ["rhs_weap_M136",8],
         
         // AA
@@ -246,9 +246,9 @@
         ["lxim_sig_150Rnd_Fury_RT_blk",12],
 
         // AT
-        ["rhs_mag_maaws_HEAT",6],
-        ["rhs_mag_maaws_HE",3],
-        ["rhs_mag_maaws_HEDP",3],
+        ["MRAWS_HE_F",6],
+        ["MRAWS_HEAT_F",3],
+        ["rMRAWS_HEAT55_F",3],
         ["rhs_weap_M136",8],
         ["launch_MRAWS_olive_F",2],
         
@@ -328,9 +328,9 @@
 
         // AT
         ["rhs_fgm148_magazine_AT",8],
-        ["rhs_mag_maaws_HEAT",3],
-        ["rhs_mag_maaws_HE",3],
-        ["rhs_mag_maaws_HEDP",3],
+        ["MRAWS_HE_F",6],
+        ["MRAWS_HEAT_F",3],
+        ["rMRAWS_HEAT55_F",3],
         ["rhs_weap_M136",3],
         ["rhs_weap_fgm148",1],
 
