@@ -356,6 +356,26 @@ class sealteam2 {
         "optic_Arco_AK_arid_F",
         "acc_flashlight_pistol",
         "B_simc_US_Molle_sturm_OCP",
-        "lxim_backpack_TacticalPack_Multicam_Woodland"
+        "lxim_backpack_TacticalPack_Multicam_Woodland",
+        "rhs_weap_m249_pip_S",
+        "rhsusf_200rnd_556x45_M855_box",
+        "rhsusf_200Rnd_556x45_M855_soft_pouch",
+        "rhsusf_200Rnd_556x45_M855_soft_pouch_ucp",
+        "rhsusf_200Rnd_556x45_soft_pouch_ucp",
+        "rhsusf_200Rnd_556x45_M995_soft_pouch_coyote",
+        "rhsusf_200Rnd_556x45_box",
+        "rhsusf_200Rnd_556x45_soft_pouch_coyote",
+        "KAR_100Rnd_Fury_blk","KAR_100Rnd_Fury",
+        "rhsusf_100Rnd_556x45_M855_soft_pouch",
+        "rhsusf_100Rnd_556x45_M855_soft_pouch_ucp",
+        "rhsusf_100Rnd_556x45_soft_pouch_coyote",
+        "rhsusf_100Rnd_556x45_soft_pouch",
+        "rhsusf_100Rnd_556x45_M995_soft_pouch",
+        "rhsusf_100Rnd_556x45_M995_soft_pouch_ucp",
+        "rhsusf_200Rnd_556x45_M995_soft_pouch",
+        "lxim_sig_150Rnd_Fury",
+        "lxim_sig_150Rnd_Fury_blk",
+        "lxim_sig_M250","lxim_sig_M250_BLK",
+        "rhs_weap_m249_pip_S_para"
     };
 };
