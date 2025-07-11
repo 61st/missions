@@ -89,5 +89,13 @@ class medict {
         "lxim_backpack_Backpack_Kitbag_Medic_White",
         "rhs_weap_m4",
         "ToolKit",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };

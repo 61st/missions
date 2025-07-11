@@ -87,6 +87,14 @@ class medic11 {
         "lxim_backpack_Backpack_Kitbag_Medic_RGR",
         "lxim_backpack_Backpack_Kitbag_Medic_Sage",
         "lxim_backpack_Backpack_Kitbag_Medic_Tan",
-        "lxim_backpack_Backpack_Kitbag_Medic_White"
+        "lxim_backpack_Backpack_Kitbag_Medic_White",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO",
     };
 };

@@ -132,6 +132,14 @@ class medics {
         "rhsusf_hgu56p_visor_usa",
         "rhsusf_hgu56p_visor_white",
         "rhsusf_hgu56p_white",
-        "U_B_HeliPilotCoveralls"
+        "U_B_HeliPilotCoveralls",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };
