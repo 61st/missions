@@ -512,6 +512,14 @@ class sealmed1 {
         "psq42_blk_lenscap",
         "psq42_od3",
         "psq42_od3_icup",
-        "psq42_od3_lenscap"
+        "psq42_od3_lenscap",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };

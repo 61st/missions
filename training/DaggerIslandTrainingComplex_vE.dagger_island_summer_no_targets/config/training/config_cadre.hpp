@@ -80,7 +80,15 @@ class Cadre {
         "rhs_weap_m240B",
         "rhsusf_acc_ARDEC_M240",
         "lxim_headgear_Cap_BlackLogo",
-        "lxim_headgear_Cap_Headphones_BlackLogo"
+        "lxim_headgear_Cap_Headphones_BlackLogo",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };
 

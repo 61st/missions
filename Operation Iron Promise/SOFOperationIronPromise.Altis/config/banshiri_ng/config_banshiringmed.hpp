@@ -171,6 +171,14 @@ class banshiringmed {
         "ItemWatch",
         "ItemGPS",
         "rhs_mag_rgn",
-        "tsp_breach_block_auto_mag"
+        "tsp_breach_block_auto_mag",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };
