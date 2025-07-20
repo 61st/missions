@@ -556,7 +556,10 @@ class Common_Arsenal {
         "MRAWS_HEAT_F",
         "WNZ_EMP_MAAWS_Mag",
         "rhs_mag_maaws_HEDP",
-        "MRAWS_HE_F"
+        "MRAWS_HE_F",
+        "U_B_ParadeUniform_01_US_decorated_F",
+        "H_ParadeDressCap_01_US_F",
+        "G_Squares_Tinted"
     };
 };
 

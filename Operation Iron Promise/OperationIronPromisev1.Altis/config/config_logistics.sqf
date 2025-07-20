@@ -221,9 +221,9 @@
 
     ["crate_outlaw_1-1", [
         // Radios
-        ["ACRE_PRC148", 0],
-        ["ACRE_PRC152", 0],
-        ["ACRE_PRC117F", 0],
+        //["ACRE_PRC148", 0],
+        //["ACRE_PRC152", 0],
+        ["TFAR_anprc152", 5],
 
         ["Rev_darter", 1],
         ["lxim_vs17_vs17", 2],
@@ -298,9 +298,9 @@
 
     ["crate_outlaw_1-2", [
         // Radios
-        ["ACRE_PRC148", 0],
-        ["ACRE_PRC152", 0],
-        ["ACRE_PRC117F", 0],
+        //["ACRE_PRC148", 0],
+        //["ACRE_PRC152", 0],
+        ["TFAR_anprc152", 5],
 
         ["Rev_darter", 1],
         ["lxim_vs17_vs17", 2],
