@@ -1,24 +1,25 @@
-class sealteam1 {
-    name = "Operator";
-    description = "Its a grunts life";
-    traits[] = {};
-    customVariables[] = {
-        {"ace_medical_medicClass",0,true},
-        {"ace_isEngineer",1,true},
-        {"YMF_iscom", true, true}
+class sealmed1 {
+    name = "medic";
+    description = "MEDIC!";
+    traits[] = {
+        {"Medic",true}
     };
-    icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
+    customVariables[] = {
+        {"ace_medical_medicClass",2,true},
+        {"ace_isEngineer",0,true},
+        {"YMF_ismed", true, true}
+    };
+    icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
 
     defaultLoadout[] = {
-        {"rhs_weap_hk416d10_LMT_d","rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15","rhsusf_acc_eotech_552",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},"rhsusf_acc_grip2_tan"},{},
-        {"rhsusf_weap_glock17g4","rhsusf_acc_omega9k","acc_flashlight_pistol","",{"rhsusf_mag_17Rnd_9x19_JHP",17},{},""},
-        {"rhs_uniform_FROG01_wd",{{"lxim_medbags_FirstAid",1}}},
-        {"V_CarrierRigKBT_01_light_EAF_F",{{"rhs_mag_30Rnd_556x45_M855_PMAG",12,30},{"rhsusf_mag_17Rnd_9x19_JHP",2,17}}},
-        {"lxim_backpack_TacticalPack_Multicam_Woodland",{{"ACE_EntrenchingTool",1},{"ItemcTabMisc",1},{"ChemicalDetector_01_black_F",1},{"ACE_DefusalKit",1},{"tsp_lockpick",1},{"ACE_Clacker",1},{"ACE_Flashlight_XL50",1},{"rhs_mag_m67",2,1},{"rhs_grenade_anm8_mag",2,1},{"ACE_M84",2,1},{"MS_Strobe_Mag_1",2,1},{"DemoCharge_Remote_Mag",2,1}}},
-        "H_HelmetB_light_snakeskin","G_Bandanna_sport",{"lxim_equipment_Vector_Designator_NVG","","","",{"Laserbatteries",1},{},""},
-        {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ACE_Altimeter","psq42_blk"}
+            {"rhs_weap_hk416d10_LMT_d","rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15","rhsusf_acc_eotech_552",{"rhs_mag_30Rnd_556x45_M855A1_PMAG",30},{},"rhsusf_acc_grip2_tan"},{},
+            {"rhsusf_weap_glock17g4","rhsusf_acc_omega9k","acc_flashlight_pistol","",{"rhsusf_mag_17Rnd_9x19_JHP",17},{},""},
+            {"rhs_uniform_FROG01_wd",{{"lxim_medbags_FirstAid",1}}},
+            {"V_CarrierRigKBT_01_light_EAF_F",{{"rhs_mag_30Rnd_556x45_M855_PMAG",12,30},{"rhsusf_mag_17Rnd_9x19_JHP",2,17}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"psq42_blk",1},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
+            "H_HelmetB_light_snakeskin","G_Bandanna_sport",{"lxim_equipment_Vector_Designator_NVG","","","",{"Laserbatteries",1},{},""},
+            {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ACE_Altimeter","psq42_blk"}
     };
-    // for 1-1
     arsenalitems[] = {
         "1Rnd_HE_Grenade_shell",
         "ACE_HuntIR_M203",
@@ -494,28 +495,13 @@ class sealteam1 {
         "psq42_od3",
         "psq42_od3_icup",
         "psq42_od3_lenscap",
-        "B_simc_US_Molle_sturm_OCP",
-        "lxim_backpack_TacticalPack_Multicam_Woodland",
-        "rhs_weap_m249_pip_S",
-        "rhsusf_200rnd_556x45_M855_box",
-        "rhsusf_200Rnd_556x45_M855_soft_pouch",
-        "rhsusf_200Rnd_556x45_M855_soft_pouch_ucp",
-        "rhsusf_200Rnd_556x45_soft_pouch_ucp",
-        "rhsusf_200Rnd_556x45_M995_soft_pouch_coyote",
-        "rhsusf_200Rnd_556x45_box",
-        "rhsusf_200Rnd_556x45_soft_pouch_coyote",
-        "KAR_100Rnd_Fury_blk","KAR_100Rnd_Fury",
-        "rhsusf_100Rnd_556x45_M855_soft_pouch",
-        "rhsusf_100Rnd_556x45_M855_soft_pouch_ucp",
-        "rhsusf_100Rnd_556x45_soft_pouch_coyote",
-        "rhsusf_100Rnd_556x45_soft_pouch",
-        "rhsusf_100Rnd_556x45_M995_soft_pouch",
-        "rhsusf_100Rnd_556x45_M995_soft_pouch_ucp",
-        "rhsusf_200Rnd_556x45_M995_soft_pouch",
-        "lxim_sig_150Rnd_Fury",
-        "lxim_sig_150Rnd_Fury_blk",
-        "lxim_sig_M250","lxim_sig_M250_BLK",
-        "rhs_weap_m249_pip_S_para",
-        "lxim_backpack_B_RadioBag_01_Solid_Black_F"
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
     };
 };

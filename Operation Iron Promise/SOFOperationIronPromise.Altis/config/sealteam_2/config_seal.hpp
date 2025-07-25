@@ -376,6 +376,7 @@ class sealteam2 {
         "lxim_sig_150Rnd_Fury",
         "lxim_sig_150Rnd_Fury_blk",
         "lxim_sig_M250","lxim_sig_M250_BLK",
-        "rhs_weap_m249_pip_S_para"
+        "rhs_weap_m249_pip_S_para",
+        "lxim_backpack_B_RadioBag_01_Solid_Black_F"
     };
 };

@@ -24,7 +24,6 @@ class cmd {
         "lxim_headgear_H_HelmetCrew_sand",
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "B_simc_US_Molle_sturm_OCP_RTO",
-        "H_HelmetCrew_I",
         "ToolKit",
         "SatchelCharge_Remote_Mag",
         "lxim_sig_M250",
