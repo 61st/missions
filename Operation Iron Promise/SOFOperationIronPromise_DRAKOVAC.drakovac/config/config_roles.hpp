@@ -19,6 +19,12 @@ class Dynamic_Roles {
     #include "sealteam_2\config_seal.hpp"
     #include "sealteam_2\config_sealmedic.hpp"
 
+    #include "sofnkorreno1\config_nkor.hpp"
+    #include "sofnkorreno1\config_nkormedic.hpp"
+
+    #include "sofnkorreno2\config_nkor.hpp"
+    #include "sofnkorreno2\config_nkormedic.hpp"
+
     #include "cia\config_ciaop.hpp"
 
     #include "banshiri_ng\config_banshiring.hpp"
