@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=6919;
+		nextID=6943;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1359;
+		nextID=1371;
 	};
 	class Camera
 	{
-		pos[]={14296.807,165.25475,16157.148};
-		dir[]={-0.1835122,-0.44322065,0.87746835};
-		up[]={-0.090737857,0.89638817,0.43387446};
-		aside[]={0.97886515,1.4387115e-07,0.20471811};
+		pos[]={14196.021,38.995983,16269.336};
+		dir[]={0.99374193,-0.072532386,-0.085551925};
+		up[]={0.072383247,0.99735433,-0.0062342207};
+		aside[]={-0.085778199,3.6843994e-07,-0.99637014};
 	};
 };
 binarizationWanted=0;
@@ -269,7 +269,7 @@ class ScenarioData
 	{
 		gameType="Coop";
 		minPlayers=1;
-		maxPlayers=40;
+		maxPlayers=60;
 	};
 };
 class CustomAttributes
@@ -279,7 +279,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -305,7 +305,7 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -318,7 +318,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -331,7 +331,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -1460,7 +1460,7 @@ class Mission
 					side="West";
 					class Entities
 					{
-						items=65;
+						items=85;
 						class Item0
 						{
 							dataType="Object";
@@ -3315,6 +3315,547 @@ class Mission
 							type="tweed_acu_summer_ocp_crye_knee_jedi";
 							atlOffset=-1.9073486e-06;
 						};
+						class Item65
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14189.096,19.58238,16275.148};
+								angles[]={0.0026520467,2.3468285,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6920;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item66
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14188.396,19.584394,16274.436};
+								angles[]={0.0013372133,2.3465667,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6921;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item67
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14187.697,19.586271,16273.725};
+								angles[]={0.0013372133,2.3484251,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6922;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item68
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14186.992,19.588165,16273.012};
+								angles[]={0.0013372133,2.3465667,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6923;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item69
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14186.291,19.590059,16272.291};
+								angles[]={0.0013372133,2.3505456,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6924;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item70
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14185.597,19.591438,16271.58};
+								angles[]={-0,2.3465667,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6925;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item71
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14184.892,19.591438,16270.865};
+								angles[]={-0,2.3514528,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6926;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item72
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14184.334,19.591438,16270.222};
+								angles[]={-0,2.3465717,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6927;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item73
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14179.542,19.584558,16277.251};
+								angles[]={0.0013372133,2.3514528,0.0013372133};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6929;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item74
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14178.843,19.58457,16276.544};
+								angles[]={0.0013372133,2.3465717,0.0013372133};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6930;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item75
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14187.667,19.580309,16276.638};
+								angles[]={0.0026520467,2.3468285,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6932;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item76
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14186.967,19.583147,16275.925};
+								angles[]={0.0026520467,2.3465667,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6933;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item77
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14186.269,19.585974,16275.214};
+								angles[]={0.0026520467,2.3484251,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6934;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item78
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14185.563,19.588083,16274.501};
+								angles[]={0.0013372133,2.3465667,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6935;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item79
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14184.862,19.589979,16273.78};
+								angles[]={0.0013372133,2.3505456,6.2818484};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6936;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item80
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14184.168,19.591438,16273.069};
+								angles[]={-0,2.3465667,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6937;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item81
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14183.463,19.591438,16272.354};
+								angles[]={-0,2.3514528,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6938;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item82
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14182.764,19.591438,16271.647};
+								angles[]={-0,2.3465717,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6939;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
+						class Item83
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14181.119,19.581806,16278.662};
+								angles[]={0.0026520467,2.3514528,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6941;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+							atlOffset=1.9073486e-06;
+						};
+						class Item84
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14180.42,19.583689,16277.955};
+								angles[]={0.0026520467,2.3465717,0};
+							};
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								isPlayable=1;
+								class Inventory
+								{
+									class uniform
+									{
+										typeName="U_tweed_acu_summer_ocp_jedi";
+										isBackpack=0;
+									};
+									map="ItemMap";
+									headgear="H_tweed_Hat_Patrol_ocp";
+								};
+							};
+							id=6942;
+							type="tweed_acu_summer_ocp_crye_knee_jedi";
+						};
 					};
 					class Attributes
 					{
@@ -3324,7 +3865,7 @@ class Mission
 				};
 			};
 			id=0;
-			atlOffset=0.020284653;
+			atlOffset=-0.013034821;
 		};
 		class Item1
 		{
@@ -3431,7 +3972,7 @@ class Mission
 				};
 			};
 			id=78;
-			atlOffset=2.6875877;
+			atlOffset=1.8411484;
 		};
 		class Item2
 		{
@@ -3548,11 +4089,11 @@ class Mission
 						};
 					};
 					id=93;
-					atlOffset=2.3681545;
+					atlOffset=-0.057020187;
 				};
 			};
 			id=85;
-			atlOffset=-0.18979073;
+			atlOffset=-0.057020187;
 		};
 		class Item3
 		{
@@ -6150,7 +6691,7 @@ class Mission
 							presenceCondition="false";
 							id=652;
 							type="sss_cas_moduleAddLoiter";
-							atlOffset=5.7220459e-05;
+							atlOffset=2.0980835e-05;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6608,7 +7149,7 @@ class Mission
 						};
 					};
 					id=645;
-					atlOffset=0.060486794;
+					atlOffset=0.060413361;
 				};
 				class Item1
 				{
@@ -7282,7 +7823,7 @@ class Mission
 				};
 			};
 			id=630;
-			atlOffset=-0.65697765;
+			atlOffset=0.19286156;
 		};
 		class Item4
 		{
@@ -8313,7 +8854,7 @@ class Mission
 				};
 			};
 			id=2381;
-			atlOffset=0.12493896;
+			atlOffset=0.0610466;
 		};
 		class Item11
 		{
