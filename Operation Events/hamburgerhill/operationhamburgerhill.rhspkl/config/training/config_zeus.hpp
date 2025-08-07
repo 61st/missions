@@ -15,9 +15,9 @@ class zeus {
     defaultLoadout[] = {
             {},{},
             {},
-            {"U_tweed_acu_summer_ocp_unbl_trop",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"ACE_MapTools",1},{"ACRE_PRC148",1}}},{},
-            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACRE_PRC117F",1}}},
-            "lxim_headgear_Cap_Headphones_BlackLogo","G_oak_2_cut",{},
+            {"UNS_ARMY_BDU_101stAB65pv1",{}},{},
+            {"UNS_ARMY_RTO",{}},
+            "lxim_headgear_Cap_Headphones_BlackLogo","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
 

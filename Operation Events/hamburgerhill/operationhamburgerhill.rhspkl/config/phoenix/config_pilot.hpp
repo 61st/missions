@@ -10,11 +10,11 @@ class pilot {
 
         defaultLoadout[] = {
                 {},{},
-                {"vn_m1911","","","",{"vn_m1911_mag",7},{},""},
-                {"vn_b_uniform_heli_01_01",{{"lxim_medbags_FirstAid",1}}},
-                {"vn_b_vest_aircrew_05",{{"rhsusf_mag_7x45acp_MHP",4,7},{"SmokeShellRed",1,1}}},{},
-                "vn_b_helmet_svh4_01_04","",{},
-                {"vn_b_item_map","","vn_b_item_radio_urc10","vn_b_item_compass","vn_b_item_watch",""}
+                {"uns_38spec","","","",{"uns_38specmag",6},{},""},
+                {"UNS_JPilot_BDU",{{"ACM_ChestSeal",4},{"ACE_salineIV_500",1},{"ACE_tourniquet",4},{"ACM_SAMSplint",4},{"ACE_morphine",4},{"ACE_epinephrine",4},{"ACM_EmergencyTraumaDressing",4},{"ACM_SuctionBag",1}}},
+                {},{},
+                "UNS_JP_Helmet2","",{},
+                {"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}
         };
         arsenalitems[] = {
         "vn_m16_usaf",
