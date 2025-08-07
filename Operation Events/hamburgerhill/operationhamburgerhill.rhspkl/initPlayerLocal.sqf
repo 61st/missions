@@ -27,11 +27,11 @@ CUP_stopLampCheck = true;
 /* view other actions ----------------------------------------------------------------------------------------------- */
 
 //rank stuff
-[player, 'BIS'] call EFUNC(player,setRank);
-call EFUNC(player,setRankpatch);
+//[player, 'BIS'] call EFUNC(player,setRank);
+//call EFUNC(player,setRankpatch);
 
 //Name Stuff
-call LXIM_w28fixes_fnc_player_set_name;
+//call LXIM_w28fixes_fnc_player_set_name;
 
 /* groups ----------------------------------------------------------------------------------------------------------- */
 player addEventHandler ["Respawn",FUNC(onRespawn)];
