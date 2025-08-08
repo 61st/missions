@@ -22,6 +22,9 @@ class Dynamic_Roles {
     #include "sofnkorreno1\config_nkor.hpp"
     #include "sofnkorreno1\config_nkormedic.hpp"
 
+    #include "nkorreno_civ\config_civ.hpp"
+    #include "nkorreno_civ\config_civmedic.hpp"
+
     #include "sofnkorreno2\config_nkor.hpp"
     #include "sofnkorreno2\config_nkormedic.hpp"
 
