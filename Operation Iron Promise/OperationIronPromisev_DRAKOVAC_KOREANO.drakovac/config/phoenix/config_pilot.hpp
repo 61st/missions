@@ -81,6 +81,7 @@ class pilot {
                 "FIR_Fighter_Pilot_JASDF_Nomex4",
                 "FIR_Fighter_Pilot_JASDF_Nomex5",
                 "FIR_Fighter_Pilot_JASDF_Nomex6",
-                "FIR_Fighter_Pilot_JASDF_Nomex7"
+                "FIR_Fighter_Pilot_JASDF_Nomex7",
+                "B_UavTerminal"
         };
 };
