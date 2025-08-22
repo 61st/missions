@@ -33,6 +33,22 @@ class Dynamic_Roles {
     #include "banshiri_ng\config_banshiring.hpp"
     #include "banshiri_ng\config_banshiringmed.hpp"
 
+    #include "Marine_1\config_engineerm.hpp"
+    #include "Marine_1\config_squadleaderm.hpp"
+    #include "Marine_1\config_teamleaderm.hpp"
+    #include "Marine_1\config_medicm.hpp"
+    #include "Marine_1\config_jtacm.hpp"
+    #include "Marine_1\config_dismountm.hpp"
+    #include "Marine_1\config_marksmanm.hpp"
+
+    #include "Marine_2\config_engineerm.hpp"
+    #include "Marine_2\config_squadleaderm.hpp"
+    #include "Marine_2\config_teamleaderm.hpp"
+    #include "Marine_2\config_medicm.hpp"
+    #include "Marine_2\config_jtacm.hpp"
+    #include "Marine_2\config_dismountm.hpp"
+    #include "Marine_2\config_marksmanm.hpp"
+
     #include "outlaw_1_2\config_engineer.hpp"
     #include "outlaw_1_2\config_squadleader.hpp"
     #include "outlaw_1_2\config_teamleader.hpp"

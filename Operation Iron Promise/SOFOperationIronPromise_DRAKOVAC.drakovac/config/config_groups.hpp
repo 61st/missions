@@ -7,7 +7,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         //{"Seal Team-2",{"sealteam2","sealteam2","sealteam2","sealmed2","sealteam2","sealteam2","sealteam2","sealteam2","sealteam2","sealteam2","sealteam2","sealteam2","sealteam2","sealteam2"},"true"},
         //{"N. Korreeno SF 1",{"nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1","nkor1", "nkormed1", "nkormed1"},"true"},
         //{"N. Korreeno SF 2",{"nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2","nkor2", "nkormed2", "nkormed2"},"true"},
-        {"N. Korreeno Civilian",{"civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1", "civteam1", "civteam1", "civteam1", "civteam1", "civteam1", "civmed1", "civmed1"},"true"},
+        //{"N. Korreeno Civilian",{"civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1","civteam1", "civteam1", "civteam1", "civteam1", "civteam1", "civteam1", "civmed1", "civmed1"},"true"},
         //{"CIA Agent",{"ciaop","ciaop","ciaop","ciaop","ciaop","ciaop","ciaop","ciaop","ciaop","ciaop"},"true"},
         //{"Banshiri NG",{"banshiring","banshiring","banshiring","banshiringmed","banshiringmed","banshiring","banshiring","banshiring","banshiring","banshiring","banshiring","banshiring","banshiring","banshiring","banshiring","banshiring"},"true"},
         //{"OUTLAW-1/6",{"co","xo","jtac","medic","engineer","mark","mark"},"true"},
@@ -16,6 +16,8 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         //{"PHOENIX-3/2",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         //{"PHOENIX-3/3",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         //{"RECRUITS",{"Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit","Recruit"},"true"},
+        {"Marine-1",{"dismount1m","dismount1m","dismount1m","medic1m","dismount1m","dismount1m","dismount1m","dismount1m","dismount1m","marksman1m"},"true"},
+        {"Marine-2",{"dismount2m","dismount2m","dismount2m","medic12","dismount2m","dismount2m","dismount2m","dismount2m","dismount2m","Marksman12m"},"true"},
         {"RANGE-CTL",{"Zeus","Zeus"},"true"}
     };
 };
