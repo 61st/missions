@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1371;
+		nextID=1383;
 	};
 	class Camera
 	{
-		pos[]={14196.021,38.995983,16269.336};
-		dir[]={0.99374193,-0.072532386,-0.085551925};
-		up[]={0.072383247,0.99735433,-0.0062342207};
-		aside[]={-0.085778199,3.6843994e-07,-0.99637014};
+		pos[]={3769.7686,165.22914,11300.414};
+		dir[]={0.064365759,-0.44913644,0.89116991};
+		up[]={0.032355029,0.89346361,0.44797161};
+		aside[]={0.99742508,-5.2515315e-07,-0.072037756};
 	};
 };
 binarizationWanted=0;
@@ -59,18 +59,13 @@ addons[]=
 	"PRACS_SLA",
 	"A3_Structures_F_Mil_BagBunker",
 	"RHS_US_A2_AirImport",
-	"CUP_Misc_e_Config",
-	"A3_Rocks_F_Sharp",
-	"A3_Rocks_F_Enoch",
-	"Bro_ModularWarehouse_Remastered",
-	"CUP_Misc3_Config",
-	"A3_Structures_F_EPA_Walls"
+	"CUP_Misc_e_Config"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=28;
+		items=23;
 		class Item0
 		{
 			className="tweed_uaf_21_cfg";
@@ -217,39 +212,6 @@ class AddonsMetaData
 			className="CUP_Misc_e_Config";
 			name="CUP_Misc_e_Config";
 		};
-		class Item23
-		{
-			className="A3_Rocks_F";
-			name="Arma 3 - Rocks and Stones";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item24
-		{
-			className="A3_Rocks_F_Enoch";
-			name="Arma 3 Contact Platform - Rocks and Stones";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item25
-		{
-			className="Bro_ModularWarehouse_Remastered";
-			name="Modular Shoothouse [Bromine]";
-			author="Bromine";
-			url="https://steamcommunity.com/id/Brominum/";
-		};
-		class Item26
-		{
-			className="CUP_Misc3_Config";
-			name="CUP_Misc3_Config";
-		};
-		class Item27
-		{
-			className="A3_Structures_F_EPA";
-			name="Arma 3 Survive Episode - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 dlcs[]=
@@ -279,7 +241,7 @@ class CustomAttributes
 		name="trencher_main";
 		class Attribute0
 		{
-			property="trencher_main_hideAreas";
+			property="trencher_main_trenchPieces";
 			expression="false";
 			class Value
 			{
@@ -318,7 +280,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_trenchPieces";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -331,7 +293,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_hideAreas";
 			expression="false";
 			class Value
 			{
@@ -1446,7 +1408,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=48;
+		items=40;
 		class Item0
 		{
 			dataType="Layer";
@@ -3456,7 +3418,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14185.597,19.591438,16271.58};
-								angles[]={-0,2.3465667,0};
+								angles[]={0,2.3465667,0};
 							};
 							side="West";
 							flags=4;
@@ -3483,7 +3445,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14184.892,19.591438,16270.865};
-								angles[]={-0,2.3514528,0};
+								angles[]={0,2.3514528,0};
 							};
 							side="West";
 							flags=4;
@@ -3510,7 +3472,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14184.334,19.591438,16270.222};
-								angles[]={-0,2.3465717,0};
+								angles[]={0,2.3465717,0};
 							};
 							side="West";
 							flags=4;
@@ -3726,7 +3688,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14184.168,19.591438,16273.069};
-								angles[]={-0,2.3465667,0};
+								angles[]={0,2.3465667,0};
 							};
 							side="West";
 							flags=4;
@@ -3753,7 +3715,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14183.463,19.591438,16272.354};
-								angles[]={-0,2.3514528,0};
+								angles[]={0,2.3514528,0};
 							};
 							side="West";
 							flags=4;
@@ -3780,7 +3742,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14182.764,19.591438,16271.647};
-								angles[]={-0,2.3465717,0};
+								angles[]={0,2.3465717,0};
 							};
 							side="West";
 							flags=4;
@@ -3865,7 +3827,7 @@ class Mission
 				};
 			};
 			id=0;
-			atlOffset=-0.013034821;
+			atlOffset=0.020284653;
 		};
 		class Item1
 		{
@@ -10027,201 +9989,6 @@ class Mission
 			id=4583;
 			type="C130J_static_EP1";
 			atlOffset=3998.542;
-		};
-		class Item40
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11183.64,145.75153,7778.6318};
-				angles[]={0,5.4657464,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=5432;
-			type="Land_SharpRock_wallH";
-			atlOffset=-21.939484;
-		};
-		class Item41
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11162.574,154.76572,7807.7407};
-				angles[]={0,2.0080829,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=5433;
-			type="Land_R_rock_general1";
-			atlOffset=6.6089478;
-		};
-		class Item42
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11162.063,149.80537,7815.7261};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=5434;
-			type="Land_R_rock_general1";
-			atlOffset=0.0005645752;
-		};
-		class Item43
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11150.153,149.40974,7802.689};
-				angles[]={0,6.1160002,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=5435;
-			type="Land_SharpRock_wallH";
-			atlOffset=-12.079025;
-		};
-		class Item44
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11165.277,150.91293,7807.9321};
-				angles[]={0,1.1257722,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-				disableSimulation=1;
-			};
-			id=5437;
-			type="Land_Bro_MWHR_Garage";
-			atlOffset=0.11486816;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="DoorStates";
-					expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
-					class Value
-					{
-						class data
-						{
-							singleType="ARRAY";
-							class value
-							{
-								items=3;
-								class Item0
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=1;
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										singleType="SCALAR";
-										value=0;
-									};
-								};
-							};
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item45
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11166.144,146.3252,7806.3447};
-				angles[]={0,1.2214308,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=5440;
-			type="Land_Dirthump02";
-			atlOffset=-2.3900757;
-		};
-		class Item46
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11166.242,146.43283,7808.6465};
-				angles[]={0,1.2214308,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=5441;
-			type="Land_Dirthump02";
-			atlOffset=-2.4507904;
-		};
-		class Item47
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={11165.837,148.33449,7808.0664};
-				angles[]={0,4.2871494,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-				init="this addAction [""Enter Cave"", { " \n "    titleText [""Entering Cave..."", ""BLACK OUT"", 1]; " \n "    sleep 1.5; " \n "    player setPosATL (getPosATL cave_internal); " \n "    sleep 0.5; " \n "    titleText ["""", ""BLACK IN"", 1]; " \n "}];";
-				name="cave_entrance";
-			};
-			id=5442;
-			type="Land_InvisibleBarrier_F";
-			atlOffset=0.26893616;
 		};
 	};
 	class Connections
