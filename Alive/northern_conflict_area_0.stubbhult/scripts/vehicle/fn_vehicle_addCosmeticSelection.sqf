@@ -1923,7 +1923,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_wd.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_6_wd.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
@@ -1932,11 +1932,11 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-1 Olive (Iron Rain)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-1 Olive (Arc Flash)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_wd.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_1_wd.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
@@ -1949,7 +1949,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_wd.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_2_wd.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
@@ -1958,28 +1958,55 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-6 Desert (Storm King)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-3 Olive (Storm Raven)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_3_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder-1 Desert (Iron Rain)", [
+    ["RHS_M2A3_BUSKIII", "Thunder-4 Olive (Sky-Raq)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    
+    ["RHS_M2A3_BUSKIII", "Thunder-6 Desert (Storm King)", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_6_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder-1 Desert (Arc Flash)", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_1_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
         }
@@ -1988,21 +2015,48 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_2_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
             ]] call EFUNC(vehicle,applyTextures);
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
+    ["RHS_M2A3_BUSKIII", "Thunder-3 Desert (Storm Raven)", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_3_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder-4 Desert (Sky-Raq)", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    
 
     ["RHS_M6", "Thunder-6 Olive (Storm King)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_storm_wd_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
@@ -2015,7 +2069,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_iron_wd_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
@@ -2028,7 +2082,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_wd_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_pest_wd_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
@@ -2041,7 +2095,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_storm_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
@@ -2054,7 +2108,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_iron_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
@@ -2067,7 +2121,7 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_pest_co.paa"],
                 [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
