@@ -31,7 +31,7 @@ CUP_stopLampCheck = true;
 call EFUNC(player,setRankpatch);
 
 //Name Stuff
-call LXIM_w28fixes_fnc_player_set_name;
+[] execVM "scripts/players/fn_player_setNamePatch.sqf";
 
 /* groups ----------------------------------------------------------------------------------------------------------- */
 
