@@ -2053,12 +2053,12 @@ private _textures = [
     ]],
    
    //Linebacker
-    ["RHS_M6", "Thunder-6 Olive (Storm King)", [
+    ["RHS_M6", "Thunder 2-4 Olive (Sky-Raq)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_storm_wd_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\linebacker\base_m6_2_4_wd.paa"],
+                [1, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_wd.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"]
@@ -2066,64 +2066,13 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M6", "Thunder-1 Olive (Iron Rain)", [
-        "",
-        {
-            [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_wd_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"]
-            ]] call EFUNC(vehicle,applyTextures);
-            _vehicle setPlateNumber "A 3/61 MECH";
-        }
-    ]],
-    ["RHS_M6", "Thunder-2 Olive (Tempest)", [
-        "",
-        {
-            [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_wd_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"]
-            ]] call EFUNC(vehicle,applyTextures);
-            _vehicle setPlateNumber "A 3/61 MECH";
-        }
-    ]],
+    
     ["RHS_M6", "Thunder 2-4 Desert (Sky-Raq)", [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_t4_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"]
-            ]] call EFUNC(vehicle,applyTextures);
-            _vehicle setPlateNumber "A 3/61 MECH";
-        }
-    ]],
-    ["RHS_M6", "Thunder-1 Desert (Iron Rain)", [
-        "",
-        {
-            [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_iron_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
-                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
-                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
-                [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"]
-            ]] call EFUNC(vehicle,applyTextures);
-            _vehicle setPlateNumber "A 3/61 MECH";
-        }
-    ]],
-    ["RHS_M6", "Thunder-2 Desert (Tempest)", [
-        "",
-        {
-            [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\brad\base_pest_co.paa"],
-                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\a3_co.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\linebacker\base_m6_2_4_d.paa"],
+                [1, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_d.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"]
