@@ -78,6 +78,8 @@ class teamlead12 {
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F",
-        "uh60_jvmf_tablet"
+        "uh60_jvmf_tablet",
+        "B_simc_US_Molle_sturm_OCP_RTO",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
     };
 };
