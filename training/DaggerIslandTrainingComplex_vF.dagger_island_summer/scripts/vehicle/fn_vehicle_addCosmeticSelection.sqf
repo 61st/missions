@@ -1920,8 +1920,7 @@ private _textures = [
     ]],
 
 //Bradleys
-
- ["RHS_M2A3_BUSKIII", "Thunder 2-1 Desert (ArcFlash)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-1 Desert (ArcFlash)", [
         "",
         {
             [_vehicle, [
@@ -1947,7 +1946,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
- ["RHS_M2A3_BUSKIII", "Thunder 2-2 Desert (Volt)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Desert (Volt)", [
         "",
         {
             [_vehicle, [
@@ -1960,7 +1959,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-        ["RHS_M2A3_BUSKIII", "Thunder 2-2 Olive (Volt)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Olive (Volt)", [
         "",
         {
             [_vehicle, [
@@ -1973,7 +1972,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
- ["RHS_M2A3_BUSKIII", "Thunder 2-3 Desert (Storm Raven)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Desert (Storm Raven)", [
         "",
         {
             [_vehicle, [
@@ -1986,7 +1985,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-        ["RHS_M2A3_BUSKIII", "Thunder 2-3 Olive (Storm Raven)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Olive (Storm Raven)", [
         "",
         {
             [_vehicle, [
@@ -1999,7 +1998,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
- ["RHS_M2A3_BUSKIII", "Thunder 2-4 Desert (Sky-Raq)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Desert (Sky-Raq)", [
         "",
         {
             [_vehicle, [
@@ -2025,7 +2024,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
- ["RHS_M2A3_BUSKIII", "Thunder 2-6 Desert (Storm King)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Desert (Storm King)", [
         "",
         {
             [_vehicle, [
@@ -2038,7 +2037,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-        ["RHS_M2A3_BUSKIII", "Thunder 2-6 Olive (Storm King)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Olive (Storm King)", [
         "",
         {
             [_vehicle, [
@@ -2057,8 +2056,8 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\linebacker\base_m6_2_4_wd.paa"],
-                [1, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_wd.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_wd.paa"],
+                [1, "\z\lxim\addons\media\images\vehicles\linebacker\base_m6_2_4_wd.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_base_co.paa"]
@@ -2071,8 +2070,8 @@ private _textures = [
         "",
         {
             [_vehicle, [
-                [0, "\z\lxim\addons\media\images\vehicles\linebacker\base_m6_2_4_d.paa"],
-                [1, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_d.paa"],
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\base_2_4_d.paa"],
+                [1, "\z\lxim\addons\media\images\vehicles\linebacker\base_m6_2_4_d.paa"],
                 [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
                 [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"],
                 [4, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\base_co.paa"]
