@@ -1,27 +1,34 @@
-class tsaviorr {
-    name = "Engineer";
-    description = "Makes things go boom or not to go boom";
+class repair {
+    name = "Savior";
+    description = "I fix, I fuel, I attack, but most importantly I give repair track";
     traits[] = {
-        {"Engineer",true},
-        {"explosiveSpecialist",true}
+        {"Engineer",true}
     };
     customVariables[] = {
         {"ace_isEngineer",2,true},
-        {"ace_medical_medicClass",0,true}
+        {"ace_medical_medicClass",2,true}
     };
-    icon = "a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa";
+    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
             {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
             {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"lxim_medbags_mopp",1},{"lxim_medbags_FirstAid",1},{"ACE_MapTools",1},{"",1,0}}},
+            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"lxim_medbags_mopp",1},{"lxim_medbags_FirstAid",1},{"lxim_medbags_cls",1},{"ACE_MapTools",1}}},
             {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"lxim_sig_25Rnd_Fury",12,25}}},
-            {"B_simc_US_Molle_sturm_OCP_etool",{{"ACE_EntrenchingTool",1},{"MS_Strobe_Mag_1",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_CableTie",5},{"psq42_blk",1}}},
+            {"B_simc_US_Molle_sturm_OCP",{{"ACE_EntrenchingTool",1},{"MS_Strobe_Mag_1",1},{"ToolKit",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_CableTie",5},{"psq42_blk",1}}},
             "lxim_headgear_H_HelmetCrew_sand","G_oak_2_cut",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
+            {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
-    
-    aarsenalitems[] = {
+    arsenalitems[] = {
+        "lxim_headgear_H_HelmetCrew_green",
+        "lxim_headgear_H_HelmetCrew_sand",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "B_simc_US_Molle_sturm_OCP_RTO",
+        "ToolKit",
+        "SatchelCharge_Remote_Mag",
+        "lxim_sig_M250",
+        "lxim_sig_M250_BLK",
+        "rhs_weap_m4",
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
@@ -49,23 +56,8 @@ class tsaviorr {
         "rhs_weap_M590_5RD",
         "Rev_Demine",
         "Rev_UAV_IED",
-        "Rev_Roller",
-        "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-        "TFAR_rt1523g",
-        "TFAR_rt1523g_rhs",
-        "TFAR_rt1523g_bwmod",
-        "TFAR_rt1523g_black",
-        "TFAR_rt1523g_big_rhs",
-        "TFAR_rt1523g_big",
-        "lxim_headgear_H_HelmetCrew_green",
-        "lxim_headgear_H_HelmetCrew_sand",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-        "B_simc_US_Molle_sturm_OCP_RTO",
-        "ToolKit",
-        "SatchelCharge_Remote_Mag",
-        "lxim_sig_M250",
-        "lxim_sig_M250_BLK",
-        "rhs_weap_m4"
+        "Rev_Roller"
     };
 };
+
+

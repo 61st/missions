@@ -10,7 +10,7 @@ class Dynamic_Roles {
     #include "thunder\config_driver.hpp"
     #include "thunder\config_gunner.hpp"
     #include "thunder\config_medict.hpp"
-    #include "thunder\config_tsavior.hpp"
+    #include "thunder\config_repair.hpp"
 
     #include "outlaw_1_1\config_engineer.hpp"
     #include "outlaw_1_1\config_squadleader.hpp"
@@ -60,5 +60,8 @@ class Dynamic_Roles {
     #include "training\config_jtac.hpp"
     #include "training\config_medic.hpp"
     #include "training\config_zeus.hpp"
+
+    //#include "sealteam_1\config_seal.hpp"
+    //#include "sealteam_1\config_sealmedic.hpp"
 
 };
