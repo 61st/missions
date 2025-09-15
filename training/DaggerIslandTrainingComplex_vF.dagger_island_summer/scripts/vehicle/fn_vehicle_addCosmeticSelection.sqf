@@ -185,8 +185,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_d_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_d_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_d_co.paa"],
@@ -203,8 +203,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_wd_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_wd_co.paa"],
@@ -221,8 +221,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_d_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_d_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_d_co.paa"],
@@ -239,8 +239,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_wd_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_wd_co.paa"],
@@ -257,8 +257,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_d_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_d_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_d_co.paa"],
@@ -275,8 +275,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_wd_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_wd_co.paa"],
@@ -293,8 +293,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_d_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_d_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_d_co.paa"],
@@ -311,8 +311,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_wd_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_wd_co.paa"],
@@ -329,8 +329,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_d_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_d_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_d_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_d_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_d_co.paa"],
@@ -347,8 +347,8 @@ private _textures = [
     "",
         {
             [_vehicle, [
-                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_01_co.paa"],
-                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2_wd_02_co.paa"],
+                [0, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_01_co.paa"],
+                [1, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskII_wd_02_co.paa"],
                 [2, "rhsusf\addons\rhsusf_m1a1\data\rhsusf_m1a1aim_03_co.paa"],
                 [3, "rhsusf\addons\rhsusf_m1a1\loaderspintle\data\loaderspintle_tuski_wd_co.paa"],
                 [4, "rhsusf\addons\rhsusf_m1a2\data\rhsusf_tuskiia2_wd_co.paa"],
