@@ -1,6 +1,6 @@
 class gunner {
     name = "Crew Gunner";
-    description = "Send HE down range to cuddle the enemy";
+    description = "Sending HE down range to cuddle the enemy";
     traits[] = {
         {"Engineer",true}
     };

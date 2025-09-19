@@ -1,6 +1,6 @@
 class cmd {
     name = "Vehicle CMD";
-    description = "Never fear War Mommy is here";
+    description = "Never fear commander is here";
     traits[] = {
         {"Engineer",true}
     };

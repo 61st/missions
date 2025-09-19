@@ -1,5 +1,5 @@
 class repair {
-    name = "Savior";
+    name = "Junkyard";
     description = "I fix, I fuel, I attack, but most importantly I give repair track";
     traits[] = {
         {"Engineer",true}
