@@ -1,6 +1,6 @@
 class driver {
     name = "Crew Driver";
-    description = "vroom vroom";
+    description = "Driver tracks troop";
     traits[] = {
         {"Engineer",true}
     };
