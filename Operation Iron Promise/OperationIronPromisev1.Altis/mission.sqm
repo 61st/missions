@@ -12,18 +12,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=43538;
+		nextID=43539;
 	};
 	class LayerIndexProvider
 	{
-		nextID=4722;
+		nextID=4862;
 	};
 	class Camera
 	{
-		pos[]={23864.092,58.012524,18481.055};
-		dir[]={0.45966992,-0.68037218,0.5709964};
-		up[]={0.42666173,0.73279911,0.52999377};
-		aside[]={0.77904499,3.7805294e-06,-0.62716514};
+		pos[]={23880.246,58.012524,18523.588};
+		dir[]={0.53264248,-0.67063385,0.51650912};
+		up[]={0.48146126,0.74172014,0.46687856};
+		aside[]={0.69623268,3.7024147e-06,-0.71798903};
 	};
 };
 binarizationWanted=0;
@@ -895,7 +895,7 @@ class CustomAttributes
 		};
 		class Attribute3
 		{
-			property="trencher_main_terrainPoints";
+			property="trencher_main_simulatedObjects";
 			expression="false";
 			class Value
 			{
@@ -908,7 +908,7 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="trencher_main_simulatedObjects";
+			property="trencher_main_terrainPoints";
 			expression="false";
 			class Value
 			{
@@ -2036,7 +2036,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=171;
+		items=172;
 		class Item0
 		{
 			dataType="Layer";
@@ -55775,6 +55775,40 @@ class Mission
 				disableSimulation=1;
 			};
 			id=43537;
+			type="Land_i_House_Big_02_V2_F";
+			atlOffset=-1.6689301e-06;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={23904.068,6.073966,18593.664};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=43538;
 			type="Land_i_House_Big_02_V2_F";
 			atlOffset=-1.4305115e-06;
 			class CustomAttributes
