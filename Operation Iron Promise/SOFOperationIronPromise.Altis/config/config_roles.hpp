@@ -31,6 +31,12 @@ class Dynamic_Roles {
     #include "outlaw_1_2\config_jtac.hpp"
     #include "outlaw_1_2\config_dismount.hpp"
 
+    #include "thunder\config_cmd.hpp"
+    #include "thunder\config_driver.hpp"
+    #include "thunder\config_gunner.hpp"
+    #include "thunder\config_medict.hpp"
+    #include "thunder\config_repair.hpp"
+
     #include "phoenix\config_pilot.hpp"
     #include "phoenix\config_crewchief.hpp"
     #include "phoenix\config_medic.hpp"
