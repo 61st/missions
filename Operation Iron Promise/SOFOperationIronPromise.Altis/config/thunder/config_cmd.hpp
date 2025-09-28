@@ -1,14 +1,14 @@
-class gunner {
-    name = "Crew Gunner";
-    description = "Sending HE down range to cuddle the enemy";
+class cmd {
+    name = "Vehicle CMD";
+    description = "Never fear War Mommy is here";
     traits[] = {
         {"Engineer",true}
     };
     customVariables[] = {
-        {"ace_isEngineer",1,true},
+        {"ace_isEngineer",2,true},
         {"ace_medical_medicClass",0,true}
     };
-    icon = "z\LXIM\addons\media\images\Icons\gunner.paa";
+    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
             {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
@@ -26,6 +26,10 @@ class gunner {
         "B_simc_US_Molle_sturm_OCP_RTO",
         "ToolKit",
         "SatchelCharge_Remote_Mag",
+        "lxim_sig_M250",
+        "lxim_sig_M250_BLK",
         "rhs_weap_m4"
     };
 };
+
+

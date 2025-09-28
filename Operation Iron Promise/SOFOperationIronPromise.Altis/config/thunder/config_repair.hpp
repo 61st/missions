@@ -1,14 +1,14 @@
-class gunner {
-    name = "Crew Gunner";
-    description = "Sending HE down range to cuddle the enemy";
+class repair {
+    name = "Savior";
+    description = "I fix, I fuel, I attack, but most importantly I give repair track";
     traits[] = {
         {"Engineer",true}
     };
     customVariables[] = {
-        {"ace_isEngineer",1,true},
-        {"ace_medical_medicClass",0,true}
+        {"ace_isEngineer",2,true},
+        {"ace_medical_medicClass",2,true}
     };
-    icon = "z\LXIM\addons\media\images\Icons\gunner.paa";
+    icon = "a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa";
 
     defaultLoadout[] = {
             {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},
@@ -26,6 +26,38 @@ class gunner {
         "B_simc_US_Molle_sturm_OCP_RTO",
         "ToolKit",
         "SatchelCharge_Remote_Mag",
-        "rhs_weap_m4"
+        "lxim_sig_M250",
+        "lxim_sig_M250_BLK",
+        "rhs_weap_m4",
+        "Rev_Demine",
+        "Rev_Roller",
+        "ACE_M26_Clacker",
+        "ACE_Clacker",
+        "ACE_DefusalKit",
+        "B_UavTerminal",
+        "ToolKit",
+        "lxim_breaching_BreachingCharge_Mag",
+        "ACE_VMH3",
+        "ACE_VMM3",
+        "DemoCharge_Remote_Mag",
+        "ATMine_Range_Mag",
+        "SatchelCharge_Remote_Mag",
+        "ClaymoreDirectionalMine_Remote_Mag",
+        "SLAMDirectionalMine_Wire_Mag",
+        "ACE_Fortify",
+        "tsp_breach_package_mag",
+        "tsp_breach_popper_auto_mag",
+        "tsp_breach_popper_mag",
+        "tsp_breach_linear_auto_mag",
+        "tsp_breach_linear_mag",
+        "tsp_breach_block_auto_mag",
+        "tsp_breach_block_mag",
+        "rhs_weap_M590_8RD",
+        "rhs_weap_M590_5RD",
+        "Rev_Demine",
+        "Rev_UAV_IED",
+        "Rev_Roller"
     };
 };
+
+

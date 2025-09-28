@@ -1,6 +1,6 @@
 class medict {
-    name = "Thunder Medic";
-    description = "Pluggin holes that shouldn't be there!";
+    name = "medic";
+    description = "MEDIC!";
     traits[] = {
         {"Medic",true}
     };

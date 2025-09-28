@@ -1,6 +1,6 @@
-class gunner {
-    name = "Crew Gunner";
-    description = "Sending HE down range to cuddle the enemy";
+class driver {
+    name = "Crew Driver";
+    description = "vroom vroom";
     traits[] = {
         {"Engineer",true}
     };
@@ -8,7 +8,7 @@ class gunner {
         {"ace_isEngineer",1,true},
         {"ace_medical_medicClass",0,true}
     };
-    icon = "z\LXIM\addons\media\images\Icons\gunner.paa";
+    icon = "z\LXIM\addons\media\images\Icons\driver.paa";
 
     defaultLoadout[] = {
             {"lxim_sig_XM7","ICM_SLX_Suppressor_Arid_F","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_25Rnd_Fury",25},{},""},{},

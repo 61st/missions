@@ -387,7 +387,9 @@ class Common_Arsenal {
         "cigs_lighter",
         "cigs_cigars_cigarbox_5",
         "cigs_lucky_strike_cigpack",
-        "cigs_crayons_crayonpack"
+        "cigs_crayons_crayonpack",
+        "TFAR_anprc152",
+
     };
 };
 
