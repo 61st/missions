@@ -37,6 +37,7 @@ class fac {
         "uh60_jvmf_tablet",
         "lxim_vs17_vs17",
         "rhs_weap_m4",
-        "rhs_weap_M320"
+        "rhs_weap_M320",
+        "B_UavTerminal"
     };
 };
