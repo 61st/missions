@@ -21,7 +21,7 @@ class engineerr {
             {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };
     
-    aarsenalitems[] = {
+    arsenalitems[] = {
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
