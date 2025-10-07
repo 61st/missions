@@ -24,6 +24,9 @@ class Dynamic_Roles {
     #include "banshiri_ng\config_banshiring.hpp"
     #include "banshiri_ng\config_banshiringmed.hpp"
 
+    #include "banshiri_sf\config_banshirisf.hpp"
+    #include "banshiri_sf\config_banshirisfmed.hpp"
+
     #include "outlaw_1_2\config_engineer.hpp"
     #include "outlaw_1_2\config_squadleader.hpp"
     #include "outlaw_1_2\config_teamleader.hpp"
