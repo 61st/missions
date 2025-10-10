@@ -184,8 +184,6 @@ class Common_Arsenal {
         "Laserbatteries",
         "lxim_equipment_optic_DMS",
         "lxim_equipment_rebreather",
-        "lxim_equipment_Vector_Designator",
-        "lxim_equipment_Vector_Designator_NVG",
         "lxim_equipment_Wetsuit",
         "lxim_rhs_moppsuit",
         "lxim_medbags_FirstAid",
