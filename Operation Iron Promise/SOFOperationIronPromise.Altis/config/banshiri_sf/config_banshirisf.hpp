@@ -10,8 +10,8 @@ class banshirisf {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"arifle_Katiba_F","muzzle_snds_H","","rhs_acc_1p87",{"30Rnd_65x39_caseless_green",30},{},""},{},{"rhs_weap_savz61_folded","","","",{"rhsgref_20rnd_765x17_vz61",20},{},""},
-            {"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
+            {"arifle_Katiba_F","muzzle_snds_H","","rhs_acc_1p87",{"30Rnd_65x39_caseless_green",30},{},""},{},
+            {"rhs_weap_savz61_folded","","","",{"rhsgref_20rnd_765x17_vz61",20},{},""},
             {"PRACS_SLA_Gorka_Black_uniform",{{"lxim_medbags_FirstAid",1}}},
             {"LOP_V_CarrierRig_BLK",{{"30Rnd_65x39_caseless_green",10,30}}},
             {"B_Carryall_blk",{{"ChemicalDetector_01_black_F",1},{"tsp_lockpick",1},{"ACE_EntrenchingTool",1},{"ACE_wirecutter",1},{"ItemcTabHCam",1},{"ACE_CableTie",5},{"ACE_Clacker",1},{"rhs_mag_rgd5",8,1},{"30Rnd_65x39_caseless_green",4,30},{"HandGrenade",2,1},{"SmokeShell",2,1},{"DemoCharge_Remote_Mag",2,1},{"cigs_morley_cigpack",1,20},{"cigs_lighter",1,100},{"rhsgref_20rnd_765x17_vz61",4,20}}},
