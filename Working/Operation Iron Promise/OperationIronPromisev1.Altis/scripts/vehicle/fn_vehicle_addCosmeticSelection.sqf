@@ -72,7 +72,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Desert (Storm Raven)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Desert (Sky-Raq)", [
         "",
         {
             [_vehicle, [
@@ -85,7 +85,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Olive (Storm Raven)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Olive (Sky-Raq)", [
         "",
         {
             [_vehicle, [
@@ -98,7 +98,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Desert (Sky-Raq)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Desert (Storm Raven)", [
         "",
         {
             [_vehicle, [
@@ -111,7 +111,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-        ["RHS_M2A3_BUSKIII", "Thunder 2-4 Olive (Sky-Raq)", [
+        ["RHS_M2A3_BUSKIII", "Thunder 2-4 Olive (Storm Raven)", [
         "",
         {
             [_vehicle, [
