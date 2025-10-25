@@ -549,7 +549,6 @@ class Common_Arsenal {
         "cigs_cigars_cigarbox_5",
         "cigs_lucky_strike_cigpack",
         "cigs_crayons_crayonpack",
-        "launch_MRAWS_green_rail_F",
         "rhs_mag_maaws_HEAT",
         "rhs_mag_maaws_HE",
         "MRAWS_HEAT55_F",

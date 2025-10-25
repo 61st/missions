@@ -72,7 +72,7 @@
             ["icon", ""],
             ["loadout", [
                 ["rhs_mag_smokegen",[-1],999],
-                ["rhs_mag_M829A3_max",[0],44],
+                ["rhs_mag_M829A4_max",[0],44],
                 ["rhs_mag_M830A1_max",[0],8],
                 ["rhs_mag_762x51_M240_1200",[0],0],
                 ["rhs_mag_762x51_M240_1200",[0],0],
