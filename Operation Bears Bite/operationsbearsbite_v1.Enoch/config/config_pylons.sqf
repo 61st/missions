@@ -103,13 +103,13 @@
                 ["rhsusf_mag_L8A3_12",[0,2]]
             ]]
         ]],
-        [ "default", [
-            ["displayName", "Default"],
+    ["rhsusf_m1a2sep1tuskiiwd_usarmy", [
+            ["displayName", "Hard2"],
             ["icon", ""],
             ["loadout", [
                 ["rhs_mag_smokegen",[-1],999],
-                ["rhs_mag_M829A3_max",[0],28],
-                ["rhs_mag_M830A1_max",[0],16],
+                ["rhs_mag_M829A4_max",[0],56],
+                ["rhs_mag_M830A1_max",[0],0],
                 ["rhs_mag_762x51_M240_1200",[0],1200],
                 ["rhs_mag_762x51_M240_1200",[0],1200],
                 ["rhs_mag_762x51_M240_1200",[0],1200],
@@ -120,22 +120,21 @@
                 ["rhs_mag_762x51_M240_1200",[0],1200],
                 ["rhs_LaserFCSMag",[0],99],
                 ["rhs_LaserFCSMag",[0],99],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
-                ["rhsusf_mag_L8A3_12",[0,0],12],
-                ["rhs_mag_762x51_M240_200",[0,2]],
-                ["rhs_mag_762x51_M240_200",[0,2]],
-                ["rhs_mag_762x51_M240_200",[0,2]],
-                ["rhsusf_mag_L8A3_12",[0,2]],
-                ["rhsusf_mag_L8A3_12",[0,2]]
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],12],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],12],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_100rnd_127x99_SLAP_mag",[0],10],
+                ["rhs_mag_762x51_M240_200",[0],2],
+                ["rhs_mag_762x51_M240_200",[0],2],
+                ["rhs_mag_762x51_M240_200",[0],2],
+                ["rhsusf_mag_L8A3_12",[0],12],
+                ["rhsusf_mag_L8A3_12",[0],12]
             ]]
         ]],
         ["soft", [
