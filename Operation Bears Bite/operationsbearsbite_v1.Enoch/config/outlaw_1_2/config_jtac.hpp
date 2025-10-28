@@ -36,10 +36,7 @@ class jtac12 {
         // "ItemGPSMisc",
         "ACE_RangeCard",
         "uh60_jvmf_tablet",
-        "lxim_vs17_vs17",
-        "ACRE_VHF30108SPIKE",
-        "ACRE_VHF30108",
-        "ACRE_VHF30108MAST",
-        "rhs_weap_M320"
+        //"lxim_vs17_vs17",
+        //"rhs_weap_M320"
     };
 };

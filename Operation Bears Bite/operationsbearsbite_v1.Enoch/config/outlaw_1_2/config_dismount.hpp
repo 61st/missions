@@ -21,13 +21,6 @@ class dismount12 {
     arsenalitems[] = {
         "1Rnd_HE_Grenade_shell",
         "ACE_HuntIR_M203",
-        "ACE_LAMG_SpareBarrel",
-        "ACE_LWAMG_SpareBarrel",
-        "launch_MRAWS_green_F",
-        "launch_MRAWS_olive_F",
-        "launch_MRAWS_sand_F",
-        "lxim_sig_M250",
-        "lxim_sig_M250_BLK",
         "rhs_mag_M397_HET",
         "rhs_mag_m4009",
         "rhs_mag_M433_HEDP",
@@ -43,11 +36,6 @@ class dismount12 {
         "rhs_mag_m714_White",
         "rhs_mag_m715_Green",
         "rhs_mag_m716_yellow",
-        "rhs_weap_fgm148",
-        "rhs_weap_fim92",
-        "rhs_weap_m240B",
-        "rhs_weap_m240G",
-        "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F"
     };
