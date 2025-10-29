@@ -1,0 +1,96 @@
+class medic11 {
+    name = "medic";
+    description = "MEDIC!";
+    traits[] = {
+        {"Medic",true}
+    };
+    customVariables[] = {
+        {"ace_medical_medicClass",2,true},
+        {"ace_isEngineer",0,true},
+        {"YMF_ismed", true, true}
+    };
+    icon = "z\LXIM\addons\media\images\Icons\iconmanmedic_green.paa";
+
+    defaultLoadout[] = {
+            {"rhs_weap_ak74m","rhs_acc_dtk","","",{"rhs_30Rnd_545x39_7N10_AK",30},{},""},{},
+            {"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},
+            {"rhs_uniform_vkpo_gloves",{{"lxim_medbags_FirstAid",1},{"ACE_EntrenchingTool",1},{"ACE_Flashlight_MX991",1},{"ACE_CableTie",4},{"ItemcTabHCam",1},{"cigs_lighter",1,100},{"cigs_morley_cigpack",1,20}}},
+            {"rhs_6b45_rifleman_2",{{"rhs_30Rnd_545x39_7N10_plum_AK",11,30},{"rhs_mag_9x19_17",2,17}}},
+            {"lxim_backpack_Backpack_Kitbag_Medic_Green",{{"ACE_CableTie",5},{"ACE_epinephrine",8},{"ACE_salineIV_500",4},{"ACE_salineIV",4},{"ACE_surgicalKit",1},{"ACE_tourniquet",8},{"ACM_BVM",1},{"ACM_ChestSeal",8},{"ACM_ChestTubeKit",4},{"ACM_ElasticWrap",30},{"ACM_EmergencyTraumaDressing",20},{"ACM_GuedelTube",8},{"ACM_IGel",8},{"ACM_IO_FAST",8},{"ACM_IV_14g",8},{"ACM_IV_16g",8},{"ACM_NCDKit",8},{"ACM_NPA",8},{"ACM_PressureBandage",30},{"ACM_PressureCuff",1},{"ACM_PulseOximeter",4},{"ACM_SAMSplint",6},{"ACM_Spray_Naloxone",8},{"ACM_SuctionBag",4},{"ACM_Vial_Adenosine",8},{"ACM_Vial_Amiodarone",8},{"ACM_Vial_Epinephrine",8},{"ACM_Vial_Ketamine",4},{"ACM_Vial_Lidocaine",4},{"ACM_Vial_Morphine",8},{"ACM_Vial_TXA",8},{"ACM_Stethoscope",1},{"ACM_PocketBVM",1},{"ACM_Syringe_5",2},{"ACM_Syringe_3",2},{"ACM_Syringe_10",2},{"ACM_Syringe_1",2},{"ACM_AmmoniaInhalant",4,8},{"ACM_Inhaler_Penthrox",2,8},{"ACM_Paracetamol",2,10}}},
+            "rhs_6b47_emr_1","",{"rhs_pdu4","","","",{},{},""},
+            {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","rhs_1PN138"}
+    };
+    arsenalitems[] = {
+        "ACM_ThoracostomyKit",
+        "ACM_FieldBloodTransfusionKit_500",
+        "ACM_FieldBloodTransfusionKit_250",
+        "lxim_medbags_DrugKit",
+        "lxim_medbags_Fluid",
+        "ACM_Vial_Ondansetron",
+        "ACM_Vial_CalciumChloride",
+        "ACM_Vial_Esmolol",
+        "ACM_Vial_Ertapenem",
+        "ACE_epinephrine",
+        "ACE_plasmaIV_250",
+        "ACE_plasmaIV_500",
+        "ACE_plasmaIV",
+        "ACE_salineIV_250",
+        "ACE_salineIV_500",
+        "ACE_salineIV",
+        "ACE_surgicalKit",
+        "ACE_suture",
+        "ACE_tourniquet",
+        "ACM_ACCUVAC",
+        "ACM_AED",
+        "ACM_AmmoniaInhalant",
+        "ACM_BVM",
+        "ACM_ChestSeal",
+        "ACM_ChestTubeKit",
+        "ACM_ElasticWrap",
+        "ACM_EmergencyTraumaDressing",
+        "ACM_GuedelTube",
+        "ACM_IGel",
+        "ACM_Inhaler_Penthrox",
+        "ACM_IO_EZ",
+        "ACM_IO_FAST",
+        "ACM_IV_14g",
+        "ACM_IV_16g",
+        "ACM_NCDKit",
+        "ACM_NPA",
+        "ACM_OxygenTank_425",
+        "ACM_Paracetamol",
+        "ACM_PocketBVM",
+        "ACM_PressureBandage",
+        "ACM_PressureCuff",
+        "ACM_PulseOximeter",
+        "ACM_SAMSplint",
+        "ACM_Spray_Naloxone",
+        "ACM_Stethoscope",
+        "ACM_SuctionBag",
+        "ACM_Syringe_1",
+        "ACM_Syringe_10",
+        "ACM_Syringe_3",
+        "ACM_Syringe_5",
+        "ACM_Vial_Adenosine",
+        "ACM_Vial_Amiodarone",
+        "ACM_Vial_Epinephrine",
+        "ACM_Vial_Ketamine",
+        "ACM_Vial_Lidocaine",
+        "ACM_Vial_Morphine",
+        "ACM_Vial_TXA",
+        "TFAR_rt1523g_green",
+        "lxim_backpack_Backpack_Kitbag_Medic_Coyote",
+        "lxim_backpack_Backpack_Kitbag_Medic_Green",
+        "lxim_backpack_Backpack_Kitbag_Medic_RGR",
+        "lxim_backpack_Backpack_Kitbag_Medic_Sage",
+        "lxim_backpack_Backpack_Kitbag_Medic_Tan",
+        "ACM_Vial_Atropine",
+        "ACM_CricKit",
+        "ACM_Autoinjector_ATNA",
+        "ACM_Autoinjector_Midazolam",
+        "ACM_Lozenge_Fentanyl",
+        "ACE_WaterBottle",
+        "ACE_WaterBottle_Half",
+        "B_simc_US_Molle_sturm_OCP_RTO"
+    };
+};
