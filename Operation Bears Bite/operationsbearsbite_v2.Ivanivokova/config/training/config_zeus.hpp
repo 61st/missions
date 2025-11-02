@@ -15,8 +15,8 @@ class zeus {
     defaultLoadout[] = {
             {},{},
             {},
-            {"U_tweed_acu_summer_ocp_unbl_trop",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"ACE_MapTools",1},{"ACRE_PRC148",1}}},{},
-            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACRE_PRC117F",1}}},
+            {"rhs_uniform_vkpo",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"ACE_MapTools",1},{"ACRE_PRC148",1}}},{},
+            {"TFAR_bussole",{{"ACRE_PRC117F",1}}},
             "lxim_headgear_Cap_Headphones_BlackLogo","G_oak_2_cut",{},
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
@@ -56,7 +56,9 @@ class zeus {
         "lxim_vs17_vs17",
         // "ItemGPSMisc",
         "lxim_headgear_Cap_BlackLogo",
-        "lxim_headgear_Cap_Headphones_BlackLogo"
+        "lxim_headgear_Cap_Headphones_BlackLogo",
+        "TFAR_bussole",
+        "rhs_uniform_vkpo"
     };
 };
 

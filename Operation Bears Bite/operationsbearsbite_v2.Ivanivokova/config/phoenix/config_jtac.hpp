@@ -25,19 +25,23 @@ class fac {
     arsenalitems[] = {
         "Rev_Pelican",
         "Rev_darter",
-        "Rev_Designator",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
-        "B_simc_US_Molle_sturm_OCP_RTO",
         "ACE_artilleryTable",
         "ACE_PlottingBoard",
         "acex_intelitems_notepad",
-        //"B_UavTerminal",
+        "B_UavTerminal",
         // "ItemGPSMisc",
         "ACE_RangeCard",
         "uh60_jvmf_tablet",
         "lxim_vs17_vs17",
         "rhs_weap_m4",
         "rhs_weap_M320",
-        "Item_O_UavTerminal"
+        "Item_O_UavTerminal",
+        "TFAR_rt1523g_green",
+        "O_Rev_Darter",
+        "O_UavTerminal",
+        "tun_tablet",
+        "Item_O_UavTerminal",
+        "I_UavTerminal",
+        "I_E_UavTerminal"
     };
 };
