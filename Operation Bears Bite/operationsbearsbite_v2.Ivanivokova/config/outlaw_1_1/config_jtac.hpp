@@ -25,14 +25,13 @@ class jtac11 {
     arsenalitems[] = {
         "tun_tablet",
         "Rev_Pelican",
-        "Rev_darter",
+        "O_Rev_Darter",
         "Rev_Designator",
         "TFAR_rt1523g_green",
         //"B_simc_US_Molle_sturm_OCP_RTO",
         "ACE_artilleryTable",
         "ACE_PlottingBoard",
         "acex_intelitems_notepad",
-        "Item_O_UavTerminal",
         // "ItemGPSMisc",
         "ACE_RangeCard",
         "uh60_jvmf_tablet",
@@ -40,6 +39,10 @@ class jtac11 {
         //"ACRE_VHF30108SPIKE",
         //"ACRE_VHF30108",
         //"ACRE_VHF30108MAST",
-        "rhs_weap_M320"
+        //"rhs_weap_M320",
+        "O_Rev_Darter",
+        "O_UavTerminal",
+        "I_UavTerminal",
+        "I_E_UavTerminal"
     };
 };
