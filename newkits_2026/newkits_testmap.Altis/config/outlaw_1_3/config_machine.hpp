@@ -9,7 +9,7 @@ class machine13 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"KAR_XM250","","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_150Rnd_Fury",150},{},""},{"rhs_weap_M136","","","",{},{},""},
+            {"lxim_sig_M250","","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_150Rnd_Fury",150},{},""},{},
             {"MHS_M17","","MHS_X300U","MHS_RomeoM17",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
             {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",2},{"ACE_CableTie",3},{"MHS_21rnd_9MM_124FMJ_M17",3,21}}},
             {"V_tweed_iotv_mk4_249",{{"ItemcTabHCam",1},{"lxim_sig_150Rnd_Fury",5,150},{"SmokeShell",2,1},{"rhs_mag_m67",2,1}}},
@@ -49,6 +49,8 @@ class machine13 {
         "rhs_weap_m240G",
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
-        "UGL_FlareGreen_F"
+        "UGL_FlareGreen_F",
+        "lxim_sig_150Rnd_Fury",
+        "lxim_sig_M250"
     };
 };
