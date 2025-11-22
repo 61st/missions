@@ -1,9 +1,9 @@
 private _message = "
-	<t align='center' size='5' shadow='0'><br/>61st Main Ops</t><br/>
+	<t align='center' size='5' shadow='0'><br/>61st Test</t><br/>
 	Welcome to the 61st Ops Server<br/>
 	To get started, select a role from the group menu and access subsequent menus through ACE Self Interact. You can view more information in the diary.<br/><br/>
 	<br/>
-	Help Liberate the African nation of Banshiri!!
+	Test Subtext
 	<br/>
 	<br/>
 	There are signs with instructions around the starting base

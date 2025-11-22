@@ -218,20 +218,20 @@
         ["lxim_vs17_vs17", 2],
 
         // Rifle Ammo
-        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",120],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",6],
+        ["lxim_sig_150Rnd_Fury",12],
         //["lxim_sig_150Rnd_Fury_blk",12],
         //["lxim_sig_150Rnd_Fury_RT",12],
         //["lxim_sig_150Rnd_Fury_RT_blk",12],
 
         // AT
-        ["MRAWS_HE_F",2],
-        ["MRAWS_HEAT_F",2],
-        ["rMRAWS_HEAT55_F",2],
+        ["MRAWS_HE_F",4],
+        ["MRAWS_HEAT_F",4],
+        ["rMRAWS_HEAT55_F",4],
         ["rhs_weap_M136",4],
-        ["launch_MRAWS_olive_F",2],
+        ["launch_MRAWS_olive_F",4],
         
         // M320 Ammo
         ["rhs_mag_M441_HE",20],
@@ -254,14 +254,14 @@
         ["rhs_mag_m67",20],
 
         // LTL Hand Grenades
-        ["ACE_M84",10],
+        ["ACE_M84",15],
         ["MS_Strobe_Mag_2",4],
         ["MS_Strobe_Mag_1",4],
         ["ACE_IR_Strobe_Item",4],
         ["ACE_Chemlight_IR",10],
         ["B_IR_Grenade",4],
 
-        ["ACE_SpraypaintRed",4],
+        ["ACE_SpraypaintRed",8],
 
         // Smoke Grenades
         ["SmokeShell",30],
@@ -272,9 +272,9 @@
         ["ACE_Chemlight_IR",15],
 
         // Medical
-        ["lxim_medbags_MedicKit",1],
-        ["lxim_medbags_cls",2],
-        ["lxim_medbags_FirstAid",4]
+        ["lxim_medbags_MedicKit",2],
+        ["lxim_medbags_cls",4],
+        ["lxim_medbags_FirstAid",10]
     ]],
 
     ["crate_outlaw_1-2", [
