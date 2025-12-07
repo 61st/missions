@@ -1,8 +1,8 @@
 class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the group to be shown"}
     faction_name = "61st";
     group_setup[] = {
-        {"OUTLAW-1/1",{"dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11"},"true"},
-        {"OUTLAW-1/2",{"dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11"},"true"},
+        {"Racers",{"dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11"},"true"},
+        {"Racers Extra",{"dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11","dismount11"},"true"},
         //{"THUNDER-2/1",{"cmd","driver","gunner"},"true"},
         //{"THUNDER-2/2",{"cmd","driver","gunner"},"true"},
         //{"THUNDER-2/3",{"cmd","driver","gunner"},"true"},
