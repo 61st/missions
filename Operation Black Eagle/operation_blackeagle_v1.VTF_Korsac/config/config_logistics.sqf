@@ -141,86 +141,6 @@
     //REQUIRED
     ["crate_resupply_general", [
         // Radios
-        ["ACRE_PRC148", 0],
-        ["ACRE_PRC152", 0],
-        ["ACRE_PRC117F", 0],
-
-        // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
-        
-        // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
-        ["rhsusf_100Rnd_762x51_m61_ap",12],
-        ["rhsusf_100Rnd_762x51",12],
-        ["rhsusf_100Rnd_762x51_m62_tracer",12],
-        ["rhsusf_100Rnd_762x51_m80a1epr",12],
-
-        // AT
-        ["rhs_fgm148_magazine_AT",3],
-        ["MRAWS_HE_F",6],
-        ["MRAWS_HEAT_F",3],
-        ["rMRAWS_HEAT55_F",3],
-        ["rhs_weap_M136",8],
-        
-        // AA
-        ["rhs_fim92_mag",3],
-        
-        // M320 Ammo
-        ["rhs_mag_M441_HE",20],
-        ["ACE_40mm_Pike",10],
-        ["rhs_mag_M433_HEDP",20],
-        ["rhs_mag_M397_HET",20],
-        ["rhs_mag_m576",10],
-        ["rhs_mag_m4009",10],
-        ["rhs_mag_M663_green_cluster",5],
-        ["rhs_mag_M585_white_cluster",5],
-        ["rhs_mag_M664_red_cluster",5],
-        ["rhs_mag_m714_White",5],
-        ["rhs_mag_m715_Green",5],
-        ["rhs_mag_m713_Red",5],
-        ["rhs_mag_m661_green",5],
-        ["rhs_mag_m716_yellow",5],
-        ["ACE_HUNTIR_M203",5],
-        
-        // Offensive/Defensive Hand Grenades
-        ["rhs_mag_m67",20],
-
-        // LTL Hand Grenades
-        ["ACE_M84",10],
-        ["MS_Strobe_Mag_2",4],
-        ["MS_Strobe_Mag_1",4],
-        ["ACE_IR_Strobe_Item",4],
-        ["ACE_Chemlight_IR",10],
-
-        // Smoke Grenades
-        ["SmokeShell",30],
-        ["SmokeShellRed",10],
-        ["SmokeShellBlue",10],
-
-        // Chemlights
-        ["ACE_Chemlight_HiRed",15],
-        ["ACE_Chemlight_HiBlue",15],
-        ["ACE_Chemlight_IR",15],
-
-        // Medical
-        ["lxim_medbags_MedicKit",16],
-        ["lxim_medbags_cls",10],
-        ["lxim_medbags_FirstAid",40]
-    ]],
-
-    ["crate_outlaw_1-1", [
-        // Radios
         //["ACRE_PRC148", 0],
         //["ACRE_PRC152", 0],
         ["TFAR_anprc152", 5],
@@ -229,27 +149,19 @@
         ["lxim_vs17_vs17", 2],
 
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",12],
-        ["lxim_sig_150Rnd_Fury_blk",12],
-        ["lxim_sig_150Rnd_Fury_RT",12],
-        ["lxim_sig_150Rnd_Fury_RT_blk",12],
+        ["lxim_sig_150Rnd_Fury",6],
+        //["lxim_sig_150Rnd_Fury_blk",12],
+        //["lxim_sig_150Rnd_Fury_RT",12],
+        //["lxim_sig_150Rnd_Fury_RT_blk",12],
 
         // AT
-        ["MRAWS_HE_F",6],
-        ["MRAWS_HEAT_F",3],
-        ["rMRAWS_HEAT55_F",3],
-        ["rhs_weap_M136",8],
+        ["MRAWS_HE_F",2],
+        ["MRAWS_HEAT_F",2],
+        ["rMRAWS_HEAT55_F",2],
+        ["rhs_weap_M136",4],
         ["launch_MRAWS_olive_F",2],
         
         // M320 Ammo
@@ -291,12 +203,12 @@
         ["ACE_Chemlight_IR",15],
 
         // Medical
-        ["lxim_medbags_MedicKit",4],
-        ["lxim_medbags_cls",8],
-        ["lxim_medbags_FirstAid",12]
+        ["lxim_medbags_MedicKit",1],
+        ["lxim_medbags_cls",2],
+        ["lxim_medbags_FirstAid",4]
     ]],
 
-    ["crate_outlaw_1-2", [
+    ["crate_outlaw_1-1", [
         // Radios
         //["ACRE_PRC148", 0],
         //["ACRE_PRC152", 0],
@@ -306,37 +218,20 @@
         ["lxim_vs17_vs17", 2],
 
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",120],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",32],
-        ["lxim_sig_150Rnd_Fury_blk",32],
-        ["lxim_sig_150Rnd_Fury_RT",32],
-        ["lxim_sig_150Rnd_Fury_RT_blk",32],
-        ["rhsusf_100Rnd_762x51_m61_ap",24],
-        ["rhsusf_100Rnd_762x51",24],
-        ["rhsusf_100Rnd_762x51_m62_tracer",24],
-        ["rhsusf_100Rnd_762x51_m80a1epr",24],
+        ["lxim_sig_150Rnd_Fury",12],
+        //["lxim_sig_150Rnd_Fury_blk",12],
+        //["lxim_sig_150Rnd_Fury_RT",12],
+        //["lxim_sig_150Rnd_Fury_RT_blk",12],
 
         // AT
-        ["rhs_fgm148_magazine_AT",8],
-        ["MRAWS_HE_F",6],
-        ["MRAWS_HEAT_F",3],
-        ["rMRAWS_HEAT55_F",3],
-        ["rhs_weap_M136",3],
-        ["rhs_weap_fgm148",1],
-
-        // AA
-        ["rhs_weap_fim92",1],
-        ["rhs_fim92_mag",2],
+        ["MRAWS_HE_F",4],
+        ["MRAWS_HEAT_F",4],
+        ["rMRAWS_HEAT55_F",4],
+        ["rhs_weap_M136",4],
+        ["launch_MRAWS_olive_F",4],
         
         // M320 Ammo
         ["rhs_mag_M441_HE",20],
@@ -356,9 +251,78 @@
         ["ACE_HUNTIR_M203",5],
         
         // Offensive/Defensive Hand Grenades
-        ["rhs_mag_m67",12],
+        ["rhs_mag_m67",20],
 
-         // LTL Hand Grenades
+        // LTL Hand Grenades
+        ["ACE_M84",15],
+        ["MS_Strobe_Mag_2",4],
+        ["MS_Strobe_Mag_1",4],
+        ["ACE_IR_Strobe_Item",4],
+        ["ACE_Chemlight_IR",10],
+        ["B_IR_Grenade",4],
+
+        ["ACE_SpraypaintRed",8],
+
+        // Smoke Grenades
+        ["SmokeShell",30],
+        ["SmokeShellRed",10],
+
+        // Chemlights
+        ["ACE_Chemlight_HiRed",15],
+        ["ACE_Chemlight_IR",15],
+
+        // Medical
+        ["lxim_medbags_MedicKit",2],
+        ["lxim_medbags_cls",4],
+        ["lxim_medbags_FirstAid",10]
+    ]],
+
+    ["crate_outlaw_1-2", [
+        // Radios
+        //["ACRE_PRC148", 0],
+        //["ACRE_PRC152", 0],
+        ["TFAR_anprc152", 5],
+
+        ["Rev_darter", 1],
+        ["lxim_vs17_vs17", 2],
+
+        // Rifle Ammo
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
+        
+        // MG Ammo
+        ["lxim_sig_150Rnd_Fury",6],
+        //["lxim_sig_150Rnd_Fury_blk",12],
+        //["lxim_sig_150Rnd_Fury_RT",12],
+        //["lxim_sig_150Rnd_Fury_RT_blk",12],
+
+        // AT
+        ["MRAWS_HE_F",2],
+        ["MRAWS_HEAT_F",2],
+        ["rMRAWS_HEAT55_F",2],
+        ["rhs_weap_M136",4],
+        ["launch_MRAWS_olive_F",2],
+        
+        // M320 Ammo
+        ["rhs_mag_M441_HE",20],
+        ["ACE_40mm_Pike",10],
+        ["rhs_mag_M433_HEDP",20],
+        ["rhs_mag_M397_HET",20],
+        ["rhs_mag_m576",10],
+        ["rhs_mag_m4009",10],
+        ["rhs_mag_M663_green_cluster",5],
+        ["rhs_mag_M585_white_cluster",5],
+        ["rhs_mag_M664_red_cluster",5],
+        ["rhs_mag_m714_White",5],
+        ["rhs_mag_m715_Green",5],
+        ["rhs_mag_m713_Red",5],
+        ["rhs_mag_m661_green",5],
+        ["rhs_mag_m716_yellow",5],
+        ["ACE_HUNTIR_M203",5],
+        
+        // Offensive/Defensive Hand Grenades
+        ["rhs_mag_m67",20],
+
+        // LTL Hand Grenades
         ["ACE_M84",10],
         ["MS_Strobe_Mag_2",4],
         ["MS_Strobe_Mag_1",4],
@@ -366,48 +330,20 @@
         ["ACE_Chemlight_IR",10],
         ["B_IR_Grenade",4],
 
-        ["ACE_SpraypaintBlue",4],
+        ["ACE_SpraypaintRed",4],
 
         // Smoke Grenades
         ["SmokeShell",30],
-        ["SmokeShellBlue",10],
+        ["SmokeShellRed",10],
 
         // Chemlights
-        ["ACE_Chemlight_HiBlue",15],
+        ["ACE_Chemlight_HiRed",15],
         ["ACE_Chemlight_IR",15],
 
         // Medical
-        ["lxim_medbags_MedicKit",4],
-        ["lxim_medbags_cls",8],
-        ["lxim_medbags_FirstAid",12]
-    ]],
-
-    // Vehicles
-    ["vehicle_heliTransport", [
-        ["ToolKit", 1],
-        ["ACE_rope18", 4],
-        ["ACE_rope36", 2],
-
-        // Medical
-
-        ["B_simc_US_Molle_sturm_OCP_RTO", 1],
-
-        ["lxim_sig_25Rnd_Fury", 20],
-        ["SmokeShell", 8],
-        ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 20],
-        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 20]
-    ]],
-
-    ["vehicle_planeTransport", [
-        ["ToolKit", 1],
-        ["ACE_rope18", 4],
-        ["ACE_rope36", 2],
-
-
-        ["lxim_sig_25Rnd_Fury", 20],
-        ["SmokeShell", 8],
-        ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 20],
-        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 20]
+        ["lxim_medbags_MedicKit",1],
+        ["lxim_medbags_cls",2],
+        ["lxim_medbags_FirstAid",4]
     ]],
 
     ["helo_medical", [
@@ -495,21 +431,13 @@
         ["ACE_rope36", 2],
 
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",12],
+        //["lxim_sig_150Rnd_Fury_blk",24],
+        //["lxim_sig_150Rnd_Fury_RT",24],
+        //["lxim_sig_150Rnd_Fury_RT_blk",24],
 
         ["SmokeShell", 8],
         ["rhs_mag_30Rnd_556x45_M855A1_PMAG", 20],
@@ -522,9 +450,9 @@
         ["1Rnd_HE_Grenade_shell",4],
 
          // Medical
-        ["lxim_medbags_MedicKit",10],
-        ["lxim_medbags_cls",10],
-        ["lxim_medbags_FirstAid",40]
+        ["lxim_medbags_MedicKit",2],
+        ["lxim_medbags_cls",5],
+        ["lxim_medbags_FirstAid",15]
     ]],
 
     ["wheeled_medical", [
@@ -625,21 +553,13 @@
         ["ACE_rope36", 2],
 
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",6],
+        //["lxim_sig_150Rnd_Fury_blk",24],
+        //["lxim_sig_150Rnd_Fury_RT",24],
+        //["lxim_sig_150Rnd_Fury_RT_blk",24],
         
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["MS_Strobe_Mag_1",2],
@@ -648,12 +568,12 @@
         ["1Rnd_HE_Grenade_shell",4],
 
          // Medical
-        ["lxim_medbags_MedicKit",10],
-        ["lxim_medbags_cls",10],
-        ["lxim_medbags_FirstAid",40]
+        ["lxim_medbags_MedicKit",1],
+        ["lxim_medbags_cls",2],
+        ["lxim_medbags_FirstAid",10]
     ]],
 
-    ["tracked_medical", [
+        ["tracked_medical", [
         ["ACM_ThoracostomyKit",8],
         ["ACM_Paracetamol",8],
         ["ACM_AmmoniaInhalant",8],
@@ -751,15 +671,7 @@
         ["ACE_rope36", 2],
 
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
 
         ["rhsusf_8Rnd_Slug",40],
         ["rhsusf_5Rnd_Slug",40],
@@ -771,9 +683,9 @@
         ["1Rnd_HE_Grenade_shell",4],
 
          // Medical
-        ["lxim_medbags_MedicKit",10],
-        ["lxim_medbags_cls",10],
-        ["lxim_medbags_FirstAid",40]
+        ["lxim_medbags_MedicKit",1],
+        ["lxim_medbags_cls",2],
+        ["lxim_medbags_FirstAid",5]
     ]],
 
     ["droneair_medical", [
@@ -790,11 +702,11 @@
     ]],
 
     ["droneair_ammo", [
-        ["lxim_sig_25Rnd_Fury",24],
-        ["lxim_sig_25Rnd_Fury_RT",24],
-        ["lxim_sig_25Rnd_Fury_blk",24],
-        ["lxim_sig_25Rnd_Fury",24],
-        ["rhsusf_100Rnd_762x51",10],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",24],
+        //["lxim_sig_25Rnd_Fury_RT",24],
+        //["lxim_sig_25Rnd_Fury_blk",24],
+        //["lxim_sig_25Rnd_Fury",24],
+        //["rhsusf_100Rnd_762x51",10],
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
         ["MS_Strobe_Mag_1",2],
         ["B_IR_Grenade",2],
@@ -809,22 +721,14 @@
         ["ACE_rope36", 2],
         // Ammo
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",24],
-        ["lxim_sig_25Rnd_Fury_RT",12],
-        ["lxim_sig_25Rnd_Fury_IR",12],
-        ["lxim_sig_25Rnd_Fury_blk",24],
-        ["lxim_sig_25Rnd_Fury_RT_blk",12],
-        ["lxim_sig_25Rnd_Fury_IR_blk",12],
-        ["lxim_sig_25Rnd_Fury_khk",24],
-        ["lxim_sig_25Rnd_Fury_RT_khk",12],
-        ["lxim_sig_25Rnd_Fury_IR_khk",12],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",24],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",12],
-        ["lxim_sig_150Rnd_Fury_blk",12],
-        ["lxim_sig_150Rnd_Fury_RT",6],
-        ["lxim_sig_150Rnd_Fury_RT_blk",6],
-        ["rhsusf_100Rnd_762x51",10],
+        ["lxim_sig_150Rnd_Fury",6],
+        //["lxim_sig_150Rnd_Fury_blk",12],
+        //["lxim_sig_150Rnd_Fury_RT",6],
+        //["lxim_sig_150Rnd_Fury_RT_blk",6],
+        //["rhsusf_100Rnd_762x51",10],
 
         ["rhsusf_8Rnd_Slug",8],
         ["rhsusf_5Rnd_Slug",8],
@@ -857,24 +761,16 @@
         ["ACE_rope36", 2],
         // Ammo
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",40],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",6],
+        //["lxim_sig_150Rnd_Fury_blk",24],
+        //["lxim_sig_150Rnd_Fury_RT",24],
+        //["lxim_sig_150Rnd_Fury_RT_blk",24],
 
-        ["rhsusf_8Rnd_Slug",40],
-        ["rhsusf_5Rnd_Slug",40],
+        ["rhsusf_8Rnd_Slug",20],
+        ["rhsusf_5Rnd_Slug",20],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
@@ -904,21 +800,13 @@
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
         // Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",80],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",12],
+        //["lxim_sig_150Rnd_Fury_blk",24],
+        //["lxim_sig_150Rnd_Fury_RT",24],
+        //["lxim_sig_150Rnd_Fury_RT_blk",24],
 
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 

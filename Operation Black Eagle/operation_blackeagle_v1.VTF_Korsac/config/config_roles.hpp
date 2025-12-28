@@ -48,6 +48,7 @@ class Dynamic_Roles {
     #include "rhino\config_squadleader.hpp"
     #include "rhino\config_engineer.hpp"
     #include "rhino\config_savior.hpp"
+    #include "rhino\config_medicrrr.hpp"
 
     #include "phoenix\config_pilot.hpp"
     #include "phoenix\config_crewchief.hpp"
