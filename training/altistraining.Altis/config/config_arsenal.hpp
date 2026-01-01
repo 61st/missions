@@ -567,7 +567,8 @@ class Common_Arsenal {
         "rhsusf_acc_grip2",
         "rhsusf_acc_grip3",
         "rhsusf_acc_grip3_tan",
-        "rhsusf_acc_anpeq15side"
+        "rhsusf_acc_anpeq15side",
+        "ACE_30Rnd_556x45_Stanag_M995_AP_mag"
     };
 };
 
