@@ -53,6 +53,7 @@ class squadleadr {
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "Rev_Demine",
         "Rev_UAV_IED",
-        "Rev_Roller"
+        "Rev_Roller",
+        "iedd_item_notebook"
     };
 };

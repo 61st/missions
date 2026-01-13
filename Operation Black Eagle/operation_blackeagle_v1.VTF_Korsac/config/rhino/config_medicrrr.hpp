@@ -106,6 +106,7 @@ class medicrrr {
         "SatchelCharge_Remote_Mag",
         "lxim_sig_M250",
         "lxim_sig_M250_BLK",
-        "rhs_weap_m4"
+        "rhs_weap_m4",
+        "iedd_item_notebook"
     };
 };

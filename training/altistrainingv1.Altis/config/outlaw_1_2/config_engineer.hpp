@@ -49,6 +49,7 @@ class engineer12 {
         "rhs_weap_M590_5RD",
         "Rev_Demine",
         "Rev_UAV_IED",
-        "Rev_Roller"
+        "Rev_Roller",
+        "iedd_item_notebook"
     };
 };
