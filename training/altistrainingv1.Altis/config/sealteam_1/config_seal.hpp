@@ -518,6 +518,15 @@ class sealteam1 {
         "rhs_weap_m249_pip_S_para",
         "lxim_backpack_B_RadioBag_01_Solid_Black_F",
         "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "DemoCharge_Remote_Mag",
+        "SatchelCharge_Remote_Mag",
+        "ClaymoreDirectionalMine_Remote_Mag",
+        "tsp_breach_popper_mag",
+        "tsp_breach_popper_auto_mag",
+        "tsp_breach_block_auto_mag",
+        "tsp_breach_block_mag",
+        "APERSTripMine_Wire_Mag",
+        "ACE_FlareTripMine_Mag"
     };
 };

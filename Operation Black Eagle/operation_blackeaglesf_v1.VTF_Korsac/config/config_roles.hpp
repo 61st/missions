@@ -14,9 +14,11 @@ class Dynamic_Roles {
     #include "outlaw_1_1\config_dismount.hpp"
 
     #include "sealteam_1\config_seal.hpp"
+    #include "sealteam_1\config_sealmark.hpp"
     #include "sealteam_1\config_sealmedic.hpp"
 
     #include "sealteam_2\config_seal.hpp"
+    #include "sealteam_2\config_sealmark.hpp"
     #include "sealteam_2\config_sealmedic.hpp"
 
     #include "cia\config_ciaop.hpp"

@@ -45,6 +45,7 @@ class engineer {
         "tsp_breach_block_auto_mag",
         "tsp_breach_block_mag",
         "rhs_weap_M590_8RD",
-        "rhs_weap_M590_5RD"
+        "rhs_weap_M590_5RD",
+        "iedd_item_notebook"
     };
 };

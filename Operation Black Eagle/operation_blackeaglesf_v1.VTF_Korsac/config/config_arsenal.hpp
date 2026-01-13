@@ -387,6 +387,17 @@ class Common_Arsenal {
         "cigs_lucky_strike_cigpack",
         "cigs_crayons_crayonpack",
         "TFAR_anprc152",
+        "DemoCharge_Remote_Mag",
+        "SatchelCharge_Remote_Mag",
+        "ClaymoreDirectionalMine_Remote_Mag",
+        "tsp_breach_popper_mag",
+        "tsp_breach_popper_auto_mag",
+        "tsp_breach_block_auto_mag",
+        "tsp_breach_block_mag",
+        "APERSTripMine_Wire_Mag",
+        "ACE_FlareTripMine_Mag",
+        "ACE_SpottingScope"
+
 
     };
 };

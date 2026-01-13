@@ -57,6 +57,7 @@ class saviorr {
         "TFAR_rt1523g_bwmod",
         "TFAR_rt1523g_black",
         "TFAR_rt1523g_big_rhs",
-        "TFAR_rt1523g_big"
+        "TFAR_rt1523g_big",
+        "iedd_item_notebook"
     };
 };
