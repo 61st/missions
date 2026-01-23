@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=996;
+		nextID=1053;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=189;
+		nextID=261;
 	};
 	class Camera
 	{
-		pos[]={1891.1523,131.16058,572.15668};
-		dir[]={-0.041748218,-0.5515216,0.83315063};
-		up[]={-0.027602062,0.83415353,0.55083776};
-		aside[]={0.99877667,-4.4472745e-07,0.050049733};
+		pos[]={2377.8079,80.526497,973.03516};
+		dir[]={-0.74335891,-0.35731319,-0.56552917};
+		up[]={-0.28439957,0.93397063,-0.2163658};
+		aside[]={-0.60549772,3.0873343e-07,0.79589152};
 	};
 };
 binarizationWanted=0;
@@ -102,13 +102,16 @@ addons[]=
 	"A3_Structures_F_Tank_Military_RepairDepot",
 	"rhsusf_c_m11xx",
 	"A3_Signs_F",
-	"A3_Static_F_Sams_SAM_System_03"
+	"A3_Static_F_Sams_SAM_System_03",
+	"sss_artillery",
+	"A3_Static_F_Destroyer_Ship_MRLS_01",
+	"A3_Structures_F_Exp_Walls_Concrete"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=54;
+		items=56;
 		class Item0
 		{
 			className="A3_Signs_F";
@@ -470,6 +473,20 @@ class AddonsMetaData
 		{
 			className="A3_Static_F_Sams";
 			name="Arma 3 Sams - Turrets";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item54
+		{
+			className="sss_artillery";
+			name="artillery";
+			author="Simplex Team";
+			url="https://github.com/SceptreOfficial/Simplex-Support-Services";
+		};
+		class Item55
+		{
+			className="A3_Static_F_Destroyer";
+			name="CFGPATCHES_A3_Static_F_Destroyer";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -40274,7 +40291,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=235;
+		items=258;
 		class Item0
 		{
 			dataType="Layer";
@@ -52086,7 +52103,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2322.7737,52.759998,1000.6278};
+								position[]={2317.0234,52.84,953.74164};
 								angles[]={0,4.0164161,0};
 							};
 							side="Empty";
@@ -52147,11 +52164,11 @@ class Mission
 						};
 					};
 					id=230;
-					atlOffset=0.00049972534;
+					atlOffset=0.020500183;
 				};
 			};
 			id=0;
-			atlOffset=0.091896057;
+			atlOffset=0.10189438;
 		};
 		class Item1
 		{
@@ -53638,14 +53655,14 @@ class Mission
 			name="motor  pool_2";
 			class Entities
 			{
-				items=2;
+				items=1;
 				class Item0
 				{
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={2322.6729,52.759998,1000.6193};
-						angles[]={0,2.7766986,0};
+						position[]={2316.9231,52.84,953.73297};
+						angles[]={0,2.7766967,0};
 					};
 					id=273;
 					type="sss_logistics_moduleAddStation";
@@ -53803,178 +53820,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="[            " \n "    [""#IFV's"",[             " \n "        [""RHS_M2A3_BUSKIII"",""M2A3 BUSKIII"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],           " \n "        [""RHS_M6"",""M6A2 D"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]          " \n "     ]],         " \n "    [""#MRAP's"",[             " \n "        [""rhsusf_m1240a1_m2crows_usarmy_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],           " \n "        [""rhsusf_m1245_m2crows_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],          " \n "        [""rhsusf_M1238A1_M2_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]       " \n "     ]],        " \n "     [""#MEDICAL"",[             " \n "        [""rhsusf_M1230a1_usarmy_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],             " \n "        [""rhsusf_m113d_usarmy_medical"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],        " \n "        [""rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99], " \n " " \n "        [""rhsusf_m998_d_2dr_fulltop"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]      " \n "     ]],         " \n "    [""#STRYKER's"",[          " \n "        [""rhsusf_stryker_m1126_m2_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],         " \n "        [""rhsusf_stryker_m1132_m2_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]        " \n "     ]],        " \n "     [""#M20's"",[          " \n "        [""lxim_vanilla_mk20_base_F"",""M20A2"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],       " \n "        [""lxim_vanilla_mev_mk20"",""M20 MEV"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],           " \n "        [""lxim_vanilla_repair_mk20"",""M20 Support"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]        " \n "     ]],         " \n "     [""#M-1's"",[             " \n "            [""rhsusf_m1a2sep2d_usarmy"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99], " \n "            [""rhsusf_m1a2sep1tuskiiwd_usarmy"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]           " \n "     ]],            " \n "    [""#Crew"",[             " \n "          ""B_crew_F""             " \n "    ]],             " \n "    [""#Support"",[             " \n "        [""rhsusf_M1239_M2_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],            " \n "        [""rhsusf_M1239_M2_Deploy_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]           " \n "    ]],             " \n "    [""#Supplies"",[             " \n "        [""ACE_medicalSupplyCrate_advanced"",[""Medical Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;        " \n "        },[],1,1],                   " \n "    " \n "        [""lxim_equipment_outlaw11"",[""Outlaw 1-1 Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_outlaw_1-1""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""lxim_equipment_outlaw12"",[""Outlaw 1-2 Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_outlaw_1-2""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_TOW"",[""Outlaw TOW Resupply "",""@resupply""],{          " \n "             private _crateContent = [""crate_tow""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""lxim_equipment_50cal"",[""Outlaw 50cal Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_m2""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_252"",[""Outlaw M252 Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_mo""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_eng"",[""Outlaw Eng Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_eng""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""lxim_equipment_javelin"",[""Outlaw Javelin Resupply"",""@resupply""],{          " \n "             private _crateContent = [""crate_javelin""] call YMF_fnc_logistics_getContainer;          " \n "            [_this, _crateContent] call YMF_fnc_setCargo;         " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],     " \n "        [""B_supplyCrate_F"",[""FOB Alpha"",""@resupply""],{       " \n "            [_this,true,true] call YMF_fnc_doStarterCrate;     " \n "            [_this,""FOB Alpha, Check Before Use"",west] call Rev_tp_fnc_addPoint;      " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""B_CargoNet_01_ammo_F"",[""FOB Build kit"",""@resupply""],{},[],1,99],             " \n "        [""Box_NATO_WpsSpecial_F"",[""Empty Box"",""@resupply""],{          " \n "             clearWeaponCargoGlobal _this;     " \n "             clearMagazineCargoGlobal _this;     " \n "             clearItemCargoGlobal _this;     " \n "             clearBackpackCargoGlobal _this;       " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1]      " \n "    ]],       " \n "     [""#Crew Served"",[             " \n "        [""RHS_TOW_TriPod_D"",""TOW"",{           " \n "            [_this, 1] call ace_cargo_fnc_setSize;        " \n "        },[],1,1],             " \n "        [""RHS_M2StaticMG_MiniTripod_D"",""M2"",{          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],      " \n "        [""RHS_M252_D"",""M252"",{          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1], " \n "[""B_Mortar_01_F"",""MK6"",{          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1]     " \n "    ]]           " \n "]   ";
-								};
-							};
-						};
-						nAttributes=12;
-					};
-				};
-				class Item1
-				{
-					dataType="Logic";
-					class PositionInfo
-					{
-						position[]={2550.0859,52.759998,1017.3581};
-						angles[]={0,6.0056973,0};
-					};
-					id=274;
-					type="sss_logistics_moduleAddStation";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="sss_auth";
-							expression="_this setVariable ['sss_auth',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="sss_logistics_Callsign";
-							expression="_this setVariable ['Callsign',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="sss_logistics_AccessCondition";
-							expression="_this setVariable ['AccessCondition',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="true";
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="sss_logistics_RemoteAccess";
-							expression="_this setVariable ['RemoteAccess',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=0;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="sss_logistics_ClearingRadius";
-							expression="_this setVariable ['ClearingRadius',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="sss_logistics_ItemInit";
-							expression="_this setVariable ['ItemInit',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="    ";
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="sss_logistics_Side";
-							expression="_this setVariable ['Side',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0;
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="sss_logistics_Cooldown";
-							expression="_this setVariable ['Cooldown',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0;
-								};
-							};
-						};
-						class Attribute8
-						{
-							property="sss_logistics_RequestCondition";
-							expression="_this setVariable ['RequestCondition',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="true";
-								};
-							};
-						};
-						class Attribute9
-						{
-							property="sss_logistics_AccessItemsLogic";
-							expression="_this setVariable ['AccessItemsLogic',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0;
-								};
-							};
-						};
-						class Attribute10
-						{
-							property="sss_logistics_AccessItems";
-							expression="_this setVariable ['AccessItems',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="";
-								};
-							};
-						};
-						class Attribute11
-						{
-							property="sss_logistics_ListFunction";
-							expression="_this setVariable ['ListFunction',_value,true];";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="[ " \n "    [""#IFV's"", [              " \n "        [""RHS_M2A3_BUSKIII"",""M2A3 BUSKIII"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,12],            " \n "        [""RHS_M6"",""M6A2 D"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,4]           " \n "     ]],      [""#MEDICAL"", [ " \n "        [""rhsusf_m998_d_2dr_fulltop"", """", { _this call YMF_fnc_vehicle_addInventory; _this call init_vehicle; }, [], 1, -1, 2] " \n "    ]], " \n " " \n "    [""#STRYKER's"", [ " \n "        [""rhsusf_stryker_m1126_m2_wd"", """", { _this call YMF_fnc_vehicle_addInventory; _this call init_vehicle; }, [], 1, -1, 5] " \n "    ]], " \n " " \n "    //[""#M20's"", [ " \n "        [""lxim_rhs_mk20"", ""M20A2"", { _this call YMF_fnc_vehicle_addInventory; _this call init_vehicle; }, [], 1, -1, 5] " \n "    ]], " \n " " \n "    [""#M20's"",[          " \n "        [""lxim_vanilla_mk20_base_F"",""M20A2"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],       " \n "        [""lxim_vanilla_mev_mk20"",""M20 MEV"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],           " \n "        [""lxim_vanilla_repair_mk20"",""M20 Support"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]" \n "            " \n "]], " \n " " \n "    [""#Crew"", [ " \n "        ""B_crew_F"" " \n "    ]], " \n " " \n "    [""#Support"", [ " \n "        [""rhsusf_M1239_M2_socom_d"", """", { _this call YMF_fnc_vehicle_addInventory; _this call init_vehicle; }, [], 1, -1, 99], " \n "        [""rhsusf_M1239_M2_Deploy_socom_d"", """", { _this call YMF_fnc_vehicle_addInventory; _this call init_vehicle; }, [], 1, -1, 99] " \n "    ]], " \n " " \n "    [""#Supplies"", [ " \n "        [""ACE_medicalSupplyCrate_advanced"", [""Medical Resupply"", ""@resupply""], { " \n "            private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer; " \n "            [_this, _crateContent] call YMF_fnc_setCargo; " \n "            [_this, 1] call ace_cargo_fnc_setSize; " \n "        }, [], 1, 1], " \n " " \n "        [""lxim_equipment_outlawHQ"", [""Outlaw FOB Resupply "", ""@resupply""], { " \n "            private _crateContent = [""crate_resupply_general""] call YMF_fnc_logistics_getContainer; " \n "            [_this, _crateContent] call YMF_fnc_setCargo; " \n "            [_this, 1] call ace_cargo_fnc_setSize; " \n "        }, [], 1, 1], " \n "" \n " " \n "        [""B_supplyCrate_F"", [""FOB Alpha"", ""@resupply""], { " \n "            [_this, true, true] call YMF_fnc_doStarterCrate; " \n "            [_this, ""FOB Alpha, Check Before Use"", west] call Rev_tp_fnc_addPoint; " \n "            [_this, 1] call ace_cargo_fnc_setSize; " \n "        }, [], 1, 1], " \n " " \n "        [""B_CargoNet_01_ammo_F"", [""FOB Build kit"", ""@resupply""], {}, [], 1, 99], " \n " " \n "        [""Box_NATO_WpsSpecial_F"", [""Empty Box"", ""@resupply""], { " \n "            clearWeaponCargoGlobal _this; " \n "            clearMagazineCargoGlobal _this; " \n "            clearItemCargoGlobal _this; " \n "            clearBackpackCargoGlobal _this; " \n "            [_this, 1] call ace_cargo_fnc_setSize; " \n "        }, [], 1, 1] " \n "    ]] " \n "] " \n "";
+									value="[             " \n "    [""#IFV's"",[              " \n "        [""RHS_M2A3_BUSKIII"",""M2A3 BUSKIII"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],            " \n "        [""RHS_M6"",""M6A2 D"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]           " \n "     ]],          " \n " " \n "    [""#MRAP's"",[              " \n "        [""rhsusf_M1220_MK19_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],            " \n "        [""rhsusf_M1230_M2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],           " \n "        [""rhsusf_m1240a1_m2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]," \n "" \n "        [""rhsusf_m1240a1_m240_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]," \n "" \n "        [""rhsusf_m1240a1_mk19_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]," \n "" \n "        [""rhsusf_M1220_M153_M2_usarmy_wd"",""Crow"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]," \n "" \n "        [""rhsusf_m1240a1_m2crows_usarmy_wd"",""Crow"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]         " \n "     ]], " \n " " \n "    [""#Humvee"",[              " \n "        [""rhsusf_m1165_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99], " \n "        [""rhsusf_m1151_m2_v1_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99], " \n "        [""rhsusf_m1151_mk19_v1_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99], " \n "        [""rhsusf_m1151_m240_v2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99], " \n "        [""rhsusf_m966_w"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99] " \n "     ]],         " \n " " \n "     [""#MEDICAL"",[              " \n "        [""rhsusf_M1230a1_usarmy_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],              " \n "        [""rhsusf_m113d_usarmy_medical"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],         " \n "        [""rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],  " \n "        [""rhsusf_m998_d_2dr_fulltop"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]       " \n "     ]],          " \n " " \n "    [""#STRYKER's"",[           " \n "        [""rhsusf_stryker_m1126_m2_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],          " \n "        [""rhsusf_stryker_m1132_m2_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]         " \n "     ]],         " \n " " \n "     [""#M20's"",[           " \n "        [""lxim_vanilla_mk20_base_F"",""M20A2"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],        " \n "        [""lxim_vanilla_mev_mk20"",""M20 MEV"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],            " \n "        [""lxim_vanilla_repair_mk20"",""M20 Support"",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]         " \n "     ]],          " \n " " \n "     [""#M-1's"",[              " \n "        [""rhsusf_m1a2sep2d_usarmy"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],  " \n "        [""rhsusf_m1a2sep1tuskiiwd_usarmy"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]            " \n "     ]],             " \n " " \n "    [""#Crew"",[              " \n "        ""rhsusf_army_ocp_combatcrewman""                       " \n "    ]],              " \n " " \n "    [""#Support"",[              " \n "        [""rhsusf_M1239_M2_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99],             " \n "        [""rhsusf_M1239_M2_Deploy_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,99]            " \n "    ]],              " \n " " \n "    [""#Supplies"",[              " \n "        [""ACE_medicalSupplyCrate_advanced"",[""Medical Resupply"",""@resupply""],{           " \n "            private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;         " \n "        },[],1,1],                    " \n "        [""lxim_equipment_outlaw11"",[""Outlaw 1-1 Resupply "",""@resupply""],{           " \n "            private _crateContent = [""crate_outlaw_1-1""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""lxim_equipment_outlaw12"",[""Outlaw 1-2 Resupply"",""@resupply""],{           " \n "            private _crateContent = [""crate_outlaw_1-2""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_TOW"",[""Outlaw TOW Resupply "",""@resupply""],{           " \n "            private _crateContent = [""crate_tow""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""lxim_equipment_50cal"",[""Outlaw 50cal Resupply"",""@resupply""],{           " \n "            private _crateContent = [""crate_m2""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_252"",[""Outlaw M252 Resupply"",""@resupply""],{           " \n "            private _crateContent = [""crate_mo""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_eng"",[""Outlaw Eng Resupply"",""@resupply""],{           " \n "            private _crateContent = [""crate_eng""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""lxim_equipment_javelin"",[""Outlaw Javelin Resupply"",""@resupply""],{           " \n "            private _crateContent = [""crate_javelin""] call YMF_fnc_logistics_getContainer;           " \n "            [_this, _crateContent] call YMF_fnc_setCargo;          " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],      " \n "        [""B_supplyCrate_F"",[""FOB Alpha"",""@resupply""],{        " \n "            [_this,true,true] call YMF_fnc_doStarterCrate;      " \n "            [_this,""FOB Alpha, Check Before Use"",west] call Rev_tp_fnc_addPoint;       " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1],       " \n "        [""B_CargoNet_01_ammo_F"",[""FOB Build kit"",""@resupply""],{},[],1,99],              " \n "        [""Box_NATO_WpsSpecial_F"",[""Empty Box"",""@resupply""],{           " \n "            clearWeaponCargoGlobal _this;      " \n "            clearMagazineCargoGlobal _this;      " \n "            clearItemCargoGlobal _this;      " \n "            clearBackpackCargoGlobal _this;        " \n "            [_this, 1] call ace_cargo_fnc_setSize;          " \n "        },[],1,1]       " \n "    ]],        " \n " " \n "    [""#Crew Served"",[              " \n "        [""RHS_TOW_TriPod_D"",""TOW"",{ [_this, 1] call ace_cargo_fnc_setSize; },[],1,1],              " \n "        [""RHS_M2StaticMG_MiniTripod_D"",""M2"",{ [_this, 1] call ace_cargo_fnc_setSize; },[],1,1],       " \n "        [""RHS_M252_D"",""M252"",{ [_this, 1] call ace_cargo_fnc_setSize; },[],1,1],  " \n "        [""B_Mortar_01_F"",""MK6"",{ [_this, 1] call ace_cargo_fnc_setSize; },[],1,1]      " \n "    ]]            " \n "] " \n "";
 								};
 							};
 						};
@@ -53983,7 +53829,6 @@ class Mission
 				};
 			};
 			id=272;
-			atlOffset=-0.32179642;
 		};
 		class Item9
 		{
@@ -54205,7 +54050,7 @@ class Mission
 			name="Comments";
 			class Entities
 			{
-				items=12;
+				items=13;
 				class Item0
 				{
 					dataType="Comment";
@@ -54344,9 +54189,21 @@ class Mission
 					title="RRR vics";
 					id=293;
 				};
+				class Item12
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={2571.5959,52.762001,1145.63};
+						angles[]={0.0066592805,5.5962071,0};
+					};
+					title="Simplex Cruise Missiles";
+					id=1018;
+					atlOffset=-0.00046539307;
+				};
 			};
 			id=281;
-			atlOffset=-3.5187111;
+			atlOffset=-1.7583542;
 		};
 		class Item16
 		{
@@ -56177,18 +56034,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2359.7312,54.682442,944.55817};
+				position[]={2359.7312,54.267673,944.55817};
 				angles[]={0,0.8694824,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=537;
 			type="Land_HBarrier_01_big_4_green_F";
-			atlOffset=0.41476822;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -56282,18 +56138,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2333.2583,54.831944,922.49683};
+				position[]={2333.2583,54.417171,922.49683};
 				angles[]={0,0.8694824,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=540;
 			type="Land_HBarrier_01_big_4_green_F";
-			atlOffset=0.41477203;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -56453,18 +56308,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2293.304,54.398819,884.8111};
+				position[]={2293.304,53.984055,884.8111};
 				angles[]={0,0.8543334,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=555;
 			type="Land_HBarrier_01_big_4_green_F";
-			atlOffset=0.4147644;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -56557,18 +56411,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2267.168,54.386326,862.35132};
+				position[]={2267.168,53.969997,862.35132};
 				angles[]={0,0.8543334,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=558;
 			type="Land_HBarrier_01_big_4_green_F";
-			atlOffset=0.41632843;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57080,18 +56933,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2505.3,54.033001,1067.9889};
+				position[]={2505.3,54.515732,1067.9889};
 				angles[]={0,0.8543334,0};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 				disableSimulation=1;
 			};
 			id=585;
 			type="Land_HBarrier_01_big_4_green_F";
-			atlOffset=3.8146973e-06;
+			atlOffset=0.48273468;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57183,7 +57036,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2479.1641,54.625557,1045.5292};
+				position[]={2479.1641,54.623997,1045.5292};
 				angles[]={0,0.8543334,0};
 			};
 			side="Empty";
@@ -57194,7 +57047,6 @@ class Mission
 			};
 			id=588;
 			type="Land_HBarrier_01_big_4_green_F";
-			atlOffset=0.0015602112;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -63935,8 +63787,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2305.6904,52.782539,962.71411};
-				angles[]={0,2.4343679,0.013327583};
+				position[]={2313.9709,52.84,952.43982};
+				angles[]={0,2.4343679,0};
 			};
 			side="Empty";
 			flags=4;
@@ -63969,7 +63821,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2311.7683,52.759998,968.52997};
+				position[]={2320.0488,52.84,958.25568};
 				angles[]={0,2.4343679,0};
 			};
 			side="Empty";
@@ -64837,16 +64689,1168 @@ class Mission
 				nAttributes=1;
 			};
 		};
+		class Item235
+		{
+			dataType="Layer";
+			name="motor  pool_3";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={2549.823,52.759998,1017.131};
+						angles[]={0,4.1670609,0};
+					};
+					id=997;
+					type="sss_logistics_moduleAddStation";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="sss_auth";
+							expression="_this setVariable ['sss_auth',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="sss_logistics_Callsign";
+							expression="_this setVariable ['Callsign',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="sss_logistics_AccessCondition";
+							expression="_this setVariable ['AccessCondition',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="true";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="sss_logistics_RemoteAccess";
+							expression="_this setVariable ['RemoteAccess',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="sss_logistics_ClearingRadius";
+							expression="_this setVariable ['ClearingRadius',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="sss_logistics_ItemInit";
+							expression="_this setVariable ['ItemInit',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="    ";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="sss_logistics_Side";
+							expression="_this setVariable ['Side',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="sss_logistics_Cooldown";
+							expression="_this setVariable ['Cooldown',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute8
+						{
+							property="sss_logistics_RequestCondition";
+							expression="_this setVariable ['RequestCondition',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="true";
+								};
+							};
+						};
+						class Attribute9
+						{
+							property="sss_logistics_AccessItemsLogic";
+							expression="_this setVariable ['AccessItemsLogic',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0;
+								};
+							};
+						};
+						class Attribute10
+						{
+							property="sss_logistics_AccessItems";
+							expression="_this setVariable ['AccessItems',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="";
+								};
+							};
+						};
+						class Attribute11
+						{
+							property="sss_logistics_ListFunction";
+							expression="_this setVariable ['ListFunction',_value,true];";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="[ " \n "    [""#IFV's"", [ " \n "        [""RHS_M2A3_BUSKIII"",""M2A3 BUSKIII"",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,12], " \n "        [""RHS_M6"",""M6A2 D"",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,4] " \n "    ]]," \n "" \n "    [""#MRAP's"",[              " \n "        [""rhsusf_M1220_MK19_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1],            " \n "        [""rhsusf_M1230_M2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1],           " \n "        [""rhsusf_m1240a1_m2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1]," \n "" \n "        [""rhsusf_m1240a1_m240_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1]," \n "" \n "        [""rhsusf_m1240a1_mk19_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1]," \n "" \n "        [""rhsusf_M1220_M153_M2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1]," \n "" \n "        [""rhsusf_m1240a1_m2crows_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1] " \n "     ]]," \n " " \n "    [""#Humvee"",[              " \n "        [""rhsusf_m1165_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1], " \n "        [""rhsusf_m1151_m2_v1_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1], " \n "        [""rhsusf_m1151_mk19_v1_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1], " \n "        [""rhsusf_m1151_m240_v2_usarmy_wd"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1], " \n "        [""rhsusf_m966_w"","""",{_this call YMF_fnc_vehicle_addInventory;_this call init_vehicle;},[],1,-1,1] " \n "     ]],  " \n " " \n "    [""#MEDICAL"", [ " \n "        [""rhsusf_m998_d_2dr_fulltop"","""",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,2] " \n "    ]], " \n " " \n "    [""#STRYKER's"", [ " \n "        [""rhsusf_stryker_m1126_m2_wd"","""",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,5] " \n "    ]], " \n " " \n "    [""#M20's"", [ " \n "        [""lxim_vanilla_mk20_base_F"",""M20A2"",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,1], " \n "        [""lxim_vanilla_mev_mk20"",""M20 MEV"",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,1], " \n "        [""lxim_vanilla_repair_mk20"",""M20 Support"",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,1] " \n "    ]], " \n " " \n "    [""#Personnel"", [ " \n "        ""rhsusf_army_ocp_combatcrewman""," \n "        ""rhsusf_army_ocp_rifleman""   " \n "    ]], " \n " " \n "    [""#Support"", [ " \n "        [""rhsusf_M1239_M2_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,10], " \n "        [""rhsusf_M1239_M2_Deploy_socom_d"","""",{_this call YMF_fnc_vehicle_addInventory; _this call init_vehicle;},[],1,-1,10] " \n "    ]], " \n " " \n "    [""#Supplies"", [ " \n "        [""ACE_medicalSupplyCrate_advanced"",[""Medical Resupply"",""@resupply""],{ " \n "            private _crateContent = [""crate_medicalInfantry""] call YMF_fnc_logistics_getContainer; " \n "            [_this,_crateContent] call YMF_fnc_setCargo; " \n "            [_this,1] call ace_cargo_fnc_setSize; " \n "        },[],1,1], " \n " " \n "        [""lxim_equipment_outlawHQ"",[""Outlaw FOB Resupply "",""@resupply""],{ " \n "            private _crateContent = [""crate_resupply_general""] call YMF_fnc_logistics_getContainer; " \n "            [_this,_crateContent] call YMF_fnc_setCargo; " \n "            [_this,1] call ace_cargo_fnc_setSize; " \n "        },[],1,1], " \n " " \n "        [""B_supplyCrate_F"",[""FOB Alpha"",""@resupply""],{ " \n "            [_this,true,true] call YMF_fnc_doStarterCrate; " \n "            [_this,""FOB Alpha, Check Before Use"",west] call Rev_tp_fnc_addPoint; " \n "            [_this,1] call ace_cargo_fnc_setSize; " \n "        },[],1,1], " \n " " \n "        [""B_CargoNet_01_ammo_F"",[""FOB Build kit"",""@resupply""],{},[],1,10], " \n " " \n "        [""Box_NATO_WpsSpecial_F"",[""Empty Box"",""@resupply""],{ " \n "            clearWeaponCargoGlobal _this; " \n "            clearMagazineCargoGlobal _this; " \n "            clearItemCargoGlobal _this; " \n "            clearBackpackCargoGlobal _this; " \n "            [_this,1] call ace_cargo_fnc_setSize; " \n "        },[],1,1] " \n "    ]] " \n "] " \n "";
+								};
+							};
+						};
+						nAttributes=12;
+					};
+				};
+			};
+			id=996;
+		};
+		class Item236
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2583.8711,53.98484,1122.6851};
+				angles[]={0,2.4249377,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1003;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item237
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2590.6147,53.969997,1128.5352};
+				angles[]={0,2.4249377,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1004;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item238
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2562.7031,53.969997,1147.6318};
+				angles[]={0,2.4249377,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1005;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item239
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2569.4463,53.969997,1153.4822};
+				angles[]={0,2.4249377,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1006;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item240
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2592.4849,53.969997,1146.1228};
+				angles[]={0,0.8543334,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1007;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item241
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2586.636,53.969997,1152.8673};
+				angles[]={0,0.8543334,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1008;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item242
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2560.5002,54.395615,1130.4077};
+				angles[]={0,0.8543334,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1009;
+			type="Land_HBarrier_01_big_4_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item243
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2566.3489,54.64603,1123.6631};
+				angles[]={0,0.8543334,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=1010;
+			type="Land_HBarrier_01_big_4_green_F";
+			atlOffset=0.0015563965;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item244
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2577.978,52.759998,1153.028};
+			};
+			id=1017;
+			type="sss_artillery_moduleAdd";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="sss_artillery_MaxExecutionDelay";
+					expression="_this setVariable ['MaxExecutionDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=300;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="sss_artillery_RemoteControl";
+					expression="_this setVariable ['RemoteControl',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="sss_artillery_AccessItems";
+					expression="_this setVariable ['AccessItems',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="sss_artillery_SheafTypes";
+					expression="_this setVariable ['SheafTypes',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=4;
+								class Item0
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+								class Item3
+								{
+									class data
+									{
+										singleType="BOOL";
+										value=1;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="sss_artillery_Callsign";
+					expression="_this setVariable ['Callsign',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Fox 1-6";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="sss_artillery_AccessItemsLogic";
+					expression="_this setVariable ['AccessItemsLogic',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="sss_artillery_ExecutionDelay";
+					expression="_this setVariable ['ExecutionDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="sss_artillery_Side";
+					expression="_this setVariable ['Side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="sss_artillery_MaxLoops";
+					expression="_this setVariable ['MaxLoops',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=10;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="sss_artillery_VelocityOverride";
+					expression="_this setVariable ['VelocityOverride',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="sss_artillery_Cooldown";
+					expression="_this setVariable ['Cooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=20;
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="sss_artillery_CoordinationType";
+					expression="_this setVariable ['CoordinationType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="sss_artillery_MaxRounds";
+					expression="_this setVariable ['MaxRounds',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=5;
+						};
+					};
+				};
+				class Attribute13
+				{
+					property="sss_artillery_RespawnDelay";
+					expression="_this setVariable ['RespawnDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=60;
+						};
+					};
+				};
+				class Attribute14
+				{
+					property="sss_artillery_VehicleInit";
+					expression="_this setVariable ['VehicleInit',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute15
+				{
+					property="sss_artillery_RoundCooldown";
+					expression="_this setVariable ['RoundCooldown',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=10;
+						};
+					};
+				};
+				class Attribute16
+				{
+					property="sss_artillery_RelocationDelay";
+					expression="_this setVariable ['RelocationDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=60;
+						};
+					};
+				};
+				class Attribute17
+				{
+					property="sss_artillery_MaxTasks";
+					expression="_this setVariable ['MaxTasks',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=-1;
+						};
+					};
+				};
+				class Attribute18
+				{
+					property="sss_auth";
+					expression="_this setVariable ['sss_auth',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute19
+				{
+					property="sss_artillery_FiringDelay";
+					expression="_this setVariable ['FiringDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute20
+				{
+					property="sss_artillery_AccessCondition";
+					expression="_this setVariable ['AccessCondition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="true";
+						};
+					};
+				};
+				class Attribute21
+				{
+					property="sss_artillery_CoordinationDistance";
+					expression="_this setVariable ['CoordinationDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=6000;
+						};
+					};
+				};
+				class Attribute22
+				{
+					property="sss_artillery_Ammunition";
+					expression="_this setVariable ['Ammunition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[]";
+						};
+					};
+				};
+				class Attribute23
+				{
+					property="sss_artillery_MaxLoopDelay";
+					expression="_this setVariable ['MaxLoopDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=300;
+						};
+					};
+				};
+				class Attribute24
+				{
+					property="sss_artillery_Relocation";
+					expression="_this setVariable ['Relocation',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute25
+				{
+					property="sss_artillery_RelocationSpeed";
+					expression="_this setVariable ['RelocationSpeed',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=60;
+						};
+					};
+				};
+				class Attribute26
+				{
+					property="sss_artillery_RequestCondition";
+					expression="_this setVariable ['RequestCondition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="true";
+						};
+					};
+				};
+				class Attribute27
+				{
+					property="sss_artillery_MaxFiringDelay";
+					expression="_this setVariable ['MaxFiringDelay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=30;
+						};
+					};
+				};
+				class Attribute28
+				{
+					property="sss_artillery_RemoteAccess";
+					expression="_this setVariable ['RemoteAccess',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute29
+				{
+					property="sss_artillery_IconSelection";
+					expression="_this setVariable ['IconSelection',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="\z\sss\addons\common\icons\missile.paa";
+						};
+					};
+				};
+				nAttributes=30;
+			};
+		};
+		class Item245
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2575.3337,55.737286,1138.6655};
+				angles[]={0,5.5681057,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				receiveRemoteTargets=1;
+			};
+			id=1033;
+			type="B_Ship_MRLS_01_F";
+			atlOffset=1.5497742;
+		};
+		class Item246
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2575.0513,53.322086,1142.4833};
+				angles[]={0,5.5680981,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1037;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.095649719;
+		};
+		class Item247
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2572.0508,53.316978,1139.8759};
+				angles[]={0,5.5680981,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1038;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.04668045;
+		};
+		class Item248
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2571.6084,53.319351,1139.4927};
+				angles[]={0,5.5680981,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1039;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.014270782;
+		};
+		class Item249
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2573.1448,53.33741,1134.9059};
+				angles[]={0,0.85610324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1040;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=-0.34986496;
+		};
+		class Item250
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2571.9456,53.322239,1136.2866};
+				angles[]={0,0.85610324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1041;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=-0.25367355;
+		};
+		class Item251
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2571.5625,53.324612,1136.7291};
+				angles[]={0,0.85610324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1042;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=-0.21559525;
+		};
+		class Item252
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2579.2009,53.343216,1137.7174};
+				angles[]={0,5.5680981,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1043;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.10506058;
+		};
+		class Item253
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2576.2004,53.338108,1135.11};
+				angles[]={0,5.5680981,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1044;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=-0.14783096;
+		};
+		class Item254
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2575.7581,53.340481,1134.7268};
+				angles[]={0,5.5680981,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1045;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=-0.21415329;
+		};
+		class Item255
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2579.2998,53.340427,1140.4159};
+				angles[]={0,0.85610324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1046;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.12853241;
+		};
+		class Item256
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2578.1006,53.325256,1141.7966};
+				angles[]={0,0.85610324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1047;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.11457443;
+		};
+		class Item257
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2577.7175,53.327629,1142.2391};
+				angles[]={0,0.85610324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1048;
+			type="Land_ConcreteWall_01_m_4m_F";
+			atlOffset=0.11734009;
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=24;
+			nextID=25;
 		};
 		class Links
 		{
-			items=24;
+			items=25;
 			class Item0
 			{
 				linkID=0;
@@ -65050,8 +66054,8 @@ class Mission
 			class Item20
 			{
 				linkID=20;
-				item0=274;
-				item1=264;
+				item0=110;
+				item1=105;
 				class CustomData
 				{
 					type="Sync";
@@ -65060,8 +66064,8 @@ class Mission
 			class Item21
 			{
 				linkID=21;
-				item0=110;
-				item1=105;
+				item0=109;
+				item1=106;
 				class CustomData
 				{
 					type="Sync";
@@ -65070,8 +66074,8 @@ class Mission
 			class Item22
 			{
 				linkID=22;
-				item0=109;
-				item1=106;
+				item0=108;
+				item1=107;
 				class CustomData
 				{
 					type="Sync";
@@ -65080,8 +66084,18 @@ class Mission
 			class Item23
 			{
 				linkID=23;
-				item0=108;
-				item1=107;
+				item0=997;
+				item1=264;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item24
+			{
+				linkID=24;
+				item0=1017;
+				item1=1033;
 				class CustomData
 				{
 					type="Sync";
