@@ -185,7 +185,6 @@ class Common_Arsenal {
         "lxim_equipment_optic_DMS",
         "lxim_equipment_rebreather",
         "lxim_equipment_Wetsuit",
-        "lxim_rhs_moppsuit",
         "lxim_medbags_FirstAid",
         "lxim_medbags_cls",
         "lxim_medbags_MedicKit",
@@ -299,12 +298,6 @@ class Common_Arsenal {
         "rhsusf_bino_lerca_1200_black",
         "rhsusf_bino_lerca_1200_tan",
         "rhsusf_bino_m24_ARD",
-        "JCA_G_AirPurifyingRespirator_03_black_clear_F",
-        "JCA_G_AirPurifyingRespirator_03_black_tinted_F",
-        "JCA_G_AirPurifyingRespirator_03_sand_tinted_F",
-        "JCA_G_AirPurifyingRespirator_03_sand_clear_F",
-        "JCA_G_AirPurifyingRespirator_03_olive_tinted_F",
-        "JCA_G_AirPurifyingRespirator_03_olive_clear_F",
         "rhsusf_shemagh_grn",
         "rhsusf_shemagh2_grn",
         "rhsusf_shemagh_od",
@@ -396,7 +389,10 @@ class Common_Arsenal {
         "tsp_breach_block_mag",
         "APERSTripMine_Wire_Mag",
         "ACE_FlareTripMine_Mag",
-        "ACE_SpottingScope"
+        "ACE_SpottingScope",
+        "ACE_30Rnd_556x45_Stanag_M995_AP_mag",
+        "lxim_sig_150Rnd_Fury",
+        "ACE_Clacker"
 
 
     };
