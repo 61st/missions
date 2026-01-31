@@ -360,11 +360,15 @@ class sealteam1 {
         "rhsusf_200Rnd_556x45_M995_soft_pouch",
         "lxim_sig_150Rnd_Fury",
         "lxim_sig_150Rnd_Fury_blk",
-        "lxim_sig_M250",
-        "lxim_sig_M250_BLK",
+        "lxim_sig_M250","lxim_sig_M250_BLK",
         "rhs_weap_m249_pip_S_para",
         "lxim_backpack_B_RadioBag_01_Solid_Black_F",
         "B_simc_US_Molle_sturm_OCP_RTO",
-        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "rhs_fim92_mag",
+        "rhs_mag_maaws_HE",
+        "rhs_mag_maaws_HEDP",
+        "rhs_fgm148_magazine_AT",
+        "rhs_mag_maaws_HEAT"
     };
 };
