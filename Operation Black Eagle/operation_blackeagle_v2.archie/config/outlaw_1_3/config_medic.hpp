@@ -94,6 +94,8 @@ class medic13 {
         "ACM_Lozenge_Fentanyl",
         "ACE_WaterBottle",
         "ACE_WaterBottle_Half",
-        "B_simc_US_Molle_sturm_OCP_RTO"
+        "B_simc_US_Molle_sturm_OCP_RTO",
+        "ACM_Vial_CalciumChloride"
+
     };
 };

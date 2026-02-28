@@ -46,8 +46,6 @@ class recruit {
         "rhs_mag_m716_yellow",
         "rhs_weap_m240G",
         "rhs_weap_m240B",
-        "rhsusf_acc_ARDEC_M240",
-        "lxim_sig_150Rnd_Fury",
-        "lxim_sig_M250"
+        "rhsusf_acc_ARDEC_M240"
     };
 };

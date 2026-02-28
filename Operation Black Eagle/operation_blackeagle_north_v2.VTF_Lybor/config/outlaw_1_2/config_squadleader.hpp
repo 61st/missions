@@ -21,6 +21,8 @@ class squadlead12 {
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "tsp_breach_linear_auto_mag",
+        "tsp_breach_linear_mag",
         "B_simc_US_Molle_sturm_OCP_RTO",
         "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "1Rnd_HE_Grenade_shell",

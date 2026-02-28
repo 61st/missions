@@ -20,6 +20,7 @@ class medic {
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "ACM_Vial_CalciumChloride",
         "ACM_FieldBloodTransfusionKit_500",
         "ACM_FieldBloodTransfusionKit_250",
         "ACM_ThoracostomyKit",

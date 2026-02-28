@@ -19,6 +19,8 @@ class co {
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "tsp_breach_linear_auto_mag",
+        "tsp_breach_linear_mag",
         "tun_tablet",
         "rhs_weap_M320",
         "UGL_FlareGreen_F",

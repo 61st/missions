@@ -22,6 +22,9 @@ class engineerr {
     };
     
     arsenalitems[] = {
+        "tsp_breach_linear_auto_mag",
+        "tsp_breach_linear_mag",
+        "Rev_Pelter",
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
