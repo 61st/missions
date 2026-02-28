@@ -153,6 +153,8 @@
         
         // MG Ammo
         ["lxim_sig_150Rnd_Fury",6],
+        ["rhsusf_100Rnd_762x51_m993",6],
+        ["rhsusf_50Rnd_762x51_m993",12],
         //["lxim_sig_150Rnd_Fury_blk",12],
         //["lxim_sig_150Rnd_Fury_RT",12],
         //["lxim_sig_150Rnd_Fury_RT_blk",12],
@@ -222,6 +224,8 @@
         
         // MG Ammo
         ["lxim_sig_150Rnd_Fury",12],
+        ["rhsusf_100Rnd_762x51_m993",2],
+        ["rhsusf_50Rnd_762x51_m993",4],
         //["lxim_sig_150Rnd_Fury_blk",12],
         //["lxim_sig_150Rnd_Fury_RT",12],
         //["lxim_sig_150Rnd_Fury_RT_blk",12],
@@ -291,6 +295,9 @@
         
         // MG Ammo
         ["lxim_sig_150Rnd_Fury",6],
+        ["rhsusf_100Rnd_762x51_m993",6],
+        ["rhsusf_50Rnd_762x51_m993",12],
+
         //["lxim_sig_150Rnd_Fury_blk",12],
         //["lxim_sig_150Rnd_Fury_RT",12],
         //["lxim_sig_150Rnd_Fury_RT_blk",12],

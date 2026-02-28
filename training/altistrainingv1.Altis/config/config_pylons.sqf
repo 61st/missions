@@ -67,15 +67,13 @@
         ]]
     ]],
     ["rhsusf_m1a1tank_base", [
-        ["default", [
-            ["displayName", "Default"],
+        ["hard", [
+            ["displayName", "Hard"],
             ["icon", ""],
             ["loadout", [
                 ["rhs_mag_smokegen",[-1],999],
-                ["rhs_mag_M829A3_max",[0],0],
-                ["rhs_mag_M830A1_max",[0],0],
-                ["rhs_mag_M829A4",[0],40],
-                ["rhs_mag_M1147",[0],12],
+                ["rhs_mag_M829A3_max",[0],44],
+                ["rhs_mag_M830A1_max",[0],8],
                 ["rhs_mag_762x51_M240_1200",[0],0],
                 ["rhs_mag_762x51_M240_1200",[0],0],
                 ["rhs_mag_762x51_M240_1200",[0],0],
@@ -87,8 +85,6 @@
                 ["rhs_mag_762x51_M240_1200",[0],1200],
                 ["rhs_LaserFCSMag",[0],99],
                 ["rhs_LaserFCSMag",[0],99],
-                ["rhs_mag_100rnd_127x99_SLAP_mag_Tracer_Red",[0,4]],
-                ["rhs_mag_200rnd_127x99_SLAP_magTracer_Red",[0,4]],
                 ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
                 ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
                 ["rhs_mag_100rnd_127x99_mag_Tracer_Red",[0,0]],
@@ -107,8 +103,8 @@
                 ["rhsusf_mag_L8A3_12",[0,2]]
             ]]
         ]],
-        [ "Hard", [
-            ["displayName", "Hard"],
+        [ "default", [
+            ["displayName", "Default"],
             ["icon", ""],
             ["loadout", [
                 ["rhs_mag_smokegen",[-1],999],

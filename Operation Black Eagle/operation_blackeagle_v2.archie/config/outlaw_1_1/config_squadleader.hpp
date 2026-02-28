@@ -79,6 +79,8 @@ class squadlead11 {
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F",
-        "uh60_jvmf_tablet"
+        "uh60_jvmf_tablet",
+        "tsp_breach_linear_auto_mag",
+        "tsp_breach_linear_mag"
     };
 };

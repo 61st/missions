@@ -19,6 +19,8 @@ class teamlead11 {
             {"ItemMap","ItemAndroid","TFAR_anprc152_2","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
+        "tsp_breach_linear_auto_mag",
+        "tsp_breach_linear_mag",
         "1Rnd_HE_Grenade_shell",
         "ACE_HuntIR_M203",
         "ACE_LAMG_SpareBarrel",

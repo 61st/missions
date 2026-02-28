@@ -571,7 +571,9 @@ class Common_Arsenal {
         "ACE_30Rnd_556x45_Stanag_M995_AP_mag",
         "lxim_sig_150Rnd_Fury",
         "optic_Arco_blk_F",
-        "optic_Arco_AK_blk_F"
+        "optic_Arco_AK_blk_F",
+        "tsp_breach_popper_auto_mag",
+        "tsp_breach_popper_mag"
     };
 };
 
