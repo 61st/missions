@@ -25,9 +25,6 @@ class Dynamic_Roles {
     #include "cia\config_ciamarks.hpp"
     #include "cia\config_ciamedic.hpp"
 
-    #include "banshiri_ng\config_banshiring.hpp"
-    #include "banshiri_ng\config_banshiringmed.hpp"
-
     #include "banshiri_sf\config_banshirisf.hpp"
     #include "banshiri_sf\config_banshirisfmed.hpp"
 
