@@ -28,8 +28,8 @@ private _containerMap = GVAR(DATABASE);
 private _container = _containerMap getOrDefaultCall [_key, {WARNING_1("Logistics", "%1 does not exist.", _key); []}];
 
 if (_keysOnly) then {
-     private _containerItemMap = createHashMapFromArray _container;
-     _container = keys _containerItemMap;
+    private _containerItemMap = createHashMapFromArray _container;
+    _container = keys _containerItemMap;
 };
 
 if (isNil{_container}) exitWith {ERROR_1("Logistics", "%1 returned null.", _key);};
