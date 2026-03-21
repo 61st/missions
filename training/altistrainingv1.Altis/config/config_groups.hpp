@@ -21,6 +21,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         //{"STUDENTS",{"jtacs","jtacs","jtacs","jtacs","engineers","engineers","engineers","engineers","engineers","engineers","medics","medics","medics","medics","medics","medics"},"true"},
         {"RANGE-CTL",{"Zeus","Zeus","Cadre","Cadre","Cadre","Cadre"},"true"},
         //{"Seal-Team-1",{"sealteam1","sealteam1","sealteam1","sealmed1","sealteam1","sealteam1","sealteam1","sealteam1","sealteam1","sealteam1","sealteam1","sealteam1","sealteam1","sealteam1"},"true"}
+        {"BLC Training",{"teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc","teamleadblc"},"true"},
     };
 };
 
