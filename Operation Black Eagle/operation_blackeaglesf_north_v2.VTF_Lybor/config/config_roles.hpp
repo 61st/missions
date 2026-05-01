@@ -21,6 +21,10 @@ class Dynamic_Roles {
     #include "sealteam_2\config_sealmark.hpp"
     #include "sealteam_2\config_sealmedic.hpp"
 
+    #include "betrayedpmc\config_pmc.hpp"
+    #include "betrayedpmc\config_pmcmark.hpp"
+    #include "betrayedpmc\config_pmcmedic.hpp"
+
     #include "marines\config_marine.hpp"
     #include "marines\config_marinemark.hpp"
     #include "marines\config_marinemedic.hpp"
