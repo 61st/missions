@@ -503,6 +503,7 @@ class Common_Arsenal {
         "cigs_lucky_strike_cigpack",
         "cigs_crayons_crayonpack",
         "launch_MRAWS_green_rail_F",
+        "launch_MRAWS_green_f",
         "rhs_mag_maaws_HEAT",
         "rhs_mag_maaws_HE",
         "MRAWS_HEAT55_F",

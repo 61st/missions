@@ -573,7 +573,8 @@ class Common_Arsenal {
         "optic_Arco_blk_F",
         "optic_Arco_AK_blk_F",
         "tsp_breach_popper_auto_mag",
-        "tsp_breach_popper_mag"
+        "tsp_breach_popper_mag",
+        "launch_MRAWS_green_f"
     };
 };
 
