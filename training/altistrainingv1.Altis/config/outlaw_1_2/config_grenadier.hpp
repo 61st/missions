@@ -10,13 +10,13 @@ class grenadier12 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"rhs_weap_m4a1_m320","","rhsusf_acc_anpeq15side","rhsusf_acc_ACOG_USMC",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{},
-            {"rhs_weap_M320","","","",{"rhs_mag_M441_HE",1},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_CableTie",3},{"ACE_EarPlugs",2},{"ACE_Chemlight_HiGreen",2,1}}},
-            {"V_tweed_iotv_mk4_cell_4cm_1",{{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",12,30},{"UGL_FlareWhite_F",1,1},{"UGL_FlareRed_F",1,1},{"UGL_FlareGreen_F",1,1},{"ACE_HuntIR_M203",2,1},{"1Rnd_Smoke_Grenade_shell",2,1},{"rhs_mag_M441_HE",12,1}}},
-            {"B_simc_US_Molle_sturm_OCP",{{"psq42_blk",1},{"ACM_ChestSeal",2},{"lxim_medbags_FirstAid",2},{"ACM_SAMSplint",2},{"ACE_EntrenchingTool",1},{"ACE_Fortify",1},{"JCA_G_AirPurifyingRespirator_03_black_clear_F",1},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintBlue",1},{"ACE_HuntIR_monitor",1}}},
-            "H_tweed_ihps_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
-            {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
+            {"rhs_weap_m4a1_m320","","rhsusf_acc_anpeq15_bk","rhsusf_acc_ACOG_USMC",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},"rhsusf_acc_grip3"},{"rhs_weap_M136","","","",{},{},""},
+            {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
+            {"U_tweed_acu_summer_ocp_tuck_trop",{}},
+            {"V_tweed_msv_mk2_1",{{"ItemcTabHCam",1},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",12,30},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"rhs_mag_m67",4,1},{"SmokeShell",4,1},{"rhs_mag_mk84",4,1},{"MS_Strobe_Mag_1",2,1}}},
+            {"B_simc_US_Molle_sturm_OCP_thermos_OCP",{{"ACE_EntrenchingTool",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_CableTie",5},{"lxim_medbags_FirstAid",1},{"ACM_SAMSplint",5},{"ACE_tourniquet",5},{"ACE_Flashlight_XL50",1},{"ACE_SpraypaintBlue",1},{"lxim_medbags_mopp",1},{"ACM_Paracetamol",2,10},{"tsp_breach_linear_mag",2,1},{"tsp_breach_popper_mag",2,1}}},
+            "H_tweed_ihps_g_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
         "1Rnd_HE_Grenade_shell",
