@@ -78,51 +78,6 @@ class CfgDebriefingSections {
     #endif
 };
 
-class CfgRemoteExec
-{
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
-
-        class tsp_fnc_shake { allowedTargets = 0; };
-        class tsp_fnc_melee_ai { allowedTargets = 0; };
-        class tsp_fnc_hitpoint_damage { allowedTargets = 0; };
-        class ymf_fnc_assignplayer { allowedTargets = 0; };
-    };
-
-    class Commands
-    {
-        mode = 0;
-        jip = 0;
-    };
-};
-
-class CfgRemoteExec
-{
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
-
-        class tsp_fnc_shake { allowedTargets = 0; };
-        class tsp_fnc_melee_ai { allowedTargets = 0; };
-        class tsp_fnc_hitpoint_damage { allowedTargets = 0; };
-
-        class ymf_fnc_assignplayer { allowedTargets = 0; };
-
-        class bis_fnc_objectvar { allowedTargets = 0; };
-        class ctab_fnc_getusermarkerlist { allowedTargets = 0; };
-        class bis_fnc_addscriptedeventhandler { allowedTargets = 0; };
-        class bis_fnc_sharedobjectives { allowedTargets = 0; };
-    };
-
-    class Commands
-    {
-        mode = 0;
-        jip = 0;
-    };
-};
 /* ------------------------------------------------------------------------------------------------------------------ */
 /*                                          WHAT DID I TELL YOU ABOUT EDITING                                         */
 /* ------------------------------------------------------------------------------------------------------------------ */
