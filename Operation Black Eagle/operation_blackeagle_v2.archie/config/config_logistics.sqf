@@ -762,7 +762,7 @@
     ]],
 
     ["vehicle_Tracked", [
-        ["ToolKit", 1],
+        ["ToolKit", 2],
         ["YMF_vs17_vs17",1],
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
@@ -1360,6 +1360,7 @@
 
         // Tools
         ["ACE_wirecutter", 1],
+        ["ToolKit", 2],
         // Chemlights
         ["ACE_Chemlight_HiRed",15],
         ["ACE_Chemlight_HiBlue",15],
@@ -1421,6 +1422,7 @@
 
         // Tools
         ["ACE_wirecutter", 1],
+        ["ToolKit", 2],
         // Chemlights
         ["ACE_Chemlight_HiRed",15],
         ["ACE_Chemlight_HiBlue",15],
