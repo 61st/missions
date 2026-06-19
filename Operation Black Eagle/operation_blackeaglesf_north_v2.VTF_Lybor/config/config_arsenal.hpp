@@ -352,7 +352,10 @@ class Common_Arsenal {
         "ACE_SpottingScope",
         "ACE_30Rnd_556x45_Stanag_M995_AP_mag",
         "lxim_sig_150Rnd_Fury",
-        "ACE_Clacker"
+        "ACE_Clacker",
+        "G_B_Diving",
+        "lxim_equipment_rebreather",
+        "lxim_equipment_Wetsuit"
 
 
     };
