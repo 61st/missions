@@ -11,10 +11,10 @@ class heavyat12 {
     defaultLoadout[] = {
             {"rhs_weap_m4a1_carryhandle_mstock","","rhsusf_acc_anpeq15side","rhsusf_acc_ACOG_USMC",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},""},{},
             {"MHS_M17","","MHS_X300U","MHS_RomeoM17",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",2},{"ACE_CableTie",3}}},
-            {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",14,30}}},
-            {"B_simc_US_Molle_sturm_OCP",{{"psq42_blk",1},{"lxim_medbags_FirstAid",2},{"ACM_ChestSeal",2},{"ACM_SAMSplint",2},{"ACE_EntrenchingTool",1},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintBlue",1},{"JCA_G_AirPurifyingRespirator_03_black_clear_F",1},{"MRAWS_HEAT_F",3,1}}},
-            "H_tweed_ihps_g_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"rhs_uniform_FROG01_wd",{{"ACE_EarPlugs",2},{"ACE_CableTie",3}}},
+            {"rhsusf_spc_squadleader",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",14,30}}},
+            {"lxim_backpack_Kitbag_Solid_CoyoteBrown",{{"psq42_blk",1},{"lxim_medbags_FirstAid",2},{"ACM_ChestSeal",2},{"ACM_SAMSplint",2},{"ACE_EntrenchingTool",1},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintBlue",1},{"JCA_G_AirPurifyingRespirator_03_black_clear_F",1},{"MRAWS_HEAT_F",3,1}}},
+            "rhsusf_lwh_helmet_marpatwd","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     // for 1-1
