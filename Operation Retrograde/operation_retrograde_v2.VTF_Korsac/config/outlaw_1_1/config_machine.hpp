@@ -9,12 +9,12 @@ class machine11 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"lxim_sig_M250","","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"lxim_sig_150Rnd_Fury",150},{},""},{},
-            {"MHS_M17","","MHS_X300U","MHS_RomeoM17",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",2},{"ACE_CableTie",3},{"MHS_21rnd_9MM_124FMJ_M17",3,21}}},
-            {"V_tweed_iotv_mk4_249",{{"ItemcTabHCam",1},{"lxim_sig_150Rnd_Fury",5,150},{"SmokeShell",2,1},{"rhs_mag_m67",2,1}}},
-            {"B_simc_US_Molle_sturm_OCP",{{"JCA_G_AirPurifyingRespirator_03_black_clear_F",1},{"psq42_blk",1},{"ACM_ChestSeal",2},{"lxim_medbags_FirstAid",2},{"ACE_IR_Strobe_Item",1},{"ACE_SpraypaintBlue",1},{"ACE_EntrenchingTool",1},{"ACE_Fortify",1},{"ACM_SAMSplint",2}}},
-            "H_tweed_ihps_tasc_rail","",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"rhs_weap_m249_pip_S","","rhsusf_acc_anpeq15A","rhsusf_acc_ELCAN_ard",{"rhsusf_200Rnd_556x45_M995_soft_pouch",200},{},"rhsusf_acc_saw_lw_bipod"},{},
+            {"rhsusf_weap_glock17g4","","MHS_X300U","",{"rhsusf_mag_17Rnd_9x19_FMJ",17},{},""},
+            {"rhsgref_uniform_olive",{{"FirstAidKit",1},{"lxim_medbags_FirstAid",1}}},
+            {"V_CarrierRigKBT_01_light_EAF_F",{{"rhsusf_mag_17Rnd_9x19_FMJ",3,17},{"rhsusf_200Rnd_556x45_M995_soft_pouch",3,200}}},
+            {"lxim_backpack_Kitbag_Solid_Olive",{{"ACE_EntrenchingTool",1},{"ACE_CableTie",4},{"ACE_IR_Strobe_Item",1},{"tsp_breach_block_mag",2,1},{"tsp_breach_block_auto_mag",2,1},{"cigs_lighter",1,100},{"cigs_morley_cigpack",1,20},{"rhsusf_200Rnd_556x45_M995_soft_pouch",2,200}}},
+            "H_tweed_ech_casque_base","",{"Binocular","","","",{},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ACE_Altimeter",""}
     };
     // for 1-1
@@ -23,8 +23,6 @@ class machine11 {
         "ACE_HuntIR_M203",
         "ACE_LAMG_SpareBarrel",
         "ACE_LWAMG_SpareBarrel",
-        "KAR_XM250",
-        "KAR_XM250_BLK",
         "rhs_mag_M397_HET",
         "rhs_mag_m4009",
         "rhs_mag_M433_HEDP",
@@ -47,8 +45,11 @@ class machine11 {
         "rhs_weap_M320",
         "rhsusf_acc_ARDEC_M240",
         "UGL_FlareGreen_F",
-        "lxim_sig_150Rnd_Fury",
-        "lxim_sig_M250"
+        "rhs_weap_m249_pip_S_para",
+        "rhs_weap_m249_pip_S",
+        "rhsusf_200Rnd_556x45_M995_soft_pouch_coyote",
+        "rhsusf_200Rnd_556x45_M995_soft_pouch",
+        "rhsusf_200Rnd_556x45_M995_soft_pouch_ucp"
 
     };
 };
