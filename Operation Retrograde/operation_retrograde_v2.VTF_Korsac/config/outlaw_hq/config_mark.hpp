@@ -11,12 +11,12 @@ class mark {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-            {"rhs_weap_sr25","","rhsusf_acc_anpeq15side","lxim_equipment_optic_DMS",{"rhsusf_20Rnd_762x51_SR25_m993_Mag",20},{},""},{},
-            {"MHS_M17","","","",{"MHS_21rnd_9MM_124FMJ_M17",21},{},""},
-            {"U_tweed_acu_summer_ocp",{{"ACE_EarPlugs",1},{"ItemcTabHCam",1},{"lxim_medbags_mopp",1},{"lxim_medbags_FirstAid",1},{"ACE_MapTools",1},{"",1,0}}},
-            {"V_tweed_msv_mk2_1",{{"ACE_CableTie",4},{"ACE_microDAGR",1},{"ACE_Flashlight_MX991",1},{"MHS_21rnd_9MM_124FMJ_M17",3,21},{"SmokeShell",2,1},{"HandGrenade",2,1},{"rhsusf_20Rnd_762x51_SR25_m993_Mag",13,20}}},
-            {"B_simc_US_Molle_sturm_OCP_RTO_wasser",{{"ACRE_PRC117F",1},{"ACE_EntrenchingTool",1},{"MS_Strobe_Mag_1",1},{"ACE_wirecutter",1},{"ACE_Fortify",1},{"ACE_CableTie",5},{"psq42_blk",1}}},
-            "H_tweed_ihps_g_tasc_rail","G_oak_2_cut",{"lxim_equipment_Vector_Designator","","","",{"Laserbatteries",1},{},""},
+            {"srifle_DMR_03_F","","","lxim_equipment_optic_DMS",{"20Rnd_762x51_Mag",20},{},""},{},
+            {"rhsusf_weap_glock17g4","","MHS_X300U","",{"rhsusf_mag_17Rnd_9x19_FMJ",17},{},""},
+            {"rhsgref_uniform_olive",{{"FirstAidKit",1},{"lxim_medbags_FirstAid",1}}},
+            {"V_CarrierRigKBT_01_light_EAF_F",{{"rhsusf_mag_17Rnd_9x19_FMJ",3,17},{"rhsusf_20Rnd_762x51_SR25_m993_Mag",6,20}}},
+            {"lxim_backpack_Kitbag_Solid_Olive",{{"ACE_EntrenchingTool",1},{"ItemMicroDAGRMisc",1},{"ACE_CableTie",4},{"ACE_IR_Strobe_Item",1},{"ACE_EarPlugs",1},{"tsp_breach_block_mag",2,1},{"tsp_breach_block_auto_mag",2,1},{"cigs_lighter",1,100},{"cigs_morley_cigpack",1,20}}},
+            "H_tweed_ech_casque_base","",{"Binocular","","","",{},{},""},
             {"ItemMap","ItemAndroid","TFAR_anprc152_1","ItemCompass","ACE_Altimeter",""}
     };
     arsenalitems[] = {
