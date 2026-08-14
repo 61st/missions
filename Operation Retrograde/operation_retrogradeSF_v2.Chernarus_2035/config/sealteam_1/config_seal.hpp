@@ -10,7 +10,7 @@ class sealteam1 {
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 
     defaultLoadout[] = {
-        {"rhs_weap_hk416d10_LMT_d",,"rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15","rhsusf_acc_eotech_552",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},"rhsusf_acc_grip2_tan"},{},
+        {"rhs_weap_hk416d10_LMT_d","rhsusf_acc_rotex5_grey","rhsusf_acc_anpeq15","rhsusf_acc_eotech_552",{"ACE_30Rnd_556x45_Stanag_M995_AP_mag",30},{},"rhsusf_acc_grip2_tan"},{},
         {"rhsusf_weap_glock17g4","rhsusf_acc_omega9k","acc_flashlight_pistol","",{"rhsusf_mag_17Rnd_9x19_JHP",17},{},""},
         {"rhs_uniform_FROG01_wd",{{"lxim_medbags_FirstAid",1}}},
         {"V_CarrierRigKBT_01_light_EAF_F",{{"rhs_mag_30Rnd_556x45_M855_PMAG",12,30},{"rhsusf_mag_17Rnd_9x19_JHP",2,17}}},
