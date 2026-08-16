@@ -1920,7 +1920,7 @@ private _textures = [
     ]],
 
 //Bradleys
-    ["RHS_M2A3_BUSKIII", "Thunder 2-1 Desert (ArcFlash)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-1 Sky-Raq Desert", [
         "",
         {
             [_vehicle, [
@@ -1933,7 +1933,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-        ["RHS_M2A3_BUSKIII", "Thunder 2-1 Olive (ArcFlash)", [
+        ["RHS_M2A3_BUSKIII", "Thunder 2-1 Sky-Raq Olive", [
         "",
         {
             [_vehicle, [
@@ -1946,7 +1946,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Desert (Volt)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Volt Desert", [
         "",
         {
             [_vehicle, [
@@ -1959,7 +1959,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Olive (Volt)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Volt Olive", [
         "",
         {
             [_vehicle, [
@@ -1972,7 +1972,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Desert (Storm Raven)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Cyclone Desert", [
         "",
         {
             [_vehicle, [
@@ -1985,7 +1985,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Olive (Storm Raven)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Cyclone Olive", [
         "",
         {
             [_vehicle, [
@@ -1998,7 +1998,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Desert (Sky-Raq)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Storm Raven Desert", [
         "",
         {
             [_vehicle, [
@@ -2011,7 +2011,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-        ["RHS_M2A3_BUSKIII", "Thunder 2-4 Olive (Sky-Raq)", [
+        ["RHS_M2A3_BUSKIII", "Thunder 2-4 Storm Raven Olive", [
         "",
         {
             [_vehicle, [
@@ -2024,7 +2024,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Desert (Storm King)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Storm King Desert", [
         "",
         {
             [_vehicle, [
@@ -2037,7 +2037,7 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Olive (Storm King)", [
+    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Storm King Olive", [
         "",
         {
             [_vehicle, [
@@ -2050,9 +2050,141 @@ private _textures = [
             _vehicle setPlateNumber "A 3/61 MECH";
         }
     ]],
-   
+
+//Bradleys - Clean
+    ["RHS_M2A3_BUSKIII", "Thunder 2-1 Clean Desert", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_1_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-1 Clean Olive", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_1_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Clean Desert", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_2_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-2 Clean Olive", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_2_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Clean Desert", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_3_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-3 Clean Olive", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_3_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Clean Desert", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_4_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-4 Clean Olive", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_4_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Clean Desert", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_6_d.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii\a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\buskiii_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_d_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+    ["RHS_M2A3_BUSKIII", "Thunder 2-6 Clean Olive", [
+        "",
+        {
+            [_vehicle, [
+                [0, "\z\lxim\addons\media\images\vehicles\bradley\clean\base_2_6_wd.paa"],
+                [1, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\m6_a3_co.paa"],
+                [2, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\ultralp_co.paa"],
+                [3, "\rhsusf\addons\rhsusf_a2port_armor\m2a2_bradley\data\woodland\BUSKIII_co.paa"],
+                [4, "\rhsusf\addons\rhsusf_m1a1\duke\data\duke_antennae_wd_co.paa"]
+            ]] call EFUNC(vehicle,applyTextures);
+            _vehicle setPlateNumber "A 3/61 MECH";
+        }
+    ]],
+
    //Linebacker
-    ["RHS_M6", "Thunder 2-4 Olive (Sky-Raq)", [
+    ["RHS_M6", "Thunder 2-1 Sky-Raq Olive", [
         "",
         {
             [_vehicle, [
@@ -2066,7 +2198,7 @@ private _textures = [
         }
     ]],
     
-    ["RHS_M6", "Thunder 2-4 Desert (Sky-Raq)", [
+    ["RHS_M6", "Thunder 2-1 Sky-Raq Desert", [
         "",
         {
             [_vehicle, [
