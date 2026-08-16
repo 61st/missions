@@ -1,8 +1,8 @@
 private _srHashMap = [
     ["unassigned",          [["ACRE", 7], ["TFAR", 50]]],
-    ["OUTLAW-1/6",           [["ACRE", 1], ["TFAR", 50]]],
-    ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 121.1]]],
-    ["OUTLAW-1/2",          [["ACRE", 4], ["TFAR", 121.2]]],
+    ["OUTLAW-1/6",           [["ACRE", 1], ["TFAR", 52]]],
+    ["OUTLAW-1/1",          [["ACRE", 2], ["TFAR", 110.0]]],
+    ["OUTLAW-1/2",          [["ACRE", 4], ["TFAR", 110.0]]],
 
     ["RECRUITS",            [["ACRE", 8], ["TFAR", 52]]],
     ["STUDENTS",            [["ACRE", 8], ["TFAR", 52]]],
@@ -10,10 +10,10 @@ private _srHashMap = [
     ["RHINO",               [["ACRE", 7], ["TFAR", 52]]],
     ["RRR",                 [["ACRE", 7], ["TFAR", 52]]],
 
-    ["THUNDER-2/1",           [["ACRE", 9], ["TFAR", 52.1]]],
-    ["THUNDER-2/2",             [["ACRE", 10], ["TFAR", 52.1]]],
-    ["THUNDER-2/3",             [["ACRE", 11], ["TFAR", 52.1]]],
-    ["THUNDER-2/6",          [["ACRE", 12], ["TFAR", 52.1]]],
+    ["THUNDER-2/1",           [["ACRE", 9], ["TFAR", 55]]],
+    ["THUNDER-2/2",             [["ACRE", 10], ["TFAR", 55]]],
+    ["THUNDER-2/3",             [["ACRE", 11], ["TFAR", 55]]],
+    ["THUNDER-2/6",          [["ACRE", 12], ["TFAR", 55]]],
 
     ["PHOENIX-3/6",             [["ACRE", 13], ["TFAR", 52]]],
     ["PHOENIX-3/1",         [["ACRE", 14], ["TFAR", 52]]],
