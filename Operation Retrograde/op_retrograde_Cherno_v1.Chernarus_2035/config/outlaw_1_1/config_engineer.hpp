@@ -50,6 +50,7 @@ class engineer11 {
         "Rev_Demine",
         "Rev_UAV_IED",
         "Rev_Roller",
-        "iedd_item_notebook"
+        "iedd_item_notebook",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser"
     };
 };
