@@ -24,6 +24,7 @@ class engineer12 {
     arsenalitems[] = {
         "Rev_Demine",
         "Rev_Roller",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
         "ACE_M26_Clacker",
         "B_UavTerminal",
         "ACE_Clacker",
