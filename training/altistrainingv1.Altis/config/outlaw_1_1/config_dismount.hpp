@@ -4,7 +4,9 @@ class dismount11 {
     traits[] = {};
     customVariables[] = {
         {"ace_medical_medicClass",0,true},
-        {"ace_isEngineer",0,true}
+        {"ace_isEngineer",0,true},
+        {"YMF_iscom",false,false},
+        {"draWhitelisted",false,false}
     };
     icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
 

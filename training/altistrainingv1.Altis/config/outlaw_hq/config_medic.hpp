@@ -25,6 +25,7 @@ class medic {
         "ACM_FieldBloodTransfusionKit_250",
         "ACM_ThoracostomyKit",
         "ACE_epinephrine",
+        "ACM_Vial_Ertapenem",
         "ACE_suture",
         "ACE_tourniquet",
         "ACE_plasmaIV",

@@ -25,6 +25,8 @@ class engineers {
         "Rev_Demine",
         "Rev_Roller",
         "ACE_M26_Clacker",
+        "B_simc_US_Molle_sturm_OCP_RTO_wasser",
+        "B_UavTerminal",
         "ACE_Clacker",
         "ACE_DefusalKit",
         "ToolKit",

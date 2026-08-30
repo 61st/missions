@@ -85,6 +85,7 @@ class medics {
         "H_CrewHelmetHeli_I_E",
         "H_PilotHelmetHeli_B",
         "H_PilotHelmetHeli_I_E",
+        "ACM_Vial_Ertapenem",
         "lxim_backpack_Backpack_Kitbag_Medic_Black",
         "lxim_backpack_Backpack_Kitbag_Medic_Coyote",
         "lxim_backpack_Backpack_Kitbag_Medic_Green",
