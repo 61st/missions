@@ -20,14 +20,51 @@ params ["_controller", "_targetPads", "_targetClasses"];
 
 if (isServer) then {
     {
-        private _vehicle = createVehicle [_targetClasses select _forEachIndex, _x, [], 0, "CAN_COLLIDE"];
-        _vehicle setDir (getDir _x);
-        _vehicle setVehicleLock "LOCKED";
-        _vehicle setVehicleAmmo 0;
-        _vehicle setVehicleTIPars [1, 1, 1];
-        clearMagazineCargoGlobal _vehicle;
-        clearWeaponCargoGlobal _vehicle;
-        clearItemCargoGlobal _vehicle;
+        private _index = _forEachIndex;
+        private _spawnPos = [];
+
+        if (_x isEqualType objNull) then {
+            if (!isNull _x) then {
+                _spawnPos = getPosATL _x;
+            };
+        };
+
+        if (_x isEqualType []) then {
+            if ((count _x) >= 3) then {
+                _spawnPos = _x;
+            };
+        };
+
+        if (
+            (count _spawnPos) >= 3 &&
+            {_index < count _targetClasses}
+        ) then {
+            private _vehicle = createVehicle [
+                _targetClasses select _index,
+                _spawnPos,
+                [],
+                0,
+                "CAN_COLLIDE"
+            ];
+
+            if (_x isEqualType objNull) then {
+                _vehicle setDir (getDir _x);
+            };
+
+            _vehicle setVehicleLock "LOCKED";
+            _vehicle setVehicleAmmo 0;
+            _vehicle setVehicleTIPars [1, 1, 1];
+
+            clearMagazineCargoGlobal _vehicle;
+            clearWeaponCargoGlobal _vehicle;
+            clearItemCargoGlobal _vehicle;
+        } else {
+            diag_log format [
+                "[Training] Skipped invalid target pad at index %1: %2",
+                _index,
+                _x
+            ];
+        };
     } forEach _targetPads;
 };
 

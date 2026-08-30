@@ -24,6 +24,7 @@ class medicp {
         "ACM_ThoracostomyKit",
         "ACM_FieldBloodTransfusionKit_500",
         "ACM_FieldBloodTransfusionKit_250",
+        "ACM_Vial_Ertapenem",
         "lxim_medbags_DrugKit",
         "lxim_medbags_Fluid",
         "ACM_Vial_Ondansetron",

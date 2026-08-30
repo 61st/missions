@@ -31,6 +31,7 @@ class medic {
         "ACE_plasmaIV_250",
         "ACE_plasmaIV_500",
         "ACE_salineIV",
+        "ACM_Vial_Ertapenem",
         "ACE_salineIV_250",
         "ACE_salineIV_500",
         "ACE_surgicalKit",

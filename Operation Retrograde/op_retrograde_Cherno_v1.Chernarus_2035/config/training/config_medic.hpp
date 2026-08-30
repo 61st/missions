@@ -29,6 +29,7 @@ class medics {
         "ACM_Vial_CalciumChloride",
         "ACM_Vial_Esmolol",
         "ACM_Vial_Ertapenem",
+        "ACM_Vial_Ertapenem",
         "ACE_epinephrine",
         "ACE_plasmaIV",
         "ACE_plasmaIV_250",

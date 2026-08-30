@@ -35,6 +35,7 @@ class medict {
         "ACE_suture",
         "ACE_tourniquet",
         "ACE_plasmaIV",
+        "ACM_Vial_Ertapenem",
         "ACE_plasmaIV_250",
         "ACE_plasmaIV_500",
         "ACE_salineIV",

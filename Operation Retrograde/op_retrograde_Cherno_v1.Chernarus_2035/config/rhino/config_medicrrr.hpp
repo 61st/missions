@@ -33,6 +33,7 @@ class medicrrr {
         "ACM_Vial_Ertapenem",
         "ACE_epinephrine",
         "ACE_suture",
+        "ACM_Vial_Ertapenem",
         "ACE_tourniquet",
         "ACE_plasmaIV",
         "ACE_plasmaIV_250",
