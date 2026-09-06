@@ -33,7 +33,6 @@ class medicp {
         "ACE_epinephrine",
         "ACE_plasmaIV",
         "ACE_plasmaIV_250",
-        "ACM_Vial_Ertapenem",
         "ACE_plasmaIV_500",
         "ACE_salineIV",
         "ACE_salineIV_250",
