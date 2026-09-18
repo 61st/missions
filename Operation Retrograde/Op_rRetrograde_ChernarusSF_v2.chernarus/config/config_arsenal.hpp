@@ -355,7 +355,27 @@ class Common_Arsenal {
         "ACE_Clacker",
         "G_B_Diving",
         "lxim_equipment_rebreather",
-        "lxim_equipment_Wetsuit"
+        "lxim_equipment_Wetsuit",
+        "A3_GPNVG18_F",
+        "A3_GPNVG18b_F",
+        "A3_GPNVG18_REC_F",
+        "A3_GPNVG18b_REC_F",
+        "A3_GPNVG18_BLK_F",
+        "A3_GPNVG18b_BLK_F",
+        "A3_GPNVG18_REC_BLK_F",
+        "A3_GPNVG18_BLK_TI",
+        "A3_GPNVG18b_BLK_TI",
+        "A3_GPNVG18_REC_BLK_TI",
+        "A3_GPNVG18b_REC_BLK_TI",
+        "A3_GPNVG18b_TI",
+        "A3_GPNVG18_REC_TI",
+        "A3_GPNVG18b_REC_BLK_F",
+        "A3_GPNVG18_TI",
+        "A3_GPNVG18b_REC_TI",
+        "Item_KVN_AP",
+        "Item_KVN_AP_TI",
+        "Item_KVN_AT",
+        "Item_KVN_AT_TI"
 
 
     };
