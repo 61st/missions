@@ -21,6 +21,9 @@ class Dynamic_Roles {
     #include "sealteam_2\config_sealmark.hpp"
     #include "sealteam_2\config_sealmedic.hpp"
 
+    #include "korsanorebels\config_rebels.hpp"
+    #include "korsanorebels\config_rebelmed.hpp"
+
     #include "belvsf\config_belvsf.hpp"
     #include "belvsf\config_belvmark.hpp"
     #include "belvsf\config_belvmedic.hpp"

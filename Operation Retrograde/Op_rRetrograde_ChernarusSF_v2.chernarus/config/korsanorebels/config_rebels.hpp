@@ -1,0 +1,91 @@
+class rebel {
+    name = "Freedom Fighter";
+    description = "For our country!";
+    traits[] = {};
+    customVariables[] = {
+        {"ace_medical_medicClass",0,true},
+        {"ace_isEngineer",2,true},
+        {"YMF_iscom", true, true}
+    };
+    icon = "z\LXIM\addons\media\images\Icons\iconman_red.paa";
+
+    defaultLoadout[] = {
+            {"rhs_weap_aks74u","rhs_acc_pgs64_74un","","",{"rhs_30Rnd_545x39_7N6M_AK",30},{},""},{},
+            {"rhs_weap_6p53","","","",{"rhs_18rnd_9x21mm_7N28",18},{},""},
+            {"U_I_C_Soldier_Bandit_3_F",{{"lxim_medbags_FirstAid",1}}},
+            {"rhs_vest_pistol_holster",{}},
+            {"B_CivilianBackpack_01_Everyday_Black_F",{{"ACE_EntrenchingTool",1},{"ACE_Clacker",1},{"rhs_45Rnd_545X39_7N10_AK",4,45},{"rhs_grenade_mkii_mag",2,1},{"DemoCharge_Remote_Mag",2,1},{"cigs_lighter",1,100},{"cigs_lucky_strike_cigpack",1,20}}},
+            "H_Cap_blk","G_Bandanna_blk",{"Binocular","","","",{},{},""},
+            {"ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""}
+    };
+    // for 1-1
+    arsenalitems[] = {
+        "Binocular",
+        "ItemMap",
+        "ItemCompass",
+        "TFAR_anprc152",
+        "ItemWatch",
+        "ItemGPS",
+        "rhs_weap_aks74u",
+        "rhs_acc_pgs64_74un",
+        "rhs_30Rnd_545x39_7N6M_AK",
+        "rhs_mag_rgn",
+        "rhs_weap_6p53",
+        "rhs_18rnd_9x21mm_7N28",
+        "rhs_45Rnd_545X39_7N10_AK",
+        "rhs_weap_rpg18",
+        "DemoCharge_Remote_Mag",
+        "ACE_Clacker",
+        "rhs_grenade_mkii_mag",
+        "tsp_breach_block_auto_mag",
+        "U_C_Uniform_Scientist_02_F",
+        "U_C_Uniform_Scientist_02_formal_F",
+        "U_C_IDAP_Man_casual_F",
+        "U_I_C_Soldier_Bandit_1_F",
+        "U_I_C_Soldier_Bandit_2_F",
+        "U_I_C_Soldier_Bandit_5_F",
+        "U_I_C_Soldier_Bandit_3_F",
+        "U_C_ArtTShirt_01_v6_F",
+        "U_C_ArtTShirt_01_v1_F",
+        "U_C_Man_casual_2_F",
+        "U_C_ArtTShirt_01_v4_F",
+        "U_C_Man_casual_3_F",
+        "U_C_Man_casual_1_F",
+        "U_C_ArtTShirt_01_v5_F",
+        "U_C_Poloshirt_burgundy",
+        "U_C_Poloshirt_blue",
+        "U_C_Poloshirt_redwhite",
+        "U_C_Poloshirt_tricolour",
+        "U_C_Poloshirt_stripped",
+        "U_C_Poloshirt_salmon",
+        "sgun_HunterShotgun_01_F",
+        "sgun_HunterShotgun_01_sawedoff_F",
+        "rhs_weap_m1garand_sa43",
+        "rhs_weap_m14",
+        "rhs_weap_m38",
+        "rhs_weap_m38_rail",
+        "rhs_weap_mp44",
+        "2Rnd_12Gauge_Pellets",
+        "ACE_2Rnd_12Gauge_Slug",
+        "ACE_20Rnd_762x51_Mk316_Mod_0_Mag",
+        "rhsgref_5Rnd_762x54_m38",
+        "rhsgref_30Rnd_792x33_SmE_StG",
+        "2Rnd_12Gauge_Slug",
+        "ACE_2Rnd_12Gauge_Pellets_No3_Buck",
+        "ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
+        "ACE_20Rnd_762x51_M993_AP_Mag",
+        "rhsgref_8Rnd_762x63_Tracer_M1T_M1rifle",
+        "20Rnd_762x51_Mag",
+        "rhsgref_25Rnd_792x33_SmE_StG",
+        "rhsgref_8Rnd_762x63_M2B_M1rifle",
+        "ACE_20Rnd_762x51_M118LR_Mag",
+        "ACE_2Rnd_12Gauge_Pellets_No1_Buck",
+        "ACE_2Rnd_12Gauge_Pellets_No2_Buck",
+        "ACE_2Rnd_12Gauge_Pellets_No4_Bird",
+        "ACE_2Rnd_12Gauge_Pellets_No0_Buck",
+        "ACE_2Rnd_12Gauge_Pellets_No4_Buck",
+        "ACE_20Rnd_762x51_Mag_Tracer_Dim",
+        "rhsusf_20Rnd_762x51_m993_Mag",
+        "10Rnd_Mk14_762x51_Mag"
+    };
+};
