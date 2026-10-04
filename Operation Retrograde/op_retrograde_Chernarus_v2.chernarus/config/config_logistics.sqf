@@ -1156,25 +1156,14 @@
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
 
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        // Rifle Ammo
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",25],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
-
+        ["lxim_sig_150Rnd_Fury",10],
+        ["rhsusf_100Rnd_762x51", 10],
         ["rhsusf_8Rnd_Slug",40],
         ["rhsusf_5Rnd_Slug",40],
-
         ["MHS_21rnd_9MM_124FMJ_M17_v2",12],
 
         ["MS_Strobe_Mag_1",2],
@@ -1193,22 +1182,12 @@
         ["YMF_vs17_vs17",1],
         ["ACE_rope18", 4],
         ["ACE_rope36", 2],
-        // Ammo
-        ["lxim_sig_25Rnd_Fury",80],
-        ["lxim_sig_25Rnd_Fury_RT",80],
-        ["lxim_sig_25Rnd_Fury_IR",80],
-        ["lxim_sig_25Rnd_Fury_blk",80],
-        ["lxim_sig_25Rnd_Fury_RT_blk",80],
-        ["lxim_sig_25Rnd_Fury_IR_blk",80],
-        ["lxim_sig_25Rnd_Fury_khk",80],
-        ["lxim_sig_25Rnd_Fury_RT_khk",80],
-        ["lxim_sig_25Rnd_Fury_IR_khk",80],
+        // Rifle Ammo
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",25],
         
         // MG Ammo
-        ["lxim_sig_150Rnd_Fury",24],
-        ["lxim_sig_150Rnd_Fury_blk",24],
-        ["lxim_sig_150Rnd_Fury_RT",24],
-        ["lxim_sig_150Rnd_Fury_RT_blk",24],
+        ["lxim_sig_150Rnd_Fury",10],
+        ["rhsusf_100Rnd_762x51", 10],
 
         ["rhsusf_8Rnd_Slug",40],
         ["rhsusf_5Rnd_Slug",40],
@@ -1243,10 +1222,11 @@
 
     ["vehicle_HMMWV", [
         // Rifle Ammo
-        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",42],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",25],
         
         // MG Ammo
-        ["rhsusf_200Rnd_556x45_mixed_soft_pouch",8],
+        ["lxim_sig_150Rnd_Fury",10],
+        ["rhsusf_100Rnd_762x51", 10],
 
         // AT
         ["rhs_weap_fgm148",1],
@@ -1280,10 +1260,11 @@
 
     ["vehicle_HMMWV_Weapons", [
         // Rifle Ammo
-        ["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",25],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",25],
         
         // MG Ammo
-        ["rhsusf_100Rnd_762x51_m62_tracer",18],
+        ["lxim_sig_150Rnd_Fury",10],
+        ["rhsusf_100Rnd_762x51", 10],
 
         // AT
         ["rhs_weap_fgm148",1],
@@ -1320,7 +1301,7 @@
         ["rhs_fim92_mag",1],
 
         // Rifle Ammo
-        ["lxim_sig_25Rnd_Fury",120],
+        ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",120],
         //["lxim_sig_25Rnd_Fury_RT",80],
         //["lxim_sig_25Rnd_Fury_IR",80],
         //["lxim_sig_25Rnd_Fury_blk",80],
@@ -1332,6 +1313,7 @@
         
         // MG Ammo
         ["lxim_sig_150Rnd_Fury",12],
+        ["rhsusf_100Rnd_762x51", 10],
         //["lxim_sig_150Rnd_Fury_blk",12],
         //["lxim_sig_150Rnd_Fury_RT",12],
         //["lxim_sig_150Rnd_Fury_RT_blk",12],
@@ -1339,6 +1321,10 @@
         //["rhsusf_100Rnd_762x51",6],
         //["rhsusf_100Rnd_762x51_m62_tracer",6],
         //["rhsusf_100Rnd_762x51_m80a1epr",6],
+
+        //Spare Parts
+        ["ACE_Track", 4],
+        ["Fuel_can", 1],
 
         // M320 Ammo
         ["rhs_mag_M441_HE",8],
