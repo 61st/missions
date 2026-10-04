@@ -280,7 +280,7 @@
                 ["rhs_mag_2Rnd_TOW2A",[0],2],
                 ["rhs_mag_2Rnd_TOW2A",[0],2],
                 ["rhs_mag_2Rnd_TOW2A",[0],2],
-                ["rhs_mag_2Rnd_TOW2BB",[0],2],
+                ["rhs_mag_2Rnd_TOW2BB",[0],0],
                 ["rhs_LaserFCSMag",[0],99],
                 ["rhsusf_mag_L8A3_8",[0,0],8],
                 ["rhsusf_mag_duke",[0,0],1],
