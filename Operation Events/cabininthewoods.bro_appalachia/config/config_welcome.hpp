@@ -1,9 +1,9 @@
 private _message = "
-	<t align='center' size='5' shadow='0'><br/>Operation Retrograde</t><br/>
-	Welcome to the 61st Ops Server<br/>
+	<t align='center' size='5' shadow='0'><br/>Operation Event</t><br/>
+	Welcome to the 61st Event Server<br/>
 	To get started, select a role from the group menu and access subsequent menus through ACE Self Interact. You can view more information in the diary.<br/><br/>
 	<br/>
-	“War does not determine who is right, only who is left.”
+	“Just the minute the FBI begins making recommendations on what should be done with its information, it becomes a Gestapo [secret police] — and that I will never permit. - J. Edgar Hoover”
 	- Plato
 	<br/>
 	<br/>

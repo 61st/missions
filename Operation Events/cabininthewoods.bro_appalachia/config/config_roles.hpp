@@ -45,6 +45,11 @@ class Dynamic_Roles {
     #include "outlaw_1_3\config_machine.hpp"
     #include "outlaw_1_3\config_heavyat.hpp"
 
+    #include "fbi\config_agent.hpp"
+    #include "fbi\config_swat.hpp"
+    #include "fbi\config_swatmedic.hpp"
+    #include "fbi\config_swatmark.hpp"
+
     #include "rhino\config_squadleader.hpp"
     #include "rhino\config_engineer.hpp"
     #include "rhino\config_savior.hpp"
