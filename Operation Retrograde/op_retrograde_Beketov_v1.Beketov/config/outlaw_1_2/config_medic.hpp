@@ -26,6 +26,7 @@ class medic12 {
         "ACM_FieldBloodTransfusionKit_250",
         "lxim_medbags_DrugKit",
         "lxim_medbags_Fluid",
+        "ACM_Vial_Ertapenem",
         "ACM_Vial_Ondansetron",
         "ACM_Vial_CalciumChloride",
         "ACM_Vial_Esmolol",
