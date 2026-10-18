@@ -27,6 +27,7 @@ class medic {
         "ACE_epinephrine",
         "ACE_suture",
         "ACE_tourniquet",
+        "ACM_Vial_Ertapenem",
         "ACE_plasmaIV",
         "ACE_plasmaIV_250",
         "ACE_plasmaIV_500",
