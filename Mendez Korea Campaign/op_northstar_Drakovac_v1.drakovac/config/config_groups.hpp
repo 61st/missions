@@ -12,7 +12,7 @@ class Dynamic_Groups { //format: {"Group Name",{"Roles"},"Conditions for the gro
         {"THUNDER-2/6",{"cmd","driver","gunner"},"true"},
         {"THUNDER-2/ME",{"cmd","medict","repair"},"true"},
         {"RRR",{"squadleadr","engineerr","medicrrr"},"true"},
-        {"RHINO",{"squadleadr","engineerr","engineerr","engineerr","engineerr","engineerr","engineerr"},"true"},
+        {"RHINO",{"squadleadr","engineerr","engineerr","engineerr","engineerr","engineerr","engineerr","medicrrr","medicrrr"},"true"},
         {"PHOENIX-3/6",{"pilot","pilot","fac"},"true"},
         {"PHOENIX-3/1",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
         //{"PHOENIX-3/2",{"pilot","pilot","crewchief","crewchief","medicp"},"true"},
